@@ -1,12 +1,12 @@
-import { Model } from "mongoose";
+import { Model } from "mongoose"
 
-import { userDB } from "../../database/db/userDB.ts";
-import { Iuser, userSchema } from "./User.ts";
-import { BaseRepository } from "../../base/base-repository.ts";
+import { banksDB } from "../../database/db/banks-db.ts"
+import { BaseRepository } from "../../base/base-repository.ts"
+import { Iuser, userSchema } from "./User.ts"
 
 export class UserRepository extends BaseRepository<Iuser> {
     constructor(
-        model: Model<Iuser> = userDB.model<Iuser>(
+        model: Model<Iuser> = banksDB.model<Iuser>(
             'User',
             userSchema
         )

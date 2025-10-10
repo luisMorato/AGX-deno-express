@@ -16,14 +16,14 @@ export class User implements Iuser {
   email: Iuser['email']
   password: Iuser['password']
   birthdate: Iuser['birthdate']
-  bank_account?: { account_id: string; balance: number; };
+  bank_account: Iuser['bank_account']
 
-  constructor(bank: Iuser) {
-    this.name = bank.name
-    this.email = bank.email
-    this.password = bank.password
-    this.birthdate = bank.birthdate
-    this.bank_account = bank.bank_account
+  constructor(user: Iuser) {
+    this.name = user.name
+    this.email = user.email
+    this.password = user.password
+    this.birthdate = user.birthdate
+    this.bank_account = user.bank_account
   }
 }
 
