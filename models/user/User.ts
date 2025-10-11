@@ -1,4 +1,5 @@
 import { BaseSchema } from "../../base/base-schema.ts";
+import { generateAccountId } from "../../utils/generate-account-id.ts";
 
 export type Iuser = {
     name: string
@@ -61,7 +62,7 @@ class UserSchemaClass extends BaseSchema {
                     type: String,
                 },
                 balance: {
-                    type: String,
+                    type: Number,
                     default: 0,
                 },
             },
@@ -70,6 +71,15 @@ class UserSchemaClass extends BaseSchema {
 }
 
 const userSchema = new UserSchemaClass().schema
+
+userSchema.pre('save', function(next) {
+    const accountId = generateAccountId()
+    this.bank_account = {
+        account_id: accountId,
+        balance: Number((this.bank_account as Iuser['bank_account'])?.balance),
+    }
+    next()
+})
 userSchema.loadClass(User)
 
 export { userSchema }

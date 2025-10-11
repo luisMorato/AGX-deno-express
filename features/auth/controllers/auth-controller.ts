@@ -1,4 +1,4 @@
-import type { Request, Response } from 'express'
+import type { NextFunction, Request, Response } from 'express'
 
 import z from "zod"
 import jsonWebToken from 'jsonwebtoken'
@@ -18,7 +18,7 @@ const authenticateBodySchema = z.object({
 export class AuthController {
     constructor() {}
 
-    async authenticate(req: Request, res: Response) {
+    async authenticate(req: Request, res: Response, next: NextFunction) {
         try {
             const { email, password } = authenticateBodySchema.parse(req.body)
 
@@ -37,7 +37,7 @@ export class AuthController {
 
             return res.status(200).cookie('auth-token', token).send()
         } catch (error) {
-            throw error
+            next(error)
         }
 
     }

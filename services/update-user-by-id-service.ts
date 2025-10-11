@@ -45,7 +45,7 @@ export class UpdateUserByIdService {
 
         const hashedPassword = this.encrypter.encrypt(password)
 
-        await this.userRepository.updateOne(id, {
+        await this.userRepository.updateById(id, {
             name,
             email,
             password: hashedPassword,

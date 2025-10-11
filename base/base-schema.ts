@@ -1,7 +1,7 @@
 import { Schema, SchemaDefinition } from 'mongoose'
 
 export class BaseSchema {
-    schema: Schema
+    public schema: Schema
     constructor(schema: SchemaDefinition) {
         Object.assign(schema, {
             createdAt: {

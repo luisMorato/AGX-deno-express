@@ -9,7 +9,7 @@ const userController = new UserController()
  * @openapi
  * /users:
  *   get:
- *     description: returns list of users.
+ *     description: list all users on database.
  *     responses:
  *       200:
  *         description: Returns a list of users or an empty array.
@@ -70,7 +70,7 @@ userRouter.put('/users/:id', verifyJwt, userController.updateById)
  *     description: deletes a user by id.
  *     responses:
  *       200:
- *         description: Returns a user.
+ *         description: Returns deleted.
  *       401:
  *         description: Returns an error for: user invalid credentials or token not provided/invalid.
  *       404:

@@ -1,7 +1,8 @@
+import { PipelineStage } from "mongoose";
 import { Model, FilterQuery, UpdateQuery } from 'mongoose'
 
 export class BaseRepository<T> {
-    model: Model<T>
+    protected model: Model<T>
 
     constructor(model: Model<T>) {
         this.model = model
@@ -29,11 +30,19 @@ export class BaseRepository<T> {
         await this.model.create([data])
     }
 
-    async updateOne(id: string, data: UpdateQuery<T>) {
+    async updateById(id: string, data: UpdateQuery<T>) {
         await this.model.updateOne({ _id: id }, data)
+    }
+
+    async updateOne(updateQuery: FilterQuery<T>, data: UpdateQuery<T>) {
+        await this.model.updateOne(updateQuery, data)
     }
 
     async deleteOne(id: string) {
         await this.model.deleteOne({ _id: id })
+    }
+
+    async aggregate(aggregatePipeline: PipelineStage[]) {
+        return await this.model.aggregate(aggregatePipeline)
     }
 }

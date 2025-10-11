@@ -1,5 +1,3 @@
-import { SchemaTypes } from 'mongoose'
-
 import { BaseSchema } from "../../base/base-schema.ts";
 
 export type Itranfer = {
@@ -26,11 +24,11 @@ class transferSchemaClass extends BaseSchema {
     constructor() {
         super({
             sender_account_id: {
-                type: SchemaTypes.ObjectId,
+                type: String,
                 required: true,
             },
             receiver_account_id: {
-                type: SchemaTypes.ObjectId,
+                type: String,
                 required: true,
             },
             amount: {
