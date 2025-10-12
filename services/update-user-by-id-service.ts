@@ -41,9 +41,11 @@ export class UpdateUserByIdService {
 
         const existingUserByEmail = await this.userRepository.findOne({ email })
 
-        if (existingUserByEmail?.email !== userToUpdate.email) throw new UserAlreadyExistsError('Usuário com esse email já cadastrado')
+        if (existingUserByEmail && existingUserByEmail?.id !== userToUpdate.id) {
+            throw new UserAlreadyExistsError('Usuário com esse email já cadastrado')
+        }
 
-        const hashedPassword = this.encrypter.encrypt(password)
+        const hashedPassword = await this.encrypter.encrypt(password)
 
         await this.userRepository.updateById(id, {
             name,
