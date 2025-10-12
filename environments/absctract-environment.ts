@@ -4,11 +4,16 @@ import { errorHandler } from "../error-handler.ts";
 
 export abstract class AbsctractEnvironment {
     protected PORT: number
+    protected hostname: string
+    private protocol: string
 
     constructor(
-        port: number
+        port: number,
+        hostname: string
     ) {
         this.PORT = port
+        this.hostname = hostname
+        this.protocol = 'http'
     }
 
     protected initizalizeDefaultMiddlewares(server: Express) {
@@ -23,7 +28,7 @@ export abstract class AbsctractEnvironment {
 
     protected listen(server: Express) {
         server.listen(this.PORT, () => {
-            console.log(`Servidor rodando na porta: ${this.PORT}`)
+            console.log(`- Servidor rodando na porta: ${this.PORT} \n- App Url: ${this.protocol}://${this.hostname}:${this.PORT} \n- Docs Url: ${this.protocol}://${this.hostname}:${this.PORT}/docs`)
         })
     }
 

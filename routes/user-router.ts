@@ -9,12 +9,14 @@ const userController = new UserController()
  * @openapi
  * /users:
  *   get:
- *     description: list all users on database.
+ *     tags:
+ *       - Users
+ *     description: "list all users on database."
  *     responses:
  *       200:
- *         description: Returns a list of users or an empty array.
+ *         description: "Returns a list of users or an empty array."
  *       401:
- *         description: Returns an error for: token not provided or invalid.
+ *         description: "Returns an error for: token not provided or invalid."
  */
 userRouter.get('/users', verifyJwt, userController.list)
 
@@ -22,12 +24,14 @@ userRouter.get('/users', verifyJwt, userController.list)
  * @openapi
  * /users:
  *   post:
- *     description: create a user on database.
+ *     tags:
+ *       - Users
+ *     description: "create a user on database."
  *     responses:
  *       201:
- *         description: Returns created.
+ *         description: "Returns created."
  *       409:
- *         description: Returns an error for: user already exists with same email.
+ *         description: "Returns an error for: user already exists with same email."
  */
 userRouter.post('/users', userController.create)
 
@@ -35,14 +39,16 @@ userRouter.post('/users', userController.create)
  * @openapi
  * /users/:id:
  *   get:
- *     description: returns a unique user by id.
+ *     tags:
+ *       - Users
+ *     description: "returns a unique user by id."
  *     responses:
  *       200:
- *         description: Returns a user.
+ *         description: "Returns a user."
  *       401:
- *         description: Returns an error for: token not provided or invalid.
+ *         description: "Returns an error for: token not provided or invalid."
  *       404:
- *         description: Returns an error for: user not found.
+ *         description: "Returns an error for: user not found."
  */
 userRouter.get('/users/:id', verifyJwt, userController.findById)
 
@@ -50,16 +56,18 @@ userRouter.get('/users/:id', verifyJwt, userController.findById)
  * @openapi
  * /users/:id:
  *   put:
- *     description: updates a user by id.
+ *     tags:
+ *       - Users
+ *     description: "updates a user by id."
  *     responses:
  *       200:
- *         description: Returns a user.
+ *         description: "Returns a user."
  *       401:
- *         description: Returns an error for: user invalid credentials or token not provided/invalid.
+ *         description: "Returns an error for: user invalid credentials or token not provided/invalid."
  *       404:
- *         description: Returns an error for: user not found.
+ *         description: "Returns an error for: user not found."
  *       409:
- *         description: Returns an error for: user with sent email already registered.
+ *         description: "Returns an error for: user with sent email already registered."
  */
 userRouter.put('/users/:id', verifyJwt, userController.updateById)
 
@@ -67,14 +75,16 @@ userRouter.put('/users/:id', verifyJwt, userController.updateById)
  * @openapi
  * /users/:id:
  *   delete:
- *     description: deletes a user by id.
+ *     tags:
+ *       - Users
+ *     description: "deletes a user by id."
  *     responses:
  *       200:
- *         description: Returns deleted.
+ *         description: "Returns deleted."
  *       401:
- *         description: Returns an error for: user invalid credentials or token not provided/invalid.
+ *         description: "Returns an error for: user invalid credentials or token not provided/invalid."
  *       404:
- *         description: Returns an error for: user not found.
+ *         description: "Returns an error for: user not found."
  */
 userRouter.delete('/users/:id', verifyJwt, userController.deleteById)
 

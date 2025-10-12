@@ -2,10 +2,10 @@ import { DevelopmentServer } from "./environments/development-server.ts";
 
 //  ToDo: create docs with swagger
 
-function bootstrap() {
+async function bootstrap() {
   const developmentServer = new DevelopmentServer()
 
-  developmentServer.run()
+  await developmentServer.run()
 }
 
-bootstrap()
+await bootstrap()

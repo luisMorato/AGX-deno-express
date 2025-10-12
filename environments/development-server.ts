@@ -11,7 +11,8 @@ import { accountsRouter } from "../routes/accounts-router.ts";
 export class DevelopmentServer extends AbsctractEnvironment {
     constructor() {
         const port = Number(Deno.env.get('PORT')!)
-        super(port)
+        const hostname = 'localhost'
+        super(port, hostname)
     }
 
     run() {

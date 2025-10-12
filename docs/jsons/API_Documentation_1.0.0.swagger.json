@@ -1,0 +1,224 @@
+{
+  "openapi": "3.0.0",
+  "tags": [],
+  "info": {
+    "title": "API Documentation",
+    "version": "1.0.0",
+    "contact": {},
+    "description": ""
+  },
+  "paths": {
+    "/accounts": {
+      "post": {
+        "tags": [
+          "Accounts"
+        ],
+        "description": "create a user bank account on database.",
+        "responses": {
+          "201": {
+            "description": "Returns created."
+          },
+          "401": {
+            "description": "Returns an error for: user invalid credentials or token not provided/invalid."
+          },
+          "409": {
+            "description": "Returns an error for: user bank account already exists."
+          }
+        }
+      }
+    },
+    "/accounts/:id": {
+      "get": {
+        "tags": [
+          "Accounts"
+        ],
+        "description": "searches for a user bank account on database.",
+        "responses": {
+          "200": {
+            "description": "Returns a user bank account."
+          },
+          "401": {
+            "description": "Returns an error for: user invalid credentials or token not provided/invalid."
+          },
+          "404": {
+            "description": "Returns an error for: user bank account not found."
+          }
+        }
+      }
+    },
+    "/accounts/:id/increment": {
+      "patch": {
+        "tags": [
+          "Accounts"
+        ],
+        "description": "increments user bank account balance on database.",
+        "responses": {
+          "200": {
+            "description": "Returns success for user bank account balance increment."
+          },
+          "401": {
+            "description": "Returns an error for: user invalid credentials or token not provided/invalid."
+          },
+          "404": {
+            "description": "Returns an error for: user bank account not found."
+          }
+        }
+      }
+    },
+    "/authenticate": {
+      "post": {
+        "tags": [
+          "Authentication"
+        ],
+        "description": "Authenticate user by generating a JWT token.",
+        "responses": {
+          "200": {
+            "description": "Returns created."
+          },
+          "401": {
+            "description": "Returns an error for: user invalid credentials."
+          }
+        }
+      }
+    },
+    "/transfers": {
+      "post": {
+        "tags": [
+          "transfers"
+        ],
+        "description": "create a transfer on database.",
+        "responses": {
+          "201": {
+            "description": "Returns created."
+          },
+          "400": {
+            "description": "Returns an error for: user dont have founds."
+          },
+          "401": {
+            "description": "Returns an error for: user invalid credentials or token not provided/invalid."
+          },
+          "404": {
+            "description": "Returns an error for: user bank account not found."
+          }
+        }
+      },
+      "get": {
+        "tags": [
+          "transfers"
+        ],
+        "description": "list all transfers on database.",
+        "responses": {
+          "200": {
+            "description": "Returns a list of transfers or an empty array."
+          },
+          "401": {
+            "description": "Returns an error for: user invalid credentials or token not provided/invalid."
+          }
+        }
+      }
+    },
+    "/transfers/:accountId": {
+      "get": {
+        "tags": [
+          "transfers"
+        ],
+        "description": "list all transfers from a specific account.",
+        "responses": {
+          "200": {
+            "description": "Returns a list of transfers or an empty array."
+          },
+          "401": {
+            "description": "Returns an error for: user invalid credentials or token not provided/invalid."
+          }
+        }
+      }
+    },
+    "/users": {
+      "get": {
+        "tags": [
+          "Users"
+        ],
+        "description": "list all users on database.",
+        "responses": {
+          "200": {
+            "description": "Returns a list of users or an empty array."
+          },
+          "401": {
+            "description": "Returns an error for: token not provided or invalid."
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Users"
+        ],
+        "description": "create a user on database.",
+        "responses": {
+          "201": {
+            "description": "Returns created."
+          },
+          "409": {
+            "description": "Returns an error for: user already exists with same email."
+          }
+        }
+      }
+    },
+    "/users/:id": {
+      "get": {
+        "tags": [
+          "Users"
+        ],
+        "description": "returns a unique user by id.",
+        "responses": {
+          "200": {
+            "description": "Returns a user."
+          },
+          "401": {
+            "description": "Returns an error for: token not provided or invalid."
+          },
+          "404": {
+            "description": "Returns an error for: user not found."
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Users"
+        ],
+        "description": "updates a user by id.",
+        "responses": {
+          "200": {
+            "description": "Returns a user."
+          },
+          "401": {
+            "description": "Returns an error for: user invalid credentials or token not provided/invalid."
+          },
+          "404": {
+            "description": "Returns an error for: user not found."
+          },
+          "409": {
+            "description": "Returns an error for: user with sent email already registered."
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Users"
+        ],
+        "description": "deletes a user by id.",
+        "responses": {
+          "200": {
+            "description": "Returns deleted."
+          },
+          "401": {
+            "description": "Returns an error for: user invalid credentials or token not provided/invalid."
+          },
+          "404": {
+            "description": "Returns an error for: user not found."
+          }
+        }
+      }
+    }
+  },
+  "components": {}
+}

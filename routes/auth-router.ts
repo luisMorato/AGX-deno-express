@@ -8,12 +8,14 @@ const authController = new AuthController()
  * @openapi
  * /authenticate:
  *   post:
- *     description: Authenticate user by generating a JWT token.
+ *     tags:
+ *        - Authentication
+ *     description: "Authenticate user by generating a JWT token."
  *     responses:
  *       200:
- *         description: Returns created.
+ *         description: "Returns created."
  *       401:
- *         description: Returns an error for: user invalid credentials.
+ *         description: "Returns an error for: user invalid credentials."
  */
 authRouter.post('/authenticate', authController.authenticate)
 
