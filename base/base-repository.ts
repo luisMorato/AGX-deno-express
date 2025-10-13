@@ -2,7 +2,7 @@ import { PipelineStage } from "mongoose";
 import { Model, FilterQuery, UpdateQuery } from 'mongoose'
 
 export class BaseRepository<T> {
-    protected model: Model<T>
+    public model: Model<T>
 
     constructor(model: Model<T>) {
         this.model = model

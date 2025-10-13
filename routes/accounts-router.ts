@@ -56,4 +56,21 @@ accountsRouter.get('/accounts/:id', verifyJwt, accountsController.find)
  */
 accountsRouter.patch('/accounts/:id/increment', verifyJwt, accountsController.increment)
 
+/**
+ * @openapi
+ * /accounts/:id:
+ *   delete:
+ *     tags:
+ *        - Accounts
+ *     description: "deletes a user bank account on database."
+ *     responses:
+ *       200:
+ *         description: "Returns success for deleting user bank account."
+ *       401:
+ *         description: "Returns an error for: user invalid credentials or token not provided/invalid."
+ *       404:
+ *         description: "Returns an error for: user bank account not found."
+ */
+accountsRouter.delete('/accounts/:id', verifyJwt, accountsController.delete)
+
 export { accountsRouter }

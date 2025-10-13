@@ -6,6 +6,7 @@ import { isValidObjectId } from "mongoose";
 import { FindUserBankAccountService } from "../../../services/find-user-bank-account-service.ts";
 import { CreateUserBankAccountService } from "../../../services/create-user-bank-account-service.ts";
 import { IncrementUserBankAccountBalanceService } from "../../../services/increment-user-bank-account-balance-service.ts";
+import { DeleteBankAccountByAccountId } from "../../../services/delete-bank-account-by-account-id.ts";
 
 const createUserAccountBodySchema = z.object({
   userId: z.string().min(1, {
@@ -62,6 +63,20 @@ export class AccountsController {
       await incrementUserBankAccountBalanceService.execute({ id, increment })
 
       res.status(200).json('Conta incrementada')
+    } catch (error) {
+      next(error)
+    }
+  }
+
+  async delete(req: Request, res: Response, next: NextFunction) {
+    try {
+      const { id } = findAccountByIdParamsSchema.parse(req.params)
+
+      const deleteBankAccountByAccountId = new DeleteBankAccountByAccountId()
+
+      await deleteBankAccountByAccountId.execute(id)
+
+      return res.status(200).json('Conta excluída com sucesso')
     } catch (error) {
       next(error)
     }

@@ -58,8 +58,11 @@ class UserSchemaClass extends BaseSchema {
                 },
             },
             bank_account: {
+                type: Object,
+                required: false,
                 account_id: {
                     type: String,
+                    unique: true,
                 },
                 balance: {
                     type: Number,
@@ -76,7 +79,7 @@ userSchema.pre('save', function(next) {
     const accountId = generateAccountId()
     this.bank_account = {
         account_id: accountId,
-        balance: Number((this.bank_account as Iuser['bank_account'])?.balance),
+        balance: Number((this.bank_account as Iuser['bank_account'])?.balance) || 0,
     }
     next()
 })

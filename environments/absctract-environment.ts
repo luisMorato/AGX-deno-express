@@ -28,7 +28,7 @@ export abstract class AbsctractEnvironment {
 
     protected listen(server: Express) {
         server.listen(this.PORT, () => {
-            console.log(`- Servidor rodando na porta: ${this.PORT} \n- App Url: ${this.protocol}://${this.hostname}:${this.PORT} \n- Docs Url: ${this.protocol}://${this.hostname}:${this.PORT}/docs`)
+            console.log(`- Servidor rodando na porta: ${this.PORT} \n\n- API Url: ${this.protocol}://${this.hostname}:${this.PORT} \n- Docs Url: ${this.protocol}://${this.hostname}:${this.PORT}/docs`)
         })
     }
 

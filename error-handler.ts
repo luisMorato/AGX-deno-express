@@ -1,8 +1,8 @@
 import type { NextFunction, Request, Response } from 'express'
 
-import { ZodError } from "zod";
 import { UserNotFoundError } from "./_errors/user-not-found-error.ts";
 import { UnauthorizedError } from "./_errors/unauthorized-error.ts";
+import { ZodError, treeifyError } from "zod";
 import { UserAlreadyExistsError } from "./_errors/user-already-exists-error.ts";
 import { UserWithoutFoundsError } from "./_errors/user-without-founds-error.ts";
 import { InvalidCredentialsError } from "./_errors/invalid-credentials-error.ts";
@@ -13,7 +13,7 @@ export const errorHandler = (error: Error, _: Request, res: Response, _next: Nex
     if (error instanceof ZodError) {
       return res.status(400).json({
         message: 'Erro de validação',
-        error: error.flatten().fieldErrors,
+        error: treeifyError(error),
       }).send()
     }
 
