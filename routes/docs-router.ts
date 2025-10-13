@@ -1,4 +1,5 @@
-import { Router } from "express"
+import { Router } from "express";
+
 import { Swagger } from "../docs/swagger.ts";
 
 const docsRouter = Router()

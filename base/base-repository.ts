@@ -1,5 +1,9 @@
-import { PipelineStage } from "mongoose";
-import { Model, FilterQuery, UpdateQuery } from 'mongoose'
+import {
+  Model,
+  UpdateQuery,
+  FilterQuery,
+  PipelineStage,
+} from "mongoose";
 
 export class BaseRepository<T> {
     public model: Model<T>

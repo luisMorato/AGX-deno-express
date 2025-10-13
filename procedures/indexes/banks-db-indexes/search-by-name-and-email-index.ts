@@ -1,5 +1,6 @@
 import type { Iuser } from "../../../models/user/User.ts";
 import type { IDBIndexes } from '../db-indexes.ts'
+
 import { UserRepository } from "../../../models/user/user-respotitory.ts";
 
 export const indexes: IDBIndexes<Iuser> = {

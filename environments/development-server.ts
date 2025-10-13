@@ -1,12 +1,12 @@
-import express from 'express'
+import express from 'express';
 
 import { userRouter } from "../routes/user-router.ts";
 import { authRouter } from "../routes/auth-router.ts";
 import { docsRouter } from "../routes/docs-router.ts";
-
-import { AbsctractEnvironment } from "./absctract-environment.ts";
 import { transferRouter } from "../routes/transfer-router.ts";
 import { accountsRouter } from "../routes/accounts-router.ts";
+
+import { AbsctractEnvironment } from "./absctract-environment.ts";
 
 export class DevelopmentServer extends AbsctractEnvironment {
     constructor() {

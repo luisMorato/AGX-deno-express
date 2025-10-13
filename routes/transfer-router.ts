@@ -1,6 +1,7 @@
 import { Router } from 'express';
-import { TransferController } from "../features/transfers/controllers/transfer-controller.ts";
+
 import { verifyJwt } from "../middlewares/verify-jwt.ts";
+import { TransferController } from "../features/transfers/controllers/transfer-controller.ts";
 
 const transferRouter = Router()
 const transferController = new TransferController()

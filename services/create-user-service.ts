@@ -1,6 +1,6 @@
-import { UserAlreadyExistsError } from "../_errors/user-already-exists-error.ts";
 import { Encrypter } from "../lib/encrypter.ts";
 import { UserRepository } from "../models/user/user-respotitory.ts";
+import { UserAlreadyExistsError } from "../_errors/user-already-exists-error.ts";
 
 type IcreateUserServiceRequest = {
     name: string

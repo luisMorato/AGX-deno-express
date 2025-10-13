@@ -67,6 +67,7 @@ class UserSchemaClass extends BaseSchema {
                 balance: {
                     type: Number,
                     default: 0,
+                    gte: 0,
                 },
             },
         })

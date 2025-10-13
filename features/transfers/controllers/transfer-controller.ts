@@ -1,6 +1,7 @@
 import type { Request, Response, NextFunction } from 'express'
 
 import z from "zod";
+import JsonWebToken from 'jsonwebtoken';
 
 import { CreateTransferService } from "../../../services/create-transfer-service.ts";
 import { FetchTransfersService } from "../../../services/fetch-transfers-service.ts";
@@ -20,6 +21,12 @@ const findTransfersByAccountIdParamsSchema = z.object({
   })
 })
 
+type JWTPayload = {
+    payload: {
+        userId: string
+    }
+}
+
 export class TransferController {
   constructor() {}
 
@@ -31,9 +38,13 @@ export class TransferController {
         amount,
       } = createTransferBodySchema.parse(req.body)
 
+      const token = req.headers.authorization?.split(' ')[1]
+      const { payload } = JsonWebToken.decode(token!) as JWTPayload
+
       const createTransferService = new CreateTransferService()
 
       await createTransferService.execute({
+        userId: payload.userId,
         senderAccountId,
         receiverAccountId,
         amount,

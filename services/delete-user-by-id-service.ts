@@ -1,5 +1,5 @@
-import { UserNotFoundError } from "../_errors/user-not-found-error.ts";
 import { UserRepository } from "../models/user/user-respotitory.ts";
+import { UserNotFoundError } from "../_errors/user-not-found-error.ts";
 
 export class DeleteUserByIdService {
     private userRepository: UserRepository

@@ -1,12 +1,14 @@
-import type { Request, Response, NextFunction } from 'express'
+import type { Request, Response, NextFunction } from 'express';
 
-import { z } from 'zod'
-import { isValidObjectId } from "mongoose"
-import { FetchUsersService } from "../../../services/fetch-users-service.ts"
-import { CreateUserService } from "../../../services/create-user-service.ts"
-import { FindUserByIdService } from "../../../services/find-user-by-id-service.ts"
-import { UpdateUserByIdService } from "../../../services/update-user-by-id-service.ts"
-import { DeleteUserByIdService } from "../../../services/delete-user-by-id-service.ts"
+import { z } from 'zod';
+import jsonWebToken from "jsonwebtoken";
+import { isValidObjectId } from "mongoose";
+
+import { FetchUsersService } from "../../../services/fetch-users-service.ts";
+import { CreateUserService } from "../../../services/create-user-service.ts";
+import { FindUserByIdService } from "../../../services/find-user-by-id-service.ts";
+import { UpdateUserByIdService } from "../../../services/update-user-by-id-service.ts";
+import { DeleteUserByIdService } from "../../../services/delete-user-by-id-service.ts";
 
 const createUserBodySchema = z.object({
     name: z.string().min(1, {
@@ -43,6 +45,12 @@ const updateUserBodySchema = z.object({
     newPassword: z.string().optional(),
     birthdate: z.coerce.date().optional(),
 })
+
+type JWTPayload = {
+    payload: {
+        userId: string
+    }
+}
 
 export class UserController {
     // private fetchUsersService: FetchUsersService
@@ -116,6 +124,9 @@ export class UserController {
                 birthdate,
             } = updateUserBodySchema.parse(req.body)
 
+            const token = req.headers.authorization?.split(' ')[1]
+            const { payload } = jsonWebToken.decode(token!) as JWTPayload
+
             const updateUserByIdService = new UpdateUserByIdService()
             
             await updateUserByIdService.execute({
@@ -125,6 +136,7 @@ export class UserController {
                 password,
                 newPassword,
                 birthdate,
+                tokenUserId: payload.userId,
             })
 
             return res.status(200).json('Usuário atualizado com sucesso')

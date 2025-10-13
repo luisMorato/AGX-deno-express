@@ -1,5 +1,6 @@
-import express, { Express } from 'express'
-import cors from 'cors'
+import express, { type Express } from 'express';
+
+import cors from 'cors';
 import { errorHandler } from "../error-handler.ts";
 
 export abstract class AbsctractEnvironment {

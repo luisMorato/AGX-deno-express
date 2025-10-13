@@ -1,3 +1,3 @@
-import { Procedures } from '../procedures/procedure.ts'
+import { Procedures } from '../procedures/procedure.ts';
 
 export default Procedures

@@ -8,6 +8,7 @@ import { UserWithoutFoundsError } from "./_errors/user-without-founds-error.ts";
 import { InvalidCredentialsError } from "./_errors/invalid-credentials-error.ts";
 import { UserBankAccountNotFoundError } from "./_errors/user-bank-account-not-found-error.ts";
 import { UserBankAccountAlreadyExistsError } from "./_errors/user-bank-account-already-exists-error.ts";
+import { ForbiddenError } from './_errors/forbidden-error.ts'
 
 export const errorHandler = (error: Error, _: Request, res: Response, _next: NextFunction) => {
     if (error instanceof ZodError) {
@@ -26,7 +27,7 @@ export const errorHandler = (error: Error, _: Request, res: Response, _next: Nex
     }
     
     if (error instanceof InvalidCredentialsError || error instanceof UnauthorizedError) {
-      return res.status(401).json({ error: error.message }).send()
+      return res.status(401).clearCookie('auth-token').json({ error: error.message }).send()
     }
 
     if (error instanceof UserBankAccountAlreadyExistsError) {
@@ -39,6 +40,10 @@ export const errorHandler = (error: Error, _: Request, res: Response, _next: Nex
 
     if (error instanceof UserWithoutFoundsError) {
       return res.status(400).json({ error: error.message }).send()
+    }
+
+    if (error instanceof ForbiddenError) {
+      return res.status(403).json({ error: error.message }).send()
     }
 
     return res.status(500).json({

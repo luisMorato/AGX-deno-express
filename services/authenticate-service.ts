@@ -1,7 +1,6 @@
-import { InvalidCredentialsError } from "../_errors/invalid-credentials-error.ts";
-// import { UserNotFoundError } from "../_errors/user-not-found-error.ts";
 import { Encrypter } from "../lib/encrypter.ts";
 import { UserRepository } from "../models/user/user-respotitory.ts";
+import { InvalidCredentialsError } from "../_errors/invalid-credentials-error.ts";
 
 type IauthenticateServiceRequest = {
     email: string
@@ -31,10 +30,8 @@ export class AuthenticateService {
         const existingUserByEmail = await this.userRepository.findOne({ email })
 
         if (!existingUserByEmail) throw new InvalidCredentialsError('Email Inválido')
-
-            
+     
         const hasPasswordMatch = await this.encrypter.compare(password, existingUserByEmail.password)
-        console.log(hasPasswordMatch)
 
         if (!hasPasswordMatch) throw new InvalidCredentialsError('Senha Incorreta')
 

@@ -1,6 +1,7 @@
-import { Router } from 'express'
-import { AccountsController } from "../features/accounts/controller/accounts-controller.ts";
+import { Router } from 'express';
+
 import { verifyJwt } from "../middlewares/verify-jwt.ts";
+import { AccountsController } from "../features/accounts/controller/accounts-controller.ts";
 
 const accountsRouter = Router()
 const accountsController = new AccountsController()

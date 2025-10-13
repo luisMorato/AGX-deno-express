@@ -1,6 +1,7 @@
-import { Router } from 'express'
-import { UserController } from "../features/users/controllers/user-controller.ts";
+import { Router } from 'express';
+
 import { verifyJwt } from "../middlewares/verify-jwt.ts";
+import { UserController } from "../features/users/controllers/user-controller.ts";
 
 const userRouter = Router()
 const userController = new UserController()

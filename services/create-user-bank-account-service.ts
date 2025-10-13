@@ -1,6 +1,7 @@
-import { UserBankAccountAlreadyExistsError } from "../_errors/user-bank-account-already-exists-error.ts";
 import { UserRepository } from "../models/user/user-respotitory.ts";
 import { generateAccountId } from "../utils/generate-account-id.ts";
+import { UserBankAccountAlreadyExistsError } from "../_errors/user-bank-account-already-exists-error.ts";
+import { UserNotFoundError } from '../_errors/user-not-found-error.ts'
 
 type IcreateUserBankAccountServiceRequest = {
   userId: string
@@ -21,6 +22,8 @@ export class CreateUserBankAccountService {
     const accountId = generateAccountId()
 
     const user = await this.userRepository.findById(userId)
+
+    if (!user) throw new UserNotFoundError('Usuário não encontrado')
 
     if (user?.bank_account?.account_id) throw new UserBankAccountAlreadyExistsError('Usuário já possui uma conta')
 

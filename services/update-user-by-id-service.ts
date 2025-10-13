@@ -3,6 +3,7 @@ import { UserRepository } from "../models/user/user-respotitory.ts";
 import { UserNotFoundError } from "../_errors/user-not-found-error.ts";
 import { UserAlreadyExistsError } from "../_errors/user-already-exists-error.ts";
 import { InvalidCredentialsError } from "../_errors/invalid-credentials-error.ts";
+import { ForbiddenError } from '../_errors/forbidden-error.ts'
 
 type IupdateUserRequest = {
     id: string
@@ -11,6 +12,7 @@ type IupdateUserRequest = {
     password: string
     newPassword?: string
     birthdate?: Date
+    tokenUserId: string
 }
 
 export class UpdateUserByIdService {
@@ -32,7 +34,10 @@ export class UpdateUserByIdService {
         password,
         newPassword,
         birthdate,
+        tokenUserId,
     }: IupdateUserRequest) {
+        if (tokenUserId !== id) throw new ForbiddenError('Usuário não pode editar outro usuário')
+
         const userToUpdate = await this.userRepository.findById(id)
 
         if (!userToUpdate) throw new UserNotFoundError('Usuário não encontrado')
