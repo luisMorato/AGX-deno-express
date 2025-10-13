@@ -32,7 +32,9 @@ export class AuthenticateService {
 
         if (!existingUserByEmail) throw new InvalidCredentialsError('Email Inválido')
 
-        const hasPasswordMatch = this.encrypter.compare(password, existingUserByEmail.password)
+            
+        const hasPasswordMatch = await this.encrypter.compare(password, existingUserByEmail.password)
+        console.log(hasPasswordMatch)
 
         if (!hasPasswordMatch) throw new InvalidCredentialsError('Senha Incorreta')
 
