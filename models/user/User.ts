@@ -80,6 +80,8 @@ userSchema.pre('save', function(next) {
     }
     next()
 })
+
+//  Permitiria que eu tivesse, por exemplo, métodos e variáveis na classe de usuário, acessíveis pelo meu schema
 userSchema.loadClass(User)
 
 export { userSchema }

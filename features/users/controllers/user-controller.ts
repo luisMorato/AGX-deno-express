@@ -40,6 +40,7 @@ const updateUserBodySchema = z.object({
     password: z.string().min(5, {
         error: 'A senha deve conter no mínimo 5 caracteres'
     }),
+    newPassword: z.string().optional(),
     birthdate: z.coerce.date().optional(),
 })
 
@@ -111,6 +112,7 @@ export class UserController {
                 name,
                 email,
                 password,
+                newPassword,
                 birthdate,
             } = updateUserBodySchema.parse(req.body)
 
@@ -121,6 +123,7 @@ export class UserController {
                 name,
                 email,
                 password,
+                newPassword,
                 birthdate,
             })
 
