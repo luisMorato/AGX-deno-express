@@ -9,6 +9,15 @@ const accountsController = new AccountsController()
  * @openapi
  * /accounts:
  *   post:
+ *     parameters:
+ *      - in: body
+ *        schema:
+ *          type: object
+ *          properties:
+ *            userId:
+ *              type: string
+ *              required: true
+ *        required: true
  *     tags:
  *        - Accounts
  *     description: "create a user bank account on database."
@@ -24,8 +33,14 @@ accountsRouter.post('/accounts', verifyJwt, accountsController.create)
 
 /**
  * @openapi
- * /accounts/:id:
+ * /accounts/{id}:
  *   get:
+ *     parameters:
+ *       - in: path
+ *         name: "id"
+ *         schema:
+ *           type: string
+ *         required: true
  *     tags:
  *        - Accounts
  *     description: "searches for a user bank account on database."
@@ -41,8 +56,14 @@ accountsRouter.get('/accounts/:id', verifyJwt, accountsController.find)
 
 /**
  * @openapi
- * /accounts/:id/increment:
+ * /accounts/{id}/increment:
  *   patch:
+ *     parameters:
+ *       - in: path
+ *         name: "id"
+ *         schema:
+ *           type: string
+ *         required: true
  *     tags:
  *        - Accounts
  *     description: "increments user bank account balance on database."
@@ -58,8 +79,14 @@ accountsRouter.patch('/accounts/:id/increment', verifyJwt, accountsController.in
 
 /**
  * @openapi
- * /accounts/:id:
+ * /accounts/{id}:
  *   delete:
+ *     parameters:
+ *       - in: path
+ *         name: "id"
+ *         schema:
+ *           type: string
+ *         required: true
  *     tags:
  *        - Accounts
  *     description: "deletes a user bank account on database."

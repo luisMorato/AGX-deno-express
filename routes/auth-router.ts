@@ -8,6 +8,17 @@ const authController = new AuthController()
  * @openapi
  * /authenticate:
  *   post:
+ *     parameters:
+ *        - in: body
+ *          schema:
+ *            type: object
+ *            properties:
+ *              name:
+ *                type: string
+ *                required: true
+ *              password:
+ *                type: string
+ *                required: true
  *     tags:
  *        - Authentication
  *     description: "Authenticate user by generating a JWT token."

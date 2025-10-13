@@ -9,6 +9,17 @@ const userController = new UserController()
  * @openapi
  * /users:
  *   get:
+ *     parameters:
+ *      - in: query
+ *        name: "name"
+ *        schema:
+ *          type: string
+ *        required: false
+ *      - in: query
+ *        name: "email"
+ *        schema:
+ *          type: string
+ *        required: false
  *     tags:
  *       - Users
  *     description: "list all users on database."
@@ -24,6 +35,25 @@ userRouter.get('/users', verifyJwt, userController.list)
  * @openapi
  * /users:
  *   post:
+ *     parameters:
+ *      - in: body
+ *        schema:
+ *          type: object
+ *          properties:
+ *            name:
+ *              type: string
+ *              required: true
+ *            email:
+ *              type: string
+ *              required: true
+ *            password:
+ *              type: string
+ *              required: true
+ *            birthdate:
+ *              type: string
+ *              format: date
+ *              required: true
+ *        required: true
  *     tags:
  *       - Users
  *     description: "create a user on database."
@@ -37,8 +67,14 @@ userRouter.post('/users', userController.create)
 
 /**
  * @openapi
- * /users/:id:
+ * /users/{id}:
  *   get:
+ *     parameters:
+ *      - in: path
+ *        name: "id"
+ *        schema:
+ *          type: string
+ *        required: true
  *     tags:
  *       - Users
  *     description: "returns a unique user by id."
@@ -54,8 +90,35 @@ userRouter.get('/users/:id', verifyJwt, userController.findById)
 
 /**
  * @openapi
- * /users/:id:
+ * /users/{id}:
  *   put:
+ *     parameters:
+ *      - in: path
+ *        name: "id"
+ *        schema:
+ *          type: string
+ *        required: true
+ *      - in: body
+ *        schema:
+ *          type: object
+ *          properties:
+ *            name:
+ *              type: string
+ *              required: true
+ *            email:
+ *              type: string
+ *              required: true
+ *            password:
+ *              type: string
+ *              required: true
+ *            newPassword:
+ *              type: string
+ *              required: false
+ *            birthdate:
+ *              type: string
+ *              format: date
+ *              required: true
+ *        required: true
  *     tags:
  *       - Users
  *     description: "updates a user by id."
@@ -73,8 +136,14 @@ userRouter.put('/users/:id', verifyJwt, userController.updateById)
 
 /**
  * @openapi
- * /users/:id:
+ * /users/{id}:
  *   delete:
+ *     parameters:
+ *      - in: path
+ *        name: "id"
+ *        schema:
+ *          type: string
+ *        required: true
  *     tags:
  *       - Users
  *     description: "deletes a user by id."

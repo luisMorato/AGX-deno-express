@@ -1,7 +1,7 @@
 {
   "tasks": {
     "dev": "deno run --watch -A --env-file server.ts",
-    "scripts": "deno run -A scripts.ts"
+    "scripts": "deno run -A --sloppy-imports scripts.ts"
   },
   "imports": {
     "@std/assert": "jsr:@std/assert@1",
@@ -28,6 +28,20 @@
         "no-debugger",
         "no-explicit-any"
       ]
+    }
+  },
+  "fmt": {
+    "include": [
+      "**/*.ts",
+      "**/*.js",
+      "**/*.json"
+    ],
+    "options": {
+      "useTabs": false,
+      "lineWidth": 150,
+      "indentWidth": 2,
+      "singleQuote": true,
+      "semiColons": false
     }
   }
 }

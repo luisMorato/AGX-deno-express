@@ -9,7 +9,9 @@ import { FindTransfersByAccountId } from "../../../services/find-transfers-by-ac
 const createTransferBodySchema = z.object({
   senderAccountId: z.string(),
   receiverAccountId: z.string(),
-  amount: z.coerce.number(),
+  amount: z.coerce.number().gt(0, {
+    error: 'Quantidade deve ser maior que 0'
+  }),
 })
 
 const findTransfersByAccountIdParamsSchema = z.object({

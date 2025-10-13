@@ -30,7 +30,7 @@ export class CreateTransferService {
     }: IcreateTransferServiceRequest) {
         const session = await banksDB.startSession()
 
-        const aggregatePipeline = [
+        const senderAggregatePipeline = [
             { $match: { 'bank_account.account_id': senderAccountId } },
             {
                 $project: {
@@ -40,11 +40,29 @@ export class CreateTransferService {
             },
         ]
 
-        const [{
-            bank_account: senderBankAccount,
-        }] = await this.userRepository.aggregate(aggregatePipeline)
+        const receiverAggregatePipeline = [
+            { $match: { 'bank_account.account_id': receiverAccountId } },
+            {
+                $project: {
+                    _id: false,
+                    bank_account: true,
+                },
+            },
+        ]
 
-        if (!senderBankAccount.account_id) throw new UserBankAccountNotFoundError('Usuário não possui uma conta do banco')
+        const [
+            [dbSenderBankAccount],
+            [dbReceiverBankAccount],
+        ] = await Promise.all([
+          (this.userRepository.aggregate(senderAggregatePipeline)),
+          (this.userRepository.aggregate(receiverAggregatePipeline))
+        ])
+
+        if (!dbSenderBankAccount) throw new UserBankAccountNotFoundError('Usuário não possui uma conta do banco')
+
+        if (!dbReceiverBankAccount) throw new UserBankAccountNotFoundError('Conta bancária do beneficiado não encontrada')
+
+        const senderBankAccount = dbSenderBankAccount.bank_account
 
         if (senderBankAccount.balance < amount) throw new UserWithoutFoundsError('Usuário não possui dinheiro suficiente para essa transação')
 

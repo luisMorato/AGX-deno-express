@@ -17,14 +17,14 @@ export class IncrementUserBankAccountBalanceService {
 
   async execute({ id, increment }: IncrementUserBankAccountRequest) {
     const [userBankAccount] = await this.userRepository.aggregate([
-          { $match: { 'bank_account.account_id': id } },
-          {
-            $project: {
-              _id: false,
-              bank_account: true,
-            },
-          },
-        ])
+      { $match: { 'bank_account.account_id': id } },
+      {
+        $project: {
+          _id: false,
+          bank_account: true,
+        },
+      },
+    ])
     
     if (!userBankAccount) throw new UserBankAccountNotFoundError('Conta bancária não encontrada')
 

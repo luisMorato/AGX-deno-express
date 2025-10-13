@@ -10,6 +10,21 @@
   "paths": {
     "/accounts": {
       "post": {
+        "parameters": [
+          {
+            "in": "body",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "userId": {
+                  "type": "string",
+                  "required": true
+                }
+              }
+            },
+            "required": true
+          }
+        ],
         "tags": [
           "Accounts"
         ],
@@ -27,8 +42,18 @@
         }
       }
     },
-    "/accounts/:id": {
+    "/accounts/{id}": {
       "get": {
+        "parameters": [
+          {
+            "in": "path",
+            "name": "id",
+            "schema": {
+              "type": "string"
+            },
+            "required": true
+          }
+        ],
         "tags": [
           "Accounts"
         ],
@@ -46,6 +71,16 @@
         }
       },
       "delete": {
+        "parameters": [
+          {
+            "in": "path",
+            "name": "id",
+            "schema": {
+              "type": "string"
+            },
+            "required": true
+          }
+        ],
         "tags": [
           "Accounts"
         ],
@@ -63,8 +98,18 @@
         }
       }
     },
-    "/accounts/:id/increment": {
+    "/accounts/{id}/increment": {
       "patch": {
+        "parameters": [
+          {
+            "in": "path",
+            "name": "id",
+            "schema": {
+              "type": "string"
+            },
+            "required": true
+          }
+        ],
         "tags": [
           "Accounts"
         ],
@@ -84,6 +129,24 @@
     },
     "/authenticate": {
       "post": {
+        "parameters": [
+          {
+            "in": "body",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string",
+                  "required": true
+                },
+                "password": {
+                  "type": "string",
+                  "required": true
+                }
+              }
+            }
+          }
+        ],
         "tags": [
           "Authentication"
         ],
@@ -100,6 +163,28 @@
     },
     "/transfers": {
       "post": {
+        "parameters": [
+          {
+            "in": "body",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "senderAccountId": {
+                  "type": "string",
+                  "required": true
+                },
+                "receiverAccountId": {
+                  "type": "string",
+                  "required": true
+                },
+                "amount": {
+                  "type": "number",
+                  "required": true
+                }
+              }
+            }
+          }
+        ],
         "tags": [
           "transfers"
         ],
@@ -134,8 +219,18 @@
         }
       }
     },
-    "/transfers/:accountId": {
+    "/transfers/{accountId}": {
       "get": {
+        "parameters": [
+          {
+            "in": "path",
+            "name": "accountId",
+            "schema": {
+              "type": "string"
+            },
+            "required": true
+          }
+        ],
         "tags": [
           "transfers"
         ],
@@ -152,6 +247,24 @@
     },
     "/users": {
       "get": {
+        "parameters": [
+          {
+            "in": "query",
+            "name": "name",
+            "schema": {
+              "type": "string"
+            },
+            "required": false
+          },
+          {
+            "in": "query",
+            "name": "email",
+            "schema": {
+              "type": "string"
+            },
+            "required": false
+          }
+        ],
         "tags": [
           "Users"
         ],
@@ -166,6 +279,34 @@
         }
       },
       "post": {
+        "parameters": [
+          {
+            "in": "body",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string",
+                  "required": true
+                },
+                "email": {
+                  "type": "string",
+                  "required": true
+                },
+                "password": {
+                  "type": "string",
+                  "required": true
+                },
+                "birthdate": {
+                  "type": "string",
+                  "format": "date",
+                  "required": true
+                }
+              }
+            },
+            "required": true
+          }
+        ],
         "tags": [
           "Users"
         ],
@@ -180,8 +321,18 @@
         }
       }
     },
-    "/users/:id": {
+    "/users/{id}": {
       "get": {
+        "parameters": [
+          {
+            "in": "path",
+            "name": "id",
+            "schema": {
+              "type": "string"
+            },
+            "required": true
+          }
+        ],
         "tags": [
           "Users"
         ],
@@ -199,6 +350,46 @@
         }
       },
       "put": {
+        "parameters": [
+          {
+            "in": "path",
+            "name": "id",
+            "schema": {
+              "type": "string"
+            },
+            "required": true
+          },
+          {
+            "in": "body",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string",
+                  "required": true
+                },
+                "email": {
+                  "type": "string",
+                  "required": true
+                },
+                "password": {
+                  "type": "string",
+                  "required": true
+                },
+                "newPassword": {
+                  "type": "string",
+                  "required": false
+                },
+                "birthdate": {
+                  "type": "string",
+                  "format": "date",
+                  "required": true
+                }
+              }
+            },
+            "required": true
+          }
+        ],
         "tags": [
           "Users"
         ],
@@ -219,6 +410,16 @@
         }
       },
       "delete": {
+        "parameters": [
+          {
+            "in": "path",
+            "name": "id",
+            "schema": {
+              "type": "string"
+            },
+            "required": true
+          }
+        ],
         "tags": [
           "Users"
         ],

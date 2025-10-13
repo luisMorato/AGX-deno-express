@@ -9,6 +9,20 @@ const transferController = new TransferController()
  * @openapi
  * /transfers:
  *   post:
+ *     parameters:
+ *      - in: body
+ *        schema:
+ *          type: object
+ *          properties:
+ *            senderAccountId:
+ *               type: string
+ *               required: true
+ *            receiverAccountId:
+ *               type: string
+ *               required: true
+ *            amount:
+ *               type: number
+ *               required: true
  *     tags:
  *      - transfers
  *     description: "create a transfer on database."
@@ -41,8 +55,14 @@ transferRouter.get('/transfers', verifyJwt, transferController.list)
 
 /**
  * @openapi
- * /transfers/:accountId:
+ * /transfers/{accountId}:
  *   get:
+ *     parameters:
+ *       - in: path
+ *         name: "accountId"
+ *         schema:
+ *           type: string
+ *         required: true
  *     tags:
  *        - transfers
  *     description: "list all transfers from a specific account."
