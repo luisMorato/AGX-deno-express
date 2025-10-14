@@ -10,6 +10,8 @@ const accountsController = new AccountsController()
  * @openapi
  * /accounts:
  *   post:
+ *     security:
+ *       - bearerAuth: []
  *     parameters:
  *      - in: body
  *        schema:
@@ -36,6 +38,8 @@ accountsRouter.post('/accounts', verifyJwt, accountsController.create)
  * @openapi
  * /accounts/{id}:
  *   get:
+ *     security:
+ *       - bearerAuth: []
  *     parameters:
  *       - in: path
  *         name: "id"
@@ -59,6 +63,8 @@ accountsRouter.get('/accounts/:id', verifyJwt, accountsController.find)
  * @openapi
  * /accounts/{id}/increment:
  *   patch:
+ *     security:
+ *       - bearerAuth: []
  *     parameters:
  *       - in: path
  *         name: "id"
@@ -82,6 +88,8 @@ accountsRouter.patch('/accounts/:id/increment', verifyJwt, accountsController.in
  * @openapi
  * /accounts/{id}:
  *   delete:
+ *     security:
+ *       - bearerAuth: []
  *     parameters:
  *       - in: path
  *         name: "id"

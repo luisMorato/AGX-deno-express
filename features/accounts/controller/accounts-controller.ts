@@ -1,7 +1,6 @@
 import type { Request, Response, NextFunction } from "express";
 
 import z from "zod";
-import JsonWebToken from 'jsonwebtoken';
 import { isValidObjectId } from "mongoose";
 
 import { FindUserBankAccountService } from "../../../services/find-user-bank-account-service.ts";
@@ -25,12 +24,6 @@ const updateUserBankAccountBalanceBodySchema = z.object({
   increment: z.coerce.number()
 })
 
-type JWTPayload = {
-    payload: {
-        userId: string
-    }
-}
-
 export class AccountsController {
   constructor() {}
 
@@ -50,15 +43,14 @@ export class AccountsController {
   async find(req: Request, res: Response, next: NextFunction) {
     try {
       const { id } = findAccountByIdParamsSchema.parse(req.params)
-      
-      const token = req.headers.authorization?.split(' ')[1]
-      const { payload } = JsonWebToken.decode(token!) as JWTPayload
 
       const findUserBankAccountService = new FindUserBankAccountService()
 
+      const userId = req.user?.id || ''
+
       const { userBankAccount } = await findUserBankAccountService.execute({
         accountId: id,
-        userId: payload.userId,
+        userId,
       })
 
       return res.status(200).json({ userBankAccount })
@@ -72,13 +64,12 @@ export class AccountsController {
       const { id } = findAccountByIdParamsSchema.parse(req.params)
       const { increment } = updateUserBankAccountBalanceBodySchema.parse(req.body)
 
-      const token = req.headers.authorization?.split(' ')[1]
-      const { payload } = JsonWebToken.decode(token!) as JWTPayload
+      const userId = req.user?.id || ''
 
       const incrementUserBankAccountBalanceService = new IncrementUserBankAccountBalanceService()
       await incrementUserBankAccountBalanceService.execute({
         id,
-        userId: payload.userId,
+        userId,
         increment,
       })
 
@@ -92,14 +83,13 @@ export class AccountsController {
     try {
       const { id } = findAccountByIdParamsSchema.parse(req.params)
 
-      const token = req.headers.authorization?.split(' ')[1]
-      const { payload } = JsonWebToken.decode(token!) as JWTPayload
+      const userId = req.user?.id || ''
 
       const deleteBankAccountByAccountId = new DeleteBankAccountByAccountId()
 
       await deleteBankAccountByAccountId.execute({
         accountId: id,
-        userId: payload.userId,
+        userId,
       })
 
       return res.status(200).json('Conta excluída com sucesso')

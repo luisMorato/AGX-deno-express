@@ -1,7 +1,7 @@
 import type { NextFunction, Request, Response } from 'express'
 
 import z from "zod"
-import jsonWebToken from 'jsonwebtoken'
+import { JWT } from '../../../lib/jwt.ts'
 import { AuthenticateService } from "../../../services/authenticate-service.ts";
 
 const authenticateBodySchema = z.object({
@@ -29,11 +29,13 @@ export class AuthController {
                 password
             })
 
-            const token = jsonWebToken.sign({
+            const jwt = new JWT()
+            
+            const token = jwt.sign({
                 payload: {
                     userId,
                 }
-            }, Deno.env.get('JWT_SECRET')!)
+            })
 
             return res.status(200).cookie('auth-token', token).send()
         } catch (error) {

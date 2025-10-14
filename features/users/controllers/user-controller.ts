@@ -1,7 +1,6 @@
 import type { Request, Response, NextFunction } from 'express';
 
 import { z } from 'zod';
-import jsonWebToken from "jsonwebtoken";
 import { isValidObjectId } from "mongoose";
 
 import { FetchUsersService } from "../../../services/fetch-users-service.ts";
@@ -45,12 +44,6 @@ const updateUserBodySchema = z.object({
     newPassword: z.string().optional(),
     birthdate: z.coerce.date().optional(),
 })
-
-type JWTPayload = {
-    payload: {
-        userId: string
-    }
-}
 
 export class UserController {
     // private fetchUsersService: FetchUsersService
@@ -124,8 +117,7 @@ export class UserController {
                 birthdate,
             } = updateUserBodySchema.parse(req.body)
 
-            const token = req.headers.authorization?.split(' ')[1]
-            const { payload } = jsonWebToken.decode(token!) as JWTPayload
+            const userId = req.user?.id || ''
 
             const updateUserByIdService = new UpdateUserByIdService()
             
@@ -136,7 +128,7 @@ export class UserController {
                 password,
                 newPassword,
                 birthdate,
-                tokenUserId: payload.userId,
+                tokenUserId: userId,
             })
 
             return res.status(200).json('Usuário atualizado com sucesso')

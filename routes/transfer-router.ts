@@ -10,6 +10,8 @@ const transferController = new TransferController()
  * @openapi
  * /transfers:
  *   post:
+ *     security:
+ *       - bearerAuth: []
  *     parameters:
  *      - in: body
  *        schema:
@@ -43,6 +45,8 @@ transferRouter.post('/transfers', verifyJwt, transferController.create)
  * @openapi
  * /transfers:
  *   get:
+ *     security:
+ *       - bearerAuth: []
  *     tags:
  *        - transfers
  *     description: "list all transfers on database."
@@ -58,6 +62,8 @@ transferRouter.get('/transfers', verifyJwt, transferController.list)
  * @openapi
  * /transfers/{accountId}:
  *   get:
+ *     security:
+ *       - bearerAuth: []
  *     parameters:
  *       - in: path
  *         name: "accountId"

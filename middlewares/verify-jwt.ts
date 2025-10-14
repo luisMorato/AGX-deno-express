@@ -1,14 +1,13 @@
 import type { Request, Response, NextFunction } from 'express'
 
-import jsonWebToken from "jsonwebtoken";
 import { UnauthorizedError } from "../_errors/unauthorized-error.ts";
-// import { ForbiddenError } from '../_errors/forbidden-error.ts'
+import { JWT } from '../lib/jwt.ts'
 
-// type JWTPayload = {
-//     payload: {
-//         userId: string
-//     }
-// }
+type JWTPayload = {
+    payload: {
+        userId: string
+    }
+}
 
 export const verifyJwt = (req: Request, _: Response, next: NextFunction) => {
     try {
@@ -16,15 +15,13 @@ export const verifyJwt = (req: Request, _: Response, next: NextFunction) => {
 
         if (!token) throw new UnauthorizedError('Usuário não autorizado. token não encontrado')
         
-        jsonWebToken.verify(token, Deno.env.get('JWT_SECRET')!)
-
-        // const { payload } = jsonWebToken.decode(token) as JWTPayload
-
-        // if (req.url.includes('/users') && req.params.id) {
-        //     if (req.params.id !== payload.userId) {
-        //         throw new ForbiddenError('Usuário não pode editar/vizualizar outro usuário')
-        //     }
-        // }
+        const jwt = new JWT()
+        jwt.verify(token)
+        
+        const { payload } = jwt.decode<JWTPayload>(token)
+        req.user = {
+            id: payload.userId,
+        }
         next()
     } catch (error) {
         next(error)

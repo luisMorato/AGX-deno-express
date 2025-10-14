@@ -14,6 +14,13 @@ export type ISwagger = {
   generateJsonFile?: boolean
   swaggerOptions?: swaggerUi.SwaggerOptions
   routerDescription?: string
+  authSchema: {
+    bearerAuth: {
+      type: | 'http',
+      scheme: | 'bearer',
+      bearerFormat: | 'JWT',
+    },
+  }
 }
 
 export class Swagger {
@@ -28,6 +35,7 @@ export class Swagger {
   private tags: { name: string; description: string }[] = []
   private contact: object = {}
   private routerDescription = ''
+  private authSchema = {}
   private swaggerOptions: swaggerUi.SwaggerOptions = { explorer: true } 
 
   constructor(swagger: ISwagger) {
@@ -41,6 +49,7 @@ export class Swagger {
     if (swagger.generateJsonFile === false) this.generateJsonFile = false
     if (swagger.swaggerOptions) this.swaggerOptions = swagger.swaggerOptions
     if (swagger.contact) this.contact = swagger.contact
+    if (swagger.authSchema) this.authSchema = swagger.authSchema
     if (swagger.routerDescription) {
       this.routerDescription = swagger.routerDescription
     }
@@ -61,6 +70,9 @@ export class Swagger {
             contact: this.contact,
             description: this.routerDescription,
           },
+          components: {
+            securitySchemes: this.authSchema,
+          }
         },
         apis: this.apis,
       })

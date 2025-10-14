@@ -7,6 +7,13 @@ const docsRouter = Router()
 const swagger = new Swagger({
   title: 'API Documentation',
   version: '1.0.0',
+  authSchema: {
+    bearerAuth: {
+      type: 'http',
+      scheme: 'bearer',
+      bearerFormat: 'JWT',
+    },
+  },
   routerPaths: ['./routes/*.ts'],
 })
 

@@ -10,6 +10,8 @@ const userController = new UserController()
  * @openapi
  * /users:
  *   get:
+ *     security:
+ *       - bearerAuth: []
  *     parameters:
  *      - in: query
  *        name: "name"
@@ -70,6 +72,8 @@ userRouter.post('/users', userController.create)
  * @openapi
  * /users/{id}:
  *   get:
+ *     security:
+ *       - bearerAuth: []
  *     parameters:
  *      - in: path
  *        name: "id"
@@ -93,6 +97,8 @@ userRouter.get('/users/:id', verifyJwt, userController.findById)
  * @openapi
  * /users/{id}:
  *   put:
+ *     security:
+ *       - bearerAuth: []
  *     parameters:
  *      - in: path
  *        name: "id"
@@ -139,6 +145,8 @@ userRouter.put('/users/:id', verifyJwt, userController.updateById)
  * @openapi
  * /users/{id}:
  *   delete:
+ *     security:
+ *       - bearerAuth: []
  *     parameters:
  *      - in: path
  *        name: "id"
