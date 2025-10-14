@@ -1,5 +1,6 @@
-import jsonWebToken from "jsonwebtoken";
-import { JwtRepository } from './jwt-repository.ts'
+import jsonWebToken from 'jsonwebtoken'
+import npmTthrowlhos from 'throwlhos'
+import { JwtRepository } from './JwtRepository.ts'
 
 export class JWT extends JwtRepository {
   private JWT_SECRET: string
@@ -11,7 +12,9 @@ export class JWT extends JwtRepository {
   }
 
   validate() {
-    if (!this.JWT_SECRET) throw new Error('JWT must be used with a JWT_SECRET')
+    const throwlhos = npmTthrowlhos.default
+
+    if (!this.JWT_SECRET) throw throwlhos.err_notFound('JWT deve ser utilizado com o JWT_SECRET')
   }
 
   sign(payload: any) {

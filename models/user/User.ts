@@ -1,15 +1,15 @@
-import { BaseSchema } from "../../base/base-schema.ts";
-import { generateAccountId } from "../../utils/generate-account-id.ts";
+import { BaseSchema } from '../../base/BaseSchema.ts'
+import { generateAccountId } from '../../utils/GenerateAccountId.ts'
 
 export type Iuser = {
-    name: string
-    email: string
-    password: string
-    birthdate: Date
-    bank_account?: {
-        account_id: string
-        balance: number
-    }
+  name: string
+  email: string
+  password: string
+  birthdate: Date
+  bank_account?: {
+    account_id: string
+    balance: number
+  }
 }
 
 export class User implements Iuser {
@@ -29,60 +29,65 @@ export class User implements Iuser {
 }
 
 class UserSchemaClass extends BaseSchema {
-    constructor() {
-        super({
-            name: {
-                type: String,
-                minLength: 1,
-                required: true,
-                uppercase: true,
-            },
-            email: {
-                type: String,
-                minLength: 1,
-                maxLength: 64,
-                unique: true,
-                required: true,
-            },
-            password: {
-                type: String,
-                minLength: 5,
-                required: true,
-            },
-            birthdate: {
-                type: Date,
-                required: true,
-                validate: {
-                    validator: (birthdate) => new Date(birthdate) < new Date(),
-                    message: 'A data de aniversário deve ser menor que a data atual',
-                },
-            },
-            bank_account: {
-                type: Object,
-                required: false,
-                account_id: {
-                    type: String,
-                    unique: true,
-                },
-                balance: {
-                    type: Number,
-                    default: 0,
-                    gte: 0,
-                },
-            },
-        })
-    }
+  constructor() {
+    super(
+      {
+        name: {
+          type: String,
+          minLength: 1,
+          required: true,
+          uppercase: true,
+        },
+        email: {
+          type: String,
+          minLength: 1,
+          maxLength: 64,
+          unique: true,
+          required: true,
+        },
+        password: {
+          type: String,
+          minLength: 5,
+          required: true,
+        },
+        birthdate: {
+          type: Date,
+          required: true,
+          validate: {
+            validator: (birthdate) => new Date(birthdate) < new Date(),
+            message: 'A data de aniversário deve ser menor que a data atual',
+          },
+        },
+        bank_account: {
+          type: Object,
+          required: false,
+          account_id: {
+            type: String,
+            unique: true,
+          },
+          balance: {
+            type: Number,
+            default: 0,
+            gte: 0,
+          },
+        },
+      },
+      {
+        versionKey: false
+      }
+    )
+  }
 }
 
 const userSchema = new UserSchemaClass().schema
 
-userSchema.pre('save', function(next) {
-    const accountId = generateAccountId()
-    this.bank_account = {
-        account_id: accountId,
-        balance: Number((this.bank_account as Iuser['bank_account'])?.balance) || 0,
-    }
-    next()
+userSchema.pre('save', function (next) {
+  const accountId = generateAccountId()
+  this.bank_account = {
+    account_id: accountId,
+    balance: Number((this.bank_account as Iuser['bank_account'])?.balance) || 0,
+  }
+  next()
 })
 
 //  Permitiria que eu tivesse, por exemplo, métodos e variáveis na classe de usuário, acessíveis pelo meu schema

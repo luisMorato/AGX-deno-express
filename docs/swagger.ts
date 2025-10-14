@@ -16,10 +16,10 @@ export type ISwagger = {
   routerDescription?: string
   authSchema: {
     bearerAuth: {
-      type: | 'http',
-      scheme: | 'bearer',
-      bearerFormat: | 'JWT',
-    },
+      type: 'http'
+      scheme: 'bearer'
+      bearerFormat: 'JWT'
+    }
   }
 }
 
@@ -36,7 +36,7 @@ export class Swagger {
   private contact: object = {}
   private routerDescription = ''
   private authSchema = {}
-  private swaggerOptions: swaggerUi.SwaggerOptions = { explorer: true } 
+  private swaggerOptions: swaggerUi.SwaggerOptions = { explorer: true }
 
   constructor(swagger: ISwagger) {
     if (swagger.title) this.title = swagger.title
@@ -72,7 +72,7 @@ export class Swagger {
           },
           components: {
             securitySchemes: this.authSchema,
-          }
+          },
         },
         apis: this.apis,
       })

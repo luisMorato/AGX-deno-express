@@ -1,4 +1,4 @@
-import { CreateIndexes } from './indexes/create-indexes.ts'
+import { CreateIndexes } from './indexes/CreateIndexes.ts'
 
 export const Procedures = async () => {
   const procedures = [

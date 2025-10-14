@@ -1,4 +1,4 @@
-import { DevelopmentServer } from "./environments/development-server.ts";
+import { DevelopmentServer } from './environments/DevelopmentServer.ts'
 
 async function bootstrap() {
   const developmentServer = new DevelopmentServer()
