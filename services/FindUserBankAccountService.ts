@@ -8,7 +8,7 @@ type findUserBankAccountServiceRequest = {
 }
 
 type findUserBankAccountServiceResponse = {
-  userBankAccount: Iuser['bank_account']
+  userBankAccount: Iuser['bankAccount']
 }
 
 export class FindUserBankAccountService {
@@ -22,10 +22,10 @@ export class FindUserBankAccountService {
 
   async execute({ accountId, userId }: findUserBankAccountServiceRequest): Promise<findUserBankAccountServiceResponse> {
     const [userBankAccount] = await this.userRepository.aggregate([
-      { $match: { 'bank_account.account_id': accountId } },
+      { $match: { 'bankAccount.accountId': accountId } },
       {
         $project: {
-          bank_account: true,
+          bankAccount: true,
         },
       },
     ])
@@ -35,7 +35,7 @@ export class FindUserBankAccountService {
     if (String(userBankAccount._id) !== userId) throw throwlhos.err_forbidden('Usuário não pode vizualizar uma conta que não é sua')
 
     return {
-      userBankAccount: userBankAccount.bank_account,
+      userBankAccount: userBankAccount.bankAccount,
     }
   }
 }

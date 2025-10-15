@@ -31,20 +31,20 @@ export class CreateTransferService {
     const session = await banksDB.startSession()
 
     const senderAggregatePipeline = [
-      { $match: { 'bank_account.account_id': senderAccountId } },
+      { $match: { 'bankAccount.accountId': senderAccountId } },
       {
         $project: {
-          bank_account: true,
+          bankAccount: true,
         },
       },
     ]
 
     const receiverAggregatePipeline = [
-      { $match: { 'bank_account.account_id': receiverAccountId } },
+      { $match: { 'bankAccount.accountId': receiverAccountId } },
       {
         $project: {
           _id: false,
-          bank_account: true,
+          bankAccount: true,
         },
       },
     ]
@@ -61,30 +61,58 @@ export class CreateTransferService {
 
     if (!dbReceiverBankAccount) throw throwlhos.err_notFound('Conta bancária do beneficiado não encontrada')
 
-    const senderBankAccount = dbSender.bank_account
+    const senderBankAccount = dbSender.bankAccount
     const senderId = String(dbSender._id)
 
     if (userId !== senderId) throw throwlhos.err_forbidden('Usuário não pode enviar dinheiro de contas que não sejam a sua')
 
     if (senderBankAccount.balance < amount) throw throwlhos.err_forbidden('Usuário não possui dinheiro suficiente para essa transação')
 
-    await session.withTransaction(async () => {
+    try {
+      session.startTransaction()
+
       await Promise.all([
         this.userRepository
           .updateOne(
-            { 'bank_account.account_id': senderAccountId },
-            { $inc: { 'bank_account.balance': -amount } },
+            { 'bankAccount.accountId': senderAccountId },
+            { $inc: { 'bankAccount.balance': -amount } },
           ),
         this.userRepository.updateOne(
-          { 'bank_account.account_id': receiverAccountId },
-          { $inc: { 'bank_account.balance': amount } },
+          { 'bankAccount.accountId': receiverAccountId },
+          { $inc: { 'bankAccount.balance': amount } },
         ),
         this.transferRepository.insertOne({
           amount,
-          sender_account_id: senderAccountId,
-          receiver_account_id: receiverAccountId,
+          senderAccountId: senderAccountId,
+          receiverAccountId: receiverAccountId,
         }),
       ])
-    })
+
+      session.commitTransaction()
+    } catch (error) {
+      session.abortTransaction()
+      throw error
+    } finally {
+      session.endSession()
+    }
+
+    // await session.withTransaction(async () => {
+    //   await Promise.all([
+    //     this.userRepository
+    //       .updateOne(
+    //         { 'bank_account.account_id': senderAccountId },
+    //         { $inc: { 'bank_account.balance': -amount } },
+    //       ),
+    //     this.userRepository.updateOne(
+    //       { 'bank_account.account_id': receiverAccountId },
+    //       { $inc: { 'bank_account.balance': amount } },
+    //     ),
+    //     this.transferRepository.insertOne({
+    //       amount,
+    //       sender_account_id: senderAccountId,
+    //       receiver_account_id: receiverAccountId,
+    //     }),
+    //   ])
+    // })
   }
 }

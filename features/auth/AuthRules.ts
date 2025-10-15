@@ -13,7 +13,7 @@ export class AuthRules extends BaseRules {
       {
         validator: is.email,
         message: 'Email inválido',
-      }
+      },
     ])
 
     this.rc.addRule('password', {

@@ -33,8 +33,10 @@ export class ResponseError {
 
   private options: IOptions
 
+  //  The key-value object that maps the statuses by code, Ex: { 500: INTERNAL_SERVER_ERROR }
   private mapStatusByCode: { [code: number]: string } = {}
 
+  //  The error object that will be returned
   private responserror: IResponserrorObject = {
     code: 500,
     status: 'INTERNAL_SERVER_ERROR',
@@ -43,6 +45,7 @@ export class ResponseError {
     errors: undefined,
   }
 
+  //  Gets the statuses and codes from the lib 'npm:http-status-codes' and maps into a key-value obejct
   private setMapStatusByCode = () => {
     for (const [httpStatus, httpCode] of Object.entries(HttpStatus)) {
       if (
@@ -55,6 +58,7 @@ export class ResponseError {
     }
   }
 
+  //  If error do not includes code || status ||  message, sets a default value to the responserror be a 500 - INTERNAL_SERVER_ERROR
   private setDefaultValuesForResponserror = () => {
     if (
       !['code', 'status', 'message'].some((prop) => this.responserror[prop])
@@ -67,6 +71,7 @@ export class ResponseError {
     if (!this.responserror.errors) this.responserror.errors = undefined
   }
 
+  //  Gets the error message (internal server error) by the give code (500)
   public getMessageByCode = function (code: string | number) {
     try {
       return HttpStatus.getStatusText(code)
@@ -76,14 +81,16 @@ export class ResponseError {
     }
   }
 
+  //  Gets the status (INTERNAL_SERVER_ERROR) by the given code (500)
   public getStatusByCode = (code: number): string | undefined => this.mapStatusByCode[code]
 
+  //  Gets the code (400, 500) by the given status (BAD_REQUEST, INTERNAL_SERVER_ERROR)
   public getCodeByStatus = (status: string): number | undefined => {
     for (const [httpStatus, httpCode] of Object.entries(HttpStatus)) {
       if (
-        !httpStatus.startsWith('get') &&
-        typeof httpCode !== 'function' &&
-        !['1', '2'].includes(String(httpCode).charAt(0))
+        !httpStatus.startsWith('get') && // Checks if the httpStatus not starts with 'get' (?)
+        typeof httpCode !== 'function' && // Check if the httpStatus is not a function
+        !['1', '2'].includes(String(httpCode).charAt(0)) // Error not starts with 1 or 2 => Ex: 101, 200, 201 (success and info statuses)
       ) {
         if (
           String(httpStatus).trim().toUpperCase() ==
@@ -175,20 +182,20 @@ export class ResponseError {
 
     if (error.status) {
       this.responserror.status = error.status
-      const code = this.getCodeByStatus(error.status)
+      const code = this.getCodeByStatus(error.status) //  Ex: INTERNAL_SERVER_ERROR => Map-Code: 500
       if (code) this.responserror.code = code
     }
 
     if (error.code) {
       this.responserror.code = error.code
-      const status = this.getStatusByCode(error.code)
+      const status = this.getStatusByCode(error.code) //  Ex: 500 => Map-Status => INTERNAL_SERVER_ERROR
       if (status) this.responserror.status = status
     }
 
-    this.responserror.message = error.message ||
-      this.getMessageByCode(this.responserror.code)
+    this.responserror.message = error.message || //  Gets the error message from the incoming error OR
+      this.getMessageByCode(this.responserror.code) //  Ex: 500 => Map-Message => internal server error
 
-    this.responserror.errors = error.errors || error.content
+    this.responserror.errors = error.errors || error.content // Maps all the errors that ocurred into an array
 
     enum SchemaTypeErrors {
       ValidateError = 'ValidatorError',

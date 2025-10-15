@@ -18,10 +18,10 @@ export class IncrementUserBankAccountBalanceService {
 
   async execute({ id, userId, increment }: IncrementUserBankAccountRequest) {
     const [userBankAccount] = await this.userRepository.aggregate([
-      { $match: { 'bank_account.account_id': id } },
+      { $match: { 'bankAccount.accountId': id } },
       {
         $project: {
-          bank_account: true,
+          bankAccount: true,
         },
       },
     ])
@@ -31,8 +31,8 @@ export class IncrementUserBankAccountBalanceService {
     if (String(userBankAccount._id) !== userId) throw throwlhos.err_forbidden('Usuário não pode incrementar uma conta que não é sua')
 
     await this.userRepository.updateOne(
-      { 'bank_account.account_id': id },
-      { $inc: { 'bank_account.balance': increment } },
+      { 'bankAccount.accountId': id },
+      { $inc: { 'bankAccount.balance': increment } },
     )
   }
 }

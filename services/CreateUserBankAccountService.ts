@@ -24,11 +24,11 @@ export class CreateUserBankAccountService {
 
     if (!user) throw throwlhos.err_notFound('Usuário não encontrado')
 
-    if (user?.bank_account?.account_id) throw throwlhos.err_conflict('Usuário já possui uma conta')
+    if (user?.bankAccount?.accountId) throw throwlhos.err_conflict('Usuário já possui uma conta')
 
     await this.userRepository.updateById(userId, {
-      bank_account: {
-        account_id: accountId,
+      bankAccount: {
+        accountId,
         balance: 0,
       },
     })

@@ -7,7 +7,7 @@ export class UsersRules extends BaseRules {
 
     this.rc.addRule('name', {
       validator: is.string,
-      message: 'O nome deve ser uma string'
+      message: 'O nome deve ser uma string',
     })
 
     this.rc.addRules('email', [
@@ -37,7 +37,7 @@ export class UsersRules extends BaseRules {
       },
       {
         validator: (val: any) => val < new Date(),
-        message: 'A data de aniversário deve ser menor que a data atual'
+        message: 'A data de aniversário deve ser menor que a data atual',
       },
     ])
 

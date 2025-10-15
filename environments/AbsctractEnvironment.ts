@@ -31,7 +31,7 @@ export abstract class AbsctractEnvironment {
     server.use(express.json())
     server.use(responser.default)
     server.use(
-      morgan(this.morganFormatString)
+      morgan(this.morganFormatString),
     )
   }
 

@@ -28,7 +28,7 @@ export class BaseRepository<T> {
 
   async findById(id: string) {
     const data = await this.model.findById(id).lean()
-    
+
     return data
   }
 

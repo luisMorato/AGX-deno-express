@@ -23,8 +23,8 @@ export class FindTransfersByAccountId {
   }: IfindTransfersByAccountIdRequest): Promise<IfindTransfersByAccountIdResponse> {
     const transfers = await this.transferRepository.findMany({
       $or: [
-        { sender_account_id: accountId },
-        { receiver_account_id: accountId },
+        { senderAccountId: accountId },
+        { receiverAccountId: accountId },
       ],
     }) || []
 

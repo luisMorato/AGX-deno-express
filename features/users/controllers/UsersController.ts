@@ -45,7 +45,7 @@ export class UsersController {
 
   async list(req: Request, res: Response, next: NextFunction) {
     try {
-      const { name, email } = req.query as { email?: string, name?: string }
+      const { name, email } = req.query as { email?: string; name?: string }
 
       rules.validate(
         { name, isRequiredField: false },
@@ -66,7 +66,7 @@ export class UsersController {
       const { id } = req.params
 
       rules.validate(
-        { id, isRequiredField: true }
+        { id, isRequiredField: true },
       )
 
       const findUserByIdService = new FindUserByIdService()
@@ -99,7 +99,9 @@ export class UsersController {
         { birthdate: new Date(birthdate), isRequiredField: true },
       )
 
-      const userId = req.user?.id || ''
+      const userId = req.user?.id
+
+      if (!userId) return res.err_unauthorized('Usuário não autenticado')
 
       const updateUserByIdService = new UpdateUserByIdService()
 
@@ -124,12 +126,16 @@ export class UsersController {
       const { id } = req.params
 
       rules.validate(
-        { id, isRequiredField: true }
+        { id, isRequiredField: true },
       )
+
+      const userId = req.user?.id
+
+      if (!userId) return res.err_unauthorized('Usuário não autenticado')
 
       const deleteUserByIdService = new DeleteUserByIdService()
 
-      await deleteUserByIdService.execute(id)
+      await deleteUserByIdService.execute({ id, tokenUserId: userId})
 
       return res.send_ok('Usuário excluído com sucesso')
     } catch (error) {

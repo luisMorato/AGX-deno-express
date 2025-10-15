@@ -14,10 +14,10 @@ export class AccountsRules extends BaseRules {
       {
         validator: is.string,
         message: 'UserId deve ser do tipo string',
-      }
+      },
     ])
 
-    this.rc.addRule('id',{
+    this.rc.addRule('id', {
       validator: is.string,
       message: 'ID deve ser do tipo string',
     })
@@ -30,7 +30,7 @@ export class AccountsRules extends BaseRules {
       {
         validator: (val: any) => val > 0,
         message: 'O increment deve ser maior que 0',
-      }
+      },
     ])
   }
 }

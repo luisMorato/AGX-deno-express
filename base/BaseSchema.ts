@@ -7,9 +7,8 @@ export class BaseSchema {
     schema: SchemaDefinition,
     options: SchemaOptions = {},
   ) {
-
     const schemaOptions: SchemaOptions = {
-      versionKey: false
+      versionKey: false,
     }
 
     Object.assign(schema, {
@@ -24,7 +23,7 @@ export class BaseSchema {
     this.schema = new Schema(
       {
         ...schema,
-        __v: { type: Number, select: false }
+        __v: { type: Number, select: false },
       },
       schemaOptions,
     )

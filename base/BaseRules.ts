@@ -19,9 +19,7 @@ export class BaseRules {
       const arrayOfInvalid = this.rc.check(...args)
 
       if (arrayOfInvalid?.length) {
-        throw throwlhos.err_badRequest('Erro durante a validação',
-          arrayOfInvalid,
-        )
+        throw throwlhos.err_badRequest('Erro durante a validação', arrayOfInvalid)
       }
     } catch (err: any) {
       console.warn(err)

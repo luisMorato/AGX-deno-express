@@ -1,21 +1,21 @@
 import { BaseSchema } from '../../base/BaseSchema.ts'
 
 export type Itranfer = {
-  sender_account_id: string
-  receiver_account_id: string
+  senderAccountId: string
+  receiverAccountId: string
   amount: number
 }
 
 class Transfer implements Itranfer {
-  sender_account_id: Itranfer['sender_account_id']
-  receiver_account_id: Itranfer['receiver_account_id']
+  senderAccountId: Itranfer['senderAccountId']
+  receiverAccountId: Itranfer['receiverAccountId']
   amount: Itranfer['amount']
 
   constructor(
     transfer: Itranfer,
   ) {
-    this.sender_account_id = transfer.sender_account_id
-    this.receiver_account_id = transfer.receiver_account_id
+    this.senderAccountId = transfer.senderAccountId
+    this.receiverAccountId = transfer.receiverAccountId
     this.amount = transfer.amount
   }
 }
@@ -23,11 +23,11 @@ class Transfer implements Itranfer {
 class transferSchemaClass extends BaseSchema {
   constructor() {
     super({
-      sender_account_id: {
+      senderAccountId: {
         type: String,
         required: true,
       },
-      receiver_account_id: {
+      receiverAccountId: {
         type: String,
         required: true,
       },

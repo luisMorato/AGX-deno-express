@@ -1,4 +1,5 @@
 import { throwlhos } from '../globals/Throwlhos.ts'
+
 import { Encrypter } from '../lib/Encrypter.ts'
 import { UserRepository } from '../models/user/UserRepository.ts'
 
@@ -45,7 +46,7 @@ export class UpdateUserByIdService {
 
     const existingUserByEmail = await this.userRepository.findOne({ email })
 
-    if (existingUserByEmail && existingUserByEmail._id !== userToUpdate._id) {
+    if (existingUserByEmail && String(existingUserByEmail._id) !== String(userToUpdate._id)) {
       throw throwlhos.err_conflict('Usuário com esse email já cadastrado')
     }
 

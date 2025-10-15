@@ -58,7 +58,7 @@ export class TransferController {
       const { accountId } = req.params
 
       rules.validate(
-        { accountId, isRequiredField: true }
+        { accountId, isRequiredField: true },
       )
 
       const findTransfersByAccountId = new FindTransfersByAccountId()

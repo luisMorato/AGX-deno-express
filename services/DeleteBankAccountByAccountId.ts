@@ -17,10 +17,10 @@ export class DeleteBankAccountByAccountId {
 
   async execute({ accountId, userId }: IdeleteBankAccountByAccountIdRequest) {
     const [userBankAccount] = await this.userRepository.aggregate([
-      { $match: { 'bank_account.account_id': accountId } },
+      { $match: { 'bankAccount.accountId': accountId } },
       {
         $project: {
-          bank_account: true,
+          bankAccount: true,
         },
       },
     ])
@@ -30,10 +30,10 @@ export class DeleteBankAccountByAccountId {
     if (String(userBankAccount._id) !== userId) throw throwlhos.err_forbidden('Usuário não pode deletar uma conta que não é sua')
 
     await this.userRepository.updateOne({
-      'bank_account.account_id': accountId,
+      'bankAccount.accountId': accountId,
     }, {
       $unset: {
-        bank_account: '',
+        bankAccount: '',
       },
     })
   }

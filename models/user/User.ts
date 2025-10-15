@@ -6,8 +6,8 @@ export type Iuser = {
   email: string
   password: string
   birthdate: Date
-  bank_account?: {
-    account_id: string
+  bankAccount?: {
+    accountId: string
     balance: number
   }
 }
@@ -17,14 +17,14 @@ export class User implements Iuser {
   email: Iuser['email']
   password: Iuser['password']
   birthdate: Iuser['birthdate']
-  bank_account: Iuser['bank_account']
+  bankAccount: Iuser['bankAccount']
 
   constructor(user: Iuser) {
     this.name = user.name
     this.email = user.email
     this.password = user.password
     this.birthdate = user.birthdate
-    this.bank_account = user.bank_account
+    this.bankAccount = user.bankAccount
   }
 }
 
@@ -58,10 +58,10 @@ class UserSchemaClass extends BaseSchema {
             message: 'A data de aniversário deve ser menor que a data atual',
           },
         },
-        bank_account: {
+        bankAccount: {
           type: Object,
           required: false,
-          account_id: {
+          accountId: {
             type: String,
             unique: true,
           },
@@ -73,8 +73,8 @@ class UserSchemaClass extends BaseSchema {
         },
       },
       {
-        versionKey: false
-      }
+        versionKey: false,
+      },
     )
   }
 }
@@ -83,9 +83,9 @@ const userSchema = new UserSchemaClass().schema
 
 userSchema.pre('save', function (next) {
   const accountId = generateAccountId()
-  this.bank_account = {
-    account_id: accountId,
-    balance: Number((this.bank_account as Iuser['bank_account'])?.balance) || 0,
+  this.bankAccount = {
+    accountId: accountId,
+    balance: Number((this.bankAccount as Iuser['bankAccount'])?.balance) || 0,
   }
   next()
 })
