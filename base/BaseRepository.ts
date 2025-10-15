@@ -1,54 +1,53 @@
+import { MongooseUpdateQueryOptions } from 'mongoose'
 import { FilterQuery, Model, PipelineStage, UpdateQuery } from 'mongoose'
 
-// export type ModelVirtuals<IModel, IModelVirtuals> = Model<
-//   IModel,
-//   Record<string, any>,
-//   object,
-//   IModelVirtuals
-// >
+export class BaseRepository<
+  T,
+  TVirtuals = object, // TVirtuals: Interface for virtual properties
+  TQueryHelpers = object, // TQueryHelpers: Interface for query helper methods
+  TInstanceMethods = object, // TInstanceMethods: Interface for instance methods
+> {
+  public model: Model<T, TQueryHelpers, TInstanceMethods, TVirtuals>
 
-export class BaseRepository<T> {
-  public model: Model<T>
-
-  constructor(model: Model<T>) {
-    this.model = model
+  constructor(model: Model<T, TQueryHelpers, TInstanceMethods, TVirtuals>) {
+    this.model = model as Model<T, TQueryHelpers, TInstanceMethods, TVirtuals>
   }
 
-  async findMany(query: FilterQuery<T>) {
-    const data = await this.model.find(query).lean()
+  findMany(query: FilterQuery<T>) {
+    const data = this.model.find(query)
 
     return data
   }
 
-  async findOne(query: FilterQuery<T>) {
-    const data = await this.model.findOne(query).lean()
+  findOne(query: FilterQuery<T>) {
+    const data = this.model.findOne(query)
 
     return data
   }
 
-  async findById(id: string) {
-    const data = await this.model.findById(id).lean()
+  findById(id: string) {
+    const data = this.model.findById(id)
 
     return data
   }
 
-  async insertOne(data: T) {
-    await this.model.create([data])
+  insertOne(data: T) {
+    return this.model.create([data])
   }
 
-  async updateById(id: string, data: UpdateQuery<T>) {
-    await this.model.updateOne({ _id: id }, data)
+  updateById(id: string, data: UpdateQuery<T>, options?: MongooseUpdateQueryOptions) {
+    return this.model.updateOne({ _id: id }, data, options)
   }
 
-  async updateOne(updateQuery: FilterQuery<T>, data: UpdateQuery<T>) {
-    await this.model.updateOne(updateQuery, data)
+  updateOne(updateQuery: FilterQuery<T>, data: UpdateQuery<T>, options?: MongooseUpdateQueryOptions) {
+    return this.model.updateOne(updateQuery, data, options)
   }
 
-  async deleteOne(id: string) {
-    await this.model.deleteOne({ _id: id })
+  deleteOne(id: string) {
+    return this.model.deleteOne({ _id: id })
   }
 
-  async aggregate(aggregatePipeline: PipelineStage[]) {
-    return await this.model.aggregate(aggregatePipeline)
+  aggregate(aggregatePipeline: PipelineStage[]) {
+    return this.model.aggregate(aggregatePipeline)
   }
 }

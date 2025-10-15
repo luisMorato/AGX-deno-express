@@ -31,7 +31,7 @@ export class FetchUsersService {
     if (name) usersQuery.name = name
     if (email) usersQuery.email = email
 
-    const users = await this.userRepository.findMany(usersQuery)
+    const users = await this.userRepository.findMany(usersQuery).lean()
 
     return users || []
   }

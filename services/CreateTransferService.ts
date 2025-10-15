@@ -53,8 +53,8 @@ export class CreateTransferService {
       [dbSender],
       [dbReceiverBankAccount],
     ] = await Promise.all([
-      this.userRepository.aggregate(senderAggregatePipeline),
-      this.userRepository.aggregate(receiverAggregatePipeline),
+      await this.userRepository.aggregate(senderAggregatePipeline),
+      await this.userRepository.aggregate(receiverAggregatePipeline),
     ])
 
     if (!dbSender) throw throwlhos.err_notFound('Usuário não possui uma conta do banco')
@@ -72,16 +72,16 @@ export class CreateTransferService {
       session.startTransaction()
 
       await Promise.all([
-        this.userRepository
+        await this.userRepository
           .updateOne(
             { 'bankAccount.accountId': senderAccountId },
             { $inc: { 'bankAccount.balance': -amount } },
           ),
-        this.userRepository.updateOne(
+        await this.userRepository.updateOne(
           { 'bankAccount.accountId': receiverAccountId },
           { $inc: { 'bankAccount.balance': amount } },
         ),
-        this.transferRepository.insertOne({
+        await this.transferRepository.insertOne({
           amount,
           senderAccountId: senderAccountId,
           receiverAccountId: receiverAccountId,
@@ -95,24 +95,5 @@ export class CreateTransferService {
     } finally {
       session.endSession()
     }
-
-    // await session.withTransaction(async () => {
-    //   await Promise.all([
-    //     this.userRepository
-    //       .updateOne(
-    //         { 'bank_account.account_id': senderAccountId },
-    //         { $inc: { 'bank_account.balance': -amount } },
-    //       ),
-    //     this.userRepository.updateOne(
-    //       { 'bank_account.account_id': receiverAccountId },
-    //       { $inc: { 'bank_account.balance': amount } },
-    //     ),
-    //     this.transferRepository.insertOne({
-    //       amount,
-    //       sender_account_id: senderAccountId,
-    //       receiver_account_id: receiverAccountId,
-    //     }),
-    //   ])
-    // })
   }
 }

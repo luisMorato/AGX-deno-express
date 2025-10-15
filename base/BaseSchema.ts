@@ -2,14 +2,13 @@ import { Schema, SchemaDefinition, SchemaOptions } from 'mongoose'
 
 export class BaseSchema {
   public schema: Schema
+  private schemaOptions: SchemaOptions
 
   constructor(
     schema: SchemaDefinition,
     options: SchemaOptions = {},
   ) {
-    const schemaOptions: SchemaOptions = {
-      versionKey: false,
-    }
+    this.schemaOptions = options
 
     Object.assign(schema, {
       createdAt: {
@@ -18,14 +17,16 @@ export class BaseSchema {
       },
     })
 
-    Object.assign(schemaOptions, options)
+    this.schemaOptions = {
+      versionKey: false
+    }
 
     this.schema = new Schema(
       {
         ...schema,
-        __v: { type: Number, select: false },
+        // __v: { type: Number, select: false },
       },
-      schemaOptions,
+      this.schemaOptions,
     )
   }
 }
