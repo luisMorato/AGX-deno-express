@@ -135,7 +135,7 @@ export class UsersController {
 
       const deleteUserByIdService = new DeleteUserByIdService()
 
-      await deleteUserByIdService.execute({ id, tokenUserId: userId})
+      await deleteUserByIdService.execute({ id, tokenUserId: userId })
 
       return res.send_ok('Usuário excluído com sucesso')
     } catch (error) {

@@ -1,6 +1,6 @@
 import { join, toFileUrl } from 'https://deno.land/std@0.200.0/path/mod.ts'
 
-import type { TIndexes } from './db-indexes.ts'
+import type { TIndexes } from './DbIndexes.ts'
 
 async function collectTSFilesRecursively(dir: string, files: string[]) {
   for await (const entry of Deno.readDir(dir)) {

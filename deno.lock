@@ -9,6 +9,7 @@
     "npm:@types/swagger-ui-express@^4.1.8": "4.1.8",
     "npm:bcryptjs@^3.0.2": "3.0.2",
     "npm:cors@^2.8.5": "2.8.5",
+    "npm:date-fns@^4.1.0": "4.1.0",
     "npm:enquirer@^2.4.1": "2.4.1",
     "npm:express@*": "5.1.0",
     "npm:express@^5.1.0": "5.1.0",
@@ -285,6 +286,9 @@
         "object-assign",
         "vary"
       ]
+    },
+    "date-fns@4.1.0": {
+      "integrity": "sha512-Ukq0owbQXxa/U3EGtsdVBkR1w7KOQ5gIBqdH2hkvknzZPYvBxb/aa6E8L7tmjFtkwZBu3UXBbjIgPo/Ez4xaNg=="
     },
     "debug@2.6.9": {
       "integrity": "sha512-bC7ElrdJaJnPbAP+1EotYvqZsb3ecl5wi6Bfi6BJTUcNowp6cvspg0jXznRTKDjm/E7AdgFBVeAPVMNcKGsHMA==",
@@ -988,6 +992,7 @@
       "npm:@types/swagger-ui-express@^4.1.8",
       "npm:bcryptjs@^3.0.2",
       "npm:cors@^2.8.5",
+      "npm:date-fns@^4.1.0",
       "npm:enquirer@^2.4.1",
       "npm:express@^5.1.0",
       "npm:jsonwebtoken@^9.0.2",

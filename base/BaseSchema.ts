@@ -18,7 +18,7 @@ export class BaseSchema {
     })
 
     this.schemaOptions = {
-      versionKey: false
+      versionKey: false,
     }
 
     this.schema = new Schema(

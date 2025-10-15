@@ -81,4 +81,39 @@ transferRouter.get('/transfers', verifyJwt, transferController.list)
  */
 transferRouter.get('/transfers/:accountId', verifyJwt, transferController.findByAccountId)
 
+/**
+ * @openapi
+ * /transfers/{accountId}/resume/spent:
+ *   get:
+ *     security:
+ *       - bearerAuth: []
+ *     parameters:
+ *       - in: path
+ *         name: "accountId"
+ *         schema:
+ *           type: string
+ *         required: true
+ *       - in: query
+ *         name: "from"
+ *         schema:
+ *           type: date
+ *         required: false
+ *       - in: query
+ *         name: "to"
+ *         schema:
+ *          type: date
+ *         required: false
+ *     tags:
+ *        - transfers
+ *     description: "list an array of objects grouped by transaction type from a specific account, that shows how much a user spent."
+ *     responses:
+ *       200:
+ *         description: "Returns a list of objects that contains: transactionType, transactionsCount and totalSpent or an empty array."
+ *       404:
+ *         description: "Returns an error for: user bank account not found"
+ *       401:
+ *         description: "Returns an error for: user invalid credentials or token not provided/invalid."
+ */
+transferRouter.get('/transfers/:accountId/resume/spent', verifyJwt, transferController.spent)
+
 export { transferRouter }

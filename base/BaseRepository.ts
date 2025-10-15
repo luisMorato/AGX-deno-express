@@ -50,4 +50,8 @@ export class BaseRepository<
   aggregate(aggregatePipeline: PipelineStage[]) {
     return this.model.aggregate(aggregatePipeline)
   }
+
+  paginate() {
+    this.model
+  }
 }

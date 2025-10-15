@@ -1,5 +1,6 @@
 import is from '@zarco/isness'
 import { BaseRules } from '../../base/BaseRules.ts'
+import { ITransactionTypes } from '../../models/transfers/Transfer.ts'
 
 export class TransfersRules extends BaseRules {
   constructor() {
@@ -38,6 +39,11 @@ export class TransfersRules extends BaseRules {
       },
     ])
 
+    this.rc.addRule('transactionType', {
+      validator: (value: any) => Object.values(ITransactionTypes).includes(value),
+      message: 'Valor inválido para tipo da transação',
+    })
+
     this.rc.addRules('accountId', [
       {
         validator: is.string,
@@ -48,5 +54,15 @@ export class TransfersRules extends BaseRules {
         message: 'O id da conta deve conter 7 caracteres',
       },
     ])
+
+    this.rc.addRule('from', {
+      validator: (val: any) => is.date(new Date(val)),
+      message: `A propriedade 'from' deve ser do tipo date`,
+    })
+
+    this.rc.addRule('to', {
+      validator: (val: any) => is.date(new Date(val)),
+      message: `A propriedade 'to' deve ser do tipo date`,
+    })
   }
 }

@@ -1,6 +1,7 @@
 import { banksDB } from '../database/db/BanksDB.ts'
 import { throwlhos } from '../globals/Throwlhos.ts'
 import { UserRepository } from '../models/user/UserRepository.ts'
+import { ITransactionTypes } from '../models/transfers/Transfer.ts'
 import { TransferRepository } from '../models/transfers/TransferRepository.ts'
 
 type IcreateTransferServiceRequest = {
@@ -8,6 +9,7 @@ type IcreateTransferServiceRequest = {
   userId: string
   receiverAccountId: string
   amount: number
+  transactionType: ITransactionTypes
 }
 
 export class CreateTransferService {
@@ -25,11 +27,10 @@ export class CreateTransferService {
   async execute({
     amount,
     userId,
+    transactionType,
     senderAccountId,
     receiverAccountId,
   }: IcreateTransferServiceRequest) {
-    const session = await banksDB.startSession()
-
     const senderAggregatePipeline = [
       { $match: { 'bankAccount.accountId': senderAccountId } },
       {
@@ -68,14 +69,15 @@ export class CreateTransferService {
 
     if (senderBankAccount.balance < amount) throw throwlhos.err_forbidden('Usuário não possui dinheiro suficiente para essa transação')
 
-    try {
-      session.startTransaction()
+    const session = await banksDB.startSession()
+    session.startTransaction()
 
+    try {
       await Promise.all([
         await this.userRepository
           .updateOne(
             { 'bankAccount.accountId': senderAccountId },
-            { $inc: { 'bankAccount.balance': -amount } },
+            { $inc: { 'bankAccount.balance': -Math.abs(amount) } },
           ),
         await this.userRepository.updateOne(
           { 'bankAccount.accountId': receiverAccountId },
@@ -85,6 +87,7 @@ export class CreateTransferService {
           amount,
           senderAccountId: senderAccountId,
           receiverAccountId: receiverAccountId,
+          transactionType,
         }),
       ])
 

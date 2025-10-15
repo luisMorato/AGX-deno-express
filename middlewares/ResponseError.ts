@@ -26,10 +26,10 @@ export class ResponseError {
   private posFunctions: Function[] = []
 
   // deno-lint-ignore ban-types
-  public pre = (fn: Function) => this.preFunctions.push(fn)
+  public pre = (fn: Function) => this.preFunctions.push(fn) // (?)
 
   // deno-lint-ignore ban-types
-  public pos = (fn: Function) => this.posFunctions.push(fn)
+  public pos = (fn: Function) => this.posFunctions.push(fn) // (?)
 
   private options: IOptions
 
@@ -257,8 +257,7 @@ export class ResponseError {
     // const identificacaodoerrodaana = this.responserror.message.includes('ERRO DAHORA DA ANA')
     // if (identificacaodoerrodaana) schemaTypeErrors = SchemaTypeErrors.ErrorNovoLegalDaAna
 
-    /* Chose status by error type */
-
+    /* Chose status by error type without using nested if's or switch */
     const status = fnCode.default.one(
       schemaTypeErrors,
       {
@@ -279,6 +278,7 @@ export class ResponseError {
 
     if (isValidationSchemaError) {
       // @ts-ignore is necessary
+      //  Maps all validation errors into the errors field
       responserrorObject.errors = Object.entries(this.responserror.errors).map(
         ([field, { message }]: [string, { message: string }]) => {
           const fieldName = field
@@ -289,12 +289,14 @@ export class ResponseError {
         },
       )
 
+      //  Sets the principal error code and status
       if (responserrorObject.errors.length) {
         responserrorObject.status = 'BAD_REQUEST'
         responserrorObject.code = 400
       }
     }
 
+    //  If promptErrors prop is true, show errors on the terminal with console.error()
     if (
       this.options.promptErrors === true ||
       (typeof this.options.promptErrors === 'function' &&
@@ -306,11 +308,14 @@ export class ResponseError {
 
     this.posFunctions.forEach((fn) => fn.apply(null))
 
+    //  Deletes the prop '_message' from 'responserrorObject' (?)
     delete responserrorObject?._message
 
     // @ts-ignore: responserLikeStatus is a valid method
+    //  Checks if the status fits some of the responser return errors
     if (typeof response[`send_${responserLikeStatus}`] === 'function') {
       // @ts-ignore: responserLikeStatus is a valid method
+      //  If it fits some of responser pre configured errors function, then, returns it to the client
       return response[`send_${responserLikeStatus}`](
         this.responserror.message,
         responserrorObject?.errors,
@@ -318,17 +323,23 @@ export class ResponseError {
     }
 
     const defineResponseErrorCode = (responserrorObject: { code?: number }) => {
+      //  Checks if the error exists and it is a number
       if (responserrorObject?.code && !isNaN(responserrorObject.code)) {
         const code = Number(responserrorObject.code)
+        //  Checks if the incoming code is in a valid range of http status codes
         if (code >= 100 && code < 600) {
           return code
         }
       }
+
+      // returns the code or default 500
       return this.responserror.code ?? 500
     }
 
+    //  Defines the main error code to be returned, based on the 'responserrorObject' code prop
     const responseErrorCode = defineResponseErrorCode(responserrorObject)
 
+    //  Return's the error reponse to the client
     return response.status(responseErrorCode).json(responserrorObject)
   }
 }

@@ -71,7 +71,7 @@ class UserSchemaClass extends BaseSchema {
             gte: 0,
           },
         },
-      }
+      },
     )
   }
 }
