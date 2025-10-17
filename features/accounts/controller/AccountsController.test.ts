@@ -10,16 +10,42 @@ import { CreateUserBankAccountService } from '../../../services/CreateUserBankAc
 import { DeleteBankAccountByAccountId } from '../../../services/DeleteBankAccountByAccountId.ts'
 import { IncrementUserBankAccountBalanceService } from '../../../services/IncrementUserBankAccountBalanceService.ts'
 
-//  Success
-Deno.test('- [AccountsController]: it should be able to create a bank account', async () => {
-  const userRepository = new UserRepositoryMock()
+let userRepository: UserRepositoryMock
+let accountsController: AccountsController
+let createUserBankAccountService: CreateUserBankAccountService
+let findUserBankAccountService: FindUserBankAccountService
+let incrementUserBankAccountBalanceService: IncrementUserBankAccountBalanceService
+let deleteBankAccountByAccountId: DeleteBankAccountByAccountId
 
-  const accountsController = new AccountsController({
-    createUserBankAccountService: new CreateUserBankAccountService(
+Deno.test.beforeEach(() => {
+  userRepository = new UserRepositoryMock()
+
+  createUserBankAccountService = new CreateUserBankAccountService(
+    userRepository as unknown as UserRepository
+  )
+
+  findUserBankAccountService = new FindUserBankAccountService(
       userRepository as unknown as UserRepository
-    ),
-  })
+  )
 
+  incrementUserBankAccountBalanceService = new IncrementUserBankAccountBalanceService(
+    userRepository as unknown as UserRepository
+  )
+
+  deleteBankAccountByAccountId = new DeleteBankAccountByAccountId(
+    userRepository as unknown as UserRepository
+  )
+
+  accountsController = new AccountsController({
+    createUserBankAccountService,
+    findUserBankAccountService,
+    incrementUserBankAccountBalanceService,
+    deleteBankAccountByAccountId,
+  })
+})
+
+//  Success
+Deno.test('- [AccountsController]: it should be able to create a bank account', { sanitizeOps: false, sanitizeResources: false }, async () => {
   const mockRequest = {
     body: {
       userId: '680946cfbfa13bba4231296b'
@@ -37,15 +63,7 @@ Deno.test('- [AccountsController]: it should be able to create a bank account', 
 })
 
 // Error
-Deno.test(`- [AccountsController]: it shouldn't be able to create a bank account with a inexisting user`, async () => {
-  const userRepository = new UserRepositoryMock()
-
-  const accountsController = new AccountsController({
-    createUserBankAccountService: new CreateUserBankAccountService(
-      userRepository as unknown as UserRepository
-    ),
-  })
-
+Deno.test(`- [AccountsController]: it shouldn't be able to create a bank account with a inexisting user`, { sanitizeOps: false, sanitizeResources: false }, async () => {
   const mockRequest = {
     body: {
       userId: '680946cfbfa13bba42312789'
@@ -70,15 +88,7 @@ Deno.test(`- [AccountsController]: it shouldn't be able to create a bank account
 
 
 // Success
-Deno.test('- [AccountsController]: it should be able to retrive a bank account', async () => {
-  const userRepository = new UserRepositoryMock()
-
-  const accountsController = new AccountsController({
-    findUserBankAccountService: new FindUserBankAccountService(
-      userRepository as unknown as UserRepository
-    ),
-  })
-
+Deno.test('- [AccountsController]: it should be able to retrive a bank account', { sanitizeOps: false, sanitizeResources: false }, async () => {
   const mockRequest = {
     params: {
       id: 'VV96241'
@@ -87,10 +97,6 @@ Deno.test('- [AccountsController]: it should be able to retrive a bank account',
       id: '680946cfbfa13bba4231299j'
     }
   } as unknown as Request
-
-  // mockRequest.user = {
-  //   id: '680946cfbfa13bba4231299j'
-  // }
 
   const result = await accountsController.find(
     mockRequest,
@@ -102,15 +108,7 @@ Deno.test('- [AccountsController]: it should be able to retrive a bank account',
 })
 
 // Error
-Deno.test(`- [AccountsController]: it shouldn't be able to retrive a inexistent bank account`, async () => {
-  const userRepository = new UserRepositoryMock()
-
-  const accountsController = new AccountsController({
-    findUserBankAccountService: new FindUserBankAccountService(
-      userRepository as unknown as UserRepository
-    ),
-  })
-
+Deno.test(`- [AccountsController]: it shouldn't be able to retrive a inexistent bank account`, { sanitizeOps: false, sanitizeResources: false }, async () => {
   const mockRequest = {
     params: {
       id: 'VV12345'
@@ -138,15 +136,7 @@ Deno.test(`- [AccountsController]: it shouldn't be able to retrive a inexistent 
 
 
 // Success
-Deno.test('- [AccountsController]: it should be able to increment a bank account', async () => {
-  const userRepository = new UserRepositoryMock()
-
-  const accountsController = new AccountsController({
-    incrementUserBankAccountBalanceService: new IncrementUserBankAccountBalanceService(
-      userRepository as unknown as UserRepository
-    ),
-  })
-
+Deno.test('- [AccountsController]: it should be able to increment a bank account', { sanitizeOps: false, sanitizeResources: false }, async () => {
   const mockRequest = {
     body: {
       increment: 100
@@ -170,15 +160,7 @@ Deno.test('- [AccountsController]: it should be able to increment a bank account
 })
 
 // Error
-Deno.test(`- [AccountsController]: it shouldn't be able to increment a bank account with negative number`, async () => {
-  const userRepository = new UserRepositoryMock()
-
-  const accountsController = new AccountsController({
-    incrementUserBankAccountBalanceService: new IncrementUserBankAccountBalanceService(
-      userRepository as unknown as UserRepository
-    ),
-  })
-
+Deno.test(`- [AccountsController]: it shouldn't be able to increment a bank account with negative number`, { sanitizeOps: false, sanitizeResources: false }, async () => {
   const mockRequest = {
     body: {
       increment: -100
@@ -210,15 +192,7 @@ Deno.test(`- [AccountsController]: it shouldn't be able to increment a bank acco
 
 
 // Success
-Deno.test('- [AccountsController]: it should be able to delete a bank account', async () => {
-  const userRepository = new UserRepositoryMock()
-
-  const accountsController = new AccountsController({
-    deleteBankAccountByAccountId: new DeleteBankAccountByAccountId(
-      userRepository as unknown as UserRepository
-    )
-  })
-
+Deno.test('- [AccountsController]: it should be able to delete a bank account', { sanitizeOps: false, sanitizeResources: false }, async () => {
   const mockRequest = {
     params: {
       id: 'VV96241'
@@ -239,15 +213,7 @@ Deno.test('- [AccountsController]: it should be able to delete a bank account', 
 })
 
 // Error
-Deno.test(`- [AccountsController]: it shouldn't be able to delete a bank account from another user`, async () => {
-  const userRepository = new UserRepositoryMock()
-
-  const accountsController = new AccountsController({
-    deleteBankAccountByAccountId: new DeleteBankAccountByAccountId(
-      userRepository as unknown as UserRepository
-    )
-  })
-
+Deno.test(`- [AccountsController]: it shouldn't be able to delete a bank account from another user`, { sanitizeOps: false, sanitizeResources: false }, async () => {
   const mockRequest = {
     params: {
       id: 'VV96241' // AccountId from user: test2

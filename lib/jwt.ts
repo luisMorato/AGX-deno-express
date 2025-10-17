@@ -2,11 +2,10 @@ import jsonWebToken from 'jsonwebtoken'
 import npmTthrowlhos from 'throwlhos'
 import { JwtRepository } from './JwtRepository.ts'
 
-export class JWT extends JwtRepository {
+export class JWT implements JwtRepository {
   private JWT_SECRET: string
 
   constructor() {
-    super()
     this.JWT_SECRET = Deno.env.get('JWT_SECRET')!
     this.validate()
   }

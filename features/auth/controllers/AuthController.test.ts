@@ -9,6 +9,7 @@ import { UserRepository } from '../../../models/user/UserRepository.ts'
 import { UserRepositoryMock } from '../../__mocks__/UserRepositoryMock.ts'
 import { AuthenticateService } from '../../../services/AuthenticateService.ts'
 import { EncrypterRepository } from '../../../lib/EncrypterRepository.ts'
+import { Encrypter } from '../../../lib/Encrypter.ts'
 
 class EncrypterMock implements EncrypterRepository {
   async compare(_password: string, _hash: string) {
@@ -16,7 +17,7 @@ class EncrypterMock implements EncrypterRepository {
   }
 
   async encrypt(_password: string) {
-    return await ''
+    return await 'hashed password'
   }
 }
 
@@ -24,32 +25,46 @@ class JWTMock implements JwtRepository {
   private JWT_SECRET: string
 
   constructor() {
-    this.JWT_SECRET = ''
+    this.JWT_SECRET = 'my_super_secret_test'
+    this.validate()
   }
 
-  validate() {}
+  validate() {
+    console.log('JWT_SECRET: ', this.JWT_SECRET)
+  }
 
   verify(_token: string) {}
 
-  sign(_payload: any) { return '' }
+  sign(_payload: any) { return 'payload' }
 
   decode<T>(_token: string): T {
     return {} as T
   }
 }
 
-Deno.test('- [AuthController]: it should be able to authenticate', async () => {
-  const userRepositoryMock = new UserRepositoryMock() as unknown as UserRepository
-  const authenticateService = new AuthenticateService({
-    userRepository: userRepositoryMock,
-    encrypter: new EncrypterMock(),
+let userRepositoryMock: UserRepositoryMock
+let encrypter: EncrypterMock
+let jwtMock: JWTMock
+let authenticateService: AuthenticateService
+let authController: AuthController
+
+Deno.test.beforeEach(() => {
+  userRepositoryMock = new UserRepositoryMock()
+  encrypter = new EncrypterMock() as unknown as Encrypter
+  jwtMock = new JWTMock()
+
+  authenticateService = new AuthenticateService({
+    userRepository: userRepositoryMock as unknown as UserRepository,
+    encrypter,
   })
 
-  const authController = new AuthController({
+  authController = new AuthController({
     authenticateService,
-    jwt: new JWTMock() as unknown as JWT
+    jwt: jwtMock as unknown as JWT,
   })
+})
 
+Deno.test('- [AuthController]: it should be able to authenticate', { sanitizeOps: false, sanitizeResources: false }, async () => {
   const mockRequest = {
     body: {
       email: 'test@test.com',

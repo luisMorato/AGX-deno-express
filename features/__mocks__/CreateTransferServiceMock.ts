@@ -1,8 +1,7 @@
-import { banksDB } from '../database/db/BanksDB.ts'
-import { throwlhos } from '../globals/Throwlhos.ts'
-import { UserRepository } from '../models/user/UserRepository.ts'
-import { ITransactionTypes } from '../models/transfers/Transfer.ts'
-import { TransferRepository } from '../models/transfers/TransferRepository.ts'
+import { throwlhos } from '../../globals/Throwlhos.ts'
+import { UserRepository } from '../../models/user/UserRepository.ts'
+import { ITransactionTypes } from './TransferRepositoryMock.ts'
+import { TransferRepository } from '../../models/transfers/TransferRepository.ts'
 
 type IcreateTransferServiceRequest = {
   senderAccountId: string
@@ -12,17 +11,11 @@ type IcreateTransferServiceRequest = {
   transactionType: ITransactionTypes
 }
 
-export class CreateTransferService {
-  public transferRepository: TransferRepository
-  public userRepository: UserRepository
-
+export class CreateTransferServiceMock {
   constructor(
-    transferRepository = new TransferRepository(),
-    userRepository = new UserRepository(),
-  ) {
-    this.transferRepository = transferRepository
-    this.userRepository = userRepository
-  }
+    public transferRepository: TransferRepository,
+    public userRepository:  UserRepository,
+  ) {}
 
   async execute({
     amount,
@@ -69,9 +62,6 @@ export class CreateTransferService {
 
     if (senderBankAccount.balance < amount) throw throwlhos.err_forbidden('Usuário não possui dinheiro suficiente para essa transação')
 
-    const session = await banksDB.startSession()
-    session.startTransaction()
-
     try {
       await Promise.all([
         await this.userRepository
@@ -91,12 +81,9 @@ export class CreateTransferService {
         }),
       ])
 
-      session.commitTransaction()
     } catch (error) {
-      session.abortTransaction()
+      throwlhos.err_internalServerError('Erro ao realizar transação')
       throw error
-    } finally {
-      session.endSession()
     }
   }
 }

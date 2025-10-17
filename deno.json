@@ -1,7 +1,7 @@
 {
   "tasks": {
     "dev": "deno run --watch -A --env-file server.ts",
-    "test": "deno test --no-check --env-file -A",
+    "test": "deno test --no-check --trace-leaks --env-file -A",
     "test:coverage": "deno test --coverage --no-check --env-file -A",
     "scripts": "deno run -A --sloppy-imports scripts.ts"
   },
@@ -19,7 +19,7 @@
     "enquirer": "npm:enquirer@^2.4.1",
     "express": "npm:express@^5.1.0",
     "jsonwebtoken": "npm:jsonwebtoken@^9.0.2",
-    "mongoose": "npm:mongoose@8.3.2",
+    "mongoose": "npm:mongoose@^8.19.1",
     "morgan": "npm:morgan@^1.10.1",
     "request-check": "npm:request-check@^1.5.4",
     "responser": "npm:responser@^2.5.6",

@@ -29,7 +29,7 @@ export class UserRepositoryMock {
       birthdate: new Date('2025-10-17T00:53:22.615Z'),
       bankAccount: {
         accountId: 'VV96241',
-        balance: 0,
+        balance: 2000,
       }
     },
     {
@@ -40,16 +40,22 @@ export class UserRepositoryMock {
       birthdate: new Date('2025-10-17T00:53:22.615Z'),
       bankAccount: {
         accountId: 'RQ48460',
-        balance: 0,
+        balance: 5000,
       }
     },
   ]
 
   findMany(query: FilterQuery<Iuser>) {
-    const data = this.usersMockData.filter(({ name, email }) => {
-      return name.toLowerCase() === query.name || email.toLowerCase() === query.email
-    })
+    let data = this.usersMockData
 
+    if (query.name) {
+      data = data.filter(({ name }) => name.toLowerCase() === query.name)
+    }
+
+    if (query.email) {
+      data = data.filter(({ email }) => email.toLowerCase() === query.email)
+    }
+    
     return Promise.resolve(data)
   }
 
