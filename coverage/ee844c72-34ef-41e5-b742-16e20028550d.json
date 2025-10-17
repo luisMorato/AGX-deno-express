@@ -1,0 +1,22 @@
+{
+  "scriptId": "456",
+  "url": "file:///C:/Users/luisf/AppData/Local/deno/npm/registry.npmjs.org/follow-redirects/1.15.11/index.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 604,
+          "count": 1
+        },
+        {
+          "startOffset": 189,
+          "endOffset": 339,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": true
+    }
+  ]
+}

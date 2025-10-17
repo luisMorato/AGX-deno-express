@@ -1,0 +1,50 @@
+{
+  "scriptId": "393",
+  "url": "file:///C:/Users/luisf/AppData/Local/deno/npm/registry.npmjs.org/axios/1.12.2/lib/helpers/formDataToJSON.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 2164,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "parsePropPath",
+      "ranges": [
+        {
+          "startOffset": 246,
+          "endOffset": 467,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "arrayToObject",
+      "ranges": [
+        {
+          "startOffset": 647,
+          "endOffset": 868,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "formDataToJSON",
+      "ranges": [
+        {
+          "startOffset": 1077,
+          "endOffset": 2131,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    }
+  ]
+}

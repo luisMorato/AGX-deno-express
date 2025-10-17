@@ -1,0 +1,28 @@
+{
+  "scriptId": "470",
+  "url": "file:///C:/Users/luisf/AppData/Local/deno/npm/registry.npmjs.org/axios/1.12.2/lib/helpers/speedometer.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 1092,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "speedometer",
+      "ranges": [
+        {
+          "startOffset": 141,
+          "endOffset": 1062,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    }
+  ]
+}

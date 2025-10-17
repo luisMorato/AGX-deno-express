@@ -1,0 +1,251 @@
+{
+  "scriptId": "474",
+  "url": "file:///C:/Users/luisf/AppData/Local/deno/npm/registry.npmjs.org/axios-mock-adapter/2.1.0/src/index.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 7810,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 1,
+          "endOffset": 7809,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 214,
+          "endOffset": 7803,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "getVerbArray",
+      "ranges": [
+        {
+          "startOffset": 447,
+          "endOffset": 719,
+          "count": 2
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 507,
+          "endOffset": 701,
+          "count": 20
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "get",
+      "ranges": [
+        {
+          "startOffset": 570,
+          "endOffset": 688,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "AxiosMockAdapter",
+      "ranges": [
+        {
+          "startOffset": 748,
+          "endOffset": 1464,
+          "count": 1
+        },
+        {
+          "startOffset": 1107,
+          "endOffset": 1118,
+          "count": 0
+        },
+        {
+          "startOffset": 1235,
+          "endOffset": 1258,
+          "count": 0
+        },
+        {
+          "startOffset": 1377,
+          "endOffset": 1460,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "adapter",
+      "ranges": [
+        {
+          "startOffset": 1468,
+          "endOffset": 1536,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 1492,
+          "endOffset": 1531,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "restore",
+      "ranges": [
+        {
+          "startOffset": 1540,
+          "endOffset": 1693,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "reset",
+      "ranges": [
+        {
+          "startOffset": 1697,
+          "endOffset": 1762,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "resetHandlers",
+      "ranges": [
+        {
+          "startOffset": 1766,
+          "endOffset": 1878,
+          "count": 1
+        },
+        {
+          "startOffset": 1808,
+          "endOffset": 1833,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "resetHistory",
+      "ranges": [
+        {
+          "startOffset": 1882,
+          "endOffset": 1990,
+          "count": 1
+        },
+        {
+          "startOffset": 1922,
+          "endOffset": 1946,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "convertDataAndConfigToConfig",
+      "ranges": [
+        {
+          "startOffset": 2077,
+          "endOffset": 2337,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "validateconfig",
+      "ranges": [
+        {
+          "startOffset": 2402,
+          "endOffset": 2759,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "toMethodName",
+      "ranges": [
+        {
+          "startOffset": 2761,
+          "endOffset": 2861,
+          "count": 11
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 2891,
+          "endOffset": 6533,
+          "count": 11
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "AxiosMockAdapter.<computed>",
+      "ranges": [
+        {
+          "startOffset": 2964,
+          "endOffset": 6530,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "findInHandlers",
+      "ranges": [
+        {
+          "startOffset": 6537,
+          "endOffset": 7192,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "addHandler",
+      "ranges": [
+        {
+          "startOffset": 7194,
+          "endOffset": 7721,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "scriptId": "1026",
+  "url": "file:///C:/Users/luisf/AppData/Local/deno/npm/registry.npmjs.org/mongoose/8.3.2/lib/helpers/printJestWarning.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 1179,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 1,
+          "endOffset": 1178,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 214,
+          "endOffset": 1172,
+          "count": 1
+        },
+        {
+          "startOffset": 304,
+          "endOffset": 342,
+          "count": 0
+        },
+        {
+          "startOffset": 344,
+          "endOffset": 1169,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": true
+    }
+  ]
+}

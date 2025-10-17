@@ -1,0 +1,171 @@
+{
+  "scriptId": "670",
+  "url": "file:///C:/Users/luisf/AppData/Local/deno/npm/registry.npmjs.org/mongodb/6.5.0/lib/sdam/server_description.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 7994,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 1,
+          "endOffset": 7993,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 214,
+          "endOffset": 7987,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "ServerDescription",
+      "ranges": [
+        {
+          "startOffset": 1327,
+          "endOffset": 2970,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "get hostAddress",
+      "ranges": [
+        {
+          "startOffset": 2975,
+          "endOffset": 3061,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "get allHosts",
+      "ranges": [
+        {
+          "startOffset": 3066,
+          "endOffset": 3159,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "get isReadable",
+      "ranges": [
+        {
+          "startOffset": 3209,
+          "endOffset": 3314,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "get isDataBearing",
+      "ranges": [
+        {
+          "startOffset": 3358,
+          "endOffset": 3442,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "get isWritable",
+      "ranges": [
+        {
+          "startOffset": 3494,
+          "endOffset": 3571,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "get host",
+      "ranges": [
+        {
+          "startOffset": 3576,
+          "endOffset": 3696,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "get port",
+      "ranges": [
+        {
+          "startOffset": 3701,
+          "endOffset": 3828,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "equals",
+      "ranges": [
+        {
+          "startOffset": 4120,
+          "endOffset": 5352,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "parseServerType",
+      "ranges": [
+        {
+          "startOffset": 5461,
+          "endOffset": 6385,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "tagsStrictEqual",
+      "ranges": [
+        {
+          "startOffset": 6429,
+          "endOffset": 6664,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "compareTopologyVersion",
+      "ranges": [
+        {
+          "startOffset": 7312,
+          "endOffset": 7881,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    }
+  ]
+}

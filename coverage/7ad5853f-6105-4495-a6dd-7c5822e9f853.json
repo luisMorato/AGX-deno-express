@@ -1,0 +1,270 @@
+{
+  "scriptId": "946",
+  "url": "file:///C:/Users/luisf/AppData/Local/deno/npm/registry.npmjs.org/mongoose/8.3.2/lib/types/subdocument.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 10040,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 1,
+          "endOffset": 10039,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 214,
+          "endOffset": 10033,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "Subdocument",
+      "ranges": [
+        {
+          "startOffset": 582,
+          "endOffset": 1242,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "Subdocument.toBSON",
+      "ranges": [
+        {
+          "startOffset": 1607,
+          "endOffset": 1670,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "save",
+      "ranges": [
+        {
+          "startOffset": 1911,
+          "endOffset": 2461,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "Subdocument.$__fullPath",
+      "ranges": [
+        {
+          "startOffset": 2729,
+          "endOffset": 2882,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "Subdocument.$__pathRelativeToParent",
+      "ranges": [
+        {
+          "startOffset": 3171,
+          "endOffset": 3276,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "Subdocument.$__save",
+      "ranges": [
+        {
+          "startOffset": 3501,
+          "endOffset": 3559,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "Subdocument.$isValid",
+      "ranges": [
+        {
+          "startOffset": 3614,
+          "endOffset": 3861,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "Subdocument.markModified",
+      "ranges": [
+        {
+          "startOffset": 3920,
+          "endOffset": 4326,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "Subdocument.isModified",
+      "ranges": [
+        {
+          "startOffset": 4383,
+          "endOffset": 4922,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "Subdocument.$markValid",
+      "ranges": [
+        {
+          "startOffset": 5149,
+          "endOffset": 5386,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "Subdocument.invalidate",
+      "ranges": [
+        {
+          "startOffset": 5443,
+          "endOffset": 5862,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "Subdocument.$ignore",
+      "ranges": [
+        {
+          "startOffset": 5916,
+          "endOffset": 6147,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "Subdocument.ownerDocument",
+      "ranges": [
+        {
+          "startOffset": 6278,
+          "endOffset": 7042,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "Subdocument.$__fullPathWithIndexes",
+      "ranges": [
+        {
+          "startOffset": 7111,
+          "endOffset": 7722,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "Subdocument.parent",
+      "ranges": [
+        {
+          "startOffset": 7830,
+          "endOffset": 7869,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "Subdocument.$__deleteOne",
+      "ranges": [
+        {
+          "startOffset": 8195,
+          "endOffset": 8272,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "Subdocument.$__removeFromParent",
+      "ranges": [
+        {
+          "startOffset": 8423,
+          "endOffset": 8481,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "Subdocument.deleteOne",
+      "ranges": [
+        {
+          "startOffset": 8682,
+          "endOffset": 8997,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "Subdocument.populate",
+      "ranges": [
+        {
+          "startOffset": 9052,
+          "endOffset": 9243,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "Subdocument.inspect",
+      "ranges": [
+        {
+          "startOffset": 9331,
+          "endOffset": 9371,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "registerRemoveListener",
+      "ranges": [
+        {
+          "startOffset": 9653,
+          "endOffset": 10030,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    }
+  ]
+}

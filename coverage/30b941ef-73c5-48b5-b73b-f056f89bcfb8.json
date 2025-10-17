@@ -1,0 +1,61 @@
+{
+  "scriptId": "445",
+  "url": "file:///C:/Users/luisf/AppData/Local/deno/npm/registry.npmjs.org/axios/1.12.2/lib/helpers/AxiosURLSearchParams.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 1439,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "encode",
+      "ranges": [
+        {
+          "startOffset": 288,
+          "endOffset": 572,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "AxiosURLSearchParams",
+      "ranges": [
+        {
+          "startOffset": 860,
+          "endOffset": 978,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "append",
+      "ranges": [
+        {
+          "startOffset": 1050,
+          "endOffset": 1117,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "toString",
+      "ranges": [
+        {
+          "startOffset": 1141,
+          "endOffset": 1399,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    }
+  ]
+}

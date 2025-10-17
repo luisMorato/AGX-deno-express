@@ -1,0 +1,83 @@
+{
+  "scriptId": "396",
+  "url": "file:///C:/Users/luisf/AppData/Local/deno/npm/registry.npmjs.org/axios/1.12.2/lib/cancel/CancelToken.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 2789,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "CancelToken",
+      "ranges": [
+        {
+          "startOffset": 269,
+          "endOffset": 1502,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "throwIfRequested",
+      "ranges": [
+        {
+          "startOffset": 1584,
+          "endOffset": 1662,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "subscribe",
+      "ranges": [
+        {
+          "startOffset": 1715,
+          "endOffset": 1933,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "unsubscribe",
+      "ranges": [
+        {
+          "startOffset": 1990,
+          "endOffset": 2188,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "toAbortSignal",
+      "ranges": [
+        {
+          "startOffset": 2192,
+          "endOffset": 2452,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "source",
+      "ranges": [
+        {
+          "startOffset": 2598,
+          "endOffset": 2757,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    }
+  ]
+}

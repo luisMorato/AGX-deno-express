@@ -17,10 +17,10 @@ export class AuthenticateService {
   private userRepository: UserRepository
   private encrypter: Encrypter
 
-  constructor(
+  constructor({
     userRepository = new UserRepository(),
     encrypter = new Encrypter(),
-  ) {
+  } = {}) {
     this.userRepository = userRepository
     this.encrypter = encrypter
   }

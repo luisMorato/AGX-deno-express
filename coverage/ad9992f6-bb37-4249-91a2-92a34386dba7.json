@@ -1,0 +1,160 @@
+{
+  "scriptId": "546",
+  "url": "file:///C:/Users/luisf/AppData/Local/deno/npm/registry.npmjs.org/jws/3.2.2/lib/verify-stream.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 3456,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 1,
+          "endOffset": 3455,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 214,
+          "endOffset": 3449,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "isObject",
+      "ranges": [
+        {
+          "startOffset": 527,
+          "endOffset": 625,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "safeJsonParse",
+      "ranges": [
+        {
+          "startOffset": 627,
+          "endOffset": 771,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "headerFromJWS",
+      "ranges": [
+        {
+          "startOffset": 773,
+          "endOffset": 935,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "securedInputFromJWS",
+      "ranges": [
+        {
+          "startOffset": 937,
+          "endOffset": 1018,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "signatureFromJWS",
+      "ranges": [
+        {
+          "startOffset": 1020,
+          "endOffset": 1088,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "payloadFromJWS",
+      "ranges": [
+        {
+          "startOffset": 1090,
+          "endOffset": 1266,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "isValidJws",
+      "ranges": [
+        {
+          "startOffset": 1268,
+          "endOffset": 1359,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "jwsVerify",
+      "ranges": [
+        {
+          "startOffset": 1361,
+          "endOffset": 1773,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "jwsDecode",
+      "ranges": [
+        {
+          "startOffset": 1775,
+          "endOffset": 2209,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "VerifyStream",
+      "ranges": [
+        {
+          "startOffset": 2211,
+          "endOffset": 2836,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "verify",
+      "ranges": [
+        {
+          "startOffset": 2906,
+          "endOffset": 3311,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    }
+  ]
+}

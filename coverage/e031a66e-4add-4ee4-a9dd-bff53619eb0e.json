@@ -1,0 +1,465 @@
+{
+  "scriptId": "529",
+  "url": "file:///C:/Users/luisf/AppData/Local/deno/npm/registry.npmjs.org/follow-redirects/1.15.11/index.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 20855,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 1,
+          "endOffset": 20854,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 214,
+          "endOffset": 20848,
+          "count": 1
+        },
+        {
+          "startOffset": 2282,
+          "endOffset": 2289,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "detectUnsupportedEnvironment",
+      "ranges": [
+        {
+          "startOffset": 490,
+          "endOffset": 891,
+          "count": 1
+        },
+        {
+          "startOffset": 641,
+          "endOffset": 675,
+          "count": 0
+        },
+        {
+          "startOffset": 755,
+          "endOffset": 792,
+          "count": 0
+        },
+        {
+          "startOffset": 794,
+          "endOffset": 889,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 1479,
+          "endOffset": 1613,
+          "count": 6
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "eventHandlers.<computed>",
+      "ranges": [
+        {
+          "startOffset": 1523,
+          "endOffset": 1610,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "RedirectableRequest",
+      "ranges": [
+        {
+          "startOffset": 2337,
+          "endOffset": 3151,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "RedirectableRequest.abort",
+      "ranges": [
+        {
+          "startOffset": 3258,
+          "endOffset": 3367,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "RedirectableRequest.destroy",
+      "ranges": [
+        {
+          "startOffset": 3410,
+          "endOffset": 3521,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "RedirectableRequest.write",
+      "ranges": [
+        {
+          "startOffset": 3616,
+          "endOffset": 4691,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "RedirectableRequest.end",
+      "ranges": [
+        {
+          "startOffset": 4765,
+          "endOffset": 5381,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "RedirectableRequest.setHeader",
+      "ranges": [
+        {
+          "startOffset": 5479,
+          "endOffset": 5591,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "RedirectableRequest.removeHeader",
+      "ranges": [
+        {
+          "startOffset": 5694,
+          "endOffset": 5794,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "RedirectableRequest.setTimeout",
+      "ranges": [
+        {
+          "startOffset": 5886,
+          "endOffset": 7494,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 7626,
+          "endOffset": 7759,
+          "count": 4
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "RedirectableRequest.<computed>",
+      "ranges": [
+        {
+          "startOffset": 7688,
+          "endOffset": 7756,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 7852,
+          "endOffset": 8013,
+          "count": 3
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "get",
+      "ranges": [
+        {
+          "startOffset": 7950,
+          "endOffset": 8004,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "RedirectableRequest._sanitizeOptions",
+      "ranges": [
+        {
+          "startOffset": 8066,
+          "endOffset": 8887,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "RedirectableRequest._performRequest",
+      "ranges": [
+        {
+          "startOffset": 8997,
+          "endOffset": 11136,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "RedirectableRequest._processResponse",
+      "ranges": [
+        {
+          "startOffset": 11244,
+          "endOffset": 15528,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "wrap",
+      "ranges": [
+        {
+          "startOffset": 15602,
+          "endOffset": 17600,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 15819,
+          "endOffset": 17578,
+          "count": 2
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "request",
+      "ranges": [
+        {
+          "startOffset": 16071,
+          "endOffset": 17057,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "get",
+      "ranges": [
+        {
+          "startOffset": 17114,
+          "endOffset": 17295,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "noop",
+      "ranges": [
+        {
+          "startOffset": 17602,
+          "endOffset": 17633,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "parseUrl",
+      "ranges": [
+        {
+          "startOffset": 17635,
+          "endOffset": 17964,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "resolveUrl",
+      "ranges": [
+        {
+          "startOffset": 17966,
+          "endOffset": 18120,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "validateUrl",
+      "ranges": [
+        {
+          "startOffset": 18122,
+          "endOffset": 18464,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "spreadUrlObject",
+      "ranges": [
+        {
+          "startOffset": 18466,
+          "endOffset": 18964,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "removeMatchingHeaders",
+      "ranges": [
+        {
+          "startOffset": 18966,
+          "endOffset": 19280,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "createErrorType",
+      "ranges": [
+        {
+          "startOffset": 19282,
+          "endOffset": 20024,
+          "count": 5
+        },
+        {
+          "startOffset": 19773,
+          "endOffset": 19781,
+          "count": 3
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "CustomError",
+      "ranges": [
+        {
+          "startOffset": 19361,
+          "endOffset": 19679,
+          "count": 1
+        },
+        {
+          "startOffset": 19627,
+          "endOffset": 19664,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "destroyRequest",
+      "ranges": [
+        {
+          "startOffset": 20026,
+          "endOffset": 20215,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "isSubdomain",
+      "ranges": [
+        {
+          "startOffset": 20217,
+          "endOffset": 20435,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "isString",
+      "ranges": [
+        {
+          "startOffset": 20437,
+          "endOffset": 20528,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "isFunction",
+      "ranges": [
+        {
+          "startOffset": 20530,
+          "endOffset": 20598,
+          "count": 2
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "isBuffer",
+      "ranges": [
+        {
+          "startOffset": 20600,
+          "endOffset": 20687,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "isURL",
+      "ranges": [
+        {
+          "startOffset": 20689,
+          "endOffset": 20752,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    }
+  ]
+}

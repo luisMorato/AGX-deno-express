@@ -1,0 +1,39 @@
+{
+  "scriptId": "435",
+  "url": "file:///C:/Users/luisf/AppData/Local/deno/npm/registry.npmjs.org/axios/1.12.2/lib/core/dispatchRequest.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 2195,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "throwIfCancellationRequested",
+      "ranges": [
+        {
+          "startOffset": 480,
+          "endOffset": 700,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "dispatchRequest",
+      "ranges": [
+        {
+          "startOffset": 919,
+          "endOffset": 2194,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    }
+  ]
+}

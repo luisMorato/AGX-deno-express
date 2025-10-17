@@ -7,9 +7,18 @@ import { AuthenticateService } from '../../../services/AuthenticateService.ts'
 const rules = new AuthRules()
 
 export class AuthController {
-  constructor() {}
+  private authenticateService: AuthenticateService
+  private jwt: JWT
 
-  async authenticate(req: Request, res: Response, next: NextFunction) {
+  constructor({
+    authenticateService = new AuthenticateService(),
+    jwt = new JWT()
+  } = {}) {
+    this.authenticateService = authenticateService
+    this.jwt = jwt
+  }
+
+  authenticate = async (req: Request, res: Response, next: NextFunction) => {
     try {
       const { email, password } = req.body
 
@@ -18,16 +27,12 @@ export class AuthController {
         { password, isRequiredField: true },
       )
 
-      const authenticateService = new AuthenticateService()
-
-      const { userId } = await authenticateService.execute({
+      const { userId } = await this.authenticateService.execute({
         email,
         password,
       })
 
-      const jwt = new JWT()
-
-      const token = jwt.sign({
+      const token = await this.jwt.sign({
         payload: {
           userId,
         },

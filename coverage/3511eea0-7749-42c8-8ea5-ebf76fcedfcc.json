@@ -1,0 +1,70 @@
+{
+  "scriptId": "560",
+  "url": "file:///C:/Users/luisf/AppData/Local/deno/npm/registry.npmjs.org/semver/7.7.3/internal/parse-options.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 568,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 1,
+          "endOffset": 567,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 214,
+          "endOffset": 561,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "parseOptions",
+      "ranges": [
+        {
+          "startOffset": 388,
+          "endOffset": 528,
+          "count": 30
+        },
+        {
+          "startOffset": 417,
+          "endOffset": 443,
+          "count": 12
+        },
+        {
+          "startOffset": 443,
+          "endOffset": 480,
+          "count": 18
+        },
+        {
+          "startOffset": 480,
+          "endOffset": 508,
+          "count": 0
+        },
+        {
+          "startOffset": 508,
+          "endOffset": 527,
+          "count": 18
+        }
+      ],
+      "isBlockCoverage": true
+    }
+  ]
+}

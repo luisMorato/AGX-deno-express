@@ -1,0 +1,65 @@
+{
+  "scriptId": "741",
+  "url": "file:///C:/Users/luisf/AppData/Local/deno/npm/registry.npmjs.org/mongoose/8.3.2/lib/helpers/isPOJO.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 663,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 1,
+          "endOffset": 662,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 214,
+          "endOffset": 656,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "isPOJO",
+      "ranges": [
+        {
+          "startOffset": 253,
+          "endOffset": 652,
+          "count": 58
+        },
+        {
+          "startOffset": 294,
+          "endOffset": 320,
+          "count": 51
+        },
+        {
+          "startOffset": 322,
+          "endOffset": 345,
+          "count": 35
+        },
+        {
+          "startOffset": 345,
+          "endOffset": 649,
+          "count": 23
+        }
+      ],
+      "isBlockCoverage": true
+    }
+  ]
+}

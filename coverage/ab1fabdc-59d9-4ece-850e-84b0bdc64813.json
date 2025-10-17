@@ -1,0 +1,91 @@
+{
+  "scriptId": "919",
+  "url": "file:///C:/Users/luisf/AppData/Local/deno/npm/registry.npmjs.org/mongoose/8.3.2/lib/helpers/model/applyMethods.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 2438,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 1,
+          "endOffset": 2437,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 214,
+          "endOffset": 2431,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "applyMethods",
+      "ranges": [
+        {
+          "startOffset": 436,
+          "endOffset": 2427,
+          "count": 1
+        },
+        {
+          "startOffset": 881,
+          "endOffset": 1996,
+          "count": 0
+        },
+        {
+          "startOffset": 2133,
+          "endOffset": 2425,
+          "count": 7
+        },
+        {
+          "startOffset": 2200,
+          "endOffset": 2231,
+          "count": 0
+        },
+        {
+          "startOffset": 2233,
+          "endOffset": 2286,
+          "count": 0
+        },
+        {
+          "startOffset": 2325,
+          "endOffset": 2361,
+          "count": 0
+        },
+        {
+          "startOffset": 2363,
+          "endOffset": 2421,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "apply",
+      "ranges": [
+        {
+          "startOffset": 518,
+          "endOffset": 828,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    }
+  ]
+}

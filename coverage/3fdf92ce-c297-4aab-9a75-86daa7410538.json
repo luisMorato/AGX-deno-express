@@ -1,0 +1,70 @@
+{
+  "scriptId": "341",
+  "url": "file:///C:/Users/luisf/OneDrive/Desktop/AGX-Software/AGX-deno-express/services/CreateUserBankAccountService.ts",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 785,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "<instance_members_initializer>",
+      "ranges": [
+        {
+          "startOffset": 233,
+          "endOffset": 247,
+          "count": 5
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "CreateUserBankAccountService",
+      "ranges": [
+        {
+          "startOffset": 251,
+          "endOffset": 348,
+          "count": 5
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "execute",
+      "ranges": [
+        {
+          "startOffset": 351,
+          "endOffset": 782,
+          "count": 2
+        },
+        {
+          "startOffset": 498,
+          "endOffset": 579,
+          "count": 1
+        },
+        {
+          "startOffset": 579,
+          "endOffset": 590,
+          "count": 0
+        },
+        {
+          "startOffset": 592,
+          "endOffset": 652,
+          "count": 0
+        },
+        {
+          "startOffset": 652,
+          "endOffset": 781,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    }
+  ]
+}

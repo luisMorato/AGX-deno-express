@@ -1,0 +1,22 @@
+{
+  "scriptId": "446",
+  "url": "file:///C:/Users/luisf/AppData/Local/deno/npm/registry.npmjs.org/mongoose/8.3.2/index.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 2592,
+          "count": 1
+        },
+        {
+          "startOffset": 189,
+          "endOffset": 329,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": true
+    }
+  ]
+}

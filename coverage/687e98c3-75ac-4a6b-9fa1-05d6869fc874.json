@@ -1,0 +1,157 @@
+{
+  "scriptId": "535",
+  "url": "file:///C:/Users/luisf/AppData/Local/deno/npm/registry.npmjs.org/throwlhos/1.0.1/index.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 1946,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 1,
+          "endOffset": 1945,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 214,
+          "endOffset": 1939,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "__importDefault",
+      "ranges": [
+        {
+          "startOffset": 292,
+          "endOffset": 375,
+          "count": 1
+        },
+        {
+          "startOffset": 351,
+          "endOffset": 371,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "camelCase",
+      "ranges": [
+        {
+          "startOffset": 532,
+          "endOffset": 640,
+          "count": 42
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 593,
+          "endOffset": 636,
+          "count": 56
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "addThrowlhosToObject",
+      "ranges": [
+        {
+          "startOffset": 670,
+          "endOffset": 1728,
+          "count": 1
+        },
+        {
+          "startOffset": 1390,
+          "endOffset": 1502,
+          "count": 55
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "_loop_1",
+      "ranges": [
+        {
+          "startOffset": 709,
+          "endOffset": 1294,
+          "count": 55
+        },
+        {
+          "startOffset": 786,
+          "endOffset": 819,
+          "count": 53
+        },
+        {
+          "startOffset": 820,
+          "endOffset": 871,
+          "count": 53
+        },
+        {
+          "startOffset": 873,
+          "endOffset": 1287,
+          "count": 42
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "object.<computed>",
+      "ranges": [
+        {
+          "startOffset": 929,
+          "endOffset": 1275,
+          "count": 1
+        },
+        {
+          "startOffset": 1141,
+          "endOffset": 1202,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "object.err_custom",
+      "ranges": [
+        {
+          "startOffset": 1531,
+          "endOffset": 1724,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "middleware",
+      "ranges": [
+        {
+          "startOffset": 1766,
+          "endOffset": 1867,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    }
+  ]
+}

@@ -1,0 +1,485 @@
+{
+  "scriptId": "826",
+  "url": "file:///C:/Users/luisf/AppData/Local/deno/npm/registry.npmjs.org/mongoose/8.3.2/lib/utils.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 22431,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 1,
+          "endOffset": 22430,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 214,
+          "endOffset": 22424,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "exports.toCollectionName",
+      "ranges": [
+        {
+          "startOffset": 1917,
+          "endOffset": 2146,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "deepEqual",
+      "ranges": [
+        {
+          "startOffset": 2390,
+          "endOffset": 4835,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "exports.last",
+      "ranges": [
+        {
+          "startOffset": 4920,
+          "endOffset": 5014,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "cloneArrays",
+      "ranges": [
+        {
+          "startOffset": 5125,
+          "endOffset": 5253,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "omit",
+      "ranges": [
+        {
+          "startOffset": 5290,
+          "endOffset": 5538,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "merge",
+      "ranges": [
+        {
+          "startOffset": 5754,
+          "endOffset": 7493,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "toObject",
+      "ranges": [
+        {
+          "startOffset": 7634,
+          "endOffset": 8267,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "isNonBuiltinObject",
+      "ranges": [
+        {
+          "startOffset": 8963,
+          "endOffset": 9154,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "exports.isNativeObject",
+      "ranges": [
+        {
+          "startOffset": 9293,
+          "endOffset": 9454,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "exports.isEmptyObject",
+      "ranges": [
+        {
+          "startOffset": 9567,
+          "endOffset": 9674,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "hasKey",
+      "ranges": [
+        {
+          "startOffset": 9835,
+          "endOffset": 10093,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "tick",
+      "ranges": [
+        {
+          "startOffset": 10376,
+          "endOffset": 10715,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "exports.isMongooseType",
+      "ranges": [
+        {
+          "startOffset": 10858,
+          "endOffset": 10963,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "expires",
+      "ranges": [
+        {
+          "startOffset": 11177,
+          "endOffset": 11487,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "populate",
+      "ranges": [
+        {
+          "startOffset": 11745,
+          "endOffset": 13545,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "_populateObj",
+      "ranges": [
+        {
+          "startOffset": 13548,
+          "endOffset": 14478,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "exports.getValue",
+      "ranges": [
+        {
+          "startOffset": 14628,
+          "endOffset": 14708,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "getValueLookup",
+      "ranges": [
+        {
+          "startOffset": 14791,
+          "endOffset": 15034,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "exports.setValue",
+      "ranges": [
+        {
+          "startOffset": 15232,
+          "endOffset": 15327,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "vals",
+      "ranges": [
+        {
+          "startOffset": 15488,
+          "endOffset": 15642,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "exports.object.hasOwnProperty",
+      "ranges": [
+        {
+          "startOffset": 15824,
+          "endOffset": 15877,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "exports.isNullOrUndefined",
+      "ranges": [
+        {
+          "startOffset": 16004,
+          "endOffset": 16065,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "flatten",
+      "ranges": [
+        {
+          "startOffset": 16451,
+          "endOffset": 16716,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "exports.hasUserDefinedProperty",
+      "ranges": [
+        {
+          "startOffset": 16829,
+          "endOffset": 17283,
+          "count": 38
+        },
+        {
+          "startOffset": 16869,
+          "endOffset": 16892,
+          "count": 0
+        },
+        {
+          "startOffset": 16920,
+          "endOffset": 17057,
+          "count": 0
+        },
+        {
+          "startOffset": 17097,
+          "endOffset": 17119,
+          "count": 23
+        },
+        {
+          "startOffset": 17119,
+          "endOffset": 17163,
+          "count": 15
+        },
+        {
+          "startOffset": 17165,
+          "endOffset": 17264,
+          "count": 7
+        },
+        {
+          "startOffset": 17230,
+          "endOffset": 17259,
+          "count": 0
+        },
+        {
+          "startOffset": 17264,
+          "endOffset": 17282,
+          "count": 8
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "exports.isArrayIndex",
+      "ranges": [
+        {
+          "startOffset": 17374,
+          "endOffset": 17648,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "exports.array.unique",
+      "ranges": [
+        {
+          "startOffset": 17953,
+          "endOffset": 18489,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "exports.buffer.areEqual",
+      "ranges": [
+        {
+          "startOffset": 18634,
+          "endOffset": 18927,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "exports.decorate",
+      "ranges": [
+        {
+          "startOffset": 19079,
+          "endOffset": 19242,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "exports.mergeClone",
+      "ranges": [
+        {
+          "startOffset": 19376,
+          "endOffset": 20719,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "exports.each",
+      "ranges": [
+        {
+          "startOffset": 20876,
+          "endOffset": 20943,
+          "count": 2
+        },
+        {
+          "startOffset": 20922,
+          "endOffset": 20941,
+          "count": 33
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "exports.renameObjKey",
+      "ranges": [
+        {
+          "startOffset": 21157,
+          "endOffset": 21429,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "exports.getOption",
+      "ranges": [
+        {
+          "startOffset": 21471,
+          "endOffset": 21717,
+          "count": 1
+        },
+        {
+          "startOffset": 21607,
+          "endOffset": 21630,
+          "count": 0
+        },
+        {
+          "startOffset": 21661,
+          "endOffset": 21695,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "exports.noop",
+      "ranges": [
+        {
+          "startOffset": 21754,
+          "endOffset": 21767,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "errorToPOJO",
+      "ranges": [
+        {
+          "startOffset": 21792,
+          "endOffset": 22092,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "warn",
+      "ranges": [
+        {
+          "startOffset": 22129,
+          "endOffset": 22216,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "injectTimestampsOption",
+      "ranges": [
+        {
+          "startOffset": 22253,
+          "endOffset": 22420,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    }
+  ]
+}

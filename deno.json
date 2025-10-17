@@ -1,6 +1,8 @@
 {
   "tasks": {
     "dev": "deno run --watch -A --env-file server.ts",
+    "test": "deno test --no-check --env-file -A",
+    "test:coverage": "deno test --coverage --no-check --env-file -A",
     "scripts": "deno run -A --sloppy-imports scripts.ts"
   },
   "imports": {
@@ -9,13 +11,15 @@
     "@types/jsonwebtoken": "npm:@types/jsonwebtoken@^9.0.10",
     "@types/swagger-ui-express": "npm:@types/swagger-ui-express@^4.1.8",
     "@zarco/isness": "jsr:@zarco/isness@^0.1.18",
+    "axios": "npm:axios@^1.12.2",
+    "axios-mock-adapter": "npm:axios-mock-adapter@^2.1.0",
     "bcryptjs": "npm:bcryptjs@^3.0.2",
     "cors": "npm:cors@^2.8.5",
     "date-fns": "npm:date-fns@^4.1.0",
     "enquirer": "npm:enquirer@^2.4.1",
     "express": "npm:express@^5.1.0",
     "jsonwebtoken": "npm:jsonwebtoken@^9.0.2",
-    "mongoose": "npm:mongoose@^8.19.1",
+    "mongoose": "npm:mongoose@8.3.2",
     "morgan": "npm:morgan@^1.10.1",
     "request-check": "npm:request-check@^1.5.4",
     "responser": "npm:responser@^2.5.6",

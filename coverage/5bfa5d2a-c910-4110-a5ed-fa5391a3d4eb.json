@@ -1,0 +1,116 @@
+{
+  "scriptId": "820",
+  "url": "file:///C:/Users/luisf/AppData/Local/deno/npm/registry.npmjs.org/mongoose/8.3.2/lib/plugins/sharding.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 1988,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 1,
+          "endOffset": 1987,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 214,
+          "endOffset": 1981,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "shardingPlugin",
+      "ranges": [
+        {
+          "startOffset": 377,
+          "endOffset": 825,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "shardingPluginPostInit",
+      "ranges": [
+        {
+          "startOffset": 433,
+          "endOffset": 516,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "shardingPluginPreSave",
+      "ranges": [
+        {
+          "startOffset": 540,
+          "endOffset": 621,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "shardingPluginPreRemove",
+      "ranges": [
+        {
+          "startOffset": 647,
+          "endOffset": 730,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "shardingPluginPostSave",
+      "ranges": [
+        {
+          "startOffset": 755,
+          "endOffset": 821,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "applyWhere",
+      "ranges": [
+        {
+          "startOffset": 847,
+          "endOffset": 1135,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "storeShard",
+      "ranges": [
+        {
+          "startOffset": 1216,
+          "endOffset": 1978,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    }
+  ]
+}

@@ -8,7 +8,7 @@ type IncrementUserBankAccountRequest = {
 }
 
 export class IncrementUserBankAccountBalanceService {
-  private userRepository: UserRepository
+  public userRepository: UserRepository
 
   constructor(
     userRepository = new UserRepository(),

@@ -1,0 +1,70 @@
+{
+  "scriptId": "918",
+  "url": "file:///C:/Users/luisf/AppData/Local/deno/npm/registry.npmjs.org/mongoose/8.3.2/lib/helpers/discriminator/applyEmbeddedDiscriminators.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 1332,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 1,
+          "endOffset": 1331,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 214,
+          "endOffset": 1325,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "applyEmbeddedDiscriminators",
+      "ranges": [
+        {
+          "startOffset": 283,
+          "endOffset": 1322,
+          "count": 1
+        },
+        {
+          "startOffset": 403,
+          "endOffset": 420,
+          "count": 0
+        },
+        {
+          "startOffset": 489,
+          "endOffset": 1320,
+          "count": 7
+        },
+        {
+          "startOffset": 585,
+          "endOffset": 780,
+          "count": 0
+        },
+        {
+          "startOffset": 782,
+          "endOffset": 1320,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": true
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "scriptId": "556",
+  "url": "file:///C:/Users/luisf/AppData/Local/deno/npm/registry.npmjs.org/semver/7.7.3/internal/re.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 8371,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 1,
+          "endOffset": 8370,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 214,
+          "endOffset": 8364,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "makeSafeRegex",
+      "ranges": [
+        {
+          "startOffset": 1222,
+          "endOffset": 1433,
+          "count": 43
+        },
+        {
+          "startOffset": 1287,
+          "endOffset": 1416,
+          "count": 129
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "createToken",
+      "ranges": [
+        {
+          "startOffset": 1455,
+          "endOffset": 1755,
+          "count": 43
+        },
+        {
+          "startOffset": 1672,
+          "endOffset": 1677,
+          "count": 5
+        },
+        {
+          "startOffset": 1678,
+          "endOffset": 1689,
+          "count": 38
+        },
+        {
+          "startOffset": 1735,
+          "endOffset": 1740,
+          "count": 5
+        },
+        {
+          "startOffset": 1741,
+          "endOffset": 1752,
+          "count": 38
+        }
+      ],
+      "isBlockCoverage": true
+    }
+  ]
+}

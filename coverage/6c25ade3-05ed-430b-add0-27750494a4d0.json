@@ -1,0 +1,85 @@
+{
+  "scriptId": "491",
+  "url": "file:///C:/Users/luisf/AppData/Local/deno/npm/registry.npmjs.org/es-set-tostringtag/2.1.0/index.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 1443,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 1,
+          "endOffset": 1442,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 214,
+          "endOffset": 1436,
+          "count": 1
+        },
+        {
+          "startOffset": 540,
+          "endOffset": 546,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "setToStringTag",
+      "ranges": [
+        {
+          "startOffset": 593,
+          "endOffset": 1432,
+          "count": 1
+        },
+        {
+          "startOffset": 676,
+          "endOffset": 693,
+          "count": 0
+        },
+        {
+          "startOffset": 694,
+          "endOffset": 715,
+          "count": 0
+        },
+        {
+          "startOffset": 761,
+          "endOffset": 778,
+          "count": 0
+        },
+        {
+          "startOffset": 779,
+          "endOffset": 810,
+          "count": 0
+        },
+        {
+          "startOffset": 986,
+          "endOffset": 1097,
+          "count": 0
+        },
+        {
+          "startOffset": 1343,
+          "endOffset": 1427,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": true
+    }
+  ]
+}

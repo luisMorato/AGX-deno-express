@@ -1,0 +1,77 @@
+{
+  "scriptId": "516",
+  "url": "file:///C:/Users/luisf/AppData/Local/deno/npm/registry.npmjs.org/get-proto/1.0.1/index.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 1051,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 1,
+          "endOffset": 1050,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 214,
+          "endOffset": 1044,
+          "count": 1
+        },
+        {
+          "startOffset": 597,
+          "endOffset": 1040,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "getProto",
+      "ranges": [
+        {
+          "startOffset": 469,
+          "endOffset": 595,
+          "count": 9
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "getProto",
+      "ranges": [
+        {
+          "startOffset": 620,
+          "endOffset": 874,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "getProto",
+      "ranges": [
+        {
+          "startOffset": 899,
+          "endOffset": 1030,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    }
+  ]
+}

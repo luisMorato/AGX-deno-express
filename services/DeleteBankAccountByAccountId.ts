@@ -7,7 +7,7 @@ type IdeleteBankAccountByAccountIdRequest = {
 }
 
 export class DeleteBankAccountByAccountId {
-  private userRepository: UserRepository
+  public userRepository: UserRepository
 
   constructor(
     userRepository = new UserRepository(),

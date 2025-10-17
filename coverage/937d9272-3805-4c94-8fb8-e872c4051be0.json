@@ -1,0 +1,88 @@
+{
+  "scriptId": "528",
+  "url": "file:///C:/Users/luisf/AppData/Local/deno/npm/registry.npmjs.org/proxy-from-env/1.1.0/index.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 3578,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 1,
+          "endOffset": 3577,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 214,
+          "endOffset": 3571,
+          "count": 1
+        },
+        {
+          "startOffset": 420,
+          "endOffset": 526,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "stringEndsWith",
+      "ranges": [
+        {
+          "startOffset": 423,
+          "endOffset": 526,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "getProxyForUrl",
+      "ranges": [
+        {
+          "startOffset": 752,
+          "endOffset": 1798,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "shouldProxy",
+      "ranges": [
+        {
+          "startOffset": 2052,
+          "endOffset": 3228,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "getEnv",
+      "ranges": [
+        {
+          "startOffset": 3421,
+          "endOffset": 3526,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    }
+  ]
+}

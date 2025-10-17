@@ -1,0 +1,160 @@
+{
+  "scriptId": "671",
+  "url": "file:///C:/Users/luisf/AppData/Local/deno/npm/registry.npmjs.org/mongodb/6.5.0/lib/transactions.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 5310,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 1,
+          "endOffset": 5309,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 214,
+          "endOffset": 5303,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "Transaction",
+      "ranges": [
+        {
+          "startOffset": 2500,
+          "endOffset": 3505,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "get server",
+      "ranges": [
+        {
+          "startOffset": 3531,
+          "endOffset": 3586,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "get recoveryToken",
+      "ranges": [
+        {
+          "startOffset": 3591,
+          "endOffset": 3654,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "get isPinned",
+      "ranges": [
+        {
+          "startOffset": 3659,
+          "endOffset": 3711,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "get isStarting",
+      "ranges": [
+        {
+          "startOffset": 3772,
+          "endOffset": 3865,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "get isActive",
+      "ranges": [
+        {
+          "startOffset": 3953,
+          "endOffset": 4021,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "get isCommitted",
+      "ranges": [
+        {
+          "startOffset": 4026,
+          "endOffset": 4100,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "transition",
+      "ranges": [
+        {
+          "startOffset": 4250,
+          "endOffset": 4839,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "pinServer",
+      "ranges": [
+        {
+          "startOffset": 4865,
+          "endOffset": 4970,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "unpinServer",
+      "ranges": [
+        {
+          "startOffset": 4996,
+          "endOffset": 5057,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "isTransactionCommand",
+      "ranges": [
+        {
+          "startOffset": 5095,
+          "endOffset": 5207,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    }
+  ]
+}

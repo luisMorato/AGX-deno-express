@@ -1,0 +1,127 @@
+{
+  "scriptId": "1013",
+  "url": "file:///C:/Users/luisf/AppData/Local/deno/npm/registry.npmjs.org/mongoose/8.3.2/lib/helpers/populate/getModelsMapForPopulate.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 25725,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 1,
+          "endOffset": 25724,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 214,
+          "endOffset": 25718,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "getModelsMapForPopulate",
+      "ranges": [
+        {
+          "startOffset": 1132,
+          "endOffset": 13019,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "_virtualPopulate",
+      "ranges": [
+        {
+          "startOffset": 13041,
+          "endOffset": 17209,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "addModelNamesToMap",
+      "ranges": [
+        {
+          "startOffset": 17230,
+          "endOffset": 20483,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "_getModelFromConn",
+      "ranges": [
+        {
+          "startOffset": 20485,
+          "endOffset": 20773,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "handleRefFunction",
+      "ranges": [
+        {
+          "startOffset": 20794,
+          "endOffset": 20939,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "_getLocalFieldValues",
+      "ranges": [
+        {
+          "startOffset": 20960,
+          "endOffset": 22350,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "convertTo_id",
+      "ranges": [
+        {
+          "startOffset": 22539,
+          "endOffset": 23800,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "_findRefPathForDiscriminators",
+      "ranges": [
+        {
+          "startOffset": 23821,
+          "endOffset": 25715,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    }
+  ]
+}

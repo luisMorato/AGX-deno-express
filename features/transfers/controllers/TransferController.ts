@@ -13,9 +13,24 @@ import { BankAccountResumeService } from '../../../services/BankAccountResumeSer
 const rules = new TransfersRules()
 
 export class TransferController {
-  constructor() {}
+  private createTransferService: CreateTransferService
+  private fetchTransfersService: FetchTransfersService
+  private findTransfersByAccountId: FindTransfersByAccountId
+  private bankAccountResumeService: BankAccountResumeService
 
-  async create(req: Request, res: Response, next: NextFunction) {
+  constructor({
+    createTransferService = new CreateTransferService(),
+    fetchTransfersService = new FetchTransfersService(),
+    findTransfersByAccountId = new FindTransfersByAccountId(),
+    bankAccountResumeService = new BankAccountResumeService()
+  } = {}) {
+    this.createTransferService = createTransferService
+    this.fetchTransfersService = fetchTransfersService
+    this.findTransfersByAccountId = findTransfersByAccountId
+    this.bankAccountResumeService = bankAccountResumeService
+  }
+
+  create = async (req: Request, res: Response, next: NextFunction) => {
     try {
       const {
         senderAccountId,
@@ -33,9 +48,7 @@ export class TransferController {
 
       const userId = req.user?.id || ''
 
-      const createTransferService = new CreateTransferService()
-
-      await createTransferService.execute({
+      await this.createTransferService.execute({
         userId,
         senderAccountId,
         receiverAccountId,
@@ -49,11 +62,9 @@ export class TransferController {
     }
   }
 
-  async list(_: Request, res: Response, next: NextFunction) {
+  list = async (_: Request, res: Response, next: NextFunction) => {
     try {
-      const fetchTransfersService = new FetchTransfersService()
-
-      const { transfers } = await fetchTransfersService.execute()
+      const { transfers } = await this.fetchTransfersService.execute()
 
       return res.send_ok('', { transfers })
     } catch (error) {
@@ -61,7 +72,7 @@ export class TransferController {
     }
   }
 
-  async findByAccountId(req: Request, res: Response, next: NextFunction) {
+  findByAccountId = async (req: Request, res: Response, next: NextFunction) => {
     try {
       const { accountId } = req.params
 
@@ -69,9 +80,7 @@ export class TransferController {
         { accountId, isRequiredField: true },
       )
 
-      const findTransfersByAccountId = new FindTransfersByAccountId()
-
-      const { transfers } = await findTransfersByAccountId.execute({ accountId })
+      const { transfers } = await this.findTransfersByAccountId.execute({ accountId })
 
       return res.send_ok('', { transfers })
     } catch (error) {
@@ -79,16 +88,13 @@ export class TransferController {
     }
   }
 
-  async spent(req: Request, res: Response, next: NextFunction) {
+  spent = async (req: Request, res: Response, next: NextFunction) => {
     try {
       const {
         accountId,
       } = req.params
 
-      const {
-        from,
-        to,
-      } = req.query as { from: string; to: string }
+      const { from, to } = req.query as { from: string, to: string }
 
       rules.validate(
         { accountId, isRequiredField: true },
@@ -120,8 +126,8 @@ export class TransferController {
         endDate = addDays(subHours(endOfDay(to), TIMEZONE), 1) //  Remove TZ hours
       }
 
-      const bankAccountResumeService = new BankAccountResumeService()
-      const { transfersResume } = await bankAccountResumeService.execute({
+      // const bankAccountResumeService = new BankAccountResumeService()
+      const { transfersResume } = await this.bankAccountResumeService.execute({
         accountId,
         from: startDate,
         to: endDate,

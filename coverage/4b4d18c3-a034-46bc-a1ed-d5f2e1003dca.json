@@ -1,0 +1,71 @@
+{
+  "scriptId": "558",
+  "url": "file:///C:/Users/luisf/AppData/Local/deno/npm/registry.npmjs.org/semver/7.7.3/internal/debug.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 470,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 1,
+          "endOffset": 469,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 214,
+          "endOffset": 463,
+          "count": 1
+        },
+        {
+          "startOffset": 326,
+          "endOffset": 373,
+          "count": 0
+        },
+        {
+          "startOffset": 376,
+          "endOffset": 423,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "debug",
+      "ranges": [
+        {
+          "startOffset": 378,
+          "endOffset": 423,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "debug",
+      "ranges": [
+        {
+          "startOffset": 428,
+          "endOffset": 436,
+          "count": 147
+        }
+      ],
+      "isBlockCoverage": true
+    }
+  ]
+}

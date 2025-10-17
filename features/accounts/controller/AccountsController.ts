@@ -9,9 +9,24 @@ import { IncrementUserBankAccountBalanceService } from '../../../services/Increm
 const rules = new AccountsRules()
 
 export class AccountsController {
-  constructor() {}
+  private createUserBankAccountService: CreateUserBankAccountService
+  private findUserBankAccountService: FindUserBankAccountService
+  private incrementUserBankAccountBalanceService: IncrementUserBankAccountBalanceService
+  private deleteBankAccountByAccountId: DeleteBankAccountByAccountId
 
-  async create(req: Request, res: Response, next: NextFunction) {
+  constructor({
+    createUserBankAccountService = new CreateUserBankAccountService(),
+    findUserBankAccountService = new FindUserBankAccountService(),
+    incrementUserBankAccountBalanceService = new IncrementUserBankAccountBalanceService(),
+    deleteBankAccountByAccountId = new DeleteBankAccountByAccountId(),
+  } = {}) {
+    this.createUserBankAccountService = createUserBankAccountService
+    this.findUserBankAccountService = findUserBankAccountService
+    this.incrementUserBankAccountBalanceService = incrementUserBankAccountBalanceService
+    this.deleteBankAccountByAccountId = deleteBankAccountByAccountId
+  }
+
+  create = async (req: Request, res: Response, next: NextFunction) => {
     try {
       const { userId } = req.body
 
@@ -19,8 +34,7 @@ export class AccountsController {
         { userId, isRequiredField: true },
       )
 
-      const createUserBankAccountService = new CreateUserBankAccountService()
-      await createUserBankAccountService.execute({ userId })
+      await this.createUserBankAccountService.execute({ userId })
 
       return res.send_created('Conta criada com sucesso')
     } catch (error) {
@@ -28,27 +42,25 @@ export class AccountsController {
     }
   }
 
-  async find(req: Request, res: Response, next: NextFunction) {
+  find = async (req: Request, res: Response, next: NextFunction) => {
     try {
       const { id } = req.params
       rules.validate({ id, isRequiredField: true })
 
-      const findUserBankAccountService = new FindUserBankAccountService()
-
       const userId = req.user?.id || ''
 
-      const { userBankAccount } = await findUserBankAccountService.execute({
+      const { userBankAccount } = await this.findUserBankAccountService.execute({
         accountId: id,
         userId,
       })
 
-      return res.status(200).json({ userBankAccount })
+      return res.send_ok('', { userBankAccount })
     } catch (error) {
       next(error)
     }
   }
 
-  async increment(req: Request, res: Response, next: NextFunction) {
+  increment = async (req: Request, res: Response, next: NextFunction) => {
     try {
       const { id } = req.params
       const { increment } = req.body
@@ -60,34 +72,31 @@ export class AccountsController {
 
       const userId = req.user?.id || ''
 
-      const incrementUserBankAccountBalanceService = new IncrementUserBankAccountBalanceService()
-      await incrementUserBankAccountBalanceService.execute({
+      await this.incrementUserBankAccountBalanceService.execute({
         id,
         userId,
         increment,
       })
 
-      res.status(200).json(`R$${increment} adicionado a conta: ${id}`)
+      return res.send_ok(`R$${increment} adicionado a conta: ${id}`)
     } catch (error) {
       next(error)
     }
   }
 
-  async delete(req: Request, res: Response, next: NextFunction) {
+  delete = async (req: Request, res: Response, next: NextFunction) => {
     try {
       const { id } = req.params
       rules.validate({ id, isRequiredField: true })
 
       const userId = req.user?.id || ''
 
-      const deleteBankAccountByAccountId = new DeleteBankAccountByAccountId()
-
-      await deleteBankAccountByAccountId.execute({
+      await this.deleteBankAccountByAccountId.execute({
         accountId: id,
         userId,
       })
 
-      return res.status(200).json('Conta excluída com sucesso')
+      return res.send_ok('Conta excluída com sucesso')
     } catch (error) {
       next(error)
     }

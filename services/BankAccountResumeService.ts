@@ -53,10 +53,31 @@ export class BankAccountResumeService {
     const transfersResume = await this.transferRepository.aggregate([
       ...aggregatePipeline,
       {
+        $project: {
+          senderAccountId: true,
+          transactionType: true,
+          amount: true,
+        },
+      },
+      {
         $group: {
-          _id: '$transactionType',
+          _id: {
+            accountId: '$senderAccountId',
+            type: '$transactionType',
+          },
           transactionsCount: { $count: {} },
           totalSpent: { $sum: '$amount' },
+        }
+      },
+      {
+        $project: {
+          _id: false,
+          accountId: '$_id.accountId',
+          resume: {
+            type: '$_id.type',
+            transactionsCount: '$transactionsCount',
+            totalSpent: '$totalSpent',
+          },
         },
       },
     ])

@@ -1,0 +1,358 @@
+{
+  "scriptId": "749",
+  "url": "file:///C:/Users/luisf/AppData/Local/deno/npm/registry.npmjs.org/mongodb/6.5.0/lib/cmap/connection_pool.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 24265,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 1,
+          "endOffset": 24264,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 214,
+          "endOffset": 24258,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "ConnectionPool",
+      "ranges": [
+        {
+          "startOffset": 1966,
+          "endOffset": 3733,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "get address",
+      "ranges": [
+        {
+          "startOffset": 3802,
+          "endOffset": 3875,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "get closed",
+      "ranges": [
+        {
+          "startOffset": 4026,
+          "endOffset": 4108,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "get generation",
+      "ranges": [
+        {
+          "startOffset": 4180,
+          "endOffset": 4238,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "get totalConnectionCount",
+      "ranges": [
+        {
+          "startOffset": 4357,
+          "endOffset": 4499,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "get availableConnectionCount",
+      "ranges": [
+        {
+          "startOffset": 4595,
+          "endOffset": 4675,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "get pendingConnectionCount",
+      "ranges": [
+        {
+          "startOffset": 4680,
+          "endOffset": 4747,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "get currentCheckedOutCount",
+      "ranges": [
+        {
+          "startOffset": 4752,
+          "endOffset": 4827,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "get waitQueueSize",
+      "ranges": [
+        {
+          "startOffset": 4832,
+          "endOffset": 4899,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "get loadBalanced",
+      "ranges": [
+        {
+          "startOffset": 4904,
+          "endOffset": 4972,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "get serviceGenerations",
+      "ranges": [
+        {
+          "startOffset": 4977,
+          "endOffset": 5051,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "get serverError",
+      "ranges": [
+        {
+          "startOffset": 5056,
+          "endOffset": 5129,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "get checkedOutConnections",
+      "ranges": [
+        {
+          "startOffset": 5368,
+          "endOffset": 5437,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "waitQueueErrorMetrics",
+      "ranges": [
+        {
+          "startOffset": 5540,
+          "endOffset": 5633,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "ready",
+      "ranges": [
+        {
+          "startOffset": 5691,
+          "endOffset": 6068,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "checkOut",
+      "ranges": [
+        {
+          "startOffset": 6356,
+          "endOffset": 7546,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "checkIn",
+      "ranges": [
+        {
+          "startOffset": 7669,
+          "endOffset": 8504,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "clear",
+      "ranges": [
+        {
+          "startOffset": 8739,
+          "endOffset": 10638,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "interruptInUseConnections",
+      "ranges": [
+        {
+          "startOffset": 10848,
+          "endOffset": 11156,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "close",
+      "ranges": [
+        {
+          "startOffset": 11187,
+          "endOffset": 12051,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "reauthenticate",
+      "ranges": [
+        {
+          "startOffset": 12124,
+          "endOffset": 13004,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "clearMinPoolSizeTimer",
+      "ranges": [
+        {
+          "startOffset": 13050,
+          "endOffset": 13239,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "destroyConnection",
+      "ranges": [
+        {
+          "startOffset": 13244,
+          "endOffset": 13490,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "connectionIsStale",
+      "ranges": [
+        {
+          "startOffset": 13495,
+          "endOffset": 13867,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "connectionIsIdle",
+      "ranges": [
+        {
+          "startOffset": 13872,
+          "endOffset": 14007,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "destroyConnectionIfPerished",
+      "ranges": [
+        {
+          "startOffset": 14170,
+          "endOffset": 14582,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "createConnection",
+      "ranges": [
+        {
+          "startOffset": 14587,
+          "endOffset": 17573,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "ensureMinPoolSize",
+      "ranges": [
+        {
+          "startOffset": 17578,
+          "endOffset": 19105,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "processWaitQueue",
+      "ranges": [
+        {
+          "startOffset": 19110,
+          "endOffset": 22466,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    }
+  ]
+}

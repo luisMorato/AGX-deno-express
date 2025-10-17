@@ -1,0 +1,452 @@
+{
+  "scriptId": "712",
+  "url": "file:///C:/Users/luisf/AppData/Local/deno/npm/registry.npmjs.org/kareem/2.6.3/index.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 18728,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 1,
+          "endOffset": 18727,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 214,
+          "endOffset": 18721,
+          "count": 1
+        },
+        {
+          "startOffset": 18498,
+          "endOffset": 18547,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "Kareem",
+      "ranges": [
+        {
+          "startOffset": 269,
+          "endOffset": 343,
+          "count": 6
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "skipWrappedFunction",
+      "ranges": [
+        {
+          "startOffset": 374,
+          "endOffset": 555,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "overwriteResult",
+      "ranges": [
+        {
+          "startOffset": 583,
+          "endOffset": 752,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "Kareem.execPre",
+      "ranges": [
+        {
+          "startOffset": 1119,
+          "endOffset": 4012,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "Kareem.execPreSync",
+      "ranges": [
+        {
+          "startOffset": 4290,
+          "endOffset": 4483,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "Kareem.execPost",
+      "ranges": [
+        {
+          "startOffset": 4907,
+          "endOffset": 8193,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "Kareem.execPostSync",
+      "ranges": [
+        {
+          "startOffset": 8500,
+          "endOffset": 8805,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "Kareem.createWrapperSync",
+      "ranges": [
+        {
+          "startOffset": 9028,
+          "endOffset": 9293,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "syncWrapper",
+      "ranges": [
+        {
+          "startOffset": 9080,
+          "endOffset": 9290,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "_handleWrapError",
+      "ranges": [
+        {
+          "startOffset": 9296,
+          "endOffset": 9651,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "Kareem.wrap",
+      "ranges": [
+        {
+          "startOffset": 10069,
+          "endOffset": 12244,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "Kareem.filter",
+      "ranges": [
+        {
+          "startOffset": 12459,
+          "endOffset": 13213,
+          "count": 4
+        },
+        {
+          "startOffset": 12579,
+          "endOffset": 12875,
+          "count": 8
+        },
+        {
+          "startOffset": 12722,
+          "endOffset": 12777,
+          "count": 0
+        },
+        {
+          "startOffset": 12954,
+          "endOffset": 13194,
+          "count": 8
+        },
+        {
+          "startOffset": 13098,
+          "endOffset": 13154,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 12631,
+          "endOffset": 12672,
+          "count": 24
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 12813,
+          "endOffset": 12827,
+          "count": 24
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 13007,
+          "endOffset": 13048,
+          "count": 12
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "Kareem.hasHooks",
+      "ranges": [
+        {
+          "startOffset": 13413,
+          "endOffset": 13487,
+          "count": 3
+        },
+        {
+          "startOffset": 13460,
+          "endOffset": 13484,
+          "count": 2
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "Kareem.createWrapper",
+      "ranges": [
+        {
+          "startOffset": 13821,
+          "endOffset": 14243,
+          "count": 3
+        },
+        {
+          "startOffset": 13910,
+          "endOffset": 14108,
+          "count": 2
+        },
+        {
+          "startOffset": 14108,
+          "endOffset": 14242,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 14036,
+          "endOffset": 14103,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 14118,
+          "endOffset": 14240,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "Kareem.pre",
+      "ranges": [
+        {
+          "startOffset": 14573,
+          "endOffset": 15313,
+          "count": 6
+        },
+        {
+          "startOffset": 14673,
+          "endOffset": 14692,
+          "count": 0
+        },
+        {
+          "startOffset": 14694,
+          "endOffset": 14753,
+          "count": 0
+        },
+        {
+          "startOffset": 14798,
+          "endOffset": 14842,
+          "count": 4
+        },
+        {
+          "startOffset": 14880,
+          "endOffset": 14885,
+          "count": 2
+        },
+        {
+          "startOffset": 14933,
+          "endOffset": 14999,
+          "count": 0
+        },
+        {
+          "startOffset": 15033,
+          "endOffset": 15113,
+          "count": 0
+        },
+        {
+          "startOffset": 15130,
+          "endOffset": 15211,
+          "count": 2
+        },
+        {
+          "startOffset": 15211,
+          "endOffset": 15295,
+          "count": 4
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "Kareem.post",
+      "ranges": [
+        {
+          "startOffset": 15613,
+          "endOffset": 16108,
+          "count": 3
+        },
+        {
+          "startOffset": 15690,
+          "endOffset": 15695,
+          "count": 2
+        },
+        {
+          "startOffset": 15830,
+          "endOffset": 15911,
+          "count": 0
+        },
+        {
+          "startOffset": 15928,
+          "endOffset": 15992,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "Kareem.clone",
+      "ranges": [
+        {
+          "startOffset": 16215,
+          "endOffset": 16540,
+          "count": 5
+        },
+        {
+          "startOffset": 16294,
+          "endOffset": 16426,
+          "count": 10
+        },
+        {
+          "startOffset": 16467,
+          "endOffset": 16525,
+          "count": 10
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "Kareem.merge",
+      "ranges": [
+        {
+          "startOffset": 16792,
+          "endOffset": 17634,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "callMiddlewareFunction",
+      "ranges": [
+        {
+          "startOffset": 17637,
+          "endOffset": 17930,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "isPromiseLike",
+      "ranges": [
+        {
+          "startOffset": 17932,
+          "endOffset": 18041,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "decorateNextFn",
+      "ranges": [
+        {
+          "startOffset": 18043,
+          "endOffset": 18411,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "nextTick",
+      "ranges": [
+        {
+          "startOffset": 18501,
+          "endOffset": 18547,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "isErrorHandlingMiddleware",
+      "ranges": [
+        {
+          "startOffset": 18550,
+          "endOffset": 18692,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    }
+  ]
+}

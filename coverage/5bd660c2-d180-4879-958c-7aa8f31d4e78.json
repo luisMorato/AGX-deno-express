@@ -1,0 +1,58 @@
+{
+  "scriptId": "450",
+  "url": "file:///C:/Users/luisf/AppData/Local/deno/npm/registry.npmjs.org/axios/1.12.2/lib/platform/common/utils.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 1595,
+          "count": 1
+        },
+        {
+          "startOffset": 52,
+          "endOffset": 86,
+          "count": 0
+        },
+        {
+          "startOffset": 151,
+          "endOffset": 163,
+          "count": 0
+        },
+        {
+          "startOffset": 656,
+          "endOffset": 747,
+          "count": 0
+        },
+        {
+          "startOffset": 1424,
+          "endOffset": 1447,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 1189,
+          "endOffset": 1389,
+          "count": 1
+        },
+        {
+          "startOffset": 1253,
+          "endOffset": 1334,
+          "count": 0
+        },
+        {
+          "startOffset": 1335,
+          "endOffset": 1382,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": true
+    }
+  ]
+}

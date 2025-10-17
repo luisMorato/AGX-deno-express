@@ -49,7 +49,7 @@ class transferSchemaClass extends BaseSchema {
         default: 'DEBIT',
         required: true,
         validate: {
-          validator: (value) => Object.values(ITransactionTypes).includes(value),
+          validator: (value: any) => Object.values(ITransactionTypes).includes(value),
           message: 'Valor inválido para tipo da transação',
         },
       },

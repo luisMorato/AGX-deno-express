@@ -1,0 +1,83 @@
+{
+  "scriptId": "398",
+  "url": "file:///C:/Users/luisf/AppData/Local/deno/npm/registry.npmjs.org/axios/1.12.2/lib/helpers/toFormData.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 6116,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "isVisitable",
+      "ranges": [
+        {
+          "startOffset": 412,
+          "endOffset": 504,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "removeBrackets",
+      "ranges": [
+        {
+          "startOffset": 674,
+          "endOffset": 767,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "renderKey",
+      "ranges": [
+        {
+          "startOffset": 1118,
+          "endOffset": 1402,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "isFlatArray",
+      "ranges": [
+        {
+          "startOffset": 1580,
+          "endOffset": 1664,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "filter",
+      "ranges": [
+        {
+          "startOffset": 1721,
+          "endOffset": 1778,
+          "count": 57
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "toFormData",
+      "ranges": [
+        {
+          "startOffset": 2366,
+          "endOffset": 6087,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "scriptId": "443",
+  "url": "file:///C:/Users/luisf/AppData/Local/deno/npm/registry.npmjs.org/axios/1.12.2/lib/adapters/http.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 23266,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 1778,
+          "endOffset": 1818,
+          "count": 4
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "flushOnFinish",
+      "ranges": [
+        {
+          "startOffset": 1845,
+          "endOffset": 1957,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "dispatchBeforeRedirect",
+      "ranges": [
+        {
+          "startOffset": 2204,
+          "endOffset": 2458,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "setProxy",
+      "ranges": [
+        {
+          "startOffset": 2754,
+          "endOffset": 4303,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "wrapAsync",
+      "ranges": [
+        {
+          "startOffset": 4447,
+          "endOffset": 4960,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "resolveFamily",
+      "ranges": [
+        {
+          "startOffset": 4985,
+          "endOffset": 5186,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "buildAddressEntry",
+      "ranges": [
+        {
+          "startOffset": 5214,
+          "endOffset": 5303,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "httpAdapter",
+      "ranges": [
+        {
+          "startOffset": 5378,
+          "endOffset": 23228,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    }
+  ]
+}

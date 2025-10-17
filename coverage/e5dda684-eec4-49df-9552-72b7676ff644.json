@@ -1,0 +1,148 @@
+{
+  "scriptId": "760",
+  "url": "file:///C:/Users/luisf/AppData/Local/deno/npm/registry.npmjs.org/mongoose/8.3.2/lib/virtualType.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 5916,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 1,
+          "endOffset": 5915,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 214,
+          "endOffset": 5909,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "VirtualType",
+      "ranges": [
+        {
+          "startOffset": 2425,
+          "endOffset": 2571,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "VirtualType._applyDefaultGetters",
+      "ranges": [
+        {
+          "startOffset": 2686,
+          "endOffset": 3004,
+          "count": 1
+        },
+        {
+          "startOffset": 2729,
+          "endOffset": 2755,
+          "count": 0
+        },
+        {
+          "startOffset": 2774,
+          "endOffset": 3003,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 2861,
+          "endOffset": 2920,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 2943,
+          "endOffset": 3000,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "VirtualType.clone",
+      "ranges": [
+        {
+          "startOffset": 3056,
+          "endOffset": 3230,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "VirtualType.get",
+      "ranges": [
+        {
+          "startOffset": 3898,
+          "endOffset": 3954,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "VirtualType.set",
+      "ranges": [
+        {
+          "startOffset": 4864,
+          "endOffset": 4920,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "VirtualType.applyGetters",
+      "ranges": [
+        {
+          "startOffset": 5163,
+          "endOffset": 5516,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "VirtualType.applySetters",
+      "ranges": [
+        {
+          "startOffset": 5718,
+          "endOffset": 5854,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    }
+  ]
+}

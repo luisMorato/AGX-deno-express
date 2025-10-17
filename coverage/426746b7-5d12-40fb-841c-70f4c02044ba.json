@@ -1,0 +1,149 @@
+{
+  "scriptId": "626",
+  "url": "file:///C:/Users/luisf/AppData/Local/deno/npm/registry.npmjs.org/mongodb/6.5.0/lib/cmap/auth/gssapi.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 6005,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 1,
+          "endOffset": 6004,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 214,
+          "endOffset": 5998,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "externalCommand",
+      "ranges": [
+        {
+          "startOffset": 814,
+          "endOffset": 955,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "auth",
+      "ranges": [
+        {
+          "startOffset": 1021,
+          "endOffset": 2016,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "makeKerberosClient",
+      "ranges": [
+        {
+          "startOffset": 2044,
+          "endOffset": 3333,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "saslStart",
+      "ranges": [
+        {
+          "startOffset": 3334,
+          "endOffset": 3478,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "saslContinue",
+      "ranges": [
+        {
+          "startOffset": 3479,
+          "endOffset": 3614,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "negotiate",
+      "ranges": [
+        {
+          "startOffset": 3615,
+          "endOffset": 4017,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "finalize",
+      "ranges": [
+        {
+          "startOffset": 4018,
+          "endOffset": 4194,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "performGSSAPICanonicalizeHostName",
+      "ranges": [
+        {
+          "startOffset": 4195,
+          "endOffset": 5428,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "resolveCname",
+      "ranges": [
+        {
+          "startOffset": 5508,
+          "endOffset": 5800,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "loadKrb",
+      "ranges": [
+        {
+          "startOffset": 5876,
+          "endOffset": 5961,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    }
+  ]
+}

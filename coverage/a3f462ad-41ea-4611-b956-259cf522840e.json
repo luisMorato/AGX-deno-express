@@ -1,0 +1,105 @@
+{
+  "scriptId": "687",
+  "url": "file:///C:/Users/luisf/AppData/Local/deno/npm/registry.npmjs.org/mongodb/6.5.0/lib/cmap/auth/mongodb_oidc/token_entry_cache.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 2188,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 1,
+          "endOffset": 2187,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 214,
+          "endOffset": 2181,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "TokenEntry",
+      "ranges": [
+        {
+          "startOffset": 609,
+          "endOffset": 770,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "addEntry",
+      "ranges": [
+        {
+          "startOffset": 965,
+          "endOffset": 1262,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "deleteEntry",
+      "ranges": [
+        {
+          "startOffset": 1322,
+          "endOffset": 1451,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "getEntry",
+      "ranges": [
+        {
+          "startOffset": 1508,
+          "endOffset": 1638,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "deleteExpiredEntries",
+      "ranges": [
+        {
+          "startOffset": 1709,
+          "endOffset": 1892,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "cacheKey",
+      "ranges": [
+        {
+          "startOffset": 1970,
+          "endOffset": 2088,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    }
+  ]
+}

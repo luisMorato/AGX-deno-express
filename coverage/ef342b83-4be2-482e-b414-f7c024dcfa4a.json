@@ -1,0 +1,44 @@
+{
+  "scriptId": "521",
+  "url": "file:///C:/Users/luisf/AppData/Local/deno/npm/registry.npmjs.org/function-bind/1.1.2/index.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 356,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 1,
+          "endOffset": 355,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 214,
+          "endOffset": 349,
+          "count": 1
+        },
+        {
+          "startOffset": 328,
+          "endOffset": 345,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": true
+    }
+  ]
+}

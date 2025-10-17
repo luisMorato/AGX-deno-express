@@ -1,0 +1,250 @@
+{
+  "scriptId": "701",
+  "url": "file:///C:/Users/luisf/AppData/Local/deno/npm/registry.npmjs.org/mongodb/6.5.0/lib/cmap/auth/mongo_credentials.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 9019,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 1,
+          "endOffset": 9018,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 214,
+          "endOffset": 9012,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "getDefaultAuthMechanism",
+      "ranges": [
+        {
+          "startOffset": 565,
+          "endOffset": 1328,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "MongoCredentials",
+      "ranges": [
+        {
+          "startOffset": 1948,
+          "endOffset": 3400,
+          "count": 2
+        },
+        {
+          "startOffset": 2012,
+          "endOffset": 2017,
+          "count": 0
+        },
+        {
+          "startOffset": 2124,
+          "endOffset": 2137,
+          "count": 0
+        },
+        {
+          "startOffset": 2139,
+          "endOffset": 2188,
+          "count": 0
+        },
+        {
+          "startOffset": 2232,
+          "endOffset": 2276,
+          "count": 0
+        },
+        {
+          "startOffset": 2341,
+          "endOffset": 2346,
+          "count": 0
+        },
+        {
+          "startOffset": 2398,
+          "endOffset": 3028,
+          "count": 0
+        },
+        {
+          "startOffset": 3099,
+          "endOffset": 3141,
+          "count": 0
+        },
+        {
+          "startOffset": 3143,
+          "endOffset": 3316,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "equals",
+      "ranges": [
+        {
+          "startOffset": 3474,
+          "endOffset": 3688,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "resolveAuthMechanism",
+      "ranges": [
+        {
+          "startOffset": 3931,
+          "endOffset": 4426,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "validate",
+      "ranges": [
+        {
+          "startOffset": 4431,
+          "endOffset": 8414,
+          "count": 1
+        },
+        {
+          "startOffset": 4823,
+          "endOffset": 4852,
+          "count": 0
+        },
+        {
+          "startOffset": 4854,
+          "endOffset": 4980,
+          "count": 0
+        },
+        {
+          "startOffset": 5052,
+          "endOffset": 7025,
+          "count": 0
+        },
+        {
+          "startOffset": 7100,
+          "endOffset": 7405,
+          "count": 0
+        },
+        {
+          "startOffset": 7477,
+          "endOffset": 7499,
+          "count": 0
+        },
+        {
+          "startOffset": 7501,
+          "endOffset": 7689,
+          "count": 0
+        },
+        {
+          "startOffset": 7760,
+          "endOffset": 7784,
+          "count": 0
+        },
+        {
+          "startOffset": 7786,
+          "endOffset": 8106,
+          "count": 0
+        },
+        {
+          "startOffset": 8291,
+          "endOffset": 8408,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "merge",
+      "ranges": [
+        {
+          "startOffset": 8426,
+          "endOffset": 8917,
+          "count": 2
+        },
+        {
+          "startOffset": 8527,
+          "endOffset": 8545,
+          "count": 1
+        },
+        {
+          "startOffset": 8546,
+          "endOffset": 8551,
+          "count": 0
+        },
+        {
+          "startOffset": 8592,
+          "endOffset": 8610,
+          "count": 1
+        },
+        {
+          "startOffset": 8611,
+          "endOffset": 8616,
+          "count": 0
+        },
+        {
+          "startOffset": 8667,
+          "endOffset": 8678,
+          "count": 1
+        },
+        {
+          "startOffset": 8679,
+          "endOffset": 8723,
+          "count": 1
+        },
+        {
+          "startOffset": 8794,
+          "endOffset": 8815,
+          "count": 1
+        },
+        {
+          "startOffset": 8816,
+          "endOffset": 8821,
+          "count": 1
+        },
+        {
+          "startOffset": 8858,
+          "endOffset": 8871,
+          "count": 1
+        },
+        {
+          "startOffset": 8872,
+          "endOffset": 8888,
+          "count": 1
+        },
+        {
+          "startOffset": 8880,
+          "endOffset": 8888,
+          "count": 0
+        },
+        {
+          "startOffset": 8889,
+          "endOffset": 8899,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    }
+  ]
+}

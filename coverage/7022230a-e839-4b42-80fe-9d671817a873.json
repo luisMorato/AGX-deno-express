@@ -1,0 +1,17 @@
+{
+  "scriptId": "385",
+  "url": "file:///C:/Users/luisf/OneDrive/Desktop/AGX-Software/AGX-deno-express/database/db/BanksDB.ts",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 325,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    }
+  ]
+}

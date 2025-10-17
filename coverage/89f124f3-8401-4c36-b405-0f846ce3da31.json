@@ -1,0 +1,957 @@
+{
+  "scriptId": "986",
+  "url": "file:///C:/Users/luisf/AppData/Local/deno/npm/registry.npmjs.org/mongoose/8.3.2/lib/model.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 183531,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 1,
+          "endOffset": 183530,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 214,
+          "endOffset": 183524,
+          "count": 1
+        },
+        {
+          "startOffset": 42317,
+          "endOffset": 42360,
+          "count": 18
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "Model",
+      "ranges": [
+        {
+          "startOffset": 7059,
+          "endOffset": 7612,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "_applyCustomWhere",
+      "ranges": [
+        {
+          "startOffset": 9931,
+          "endOffset": 10102,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "Model.$__handleSave",
+      "ranges": [
+        {
+          "startOffset": 10155,
+          "endOffset": 14704,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "Model.$__save",
+      "ranges": [
+        {
+          "startOffset": 14752,
+          "endOffset": 17007,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "generateVersionError",
+      "ranges": [
+        {
+          "startOffset": 17029,
+          "endOffset": 17266,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "save",
+      "ranges": [
+        {
+          "startOffset": 20583,
+          "endOffset": 21730,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "shouldSkipVersioning",
+      "ranges": [
+        {
+          "startOffset": 22004,
+          "endOffset": 22266,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "operand",
+      "ranges": [
+        {
+          "startOffset": 22554,
+          "endOffset": 24061,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "handleAtomics",
+      "ranges": [
+        {
+          "startOffset": 24281,
+          "endOffset": 25668,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "Model.$__delta",
+      "ranges": [
+        {
+          "startOffset": 25858,
+          "endOffset": 29801,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "checkDivergentArray",
+      "ranges": [
+        {
+          "startOffset": 30137,
+          "endOffset": 31725,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "Model.$__version",
+      "ranges": [
+        {
+          "startOffset": 31893,
+          "endOffset": 33095,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "increment",
+      "ranges": [
+        {
+          "startOffset": 33117,
+          "endOffset": 33190,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "_where",
+      "ranges": [
+        {
+          "startOffset": 33684,
+          "endOffset": 33906,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "deleteOne",
+      "ranges": [
+        {
+          "startOffset": 34135,
+          "endOffset": 35591,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "$model",
+      "ranges": [
+        {
+          "startOffset": 36008,
+          "endOffset": 36140,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "exists",
+      "ranges": [
+        {
+          "startOffset": 37406,
+          "endOffset": 37716,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "Model.discriminator",
+      "ranges": [
+        {
+          "startOffset": 39757,
+          "endOffset": 41497,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "_checkContext",
+      "ranges": [
+        {
+          "startOffset": 41556,
+          "endOffset": 42187,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "init",
+      "ranges": [
+        {
+          "startOffset": 43944,
+          "endOffset": 45724,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "createCollection",
+      "ranges": [
+        {
+          "startOffset": 46714,
+          "endOffset": 49731,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "syncIndexes",
+      "ranges": [
+        {
+          "startOffset": 51366,
+          "endOffset": 52054,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "createSearchIndex",
+      "ranges": [
+        {
+          "startOffset": 52711,
+          "endOffset": 52871,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "updateSearchIndex",
+      "ranges": [
+        {
+          "startOffset": 53411,
+          "endOffset": 53581,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "dropSearchIndex",
+      "ranges": [
+        {
+          "startOffset": 54062,
+          "endOffset": 54202,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "diffIndexes",
+      "ranges": [
+        {
+          "startOffset": 54864,
+          "endOffset": 55643,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "getIndexesToCreate",
+      "ranges": [
+        {
+          "startOffset": 55646,
+          "endOffset": 56300,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "getIndexesToDrop",
+      "ranges": [
+        {
+          "startOffset": 56302,
+          "endOffset": 57023,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "cleanIndexes",
+      "ranges": [
+        {
+          "startOffset": 57416,
+          "endOffset": 57958,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "_dropIndexes",
+      "ranges": [
+        {
+          "startOffset": 57961,
+          "endOffset": 58157,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "listIndexes",
+      "ranges": [
+        {
+          "startOffset": 58496,
+          "endOffset": 58876,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "ensureIndexes",
+      "ranges": [
+        {
+          "startOffset": 59743,
+          "endOffset": 60174,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "createIndexes",
+      "ranges": [
+        {
+          "startOffset": 60457,
+          "endOffset": 60747,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "_ensureIndexes",
+      "ranges": [
+        {
+          "startOffset": 60770,
+          "endOffset": 63711,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "translateAliases",
+      "ranges": [
+        {
+          "startOffset": 65456,
+          "endOffset": 67804,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "deleteOne",
+      "ranges": [
+        {
+          "startOffset": 68876,
+          "endOffset": 69295,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "deleteMany",
+      "ranges": [
+        {
+          "startOffset": 70443,
+          "endOffset": 70856,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "find",
+      "ranges": [
+        {
+          "startOffset": 72452,
+          "endOffset": 72915,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "findById",
+      "ranges": [
+        {
+          "startOffset": 74493,
+          "endOffset": 74889,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "findOne",
+      "ranges": [
+        {
+          "startOffset": 76453,
+          "endOffset": 76890,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "estimatedDocumentCount",
+      "ranges": [
+        {
+          "startOffset": 77329,
+          "endOffset": 77532,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "countDocuments",
+      "ranges": [
+        {
+          "startOffset": 79066,
+          "endOffset": 79525,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "distinct",
+      "ranges": [
+        {
+          "startOffset": 79792,
+          "endOffset": 80137,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "where",
+      "ranges": [
+        {
+          "startOffset": 80683,
+          "endOffset": 80879,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "$where",
+      "ranges": [
+        {
+          "startOffset": 81533,
+          "endOffset": 81701,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "Model.findOneAndUpdate",
+      "ranges": [
+        {
+          "startOffset": 86359,
+          "endOffset": 87186,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "Model.findByIdAndUpdate",
+      "ranges": [
+        {
+          "startOffset": 91664,
+          "endOffset": 92164,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "Model.findOneAndDelete",
+      "ranges": [
+        {
+          "startOffset": 94491,
+          "endOffset": 95012,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "Model.findByIdAndDelete",
+      "ranges": [
+        {
+          "startOffset": 96130,
+          "endOffset": 96466,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "Model.findOneAndReplace",
+      "ranges": [
+        {
+          "startOffset": 99370,
+          "endOffset": 99950,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "create",
+      "ranges": [
+        {
+          "startOffset": 101277,
+          "endOffset": 105848,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "Model.watch",
+      "ranges": [
+        {
+          "startOffset": 107578,
+          "endOffset": 108300,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "Model.startSession",
+      "ranges": [
+        {
+          "startOffset": 109754,
+          "endOffset": 109865,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "insertMany",
+      "ranges": [
+        {
+          "startOffset": 112752,
+          "endOffset": 113190,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "Model.$__insertMany",
+      "ranges": [
+        {
+          "startOffset": 113387,
+          "endOffset": 121346,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "_setIsNew",
+      "ranges": [
+        {
+          "startOffset": 121368,
+          "endOffset": 121621,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "bulkWrite",
+      "ranges": [
+        {
+          "startOffset": 128091,
+          "endOffset": 131711,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "bulkSave",
+      "ranges": [
+        {
+          "startOffset": 132980,
+          "endOffset": 134513,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "buildPreSavePromise",
+      "ranges": [
+        {
+          "startOffset": 134516,
+          "endOffset": 134760,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "handleSuccessfulWrite",
+      "ranges": [
+        {
+          "startOffset": 134762,
+          "endOffset": 135119,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "applyDefaults",
+      "ranges": [
+        {
+          "startOffset": 135321,
+          "endOffset": 135642,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "castObject",
+      "ranges": [
+        {
+          "startOffset": 136373,
+          "endOffset": 138074,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "buildBulkWriteOperations",
+      "ranges": [
+        {
+          "startOffset": 138687,
+          "endOffset": 140743,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "Model.hydrate",
+      "ranges": [
+        {
+          "startOffset": 141567,
+          "endOffset": 141947,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "updateMany",
+      "ranges": [
+        {
+          "startOffset": 144640,
+          "endOffset": 144791,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "updateOne",
+      "ranges": [
+        {
+          "startOffset": 147427,
+          "endOffset": 147575,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "replaceOne",
+      "ranges": [
+        {
+          "startOffset": 149677,
+          "endOffset": 150005,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "_update",
+      "ranges": [
+        {
+          "startOffset": 150156,
+          "endOffset": 150751,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "aggregate",
+      "ranges": [
+        {
+          "startOffset": 152867,
+          "endOffset": 153331,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "validate",
+      "ranges": [
+        {
+          "startOffset": 154084,
+          "endOffset": 157131,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "populate",
+      "ranges": [
+        {
+          "startOffset": 161591,
+          "endOffset": 162164,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "_populate",
+      "ranges": [
+        {
+          "startOffset": 162535,
+          "endOffset": 162985,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "populate",
+      "ranges": [
+        {
+          "startOffset": 163093,
+          "endOffset": 168318,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "_execPopulateQuery",
+      "ranges": [
+        {
+          "startOffset": 168339,
+          "endOffset": 170912,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "_assign",
+      "ranges": [
+        {
+          "startOffset": 170933,
+          "endOffset": 174087,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "compile",
+      "ranges": [
+        {
+          "startOffset": 174361,
+          "endOffset": 177667,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "$__updateConnection",
+      "ranges": [
+        {
+          "startOffset": 178102,
+          "endOffset": 178584,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "applyQueryMethods",
+      "ranges": [
+        {
+          "startOffset": 178713,
+          "endOffset": 178835,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "subclass",
+      "ranges": [
+        {
+          "startOffset": 179116,
+          "endOffset": 180865,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "recompileSchema",
+      "ranges": [
+        {
+          "startOffset": 181698,
+          "endOffset": 182041,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "Model.inspect",
+      "ranges": [
+        {
+          "startOffset": 182388,
+          "endOffset": 182442,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "_applyQueryMiddleware",
+      "ranges": [
+        {
+          "startOffset": 182695,
+          "endOffset": 183243,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "_getContexts",
+      "ranges": [
+        {
+          "startOffset": 183246,
+          "endOffset": 183458,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    }
+  ]
+}

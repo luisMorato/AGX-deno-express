@@ -1,0 +1,65 @@
+{
+  "scriptId": "749",
+  "url": "file:///C:/Users/luisf/AppData/Local/deno/npm/registry.npmjs.org/mongoose/8.3.2/lib/helpers/isSimpleValidator.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 684,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 1,
+          "endOffset": 683,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 214,
+          "endOffset": 677,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "isSimpleValidator",
+      "ranges": [
+        {
+          "startOffset": 399,
+          "endOffset": 673,
+          "count": 1
+        },
+        {
+          "startOffset": 538,
+          "endOffset": 653,
+          "count": 2
+        },
+        {
+          "startOffset": 581,
+          "endOffset": 605,
+          "count": 0
+        },
+        {
+          "startOffset": 607,
+          "endOffset": 649,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": true
+    }
+  ]
+}

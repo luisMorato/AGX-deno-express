@@ -10,9 +10,27 @@ import { DeleteUserByIdService } from '../../../services/DeleteUserByIdService.t
 const rules = new UsersRules()
 
 export class UsersController {
-  constructor() {}
+  private createUserService: CreateUserService
+  private fetchUsersService: FetchUsersService
+  private findUserByIdService: FindUserByIdService
+  private updateUserByIdService: UpdateUserByIdService
+  private deleteUserByIdService: DeleteUserByIdService
 
-  async create(req: Request, res: Response, next: NextFunction) {
+  constructor({
+    createUserService = new CreateUserService(),
+    fetchUsersService = new FetchUsersService(),
+    findUserByIdService = new FindUserByIdService(),
+    updateUserByIdService = new UpdateUserByIdService(),
+    deleteUserByIdService = new DeleteUserByIdService(),
+  } = {}) {
+    this.createUserService = createUserService
+    this.fetchUsersService = fetchUsersService
+    this.findUserByIdService = findUserByIdService
+    this.updateUserByIdService = updateUserByIdService
+    this.deleteUserByIdService = deleteUserByIdService
+  }
+
+  create = async (req: Request, res: Response, next: NextFunction) => {
     try {
       const {
         name,
@@ -28,22 +46,20 @@ export class UsersController {
         { birthdate: new Date(birthdate), isRequiredField: true },
       )
 
-      const createUserService = new CreateUserService()
-
-      await createUserService.execute({
+      await this.createUserService.execute({
         name,
         email,
         password,
         birthdate,
       })
 
-      res.send_created('Usuário inserido com sucesso')
+      return res.send_created('Usuário inserido com sucesso')
     } catch (error) {
       next(error)
     }
   }
 
-  async list(req: Request, res: Response, next: NextFunction) {
+  list = async (req: Request, res: Response, next: NextFunction) => {
     try {
       const { name, email } = req.query as { email?: string; name?: string }
 
@@ -52,8 +68,7 @@ export class UsersController {
         { email, isRequiredField: false },
       )
 
-      const fetchUsersService = new FetchUsersService()
-      const users = await fetchUsersService.execute({ name, email })
+      const users = await this.fetchUsersService.execute({ name, email })
 
       return res.send_ok('', { users })
     } catch (error) {
@@ -61,7 +76,7 @@ export class UsersController {
     }
   }
 
-  async findById(req: Request, res: Response, next: NextFunction) {
+  findById = async (req: Request, res: Response, next: NextFunction) => {
     try {
       const { id } = req.params
 
@@ -69,8 +84,7 @@ export class UsersController {
         { id, isRequiredField: true },
       )
 
-      const findUserByIdService = new FindUserByIdService()
-      const user = await findUserByIdService.execute(id)
+      const user = await this.findUserByIdService.execute(id)
 
       return res.send_ok('', { user })
     } catch (error) {
@@ -78,7 +92,7 @@ export class UsersController {
     }
   }
 
-  async updateById(req: Request, res: Response, next: NextFunction) {
+  updateById = async (req: Request, res: Response, next: NextFunction) => {
     try {
       const { id } = req.params
 
@@ -103,9 +117,7 @@ export class UsersController {
 
       if (!userId) return res.err_unauthorized('Usuário não autenticado')
 
-      const updateUserByIdService = new UpdateUserByIdService()
-
-      await updateUserByIdService.execute({
+      await this.updateUserByIdService.execute({
         id,
         name,
         email,
@@ -121,7 +133,7 @@ export class UsersController {
     }
   }
 
-  async deleteById(req: Request, res: Response, next: NextFunction) {
+  deleteById = async (req: Request, res: Response, next: NextFunction) => {
     try {
       const { id } = req.params
 
@@ -133,9 +145,7 @@ export class UsersController {
 
       if (!userId) return res.err_unauthorized('Usuário não autenticado')
 
-      const deleteUserByIdService = new DeleteUserByIdService()
-
-      await deleteUserByIdService.execute({ id, tokenUserId: userId })
+      await this.deleteUserByIdService.execute({ id, tokenUserId: userId })
 
       return res.send_ok('Usuário excluído com sucesso')
     } catch (error) {

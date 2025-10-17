@@ -54,7 +54,7 @@ class UserSchemaClass extends BaseSchema {
           type: Date,
           required: true,
           validate: {
-            validator: (birthdate) => new Date(birthdate) < new Date(),
+            validator: (birthdate: any) => new Date(birthdate) < new Date(),
             message: 'A data de aniversário deve ser menor que a data atual',
           },
         },
