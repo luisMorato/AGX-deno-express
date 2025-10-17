@@ -69,9 +69,9 @@ export class TransferRepositoryMock {
   aggregate(_aggregatePipeline: PipelineStage[]) {
     const accountId = (_aggregatePipeline[0] as any)['$match'].senderAccountId
     const createdAt = (_aggregatePipeline[0] as any)['$match'].createdAt
-    
-    const from = createdAt.$gte
-    const to = createdAt.$lte
+
+    const from = createdAt ? createdAt.$gte : null
+    const to = createdAt ? createdAt.$lte : null
 
     let transfers = this.transfersMockData.filter(({ senderAccountId }) => senderAccountId === accountId)
 
@@ -79,23 +79,52 @@ export class TransferRepositoryMock {
       transfers = transfers.filter(({ createdAt }) => createdAt > from && createdAt < to)
     }
 
-
     const transfersResume: Record<string, {
-      
+      accountId: string,
+      resume: {
+        type: ITransactionTypes,
+        transactionsCount: number,
+        totalSpent: number,
+      },
     }> = {}
 
+    const group = Object.groupBy(transfers, ({ transactionType }) => transactionType)
+    const keys = Object.entries(ITransactionTypes).map(([key]) => key)
 
-    const transfersResume = transfers.map(({ _id, senderAccountId, transactionType }) => {
-      return {
-        accountId: senderAccountId,
-        resume: {
-          type: transactionType,
-          transactionsCount: ,
-          totalSpent: '$totalSpent',
-        },
+    keys.forEach((key) => {
+      if (!transfersResume[key]) {
+        transfersResume[key] = {
+          accountId: '',
+          resume: {
+            type: ITransactionTypes.DEBIT,
+            transactionsCount: 0,
+            totalSpent: 0,
+          },
+        }
       }
+
+      let totalSpent = 0;
+      let transactionsCount = 0;
+
+      (group[key as keyof typeof ITransactionTypes] as ITransfer[]).forEach((transfer) => {
+        totalSpent += transfer.amount
+        transactionsCount += 1
+
+        transfersResume[transfer.transactionType] = {
+          accountId: transfer.senderAccountId,
+          resume: {
+            totalSpent,
+            transactionsCount,
+            type: transfer.transactionType,
+          }
+        }
+      })
     })
+
+    const transferResumes = keys.map((key) => transfersResume[key])
+
+    console.log('transferResumes: ', transferResumes)
     
-    // return Promise.resolve([filteredUser])
+    return Promise.resolve(transferResumes)
   }
 }

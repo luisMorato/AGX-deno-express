@@ -30,7 +30,7 @@ class JWTMock implements JwtRepository {
   }
 
   validate() {
-    console.log('JWT_SECRET: ', this.JWT_SECRET)
+    // console.log('JWT_SECRET: ', this.JWT_SECRET)
   }
 
   verify(_token: string) {}

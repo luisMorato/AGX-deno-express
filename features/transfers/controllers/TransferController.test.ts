@@ -305,7 +305,10 @@ Deno.test(
   { sanitizeOps: false, sanitizeResources: false },
   async () => {
     const mockRequest = {
-      accountId: 'VV96241',
+      params: {
+        accountId: 'VV96241',
+      },
+      query: {}
     } as unknown as Request
 
     const result = await transferController.spent(
@@ -315,6 +318,15 @@ Deno.test(
     ) as any
 
     assertEquals(result.code, 200)
-    assertEquals(result.data.transfersResume, [])
+    assertEquals(result.data, [
+      {
+        accountId: "VV96241",
+        resume: { totalSpent: 300, transactionsCount: 2, type: "DEBIT" }
+      },
+      {
+        accountId: "VV96241",
+        resume: { totalSpent: 250, transactionsCount: 1, type: "CREDIT" }
+      }
+    ])
   }
 )
