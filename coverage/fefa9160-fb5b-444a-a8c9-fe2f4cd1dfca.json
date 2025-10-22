@@ -1,0 +1,83 @@
+{
+  "scriptId": "853",
+  "url": "file:///C:/Users/AGX/AppData/Local/deno/npm/registry.npmjs.org/mongoose/8.19.1/lib/helpers/update/applyTimestampsToChildren.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 6129,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 1,
+          "endOffset": 6128,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 214,
+          "endOffset": 6122,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "applyTimestampsToChildren",
+      "ranges": [
+        {
+          "startOffset": 455,
+          "endOffset": 2552,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "applyTimestampsToDocumentArray",
+      "ranges": [
+        {
+          "startOffset": 2554,
+          "endOffset": 3221,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "applyTimestampsToSingleNested",
+      "ranges": [
+        {
+          "startOffset": 3223,
+          "endOffset": 3768,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "applyTimestampsToUpdateKey",
+      "ranges": [
+        {
+          "startOffset": 3770,
+          "endOffset": 6119,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    }
+  ]
+}

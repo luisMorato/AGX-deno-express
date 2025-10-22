@@ -1,0 +1,28 @@
+{
+  "scriptId": "446",
+  "url": "file:///C:/Users/AGX/AppData/Local/deno/npm/registry.npmjs.org/date-fns/4.1.0/endOfWeek.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 1799,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "endOfWeek",
+      "ranges": [
+        {
+          "startOffset": 1219,
+          "endOffset": 1734,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "scriptId": "528",
+  "url": "file:///C:/Users/AGX/AppData/Local/deno/npm/registry.npmjs.org/date-fns/4.1.0/isToday.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 821,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "isToday",
+      "ranges": [
+        {
+          "startOffset": 613,
+          "endOffset": 758,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    }
+  ]
+}

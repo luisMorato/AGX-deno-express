@@ -1,0 +1,105 @@
+{
+  "scriptId": "1047",
+  "url": "file:///C:/Users/AGX/AppData/Local/deno/npm/registry.npmjs.org/mongoose/8.19.1/lib/error/setOptionError.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 2217,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 1,
+          "endOffset": 2216,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 214,
+          "endOffset": 2210,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "SetOptionError",
+      "ranges": [
+        {
+          "startOffset": 547,
+          "endOffset": 604,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "toString",
+      "ranges": [
+        {
+          "startOffset": 644,
+          "endOffset": 696,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "inspect",
+      "ranges": [
+        {
+          "startOffset": 750,
+          "endOffset": 822,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "addError",
+      "ranges": [
+        {
+          "startOffset": 926,
+          "endOffset": 1237,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "value",
+      "ranges": [
+        {
+          "startOffset": 1652,
+          "endOffset": 1748,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "SetOptionInnerError",
+      "ranges": [
+        {
+          "startOffset": 2011,
+          "endOffset": 2085,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    }
+  ]
+}

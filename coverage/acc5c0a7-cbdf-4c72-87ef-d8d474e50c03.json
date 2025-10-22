@@ -1,0 +1,105 @@
+{
+  "scriptId": "909",
+  "url": "file:///C:/Users/AGX/AppData/Local/deno/npm/registry.npmjs.org/mongodb/6.20.0/lib/operations/find.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 5423,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 1,
+          "endOffset": 5422,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 214,
+          "endOffset": 5416,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "FindOperation",
+      "ranges": [
+        {
+          "startOffset": 665,
+          "endOffset": 1394,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "get commandName",
+      "ranges": [
+        {
+          "startOffset": 1399,
+          "endOffset": 1447,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "buildOptions",
+      "ranges": [
+        {
+          "startOffset": 1452,
+          "endOffset": 1687,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "handleOk",
+      "ranges": [
+        {
+          "startOffset": 1692,
+          "endOffset": 1743,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "buildCommandDocument",
+      "ranges": [
+        {
+          "startOffset": 1748,
+          "endOffset": 1846,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "makeFindCommand",
+      "ranges": [
+        {
+          "startOffset": 1888,
+          "endOffset": 5139,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    }
+  ]
+}

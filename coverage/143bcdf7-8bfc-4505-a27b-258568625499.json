@@ -1,0 +1,44 @@
+{
+  "scriptId": "556",
+  "url": "file:///C:/Users/AGX/AppData/Local/deno/npm/registry.npmjs.org/semver/7.7.3/internal/constants.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 1103,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 1,
+          "endOffset": 1102,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 214,
+          "endOffset": 1096,
+          "count": 1
+        },
+        {
+          "startOffset": 468,
+          "endOffset": 514,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": true
+    }
+  ]
+}

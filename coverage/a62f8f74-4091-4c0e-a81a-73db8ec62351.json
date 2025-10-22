@@ -1,0 +1,298 @@
+{
+  "scriptId": "715",
+  "url": "file:///C:/Users/AGX/AppData/Local/deno/npm/registry.npmjs.org/mongoose/8.19.1/lib/drivers/node-mongodb-native/connection.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 16649,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 1,
+          "endOffset": 16648,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 214,
+          "endOffset": 16642,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "NativeConnection",
+      "ranges": [
+        {
+          "startOffset": 888,
+          "endOffset": 1316,
+          "count": 2
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "NativeConnection.useDb",
+      "ranges": [
+        {
+          "startOffset": 2404,
+          "endOffset": 4645,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "aggregate",
+      "ranges": [
+        {
+          "startOffset": 4893,
+          "endOffset": 5019,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "removeDb",
+      "ranges": [
+        {
+          "startOffset": 5711,
+          "endOffset": 6156,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "doClose",
+      "ranges": [
+        {
+          "startOffset": 6306,
+          "endOffset": 7032,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "listDatabases",
+      "ranges": [
+        {
+          "startOffset": 7182,
+          "endOffset": 7297,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "createClient",
+      "ranges": [
+        {
+          "startOffset": 7361,
+          "endOffset": 11041,
+          "count": 1
+        },
+        {
+          "startOffset": 7436,
+          "endOffset": 7669,
+          "count": 0
+        },
+        {
+          "startOffset": 7698,
+          "endOffset": 7941,
+          "count": 0
+        },
+        {
+          "startOffset": 8028,
+          "endOffset": 8362,
+          "count": 0
+        },
+        {
+          "startOffset": 8472,
+          "endOffset": 8507,
+          "count": 0
+        },
+        {
+          "startOffset": 8508,
+          "endOffset": 8540,
+          "count": 0
+        },
+        {
+          "startOffset": 8595,
+          "endOffset": 8714,
+          "count": 0
+        },
+        {
+          "startOffset": 8749,
+          "endOffset": 8842,
+          "count": 0
+        },
+        {
+          "startOffset": 8881,
+          "endOffset": 8984,
+          "count": 0
+        },
+        {
+          "startOffset": 9024,
+          "endOffset": 9130,
+          "count": 0
+        },
+        {
+          "startOffset": 9170,
+          "endOffset": 9276,
+          "count": 0
+        },
+        {
+          "startOffset": 9340,
+          "endOffset": 9541,
+          "count": 0
+        },
+        {
+          "startOffset": 9633,
+          "endOffset": 9736,
+          "count": 0
+        },
+        {
+          "startOffset": 9740,
+          "endOffset": 9769,
+          "count": 0
+        },
+        {
+          "startOffset": 9863,
+          "endOffset": 9895,
+          "count": 0
+        },
+        {
+          "startOffset": 10235,
+          "endOffset": 10261,
+          "count": 0
+        },
+        {
+          "startOffset": 10263,
+          "endOffset": 10362,
+          "count": 0
+        },
+        {
+          "startOffset": 10405,
+          "endOffset": 10460,
+          "count": 0
+        },
+        {
+          "startOffset": 10512,
+          "endOffset": 10585,
+          "count": 0
+        },
+        {
+          "startOffset": 10737,
+          "endOffset": 10816,
+          "count": 0
+        },
+        {
+          "startOffset": 10896,
+          "endOffset": 11040,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "NativeConnection._buildEncryptionSchemas",
+      "ranges": [
+        {
+          "startOffset": 11378,
+          "endOffset": 13049,
+          "count": 1
+        },
+        {
+          "startOffset": 11881,
+          "endOffset": 12684,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 11505,
+          "endOffset": 11548,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 12386,
+          "endOffset": 12634,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 12764,
+          "endOffset": 12828,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 12920,
+          "endOffset": 12990,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "setClient",
+      "ranges": [
+        {
+          "startOffset": 13110,
+          "endOffset": 13879,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "_setClient",
+      "ranges": [
+        {
+          "startOffset": 13901,
+          "endOffset": 16575,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    }
+  ]
+}

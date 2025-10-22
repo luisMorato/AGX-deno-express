@@ -1,0 +1,677 @@
+{
+  "scriptId": "662",
+  "url": "file:///C:/Users/AGX/AppData/Local/deno/npm/registry.npmjs.org/mongodb/6.20.0/lib/cursor/abstract_cursor.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 37285,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 1,
+          "endOffset": 37284,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 214,
+          "endOffset": 37278,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "removeActiveCursor",
+      "ranges": [
+        {
+          "startOffset": 1199,
+          "endOffset": 1278,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "AbstractCursor",
+      "ranges": [
+        {
+          "startOffset": 2779,
+          "endOffset": 6884,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "get id",
+      "ranges": [
+        {
+          "startOffset": 7185,
+          "endOffset": 7244,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "get isDead",
+      "ranges": [
+        {
+          "startOffset": 7270,
+          "endOffset": 7375,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "get client",
+      "ranges": [
+        {
+          "startOffset": 7401,
+          "endOffset": 7455,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "get server",
+      "ranges": [
+        {
+          "startOffset": 7481,
+          "endOffset": 7537,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "get namespace",
+      "ranges": [
+        {
+          "startOffset": 7542,
+          "endOffset": 7602,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "get readPreference",
+      "ranges": [
+        {
+          "startOffset": 7607,
+          "endOffset": 7685,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "get readConcern",
+      "ranges": [
+        {
+          "startOffset": 7690,
+          "endOffset": 7762,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "get session",
+      "ranges": [
+        {
+          "startOffset": 7788,
+          "endOffset": 7844,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "set session",
+      "ranges": [
+        {
+          "startOffset": 7849,
+          "endOffset": 7927,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "get closed",
+      "ranges": [
+        {
+          "startOffset": 8041,
+          "endOffset": 8130,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "get killed",
+      "ranges": [
+        {
+          "startOffset": 8267,
+          "endOffset": 8317,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "get loadBalanced",
+      "ranges": [
+        {
+          "startOffset": 8322,
+          "endOffset": 8407,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "asyncDispose",
+      "ranges": [
+        {
+          "startOffset": 8433,
+          "endOffset": 8489,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "trackCursor",
+      "ranges": [
+        {
+          "startOffset": 8582,
+          "endOffset": 8787,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "bufferedCount",
+      "ranges": [
+        {
+          "startOffset": 8845,
+          "endOffset": 8912,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "readBufferedDocuments",
+      "ranges": [
+        {
+          "startOffset": 8963,
+          "endOffset": 9422,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 9427,
+          "endOffset": 10660,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "stream",
+      "ranges": [
+        {
+          "startOffset": 10665,
+          "endOffset": 11825,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "hasNext",
+      "ranges": [
+        {
+          "startOffset": 11830,
+          "endOffset": 12610,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "next",
+      "ranges": [
+        {
+          "startOffset": 12724,
+          "endOffset": 13702,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "tryNext",
+      "ranges": [
+        {
+          "startOffset": 13825,
+          "endOffset": 14933,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "forEach",
+      "ranges": [
+        {
+          "startOffset": 15257,
+          "endOffset": 15657,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "close",
+      "ranges": [
+        {
+          "startOffset": 15737,
+          "endOffset": 15813,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "toArray",
+      "ranges": [
+        {
+          "startOffset": 16145,
+          "endOffset": 16814,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "addCursorFlag",
+      "ranges": [
+        {
+          "startOffset": 17063,
+          "endOffset": 17517,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "map",
+      "ranges": [
+        {
+          "startOffset": 19369,
+          "endOffset": 19701,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "withReadPreference",
+      "ranges": [
+        {
+          "startOffset": 19846,
+          "endOffset": 20394,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "withReadConcern",
+      "ranges": [
+        {
+          "startOffset": 20539,
+          "endOffset": 20835,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "maxTimeMS",
+      "ranges": [
+        {
+          "startOffset": 21073,
+          "endOffset": 21350,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "batchSize",
+      "ranges": [
+        {
+          "startOffset": 21587,
+          "endOffset": 22021,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "rewind",
+      "ranges": [
+        {
+          "startOffset": 22317,
+          "endOffset": 23228,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "getMore",
+      "ranges": [
+        {
+          "startOffset": 23254,
+          "endOffset": 24223,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "cursorInit",
+      "ranges": [
+        {
+          "startOffset": 24465,
+          "endOffset": 25813,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "fetchBatch",
+      "ranges": [
+        {
+          "startOffset": 25872,
+          "endOffset": 27776,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "cleanup",
+      "ranges": [
+        {
+          "startOffset": 27802,
+          "endOffset": 30215,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "emitClose",
+      "ranges": [
+        {
+          "startOffset": 30241,
+          "endOffset": 30688,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "transformDocument",
+      "ranges": [
+        {
+          "startOffset": 30714,
+          "endOffset": 31583,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "throwIfInitialized",
+      "ranges": [
+        {
+          "startOffset": 31609,
+          "endOffset": 31722,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "ReadableCursorStream",
+      "ranges": [
+        {
+          "startOffset": 31871,
+          "endOffset": 32086,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "_read",
+      "ranges": [
+        {
+          "startOffset": 32157,
+          "endOffset": 32294,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "_destroy",
+      "ranges": [
+        {
+          "startOffset": 32299,
+          "endOffset": 32426,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "_readNext",
+      "ranges": [
+        {
+          "startOffset": 32431,
+          "endOffset": 35262,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "CursorTimeoutContext",
+      "ranges": [
+        {
+          "startOffset": 35718,
+          "endOffset": 35851,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "get serverSelectionTimeout",
+      "ranges": [
+        {
+          "startOffset": 35856,
+          "endOffset": 35951,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "get connectionCheckoutTimeout",
+      "ranges": [
+        {
+          "startOffset": 35956,
+          "endOffset": 36057,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "get clearServerSelectionTimeout",
+      "ranges": [
+        {
+          "startOffset": 36062,
+          "endOffset": 36167,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "get timeoutForSocketWrite",
+      "ranges": [
+        {
+          "startOffset": 36172,
+          "endOffset": 36265,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "get timeoutForSocketRead",
+      "ranges": [
+        {
+          "startOffset": 36270,
+          "endOffset": 36361,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "csotEnabled",
+      "ranges": [
+        {
+          "startOffset": 36366,
+          "endOffset": 36437,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "refresh",
+      "ranges": [
+        {
+          "startOffset": 36442,
+          "endOffset": 36553,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "clear",
+      "ranges": [
+        {
+          "startOffset": 36558,
+          "endOffset": 36665,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "get maxTimeMS",
+      "ranges": [
+        {
+          "startOffset": 36670,
+          "endOffset": 36739,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "get timeoutMS",
+      "ranges": [
+        {
+          "startOffset": 36744,
+          "endOffset": 36856,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "refreshed",
+      "ranges": [
+        {
+          "startOffset": 36861,
+          "endOffset": 36966,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "addMaxTimeMSToCommand",
+      "ranges": [
+        {
+          "startOffset": 36971,
+          "endOffset": 37087,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "getSocketTimeoutMS",
+      "ranges": [
+        {
+          "startOffset": 37092,
+          "endOffset": 37177,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    }
+  ]
+}

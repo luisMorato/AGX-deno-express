@@ -1,0 +1,116 @@
+{
+  "scriptId": "601",
+  "url": "file:///C:/Users/AGX/AppData/Local/deno/npm/registry.npmjs.org/jsonwebtoken/9.0.2/sign.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 9580,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 1,
+          "endOffset": 9579,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 214,
+          "endOffset": 9573,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "isValid",
+      "ranges": [
+        {
+          "startOffset": 1060,
+          "endOffset": 1134,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "isValid",
+      "ranges": [
+        {
+          "startOffset": 1250,
+          "endOffset": 1324,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "isValid",
+      "ranges": [
+        {
+          "startOffset": 1439,
+          "endOffset": 1506,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "validate",
+      "ranges": [
+        {
+          "startOffset": 2781,
+          "endOffset": 3328,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "validateOptions",
+      "ranges": [
+        {
+          "startOffset": 3330,
+          "endOffset": 3434,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "validatePayload",
+      "ranges": [
+        {
+          "startOffset": 3436,
+          "endOffset": 3544,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "module.exports",
+      "ranges": [
+        {
+          "startOffset": 3804,
+          "endOffset": 9569,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "scriptId": "380",
+  "url": "file:///C:/Users/AGX/AppData/Local/deno/npm/registry.npmjs.org/jsonwebtoken/9.0.2/index.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 833,
+          "count": 1
+        },
+        {
+          "startOffset": 189,
+          "endOffset": 331,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": true
+    }
+  ]
+}

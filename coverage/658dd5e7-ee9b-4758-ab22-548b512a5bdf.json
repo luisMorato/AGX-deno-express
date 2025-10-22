@@ -1,0 +1,28 @@
+{
+  "scriptId": "440",
+  "url": "file:///C:/Users/AGX/AppData/Local/deno/npm/registry.npmjs.org/date-fns/4.1.0/endOfMinute.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 1180,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "endOfMinute",
+      "ranges": [
+        {
+          "startOffset": 986,
+          "endOffset": 1113,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    }
+  ]
+}

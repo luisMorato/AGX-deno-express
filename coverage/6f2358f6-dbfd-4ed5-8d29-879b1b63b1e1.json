@@ -1,0 +1,28 @@
+{
+  "scriptId": "569",
+  "url": "file:///C:/Users/AGX/AppData/Local/deno/npm/registry.npmjs.org/date-fns/4.1.0/previousSaturday.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 1050,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "previousSaturday",
+      "ranges": [
+        {
+          "startOffset": 894,
+          "endOffset": 978,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    }
+  ]
+}

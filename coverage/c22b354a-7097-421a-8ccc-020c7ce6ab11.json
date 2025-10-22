@@ -1,0 +1,116 @@
+{
+  "scriptId": "604",
+  "url": "file:///C:/Users/AGX/AppData/Local/deno/npm/registry.npmjs.org/lodash.isinteger/4.0.4/index.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 6266,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 1,
+          "endOffset": 6265,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 214,
+          "endOffset": 6259,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "isInteger",
+      "ranges": [
+        {
+          "startOffset": 2029,
+          "endOffset": 2122,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "isObject",
+      "ranges": [
+        {
+          "startOffset": 2705,
+          "endOffset": 2822,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "isObjectLike",
+      "ranges": [
+        {
+          "startOffset": 3321,
+          "endOffset": 3399,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "isSymbol",
+      "ranges": [
+        {
+          "startOffset": 3758,
+          "endOffset": 3893,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "toFinite",
+      "ranges": [
+        {
+          "startOffset": 4299,
+          "endOffset": 4571,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "toInteger",
+      "ranges": [
+        {
+          "startOffset": 5096,
+          "endOffset": 5264,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "toNumber",
+      "ranges": [
+        {
+          "startOffset": 5637,
+          "endOffset": 6227,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    }
+  ]
+}

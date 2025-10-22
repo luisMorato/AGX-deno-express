@@ -1,0 +1,72 @@
+{
+  "scriptId": "633",
+  "url": "file:///C:/Users/AGX/Desktop/AGX/AGX-deno-express/models/transfers/Transfer.ts",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 1324,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 100,
+          "endOffset": 241,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "<instance_members_initializer>",
+      "ranges": [
+        {
+          "startOffset": 266,
+          "endOffset": 331,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "Transfer",
+      "ranges": [
+        {
+          "startOffset": 335,
+          "endOffset": 559,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "transferSchemaClass",
+      "ranges": [
+        {
+          "startOffset": 611,
+          "endOffset": 1201,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "validator",
+      "ranges": [
+        {
+          "startOffset": 1054,
+          "endOffset": 1111,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    }
+  ]
+}

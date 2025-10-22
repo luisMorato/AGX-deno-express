@@ -1,0 +1,28 @@
+{
+  "scriptId": "605",
+  "url": "file:///C:/Users/AGX/AppData/Local/deno/npm/registry.npmjs.org/date-fns/4.1.0/startOfQuarter.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 1290,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "startOfQuarter",
+      "ranges": [
+        {
+          "startOffset": 969,
+          "endOffset": 1220,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    }
+  ]
+}

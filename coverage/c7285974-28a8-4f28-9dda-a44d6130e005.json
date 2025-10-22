@@ -1,0 +1,160 @@
+{
+  "scriptId": "986",
+  "url": "file:///C:/Users/AGX/AppData/Local/deno/npm/registry.npmjs.org/mongodb/6.20.0/lib/mongo_client_auth_providers.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 4132,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 1,
+          "endOffset": 4131,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 214,
+          "endOffset": 4125,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "constructor",
+      "ranges": [
+        {
+          "startOffset": 1113,
+          "endOffset": 1199,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "constructor",
+      "ranges": [
+        {
+          "startOffset": 1267,
+          "endOffset": 1411,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 1466,
+          "endOffset": 1493,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "constructor",
+      "ranges": [
+        {
+          "startOffset": 1541,
+          "endOffset": 1610,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "constructor",
+      "ranges": [
+        {
+          "startOffset": 1659,
+          "endOffset": 1684,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "constructor",
+      "ranges": [
+        {
+          "startOffset": 1738,
+          "endOffset": 1767,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "constructor",
+      "ranges": [
+        {
+          "startOffset": 1823,
+          "endOffset": 1854,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 1902,
+          "endOffset": 1925,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "MongoClientAuthProviders",
+      "ranges": [
+        {
+          "startOffset": 2097,
+          "endOffset": 2162,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "getOrCreateProvider",
+      "ranges": [
+        {
+          "startOffset": 2585,
+          "endOffset": 3120,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "getWorkflow",
+      "ranges": [
+        {
+          "startOffset": 3247,
+          "endOffset": 4067,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    }
+  ]
+}

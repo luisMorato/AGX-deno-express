@@ -1,0 +1,138 @@
+{
+  "scriptId": "843",
+  "url": "file:///C:/Users/AGX/AppData/Local/deno/npm/registry.npmjs.org/mongoose/8.19.1/lib/schema/double.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 5381,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 1,
+          "endOffset": 5380,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 214,
+          "endOffset": 5374,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "SchemaDouble",
+      "ranges": [
+        {
+          "startOffset": 634,
+          "endOffset": 724,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "SchemaDouble._defaultCaster",
+      "ranges": [
+        {
+          "startOffset": 1956,
+          "endOffset": 2067,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "cast",
+      "ranges": [
+        {
+          "startOffset": 2693,
+          "endOffset": 2887,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "SchemaDouble._checkRequired",
+      "ranges": [
+        {
+          "startOffset": 2940,
+          "endOffset": 2954,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "SchemaDouble.checkRequired",
+      "ranges": [
+        {
+          "startOffset": 3402,
+          "endOffset": 3470,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "SchemaDouble.cast",
+      "ranges": [
+        {
+          "startOffset": 3623,
+          "endOffset": 4031,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "handleSingle",
+      "ranges": [
+        {
+          "startOffset": 4053,
+          "endOffset": 4108,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "toJSONSchema",
+      "ranges": [
+        {
+          "startOffset": 4991,
+          "endOffset": 5211,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "autoEncryptionType",
+      "ranges": [
+        {
+          "startOffset": 5258,
+          "endOffset": 5310,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    }
+  ]
+}

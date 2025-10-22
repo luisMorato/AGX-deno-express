@@ -1,0 +1,176 @@
+{
+  "scriptId": "923",
+  "url": "file:///C:/Users/AGX/AppData/Local/deno/npm/registry.npmjs.org/mquery/5.0.0/lib/utils.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 6345,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 1,
+          "endOffset": 6344,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 214,
+          "endOffset": 6338,
+          "count": 1
+        },
+        {
+          "startOffset": 5765,
+          "endOffset": 5773,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "clone",
+      "ranges": [
+        {
+          "startOffset": 523,
+          "endOffset": 1591,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "cloneObject",
+      "ranges": [
+        {
+          "startOffset": 1635,
+          "endOffset": 2343,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "cloneArray",
+      "ranges": [
+        {
+          "startOffset": 2367,
+          "endOffset": 2530,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "merge",
+      "ranges": [
+        {
+          "startOffset": 2691,
+          "endOffset": 3073,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "mergeClone",
+      "ranges": [
+        {
+          "startOffset": 3220,
+          "endOffset": 3626,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "readPref",
+      "ranges": [
+        {
+          "startOffset": 3918,
+          "endOffset": 4262,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "readConcern",
+      "ranges": [
+        {
+          "startOffset": 4585,
+          "endOffset": 5048,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "exports.toString",
+      "ranges": [
+        {
+          "startOffset": 5165,
+          "endOffset": 5212,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "exports.isObject",
+      "ranges": [
+        {
+          "startOffset": 5377,
+          "endOffset": 5447,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "create",
+      "ranges": [
+        {
+          "startOffset": 5776,
+          "endOffset": 5954,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "exports.inherits",
+      "ranges": [
+        {
+          "startOffset": 5999,
+          "endOffset": 6121,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "exports.isArgumentsObject",
+      "ranges": [
+        {
+          "startOffset": 6250,
+          "endOffset": 6334,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    }
+  ]
+}

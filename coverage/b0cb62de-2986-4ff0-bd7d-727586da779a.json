@@ -1,0 +1,160 @@
+{
+  "scriptId": "781",
+  "url": "file:///C:/Users/AGX/AppData/Local/deno/npm/registry.npmjs.org/mongodb/6.20.0/lib/gridfs/download.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 12050,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 1,
+          "endOffset": 12049,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 214,
+          "endOffset": 12043,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "GridFSBucketReadStream",
+      "ranges": [
+        {
+          "startOffset": 1006,
+          "endOffset": 1698,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "_read",
+      "ranges": [
+        {
+          "startOffset": 1833,
+          "endOffset": 1943,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "start",
+      "ranges": [
+        {
+          "startOffset": 2221,
+          "endOffset": 2338,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "end",
+      "ranges": [
+        {
+          "startOffset": 2601,
+          "endOffset": 2710,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "abort",
+      "ranges": [
+        {
+          "startOffset": 2947,
+          "endOffset": 3169,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "throwIfInitialized",
+      "ranges": [
+        {
+          "startOffset": 3369,
+          "endOffset": 3550,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "doRead",
+      "ranges": [
+        {
+          "startOffset": 3551,
+          "endOffset": 6219,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "init",
+      "ranges": [
+        {
+          "startOffset": 6220,
+          "endOffset": 9902,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "waitForFile",
+      "ranges": [
+        {
+          "startOffset": 9903,
+          "endOffset": 10147,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "handleStartOption",
+      "ranges": [
+        {
+          "startOffset": 10148,
+          "endOffset": 11123,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "handleEndOption",
+      "ranges": [
+        {
+          "startOffset": 11124,
+          "endOffset": 12004,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    }
+  ]
+}

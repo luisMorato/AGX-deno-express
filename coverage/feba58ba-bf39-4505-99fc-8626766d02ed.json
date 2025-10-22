@@ -1,0 +1,237 @@
+{
+  "scriptId": "652",
+  "url": "file:///C:/Users/AGX/AppData/Local/deno/npm/registry.npmjs.org/mongodb/6.20.0/lib/client-side-encryption/client_encryption.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 27098,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 1,
+          "endOffset": 27097,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 214,
+          "endOffset": 27091,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "getMongoCrypt",
+      "ranges": [
+        {
+          "startOffset": 862,
+          "endOffset": 1089,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "ClientEncryption",
+      "ranges": [
+        {
+          "startOffset": 1773,
+          "endOffset": 3182,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "createDataKey",
+      "ranges": [
+        {
+          "startOffset": 4115,
+          "endOffset": 6404,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "rewrapManyDataKey",
+      "ranges": [
+        {
+          "startOffset": 7474,
+          "endOffset": 9446,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "deleteKey",
+      "ranges": [
+        {
+          "startOffset": 9873,
+          "endOffset": 10236,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "getKeys",
+      "ranges": [
+        {
+          "startOffset": 10558,
+          "endOffset": 10897,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "getKey",
+      "ranges": [
+        {
+          "startOffset": 11460,
+          "endOffset": 11821,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "getKeyByAltName",
+      "ranges": [
+        {
+          "startOffset": 12459,
+          "endOffset": 12856,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "addKeyAltName",
+      "ranges": [
+        {
+          "startOffset": 13779,
+          "endOffset": 14264,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "removeKeyAltName",
+      "ranges": [
+        {
+          "startOffset": 15336,
+          "endOffset": 16573,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "createEncryptedCollection",
+      "ranges": [
+        {
+          "startOffset": 17500,
+          "endOffset": 19717,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "encrypt",
+      "ranges": [
+        {
+          "startOffset": 20887,
+          "endOffset": 20983,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "encryptExpression",
+      "ranges": [
+        {
+          "startOffset": 21715,
+          "endOffset": 21830,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "decrypt",
+      "ranges": [
+        {
+          "startOffset": 22249,
+          "endOffset": 23002,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "askForKMSCredentials",
+      "ranges": [
+        {
+          "startOffset": 23269,
+          "endOffset": 23409,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "get libmongocryptVersion",
+      "ranges": [
+        {
+          "startOffset": 23421,
+          "endOffset": 23525,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "_encrypt",
+      "ranges": [
+        {
+          "startOffset": 24341,
+          "endOffset": 26461,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "autoSelectSocketOptions",
+      "ranges": [
+        {
+          "startOffset": 26652,
+          "endOffset": 27043,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    }
+  ]
+}

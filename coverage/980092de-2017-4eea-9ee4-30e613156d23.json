@@ -1,0 +1,138 @@
+{
+  "scriptId": "815",
+  "url": "file:///C:/Users/AGX/AppData/Local/deno/npm/registry.npmjs.org/mongoose/8.19.1/lib/schema/buffer.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 8985,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 1,
+          "endOffset": 8984,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 214,
+          "endOffset": 8978,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "SchemaBuffer",
+      "ranges": [
+        {
+          "startOffset": 840,
+          "endOffset": 928,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "SchemaBuffer._checkRequired",
+      "ranges": [
+        {
+          "startOffset": 1380,
+          "endOffset": 1402,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "SchemaBuffer.checkRequired",
+      "ranges": [
+        {
+          "startOffset": 3374,
+          "endOffset": 3522,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "SchemaBuffer.cast",
+      "ranges": [
+        {
+          "startOffset": 3711,
+          "endOffset": 6056,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "SchemaBuffer.subtype",
+      "ranges": [
+        {
+          "startOffset": 6618,
+          "endOffset": 6688,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "handleSingle",
+      "ranges": [
+        {
+          "startOffset": 6709,
+          "endOffset": 6796,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "SchemaBuffer.castForQuery",
+      "ranges": [
+        {
+          "startOffset": 7695,
+          "endOffset": 8288,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "toJSONSchema",
+      "ranges": [
+        {
+          "startOffset": 8593,
+          "endOffset": 8814,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "autoEncryptionType",
+      "ranges": [
+        {
+          "startOffset": 8861,
+          "endOffset": 8914,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "scriptId": "427",
+  "url": "file:///C:/Users/AGX/AppData/Local/deno/npm/registry.npmjs.org/date-fns/4.1.0/eachMinuteOfInterval.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 2124,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "eachMinuteOfInterval",
+      "ranges": [
+        {
+          "startOffset": 1449,
+          "endOffset": 2048,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    }
+  ]
+}

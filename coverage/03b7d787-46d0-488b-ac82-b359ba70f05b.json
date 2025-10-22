@@ -1,0 +1,160 @@
+{
+  "scriptId": "924",
+  "url": "file:///C:/Users/AGX/AppData/Local/deno/npm/registry.npmjs.org/mongodb/6.20.0/lib/cursor/run_command_cursor.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 4313,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 1,
+          "endOffset": 4312,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 214,
+          "endOffset": 4306,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "setComment",
+      "ranges": [
+        {
+          "startOffset": 833,
+          "endOffset": 928,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "setMaxTimeMS",
+      "ranges": [
+        {
+          "startOffset": 1111,
+          "endOffset": 1219,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "setBatchSize",
+      "ranges": [
+        {
+          "startOffset": 1362,
+          "endOffset": 1465,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "clone",
+      "ranges": [
+        {
+          "startOffset": 1514,
+          "endOffset": 1639,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "withReadConcern",
+      "ranges": [
+        {
+          "startOffset": 1749,
+          "endOffset": 1910,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "addCursorFlag",
+      "ranges": [
+        {
+          "startOffset": 2029,
+          "endOffset": 2196,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "maxTimeMS",
+      "ranges": [
+        {
+          "startOffset": 2316,
+          "endOffset": 2500,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "batchSize",
+      "ranges": [
+        {
+          "startOffset": 2608,
+          "endOffset": 2792,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "RunCommandCursor",
+      "ranges": [
+        {
+          "startOffset": 2818,
+          "endOffset": 3040,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "_initialize",
+      "ranges": [
+        {
+          "startOffset": 3066,
+          "endOffset": 3573,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "getMore",
+      "ranges": [
+        {
+          "startOffset": 3599,
+          "endOffset": 4210,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    }
+  ]
+}

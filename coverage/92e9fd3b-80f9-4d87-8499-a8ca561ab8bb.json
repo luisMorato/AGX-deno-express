@@ -1,0 +1,28 @@
+{
+  "scriptId": "398",
+  "url": "file:///C:/Users/AGX/AppData/Local/deno/npm/registry.npmjs.org/date-fns/4.1.0/areIntervalsOverlapping.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 2254,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "areIntervalsOverlapping",
+      "ranges": [
+        {
+          "startOffset": 1607,
+          "endOffset": 2175,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    }
+  ]
+}

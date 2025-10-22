@@ -1,0 +1,66 @@
+{
+  "scriptId": "460",
+  "url": "file:///C:/Users/AGX/AppData/Local/deno/npm/registry.npmjs.org/axios/1.12.2/lib/helpers/formDataToStream.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 2965,
+          "count": 1
+        },
+        {
+          "startOffset": 314,
+          "endOffset": 338,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "FormDataPart",
+      "ranges": [
+        {
+          "startOffset": 459,
+          "endOffset": 1226,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "encode",
+      "ranges": [
+        {
+          "startOffset": 1230,
+          "endOffset": 1429,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "escapeName",
+      "ranges": [
+        {
+          "startOffset": 1440,
+          "endOffset": 1605,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "formDataToStream",
+      "ranges": [
+        {
+          "startOffset": 1634,
+          "endOffset": 2929,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "scriptId": "701",
+  "url": "file:///C:/Users/AGX/AppData/Local/deno/npm/registry.npmjs.org/axios/1.12.2/lib/defaults/transitional.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 118,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    }
+  ]
+}

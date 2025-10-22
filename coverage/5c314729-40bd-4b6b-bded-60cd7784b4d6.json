@@ -1,0 +1,171 @@
+{
+  "scriptId": "894",
+  "url": "file:///C:/Users/AGX/AppData/Local/deno/npm/registry.npmjs.org/mongoose/8.19.1/lib/schema/documentArray.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 20427,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 1,
+          "endOffset": 20426,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 214,
+          "endOffset": 20420,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "SchemaDocumentArray",
+      "ranges": [
+        {
+          "startOffset": 1650,
+          "endOffset": 3272,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "_createConstructor",
+      "ranges": [
+        {
+          "startOffset": 4481,
+          "endOffset": 5741,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "SchemaDocumentArray.discriminator",
+      "ranges": [
+        {
+          "startOffset": 6793,
+          "endOffset": 7718,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "SchemaDocumentArray.doValidate",
+      "ranges": [
+        {
+          "startOffset": 7867,
+          "endOffset": 9511,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "SchemaDocumentArray.doValidateSync",
+      "ranges": [
+        {
+          "startOffset": 9774,
+          "endOffset": 10975,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "SchemaDocumentArray.getDefault",
+      "ranges": [
+        {
+          "startOffset": 11040,
+          "endOffset": 12018,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "SchemaDocumentArray.cast",
+      "ranges": [
+        {
+          "startOffset": 12343,
+          "endOffset": 15867,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "SchemaDocumentArray.clone",
+      "ranges": [
+        {
+          "startOffset": 15927,
+          "endOffset": 16434,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "SchemaDocumentArray.applyGetters",
+      "ranges": [
+        {
+          "startOffset": 16501,
+          "endOffset": 16596,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "scopePaths",
+      "ranges": [
+        {
+          "startOffset": 16971,
+          "endOffset": 17578,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "cast$elemMatch",
+      "ranges": [
+        {
+          "startOffset": 18479,
+          "endOffset": 19619,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "toJSONSchema",
+      "ranges": [
+        {
+          "startOffset": 19930,
+          "endOffset": 20349,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    }
+  ]
+}

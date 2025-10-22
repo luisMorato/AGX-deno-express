@@ -1,0 +1,182 @@
+{
+  "scriptId": "933",
+  "url": "file:///C:/Users/AGX/AppData/Local/deno/npm/registry.npmjs.org/mquery/5.0.0/lib/collection/node.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 2447,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 1,
+          "endOffset": 2446,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 214,
+          "endOffset": 2440,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "NodeCollection",
+      "ranges": [
+        {
+          "startOffset": 357,
+          "endOffset": 466,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "find",
+      "ranges": [
+        {
+          "startOffset": 508,
+          "endOffset": 627,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "findOne",
+      "ranges": [
+        {
+          "startOffset": 672,
+          "endOffset": 759,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "count",
+      "ranges": [
+        {
+          "startOffset": 802,
+          "endOffset": 885,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "distinct",
+      "ranges": [
+        {
+          "startOffset": 937,
+          "endOffset": 1038,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "updateMany",
+      "ranges": [
+        {
+          "startOffset": 1094,
+          "endOffset": 1203,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "updateOne",
+      "ranges": [
+        {
+          "startOffset": 1258,
+          "endOffset": 1365,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "replaceOne",
+      "ranges": [
+        {
+          "startOffset": 1421,
+          "endOffset": 1530,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "deleteOne",
+      "ranges": [
+        {
+          "startOffset": 1577,
+          "endOffset": 1668,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "deleteMany",
+      "ranges": [
+        {
+          "startOffset": 1716,
+          "endOffset": 1809,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "findOneAndDelete",
+      "ranges": [
+        {
+          "startOffset": 1887,
+          "endOffset": 1992,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "findOneAndUpdate",
+      "ranges": [
+        {
+          "startOffset": 2054,
+          "endOffset": 2175,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "findCursor",
+      "ranges": [
+        {
+          "startOffset": 2236,
+          "endOffset": 2317,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "scriptId": "657",
+  "url": "file:///C:/Users/AGX/AppData/Local/deno/npm/registry.npmjs.org/mongodb/6.20.0/lib/cmap/auth/aws_temporary_credentials.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 6759,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 1,
+          "endOffset": 6758,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 214,
+          "endOffset": 6752,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "get awsSDK",
+      "ranges": [
+        {
+          "startOffset": 821,
+          "endOffset": 987,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "get isAWSSDKInstalled",
+      "ranges": [
+        {
+          "startOffset": 999,
+          "endOffset": 1105,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "AWSSDKCredentialProvider",
+      "ranges": [
+        {
+          "startOffset": 1396,
+          "endOffset": 1548,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "get provider",
+      "ranges": [
+        {
+          "startOffset": 1803,
+          "endOffset": 4215,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "getCredentials",
+      "ranges": [
+        {
+          "startOffset": 4220,
+          "endOffset": 5100,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "getCredentials",
+      "ranges": [
+        {
+          "startOffset": 5497,
+          "endOffset": 6609,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    }
+  ]
+}

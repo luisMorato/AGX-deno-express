@@ -1,0 +1,65 @@
+{
+  "scriptId": "340",
+  "url": "file:///C:/Users/AGX/Desktop/AGX/AGX-deno-express/services/FindUserBankAccountService.ts",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 861,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "<instance_members_initializer>",
+      "ranges": [
+        {
+          "startOffset": 164,
+          "endOffset": 178,
+          "count": 8
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "FindUserBankAccountService",
+      "ranges": [
+        {
+          "startOffset": 182,
+          "endOffset": 279,
+          "count": 8
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "execute",
+      "ranges": [
+        {
+          "startOffset": 282,
+          "endOffset": 858,
+          "count": 2
+        },
+        {
+          "startOffset": 587,
+          "endOffset": 698,
+          "count": 1
+        },
+        {
+          "startOffset": 698,
+          "endOffset": 783,
+          "count": 0
+        },
+        {
+          "startOffset": 783,
+          "endOffset": 857,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    }
+  ]
+}

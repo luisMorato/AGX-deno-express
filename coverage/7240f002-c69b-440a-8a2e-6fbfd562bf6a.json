@@ -1,0 +1,60 @@
+{
+  "scriptId": "340",
+  "url": "file:///C:/Users/AGX/Desktop/AGX/AGX-deno-express/services/AuthenticateService.ts",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 892,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "<instance_members_initializer>",
+      "ranges": [
+        {
+          "startOffset": 233,
+          "endOffset": 260,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "AuthenticateService",
+      "ranges": [
+        {
+          "startOffset": 264,
+          "endOffset": 431,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "execute",
+      "ranges": [
+        {
+          "startOffset": 434,
+          "endOffset": 889,
+          "count": 1
+        },
+        {
+          "startOffset": 589,
+          "endOffset": 640,
+          "count": 0
+        },
+        {
+          "startOffset": 767,
+          "endOffset": 819,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": true
+    }
+  ]
+}

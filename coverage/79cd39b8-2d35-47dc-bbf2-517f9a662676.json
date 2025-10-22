@@ -1,0 +1,193 @@
+{
+  "scriptId": "1017",
+  "url": "file:///C:/Users/AGX/AppData/Local/deno/npm/registry.npmjs.org/mongodb/6.20.0/lib/gridfs/upload.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 14162,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 1,
+          "endOffset": 14161,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 214,
+          "endOffset": 14155,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "GridFSBucketWriteStream",
+      "ranges": [
+        {
+          "startOffset": 1091,
+          "endOffset": 2912,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "_construct",
+      "ranges": [
+        {
+          "startOffset": 3041,
+          "endOffset": 3704,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "_write",
+      "ranges": [
+        {
+          "startOffset": 4042,
+          "endOffset": 4133,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "_final",
+      "ranges": [
+        {
+          "startOffset": 4159,
+          "endOffset": 4351,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "abort",
+      "ranges": [
+        {
+          "startOffset": 4513,
+          "endOffset": 5215,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "handleError",
+      "ranges": [
+        {
+          "startOffset": 5277,
+          "endOffset": 5488,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "createChunkDoc",
+      "ranges": [
+        {
+          "startOffset": 5489,
+          "endOffset": 5641,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "checkChunksIndex",
+      "ranges": [
+        {
+          "startOffset": 5642,
+          "endOffset": 7005,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "checkDone",
+      "ranges": [
+        {
+          "startOffset": 7006,
+          "endOffset": 8267,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "checkIndexes",
+      "ranges": [
+        {
+          "startOffset": 8268,
+          "endOffset": 9967,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "createFilesDoc",
+      "ranges": [
+        {
+          "startOffset": 9968,
+          "endOffset": 10382,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "doWrite",
+      "ranges": [
+        {
+          "startOffset": 10383,
+          "endOffset": 12753,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "writeRemnant",
+      "ranges": [
+        {
+          "startOffset": 12754,
+          "endOffset": 13910,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "isAborted",
+      "ranges": [
+        {
+          "startOffset": 13911,
+          "endOffset": 14118,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    }
+  ]
+}

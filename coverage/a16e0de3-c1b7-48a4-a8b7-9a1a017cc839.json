@@ -1,0 +1,65 @@
+{
+  "scriptId": "382",
+  "url": "file:///C:/Users/AGX/Desktop/AGX/AGX-deno-express/base/BaseRules.ts",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 594,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "<instance_members_initializer>",
+      "ranges": [
+        {
+          "startOffset": 122,
+          "endOffset": 590,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "BaseRules",
+      "ranges": [
+        {
+          "startOffset": 128,
+          "endOffset": 184,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "validate",
+      "ranges": [
+        {
+          "startOffset": 198,
+          "endOffset": 590,
+          "count": 1
+        },
+        {
+          "startOffset": 298,
+          "endOffset": 306,
+          "count": 0
+        },
+        {
+          "startOffset": 308,
+          "endOffset": 401,
+          "count": 0
+        },
+        {
+          "startOffset": 408,
+          "endOffset": 586,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": true
+    }
+  ]
+}

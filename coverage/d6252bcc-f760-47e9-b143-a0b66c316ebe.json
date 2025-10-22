@@ -1,0 +1,292 @@
+{
+  "scriptId": "907",
+  "url": "file:///C:/Users/AGX/AppData/Local/deno/npm/registry.npmjs.org/mongodb/6.20.0/lib/cursor/find_cursor.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 15709,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 1,
+          "endOffset": 15708,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 214,
+          "endOffset": 15702,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "FindCursor",
+      "ranges": [
+        {
+          "startOffset": 1056,
+          "endOffset": 1411,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "clone",
+      "ranges": [
+        {
+          "startOffset": 1416,
+          "endOffset": 1669,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "map",
+      "ranges": [
+        {
+          "startOffset": 1674,
+          "endOffset": 1733,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "_initialize",
+      "ranges": [
+        {
+          "startOffset": 1759,
+          "endOffset": 2760,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "getMore",
+      "ranges": [
+        {
+          "startOffset": 2786,
+          "endOffset": 4500,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "count",
+      "ranges": [
+        {
+          "startOffset": 4669,
+          "endOffset": 5346,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "explain",
+      "ranges": [
+        {
+          "startOffset": 5351,
+          "endOffset": 5857,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "filter",
+      "ranges": [
+        {
+          "startOffset": 5894,
+          "endOffset": 6008,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "hint",
+      "ranges": [
+        {
+          "startOffset": 6169,
+          "endOffset": 6281,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "min",
+      "ranges": [
+        {
+          "startOffset": 6557,
+          "endOffset": 6665,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "max",
+      "ranges": [
+        {
+          "startOffset": 6941,
+          "endOffset": 7049,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "returnKey",
+      "ranges": [
+        {
+          "startOffset": 7431,
+          "endOffset": 7555,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "showRecordId",
+      "ranges": [
+        {
+          "startOffset": 7928,
+          "endOffset": 8058,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "addQueryModifier",
+      "ranges": [
+        {
+          "startOffset": 8258,
+          "endOffset": 9772,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "comment",
+      "ranges": [
+        {
+          "startOffset": 9945,
+          "endOffset": 10065,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "maxAwaitTimeMS",
+      "ranges": [
+        {
+          "startOffset": 10360,
+          "endOffset": 10650,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "maxTimeMS",
+      "ranges": [
+        {
+          "startOffset": 10888,
+          "endOffset": 11163,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "project",
+      "ranges": [
+        {
+          "startOffset": 12804,
+          "endOffset": 12927,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "sort",
+      "ranges": [
+        {
+          "startOffset": 13124,
+          "endOffset": 13433,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "allowDiskUse",
+      "ranges": [
+        {
+          "startOffset": 13716,
+          "endOffset": 14213,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "collation",
+      "ranges": [
+        {
+          "startOffset": 14441,
+          "endOffset": 14565,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "limit",
+      "ranges": [
+        {
+          "startOffset": 14684,
+          "endOffset": 15098,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "skip",
+      "ranges": [
+        {
+          "startOffset": 15215,
+          "endOffset": 15625,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    }
+  ]
+}

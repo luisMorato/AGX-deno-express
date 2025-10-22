@@ -1,0 +1,186 @@
+{
+  "scriptId": "1161",
+  "url": "file:///C:/Users/AGX/AppData/Local/deno/npm/registry.npmjs.org/mongoose/8.19.1/lib/schema/objectId.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 8382,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 1,
+          "endOffset": 8381,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 214,
+          "endOffset": 8375,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "SchemaObjectId",
+      "ranges": [
+        {
+          "startOffset": 924,
+          "endOffset": 1513,
+          "count": 2
+        },
+        {
+          "startOffset": 1031,
+          "endOffset": 1058,
+          "count": 0
+        },
+        {
+          "startOffset": 1172,
+          "endOffset": 1191,
+          "count": 0
+        },
+        {
+          "startOffset": 1193,
+          "endOffset": 1460,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "SchemaObjectId.auto",
+      "ranges": [
+        {
+          "startOffset": 3195,
+          "endOffset": 3303,
+          "count": 2
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "SchemaObjectId._checkRequired",
+      "ranges": [
+        {
+          "startOffset": 3357,
+          "endOffset": 3387,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "cast",
+      "ranges": [
+        {
+          "startOffset": 4056,
+          "endOffset": 4249,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "SchemaObjectId._defaultCaster",
+      "ranges": [
+        {
+          "startOffset": 4303,
+          "endOffset": 4425,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "checkRequired",
+      "ranges": [
+        {
+          "startOffset": 5200,
+          "endOffset": 5640,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "SchemaObjectId.cast",
+      "ranges": [
+        {
+          "startOffset": 5836,
+          "endOffset": 6673,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "handleSingle",
+      "ranges": [
+        {
+          "startOffset": 6695,
+          "endOffset": 6750,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "defaultId",
+      "ranges": [
+        {
+          "startOffset": 7354,
+          "endOffset": 7398,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "resetId",
+      "ranges": [
+        {
+          "startOffset": 7437,
+          "endOffset": 7638,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "toJSONSchema",
+      "ranges": [
+        {
+          "startOffset": 7959,
+          "endOffset": 8206,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "autoEncryptionType",
+      "ranges": [
+        {
+          "startOffset": 8255,
+          "endOffset": 8309,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    }
+  ]
+}

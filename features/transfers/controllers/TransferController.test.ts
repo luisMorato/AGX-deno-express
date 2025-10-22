@@ -1,5 +1,5 @@
 import { Request } from 'express'
-import { assertEquals } from 'https://deno.land/std@0.201.0/assert/mod.ts'
+// import { assertEquals } from 'https://deno.land/std@0.201.0/assert/mod.ts'
 import { MockNextFunction, MockResponser } from '../../../globals/Stubs.ts'
 
 import { TransferController } from './TransferController.ts'
@@ -14,6 +14,7 @@ import { TransferRepositoryMock } from '../../__mocks__/TransferRepositoryMock.t
 import { BankAccountResumeService } from '../../../services/BankAccountResumeService.ts'
 import { FindTransfersByAccountId } from '../../../services/FindTransfersByAccountId.ts'
 import { CreateTransferServiceMock } from '../../__mocks__/CreateTransferServiceMock.ts'
+import { defaultAssert, IResponsePayload, ResponseType } from '../../__mocks__/defaultAssert.ts'
 
 let userRepository: UserRepository
 let transferRepository: TransferRepository
@@ -68,10 +69,13 @@ Deno.test('- [TransferController]: it should be able to create a transfer', { sa
     mockRequest,
     MockResponser,
     MockNextFunction,
-  ) as any
+  ) as unknown as IResponsePayload
 
-  assertEquals(result.code, 201)
-  assertEquals(result.message, 'Transferência realizada com sucesso')
+  defaultAssert((result), ResponseType.success, {
+    code: 201,
+    status: 'CREATED',
+    message: 'Transferência realizada com sucesso',
+  })
 })
 
 // Error
@@ -100,8 +104,11 @@ Deno.test(`- [TransferController]: it shouldn't be able to send money from anoth
     result = error
   }
 
-  assertEquals((result as any).code, 403)
-  assertEquals((result as any).message, 'Usuário não pode enviar dinheiro de contas que não sejam a sua')
+  defaultAssert((result as IResponsePayload), ResponseType.error, {
+    code: 403,
+    status: 'FORBIDDEN',
+    message: 'Usuário não pode enviar dinheiro de contas que não sejam a sua',
+  })
 })
 
 // Error
@@ -130,8 +137,11 @@ Deno.test(`- [TransferController]: it shouldn't be able to send money FROM an in
     result = error
   }
 
-  assertEquals((result as any).code, 404)
-  assertEquals((result as any).message, 'Usuário não possui uma conta do banco')
+  defaultAssert((result as IResponsePayload), ResponseType.error, {
+    code: 404,
+    status: 'NOT_FOUND',
+    message: 'Usuário não possui uma conta do banco',
+  })
 })
 
 // Error
@@ -160,8 +170,11 @@ Deno.test(`- [TransferController]: it shouldn't be able to send money TO an inex
     result = error
   }
 
-  assertEquals((result as any).code, 404)
-  assertEquals((result as any).message, 'Conta bancária do beneficiado não encontrada')
+  defaultAssert((result as IResponsePayload), ResponseType.error, {
+    code: 404,
+    status: 'NOT_FOUND',
+    message: 'Conta bancária do beneficiado não encontrada',
+  })
 })
 
 // Error
@@ -190,8 +203,16 @@ Deno.test(`- [TransferController]: it shouldn't be able to send a negative amoun
     result = error
   }
 
-  assertEquals((result as any).code, 422)
-  assertEquals((result as any).errors[0].message, 'A quantidade da transferência deve ser maior que 0')
+  defaultAssert((result as IResponsePayload), ResponseType.error, {
+    code: 422,
+    status: 'BAD_REQUEST',
+    message: 'Erro durante a validação',
+    errors: [
+      {
+        message: 'A quantidade da transferência deve ser maior que 0'
+      }
+    ]
+  })
 })
 
 
@@ -203,27 +224,41 @@ Deno.test('- [TransferController]: it should be able to retrieve all transfers',
     mockRequest,
     MockResponser,
     MockNextFunction,
-  ) as any
+  ) as unknown as IResponsePayload
 
-  assertEquals(result.code, 200)
-  assertEquals(result.data.transfers.slice(0, 2), [
-    {
-      _id: '68efdf6d6118fe67e4fc4722',
-      senderAccountId: 'VV96241',
-      receiverAccountId: 'GR81590',
-      amount: 100,
-      transactionType: 'DEBIT',
-      createdAt: new Date('2025-10-15T17:52:42.452+00:00'),
-    },
-    {
-      _id: '68efdf766118fe67e4fc4729',
-      senderAccountId: 'VV96241',
-      receiverAccountId: 'GR81590',
-      amount: 200,
-      transactionType: 'DEBIT',
-      createdAt: new Date('2025-10-15T17:52:42.452+00:00'),
-    },
-  ])
+  defaultAssert((result), ResponseType.success, {
+    code: 200,
+    status: 'OK',
+    message: '',
+    data: {
+      transfers: [
+        {
+          _id: '68efdf6d6118fe67e4fc4722',
+          senderAccountId: 'VV96241',
+          receiverAccountId: 'GR81590',
+          amount: 100,
+          transactionType: 'DEBIT',
+          createdAt: new Date('2025-10-15T17:52:42.452+00:00'),
+        },
+        {
+          _id: '68efdf766118fe67e4fc4729',
+          senderAccountId: 'VV96241',
+          receiverAccountId: 'GR81590',
+          amount: 200,
+          transactionType: 'DEBIT',
+          createdAt: new Date('2025-10-15T17:52:42.452+00:00'),
+        },
+        {
+          _id: '68efdf796118fe67e4fc472f',
+          senderAccountId: 'VV96241',
+          receiverAccountId: 'GR81590',
+          amount: 250,
+          transactionType: 'CREDIT',
+          createdAt: new Date('2025-10-16T17:52:42.452Z'),
+        },
+      ]
+    }
+  })
 })
 
 
@@ -242,35 +277,41 @@ Deno.test(
       mockRequest,
       MockResponser,
       MockNextFunction,
-    ) as any
+    ) as unknown as IResponsePayload
 
-    assertEquals(result.code, 200)
-    assertEquals(result.data.transfers, [
-      {
-        _id: "68efdf6d6118fe67e4fc4722",
-        senderAccountId: "VV96241",
-        receiverAccountId: "GR81590",
-        amount: 100,
-        transactionType: "DEBIT",
-        createdAt: new Date('2025-10-15T17:52:42.452Z')
-      },
-      {
-        _id: "68efdf766118fe67e4fc4729",
-        senderAccountId: "VV96241",
-        receiverAccountId: "GR81590",
-        amount: 200,
-        transactionType: "DEBIT",
-        createdAt: new Date('2025-10-15T17:52:42.452Z')
-      },
-      {
-        _id: "68efdf796118fe67e4fc472f",
-        senderAccountId: "VV96241",
-        receiverAccountId: "GR81590",
-        amount: 250,
-        transactionType: "CREDIT",
-        createdAt: new Date('2025-10-16T17:52:42.452Z')
+    defaultAssert((result), ResponseType.success, {
+      code: 200,
+      status: 'OK',
+      message: '',
+      data: {
+        transfers: [
+              {
+            _id: "68efdf6d6118fe67e4fc4722",
+            senderAccountId: "VV96241",
+            receiverAccountId: "GR81590",
+            amount: 100,
+            transactionType: "DEBIT",
+            createdAt: new Date('2025-10-15T17:52:42.452Z')
+          },
+          {
+            _id: "68efdf766118fe67e4fc4729",
+            senderAccountId: "VV96241",
+            receiverAccountId: "GR81590",
+            amount: 200,
+            transactionType: "DEBIT",
+            createdAt: new Date('2025-10-15T17:52:42.452Z')
+          },
+          {
+            _id: "68efdf796118fe67e4fc472f",
+            senderAccountId: "VV96241",
+            receiverAccountId: "GR81590",
+            amount: 250,
+            transactionType: "CREDIT",
+            createdAt: new Date('2025-10-16T17:52:42.452Z')
+          }
+        ]
       }
-    ])
+    })
   }
 )
 
@@ -294,8 +335,16 @@ Deno.test(`- [TransferController]: it shouldn't be able to retrieve an invalid a
     result = error
   }
 
-  assertEquals((result as any).code, 422)
-  assertEquals((result as any).errors[0].message, 'O id da conta deve conter 7 caracteres')
+  defaultAssert((result as IResponsePayload), ResponseType.error, {
+    code: 422,
+    status: 'BAD_REQUEST',
+    message: 'Erro durante a validação',
+    errors: [
+      {
+        message: 'O id da conta deve conter 7 caracteres'
+      }
+    ]
+  })
 })
 
 
@@ -315,18 +364,22 @@ Deno.test(
       mockRequest,
       MockResponser,
       MockNextFunction,
-    ) as any
+    ) as unknown as IResponsePayload
 
-    assertEquals(result.code, 200)
-    assertEquals(result.data, [
-      {
-        accountId: "VV96241",
-        resume: { totalSpent: 300, transactionsCount: 2, type: "DEBIT" }
-      },
-      {
-        accountId: "VV96241",
-        resume: { totalSpent: 250, transactionsCount: 1, type: "CREDIT" }
-      }
-    ])
+    defaultAssert((result), ResponseType.success, {
+      code: 200,
+      status: 'OK',
+      message: '',
+      data: [
+        {
+          accountId: "VV96241",
+          resume: { totalSpent: 300, transactionsCount: 2, type: "DEBIT" }
+        },
+        {
+          accountId: "VV96241",
+          resume: { totalSpent: 250, transactionsCount: 1, type: "CREDIT" }
+        }
+      ]
+    })
   }
 )

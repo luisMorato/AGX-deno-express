@@ -1,0 +1,60 @@
+{
+  "scriptId": "343",
+  "url": "file:///C:/Users/AGX/Desktop/AGX/AGX-deno-express/services/IncrementUserBankAccountBalanceService.ts",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 956,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "<instance_members_initializer>",
+      "ranges": [
+        {
+          "startOffset": 176,
+          "endOffset": 190,
+          "count": 8
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "IncrementUserBankAccountBalanceService",
+      "ranges": [
+        {
+          "startOffset": 194,
+          "endOffset": 291,
+          "count": 8
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "execute",
+      "ranges": [
+        {
+          "startOffset": 294,
+          "endOffset": 953,
+          "count": 1
+        },
+        {
+          "startOffset": 596,
+          "endOffset": 658,
+          "count": 0
+        },
+        {
+          "startOffset": 707,
+          "endOffset": 793,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": true
+    }
+  ]
+}

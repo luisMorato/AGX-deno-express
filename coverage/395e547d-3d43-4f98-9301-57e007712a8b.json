@@ -1,0 +1,94 @@
+{
+  "scriptId": "538",
+  "url": "file:///C:/Users/AGX/AppData/Local/deno/npm/registry.npmjs.org/jws/3.2.2/lib/sign-stream.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 2427,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 1,
+          "endOffset": 2426,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 214,
+          "endOffset": 2420,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "base64url",
+      "ranges": [
+        {
+          "startOffset": 451,
+          "endOffset": 633,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "jwsSecuredInput",
+      "ranges": [
+        {
+          "startOffset": 635,
+          "endOffset": 909,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "jwsSign",
+      "ranges": [
+        {
+          "startOffset": 911,
+          "endOffset": 1286,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "SignStream",
+      "ranges": [
+        {
+          "startOffset": 1288,
+          "endOffset": 1864,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "sign",
+      "ranges": [
+        {
+          "startOffset": 1929,
+          "endOffset": 2358,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "scriptId": "756",
+  "url": "file:///C:/Users/AGX/AppData/Local/deno/npm/registry.npmjs.org/axios/1.12.2/lib/helpers/ZlibHeaderTransformStream.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 681,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "__transform",
+      "ranges": [
+        {
+          "startOffset": 106,
+          "endOffset": 188,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "_transform",
+      "ranges": [
+        {
+          "startOffset": 192,
+          "endOffset": 635,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    }
+  ]
+}

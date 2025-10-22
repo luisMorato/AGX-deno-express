@@ -1,0 +1,28 @@
+{
+  "scriptId": "465",
+  "url": "file:///C:/Users/AGX/AppData/Local/deno/npm/registry.npmjs.org/axios/1.12.2/lib/helpers/composeSignals.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 1364,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "composeSignals",
+      "ranges": [
+        {
+          "startOffset": 161,
+          "endOffset": 1331,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    }
+  ]
+}

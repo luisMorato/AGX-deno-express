@@ -1,0 +1,129 @@
+{
+  "scriptId": "338",
+  "url": "file:///C:/Users/AGX/Desktop/AGX/AGX-deno-express/features/users/controllers/UsersController.ts",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 3960,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "<instance_members_initializer>",
+      "ranges": [
+        {
+          "startOffset": 512,
+          "endOffset": 3956,
+          "count": 10
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "UsersController",
+      "ranges": [
+        {
+          "startOffset": 627,
+          "endOffset": 1157,
+          "count": 10
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "create",
+      "ranges": [
+        {
+          "startOffset": 1169,
+          "endOffset": 1772,
+          "count": 2
+        },
+        {
+          "startOffset": 1658,
+          "endOffset": 1768,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "list",
+      "ranges": [
+        {
+          "startOffset": 1783,
+          "endOffset": 2197,
+          "count": 2
+        },
+        {
+          "startOffset": 2091,
+          "endOffset": 2193,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "findById",
+      "ranges": [
+        {
+          "startOffset": 2212,
+          "endOffset": 2523,
+          "count": 2
+        },
+        {
+          "startOffset": 2418,
+          "endOffset": 2519,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "updateById",
+      "ranges": [
+        {
+          "startOffset": 2540,
+          "endOffset": 3478,
+          "count": 2
+        },
+        {
+          "startOffset": 3126,
+          "endOffset": 3181,
+          "count": 0
+        },
+        {
+          "startOffset": 3367,
+          "endOffset": 3474,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "deleteById",
+      "ranges": [
+        {
+          "startOffset": 3495,
+          "endOffset": 3956,
+          "count": 2
+        },
+        {
+          "startOffset": 3693,
+          "endOffset": 3748,
+          "count": 0
+        },
+        {
+          "startOffset": 3847,
+          "endOffset": 3952,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    }
+  ]
+}

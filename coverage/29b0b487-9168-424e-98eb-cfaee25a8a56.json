@@ -1,0 +1,1144 @@
+{
+  "scriptId": "956",
+  "url": "file:///C:/Users/AGX/AppData/Local/deno/npm/registry.npmjs.org/mongoose/8.19.1/lib/document.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 165862,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 1,
+          "endOffset": 165861,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 214,
+          "endOffset": 165855,
+          "count": 1
+        },
+        {
+          "startOffset": 11256,
+          "endOffset": 11302,
+          "count": 18
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "Document",
+      "ranges": [
+        {
+          "startOffset": 4777,
+          "endOffset": 8205,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "get",
+      "ranges": [
+        {
+          "startOffset": 9941,
+          "endOffset": 9981,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "set",
+      "ranges": [
+        {
+          "startOffset": 9990,
+          "endOffset": 10036,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "get",
+      "ranges": [
+        {
+          "startOffset": 10231,
+          "endOffset": 10272,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "set",
+      "ranges": [
+        {
+          "startOffset": 10281,
+          "endOffset": 10328,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 10614,
+          "endOffset": 11168,
+          "count": 8
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "Document.<computed>",
+      "ranges": [
+        {
+          "startOffset": 10672,
+          "endOffset": 11090,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "get",
+      "ranges": [
+        {
+          "startOffset": 12289,
+          "endOffset": 12402,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "set",
+      "ranges": [
+        {
+          "startOffset": 12411,
+          "endOffset": 12453,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "get",
+      "ranges": [
+        {
+          "startOffset": 14321,
+          "endOffset": 14369,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "set",
+      "ranges": [
+        {
+          "startOffset": 14378,
+          "endOffset": 14424,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "$applyDefaultsToNested",
+      "ranges": [
+        {
+          "startOffset": 14449,
+          "endOffset": 15657,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "Document.$__buildDoc",
+      "ranges": [
+        {
+          "startOffset": 15965,
+          "endOffset": 17279,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "Document.toBSON",
+      "ranges": [
+        {
+          "startOffset": 17378,
+          "endOffset": 17441,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "Document.init",
+      "ranges": [
+        {
+          "startOffset": 18212,
+          "endOffset": 18392,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "Document.$init",
+      "ranges": [
+        {
+          "startOffset": 18545,
+          "endOffset": 18624,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "Document.$__init",
+      "ranges": [
+        {
+          "startOffset": 18791,
+          "endOffset": 19952,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "init",
+      "ranges": [
+        {
+          "startOffset": 20301,
+          "endOffset": 23667,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "updateOne",
+      "ranges": [
+        {
+          "startOffset": 25060,
+          "endOffset": 25677,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "replaceOne",
+      "ranges": [
+        {
+          "startOffset": 26170,
+          "endOffset": 26334,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "$session",
+      "ranges": [
+        {
+          "startOffset": 27047,
+          "endOffset": 27781,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "$timestamps",
+      "ranges": [
+        {
+          "startOffset": 28588,
+          "endOffset": 28967,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "overwrite",
+      "ranges": [
+        {
+          "startOffset": 29371,
+          "endOffset": 29880,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "$set",
+      "ranges": [
+        {
+          "startOffset": 30682,
+          "endOffset": 47110,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "_isManuallyPopulatedArray",
+      "ranges": [
+        {
+          "startOffset": 47132,
+          "endOffset": 47600,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "Document.$__shouldModify",
+      "ranges": [
+        {
+          "startOffset": 49072,
+          "endOffset": 50462,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "Document.$__set",
+      "ranges": [
+        {
+          "startOffset": 50875,
+          "endOffset": 53636,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "Document.$__getValue",
+      "ranges": [
+        {
+          "startOffset": 53827,
+          "endOffset": 54075,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "$inc",
+      "ranges": [
+        {
+          "startOffset": 54898,
+          "endOffset": 56195,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "Document.$__setValue",
+      "ranges": [
+        {
+          "startOffset": 56405,
+          "endOffset": 56483,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "Document.get",
+      "ranges": [
+        {
+          "startOffset": 57073,
+          "endOffset": 59121,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "Document.$__path",
+      "ranges": [
+        {
+          "startOffset": 59457,
+          "endOffset": 59676,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "Document.markModified",
+      "ranges": [
+        {
+          "startOffset": 60173,
+          "endOffset": 60421,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "$__saveInitialState",
+      "ranges": [
+        {
+          "startOffset": 60484,
+          "endOffset": 60902,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "Document.unmarkModified",
+      "ranges": [
+        {
+          "startOffset": 61212,
+          "endOffset": 61350,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "Document.$ignore",
+      "ranges": [
+        {
+          "startOffset": 61736,
+          "endOffset": 61791,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "Document.directModifiedPaths",
+      "ranges": [
+        {
+          "startOffset": 62655,
+          "endOffset": 62737,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "Document.$isEmpty",
+      "ranges": [
+        {
+          "startOffset": 63485,
+          "endOffset": 63981,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "_isEmpty",
+      "ranges": [
+        {
+          "startOffset": 64003,
+          "endOffset": 64252,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "Document.modifiedPaths",
+      "ranges": [
+        {
+          "startOffset": 64735,
+          "endOffset": 66194,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "Document.isModified",
+      "ranges": [
+        {
+          "startOffset": 67189,
+          "endOffset": 68481,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "Document.$isDefault",
+      "ranges": [
+        {
+          "startOffset": 69184,
+          "endOffset": 69607,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "Document.$isDeleted",
+      "ranges": [
+        {
+          "startOffset": 70373,
+          "endOffset": 70505,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "Document.isDirectModified",
+      "ranges": [
+        {
+          "startOffset": 70876,
+          "endOffset": 71680,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "Document.isInit",
+      "ranges": [
+        {
+          "startOffset": 71894,
+          "endOffset": 72308,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "isSelected",
+      "ranges": [
+        {
+          "startOffset": 72667,
+          "endOffset": 73820,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "isDirectSelected",
+      "ranges": [
+        {
+          "startOffset": 74357,
+          "endOffset": 75228,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "validate",
+      "ranges": [
+        {
+          "startOffset": 76158,
+          "endOffset": 77480,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "_evaluateRequiredFunctions",
+      "ranges": [
+        {
+          "startOffset": 77736,
+          "endOffset": 78319,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "_getPathsToValidate",
+      "ranges": [
+        {
+          "startOffset": 78340,
+          "endOffset": 85021,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "_addArrayPathsToValidate",
+      "ranges": [
+        {
+          "startOffset": 85023,
+          "endOffset": 86194,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "_pushNestedArrayPaths",
+      "ranges": [
+        {
+          "startOffset": 86196,
+          "endOffset": 86514,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "Document.$__validate",
+      "ranges": [
+        {
+          "startOffset": 86568,
+          "endOffset": 93054,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "_handlePathsToValidate",
+      "ranges": [
+        {
+          "startOffset": 93076,
+          "endOffset": 93911,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "_handlePathsToSkip",
+      "ranges": [
+        {
+          "startOffset": 93932,
+          "endOffset": 94108,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "Document.validateSync",
+      "ranges": [
+        {
+          "startOffset": 95072,
+          "endOffset": 98513,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "Document.invalidate",
+      "ranges": [
+        {
+          "startOffset": 99733,
+          "endOffset": 100272,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "Document.$markValid",
+      "ranges": [
+        {
+          "startOffset": 100505,
+          "endOffset": 100773,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "_markValidSubpaths",
+      "ranges": [
+        {
+          "startOffset": 100795,
+          "endOffset": 101180,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "_checkImmutableSubpaths",
+      "ranges": [
+        {
+          "startOffset": 101201,
+          "endOffset": 101800,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "Document.$isValid",
+      "ranges": [
+        {
+          "startOffset": 105300,
+          "endOffset": 105714,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "reset",
+      "ranges": [
+        {
+          "startOffset": 105913,
+          "endOffset": 107065,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "$__undoReset",
+      "ranges": [
+        {
+          "startOffset": 107121,
+          "endOffset": 107837,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "Document.$__dirty",
+      "ranges": [
+        {
+          "startOffset": 108018,
+          "endOffset": 109536,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "Document.$__setSchema",
+      "ranges": [
+        {
+          "startOffset": 109746,
+          "endOffset": 110129,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "Document.$__getArrayPathsToValidate",
+      "ranges": [
+        {
+          "startOffset": 110353,
+          "endOffset": 110853,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "Document.$getAllSubdocs",
+      "ranges": [
+        {
+          "startOffset": 111094,
+          "endOffset": 112335,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "applyQueue",
+      "ranges": [
+        {
+          "startOffset": 112372,
+          "endOffset": 112637,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "handleReject",
+      "ranges": [
+        {
+          "startOffset": 112695,
+          "endOffset": 112966,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "Document.$toObject",
+      "ranges": [
+        {
+          "startOffset": 113157,
+          "endOffset": 117743,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "$__toObjectShallow",
+      "ranges": [
+        {
+          "startOffset": 117886,
+          "endOffset": 118413,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "Document.toObject",
+      "ranges": [
+        {
+          "startOffset": 126339,
+          "endOffset": 126394,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "applyVirtuals",
+      "ranges": [
+        {
+          "startOffset": 126448,
+          "endOffset": 128662,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "applyGetters",
+      "ranges": [
+        {
+          "startOffset": 128812,
+          "endOffset": 130320,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "applySchemaTypeTransforms",
+      "ranges": [
+        {
+          "startOffset": 130472,
+          "endOffset": 131856,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "throwErrorIfPromise",
+      "ranges": [
+        {
+          "startOffset": 131858,
+          "endOffset": 132082,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "omitDeselectedFields",
+      "ranges": [
+        {
+          "startOffset": 132103,
+          "endOffset": 132647,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "Document.toJSON",
+      "ranges": [
+        {
+          "startOffset": 134666,
+          "endOffset": 134727,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "Document.ownerDocument",
+      "ranges": [
+        {
+          "startOffset": 134784,
+          "endOffset": 134813,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "Document.parent",
+      "ranges": [
+        {
+          "startOffset": 135094,
+          "endOffset": 135209,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "Document.inspect",
+      "ranges": [
+        {
+          "startOffset": 135752,
+          "endOffset": 136214,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "Document.toString",
+      "ranges": [
+        {
+          "startOffset": 136511,
+          "endOffset": 136631,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "Document.equals",
+      "ranges": [
+        {
+          "startOffset": 137072,
+          "endOffset": 137362,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "populate",
+      "ranges": [
+        {
+          "startOffset": 141228,
+          "endOffset": 142519,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "$getPopulatedDocs",
+      "ranges": [
+        {
+          "startOffset": 142848,
+          "endOffset": 143241,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "Document.populated",
+      "ranges": [
+        {
+          "startOffset": 143799,
+          "endOffset": 145049,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "$assertPopulated",
+      "ranges": [
+        {
+          "startOffset": 146175,
+          "endOffset": 146508,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "Document.depopulate",
+      "ranges": [
+        {
+          "startOffset": 147322,
+          "endOffset": 149582,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "Document.$__fullPath",
+      "ranges": [
+        {
+          "startOffset": 149794,
+          "endOffset": 149865,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "Document.getChanges",
+      "ranges": [
+        {
+          "startOffset": 150931,
+          "endOffset": 151037,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "$__delta",
+      "ranges": [
+        {
+          "startOffset": 151234,
+          "endOffset": 155186,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "checkDivergentArray",
+      "ranges": [
+        {
+          "startOffset": 155522,
+          "endOffset": 157110,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "operand",
+      "ranges": [
+        {
+          "startOffset": 157398,
+          "endOffset": 158935,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "handleAtomics",
+      "ranges": [
+        {
+          "startOffset": 159155,
+          "endOffset": 160542,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "shouldSkipVersioning",
+      "ranges": [
+        {
+          "startOffset": 160768,
+          "endOffset": 161030,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "Document.$clone",
+      "ranges": [
+        {
+          "startOffset": 161260,
+          "endOffset": 161872,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "$createModifiedPathsSnapshot",
+      "ranges": [
+        {
+          "startOffset": 162423,
+          "endOffset": 162805,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "$restoreModifiedPathsSnapshot",
+      "ranges": [
+        {
+          "startOffset": 163965,
+          "endOffset": 164369,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "$clearModifiedPaths",
+      "ranges": [
+        {
+          "startOffset": 164862,
+          "endOffset": 165167,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "$__hasOnlyPrimitiveValues",
+      "ranges": [
+        {
+          "startOffset": 165283,
+          "endOffset": 165629,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    }
+  ]
+}

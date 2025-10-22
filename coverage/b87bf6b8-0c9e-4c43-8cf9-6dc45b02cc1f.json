@@ -1,0 +1,160 @@
+{
+  "scriptId": "605",
+  "url": "file:///C:/Users/AGX/AppData/Local/deno/npm/registry.npmjs.org/mongodb/6.20.0/lib/operations/find_and_modify.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 6768,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 1,
+          "endOffset": 6767,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 214,
+          "endOffset": 6761,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "configureFindAndModifyCmdBaseUpdateOpts",
+      "ranges": [
+        {
+          "startOffset": 888,
+          "endOffset": 1235,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "FindAndModifyOperation",
+      "ranges": [
+        {
+          "startOffset": 1323,
+          "endOffset": 1690,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "get commandName",
+      "ranges": [
+        {
+          "startOffset": 1695,
+          "endOffset": 1752,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "buildCommandDocument",
+      "ranges": [
+        {
+          "startOffset": 1757,
+          "endOffset": 3352,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "handleOk",
+      "ranges": [
+        {
+          "startOffset": 3357,
+          "endOffset": 3517,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "FindOneAndDeleteOperation",
+      "ranges": [
+        {
+          "startOffset": 3663,
+          "endOffset": 3949,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "buildCommandDocument",
+      "ranges": [
+        {
+          "startOffset": 3954,
+          "endOffset": 4134,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "FindOneAndReplaceOperation",
+      "ranges": [
+        {
+          "startOffset": 4287,
+          "endOffset": 4964,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "buildCommandDocument",
+      "ranges": [
+        {
+          "startOffset": 4969,
+          "endOffset": 5234,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "FindOneAndUpdateOperation",
+      "ranges": [
+        {
+          "startOffset": 5388,
+          "endOffset": 6059,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "buildCommandDocument",
+      "ranges": [
+        {
+          "startOffset": 6064,
+          "endOffset": 6438,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    }
+  ]
+}

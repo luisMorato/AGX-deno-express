@@ -1,0 +1,49 @@
+{
+  "scriptId": "514",
+  "url": "file:///C:/Users/AGX/AppData/Local/deno/npm/registry.npmjs.org/es-define-property/1.0.1/index.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 518,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 1,
+          "endOffset": 517,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 214,
+          "endOffset": 511,
+          "count": 1
+        },
+        {
+          "startOffset": 307,
+          "endOffset": 315,
+          "count": 0
+        },
+        {
+          "startOffset": 392,
+          "endOffset": 471,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": true
+    }
+  ]
+}

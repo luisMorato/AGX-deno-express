@@ -1,0 +1,121 @@
+{
+  "scriptId": "391",
+  "url": "file:///C:/Users/AGX/AppData/Local/deno/npm/registry.npmjs.org/axios/1.12.2/lib/core/Axios.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 6836,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "Axios",
+      "ranges": [
+        {
+          "startOffset": 614,
+          "endOffset": 804,
+          "count": 2
+        },
+        {
+          "startOffset": 679,
+          "endOffset": 684,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "request",
+      "ranges": [
+        {
+          "startOffset": 1040,
+          "endOffset": 1832,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "_request",
+      "ranges": [
+        {
+          "startOffset": 1836,
+          "endOffset": 5700,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "getUri",
+      "ranges": [
+        {
+          "startOffset": 5704,
+          "endOffset": 5934,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "forEachMethodNoData",
+      "ranges": [
+        {
+          "startOffset": 6039,
+          "endOffset": 6280,
+          "count": 4
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "Axios.<computed>",
+      "ranges": [
+        {
+          "startOffset": 6132,
+          "endOffset": 6277,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "forEachMethodWithData",
+      "ranges": [
+        {
+          "startOffset": 6324,
+          "endOffset": 6810,
+          "count": 3
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "generateHTTPMethod",
+      "ranges": [
+        {
+          "startOffset": 6394,
+          "endOffset": 6693,
+          "count": 6
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "httpMethod",
+      "ranges": [
+        {
+          "startOffset": 6443,
+          "endOffset": 6688,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    }
+  ]
+}

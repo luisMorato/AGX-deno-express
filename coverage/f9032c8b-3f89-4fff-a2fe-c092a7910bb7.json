@@ -1,0 +1,115 @@
+{
+  "scriptId": "539",
+  "url": "file:///C:/Users/AGX/AppData/Local/deno/npm/registry.npmjs.org/safe-buffer/5.2.1/index.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 1900,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 1,
+          "endOffset": 1899,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 214,
+          "endOffset": 1893,
+          "count": 1
+        },
+        {
+          "startOffset": 659,
+          "endOffset": 771,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "copyProps",
+      "ranges": [
+        {
+          "startOffset": 462,
+          "endOffset": 548,
+          "count": 1
+        },
+        {
+          "startOffset": 517,
+          "endOffset": 546,
+          "count": 12
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "SafeBuffer",
+      "ranges": [
+        {
+          "startOffset": 773,
+          "endOffset": 875,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "SafeBuffer.from",
+      "ranges": [
+        {
+          "startOffset": 1017,
+          "endOffset": 1202,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "SafeBuffer.alloc",
+      "ranges": [
+        {
+          "startOffset": 1223,
+          "endOffset": 1557,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "SafeBuffer.allocUnsafe",
+      "ranges": [
+        {
+          "startOffset": 1584,
+          "endOffset": 1716,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "SafeBuffer.allocUnsafeSlow",
+      "ranges": [
+        {
+          "startOffset": 1747,
+          "endOffset": 1890,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    }
+  ]
+}

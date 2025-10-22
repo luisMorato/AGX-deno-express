@@ -1,0 +1,182 @@
+{
+  "scriptId": "564",
+  "url": "file:///C:/Users/AGX/AppData/Local/deno/npm/registry.npmjs.org/date-fns/4.1.0/parseISO.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 8113,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "parseISO",
+      "ranges": [
+        {
+          "startOffset": 1530,
+          "endOffset": 2742,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "splitDateString",
+      "ranges": [
+        {
+          "startOffset": 3090,
+          "endOffset": 4052,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "parseYear",
+      "ranges": [
+        {
+          "startOffset": 4054,
+          "endOffset": 4721,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "parseDate",
+      "ranges": [
+        {
+          "startOffset": 4723,
+          "endOffset": 5653,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "parseDateUnit",
+      "ranges": [
+        {
+          "startOffset": 5655,
+          "endOffset": 5726,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "parseTime",
+      "ranges": [
+        {
+          "startOffset": 5728,
+          "endOffset": 6173,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "parseTimeUnit",
+      "ranges": [
+        {
+          "startOffset": 6175,
+          "endOffset": 6270,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "parseTimezone",
+      "ranges": [
+        {
+          "startOffset": 6272,
+          "endOffset": 6730,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "dayOfISOWeekYear",
+      "ranges": [
+        {
+          "startOffset": 6732,
+          "endOffset": 7029,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "isLeapYearIndex",
+      "ranges": [
+        {
+          "startOffset": 7185,
+          "endOffset": 7286,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "validateDate",
+      "ranges": [
+        {
+          "startOffset": 7288,
+          "endOffset": 7473,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "validateDayOfYearDate",
+      "ranges": [
+        {
+          "startOffset": 7475,
+          "endOffset": 7603,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "validateWeekDate",
+      "ranges": [
+        {
+          "startOffset": 7605,
+          "endOffset": 7710,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "validateTime",
+      "ranges": [
+        {
+          "startOffset": 7712,
+          "endOffset": 7961,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "validateTimezone",
+      "ranges": [
+        {
+          "startOffset": 7963,
+          "endOffset": 8049,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    }
+  ]
+}

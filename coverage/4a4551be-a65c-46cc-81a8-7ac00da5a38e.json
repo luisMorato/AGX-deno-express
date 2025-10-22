@@ -1,0 +1,149 @@
+{
+  "scriptId": "809",
+  "url": "file:///C:/Users/AGX/AppData/Local/deno/npm/registry.npmjs.org/mongoose/8.19.1/lib/schema/bigint.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 6092,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 1,
+          "endOffset": 6091,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 214,
+          "endOffset": 6085,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "SchemaBigInt",
+      "ranges": [
+        {
+          "startOffset": 634,
+          "endOffset": 724,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "cast",
+      "ranges": [
+        {
+          "startOffset": 2407,
+          "endOffset": 2600,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "SchemaBigInt._checkRequired",
+      "ranges": [
+        {
+          "startOffset": 2652,
+          "endOffset": 2666,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "SchemaBigInt.checkRequired",
+      "ranges": [
+        {
+          "startOffset": 3115,
+          "endOffset": 3183,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "SchemaBigInt.cast",
+      "ranges": [
+        {
+          "startOffset": 3336,
+          "endOffset": 3744,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "handleSingle",
+      "ranges": [
+        {
+          "startOffset": 4364,
+          "endOffset": 4451,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "SchemaBigInt.castForQuery",
+      "ranges": [
+        {
+          "startOffset": 4602,
+          "endOffset": 5072,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "_castNullish",
+      "ranges": [
+        {
+          "startOffset": 5141,
+          "endOffset": 5401,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "toJSONSchema",
+      "ranges": [
+        {
+          "startOffset": 5706,
+          "endOffset": 5924,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "autoEncryptionType",
+      "ranges": [
+        {
+          "startOffset": 5971,
+          "endOffset": 6021,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    }
+  ]
+}

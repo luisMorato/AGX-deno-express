@@ -1,0 +1,61 @@
+{
+  "scriptId": "779",
+  "url": "file:///C:/Users/AGX/AppData/Local/deno/npm/registry.npmjs.org/date-fns/4.1.0/locale/_lib/buildMatchFn.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 1450,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "buildMatchFn",
+      "ranges": [
+        {
+          "startOffset": 7,
+          "endOffset": 1053,
+          "count": 5
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 46,
+          "endOffset": 1050,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "findKey",
+      "ranges": [
+        {
+          "startOffset": 1055,
+          "endOffset": 1277,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "findIndex",
+      "ranges": [
+        {
+          "startOffset": 1279,
+          "endOffset": 1449,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    }
+  ]
+}

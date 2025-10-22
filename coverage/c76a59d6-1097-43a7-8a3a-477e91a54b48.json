@@ -1,0 +1,80 @@
+{
+  "scriptId": "518",
+  "url": "file:///C:/Users/AGX/AppData/Local/deno/npm/registry.npmjs.org/dunder-proto/1.0.1/get.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 1210,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 1,
+          "endOffset": 1209,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 214,
+          "endOffset": 1203,
+          "count": 1
+        },
+        {
+          "startOffset": 511,
+          "endOffset": 625,
+          "count": 0
+        },
+        {
+          "startOffset": 701,
+          "endOffset": 708,
+          "count": 0
+        },
+        {
+          "startOffset": 709,
+          "endOffset": 794,
+          "count": 0
+        },
+        {
+          "startOffset": 919,
+          "endOffset": 952,
+          "count": 0
+        },
+        {
+          "startOffset": 954,
+          "endOffset": 976,
+          "count": 0
+        },
+        {
+          "startOffset": 1192,
+          "endOffset": 1199,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "getDunder",
+      "ranges": [
+        {
+          "startOffset": 1053,
+          "endOffset": 1189,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    }
+  ]
+}

@@ -1,0 +1,644 @@
+{
+  "scriptId": "337",
+  "url": "file:///C:/Users/AGX/Desktop/AGX/AGX-deno-express/globals/Stubs.ts",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 9085,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "send_accepted",
+      "ranges": [
+        {
+          "startOffset": 167,
+          "endOffset": 283,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "send_badGateway",
+      "ranges": [
+        {
+          "startOffset": 304,
+          "endOffset": 432,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "send_badRequest",
+      "ranges": [
+        {
+          "startOffset": 453,
+          "endOffset": 581,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "send_conflict",
+      "ranges": [
+        {
+          "startOffset": 600,
+          "endOffset": 725,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "send_continue",
+      "ranges": [
+        {
+          "startOffset": 744,
+          "endOffset": 860,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "send_created",
+      "ranges": [
+        {
+          "startOffset": 878,
+          "endOffset": 993,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "send_expectationFailed",
+      "ranges": [
+        {
+          "startOffset": 1021,
+          "endOffset": 1156,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "send_failedDependency",
+      "ranges": [
+        {
+          "startOffset": 1183,
+          "endOffset": 1317,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "send_forbidden",
+      "ranges": [
+        {
+          "startOffset": 1337,
+          "endOffset": 1463,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "send_gatewayTimeout",
+      "ranges": [
+        {
+          "startOffset": 1488,
+          "endOffset": 1620,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "send_gone",
+      "ranges": [
+        {
+          "startOffset": 1635,
+          "endOffset": 1756,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "send_httpVersionNotSupported",
+      "ranges": [
+        {
+          "startOffset": 1790,
+          "endOffset": 1933,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "send_imATeapot",
+      "ranges": [
+        {
+          "startOffset": 1953,
+          "endOffset": 2083,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "send_insufficientSpaceOnResource",
+      "ranges": [
+        {
+          "startOffset": 2121,
+          "endOffset": 2268,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "send_insufficientStorage",
+      "ranges": [
+        {
+          "startOffset": 2298,
+          "endOffset": 2435,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "send_internalServerError",
+      "ranges": [
+        {
+          "startOffset": 2465,
+          "endOffset": 2603,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "send_lengthRequired",
+      "ranges": [
+        {
+          "startOffset": 2628,
+          "endOffset": 2760,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "send_locked",
+      "ranges": [
+        {
+          "startOffset": 2777,
+          "endOffset": 2900,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "send_methodFailure",
+      "ranges": [
+        {
+          "startOffset": 2924,
+          "endOffset": 3055,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "send_methodNotAllowed",
+      "ranges": [
+        {
+          "startOffset": 3082,
+          "endOffset": 3217,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "send_movedPermanently",
+      "ranges": [
+        {
+          "startOffset": 3244,
+          "endOffset": 3369,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "send_movedTemporarily",
+      "ranges": [
+        {
+          "startOffset": 3396,
+          "endOffset": 3521,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "send_multiStatus",
+      "ranges": [
+        {
+          "startOffset": 3543,
+          "endOffset": 3663,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "send_multipleChoices",
+      "ranges": [
+        {
+          "startOffset": 3689,
+          "endOffset": 3813,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "send_networkAuthenticationRequired",
+      "ranges": [
+        {
+          "startOffset": 3853,
+          "endOffset": 4001,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "send_noContent",
+      "ranges": [
+        {
+          "startOffset": 4021,
+          "endOffset": 4139,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "send_nonAuthoritativeInformation",
+      "ranges": [
+        {
+          "startOffset": 4177,
+          "endOffset": 4314,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "send_notAcceptable",
+      "ranges": [
+        {
+          "startOffset": 4338,
+          "endOffset": 4469,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "send_notFound",
+      "ranges": [
+        {
+          "startOffset": 4488,
+          "endOffset": 4614,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "send_notImplemented",
+      "ranges": [
+        {
+          "startOffset": 4639,
+          "endOffset": 4771,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "send_notModified",
+      "ranges": [
+        {
+          "startOffset": 4793,
+          "endOffset": 4913,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "send_ok",
+      "ranges": [
+        {
+          "startOffset": 4926,
+          "endOffset": 5036,
+          "count": 4
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "send_partialContent",
+      "ranges": [
+        {
+          "startOffset": 5061,
+          "endOffset": 5184,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "send_paymentRequired",
+      "ranges": [
+        {
+          "startOffset": 5210,
+          "endOffset": 5343,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "send_permanentRedirect",
+      "ranges": [
+        {
+          "startOffset": 5371,
+          "endOffset": 5497,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "send_preconditionFailed",
+      "ranges": [
+        {
+          "startOffset": 5526,
+          "endOffset": 5662,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "send_preconditionRequired",
+      "ranges": [
+        {
+          "startOffset": 5693,
+          "endOffset": 5831,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "send_processing",
+      "ranges": [
+        {
+          "startOffset": 5852,
+          "endOffset": 5970,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "send_proxyAuthenticationRequired",
+      "ranges": [
+        {
+          "startOffset": 6008,
+          "endOffset": 6154,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "send_requestHeaderFieldsTooLarge",
+      "ranges": [
+        {
+          "startOffset": 6192,
+          "endOffset": 6340,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "send_requestTimeout",
+      "ranges": [
+        {
+          "startOffset": 6365,
+          "endOffset": 6497,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "send_requestTooLong",
+      "ranges": [
+        {
+          "startOffset": 6522,
+          "endOffset": 6655,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "send_requestUriTooLong",
+      "ranges": [
+        {
+          "startOffset": 6683,
+          "endOffset": 6820,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "send_requestedRangeNotSatisfiable",
+      "ranges": [
+        {
+          "startOffset": 6859,
+          "endOffset": 7007,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "send_resetContent",
+      "ranges": [
+        {
+          "startOffset": 7030,
+          "endOffset": 7151,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "send_seeOther",
+      "ranges": [
+        {
+          "startOffset": 7170,
+          "endOffset": 7287,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "send_serviceUnavailable",
+      "ranges": [
+        {
+          "startOffset": 7316,
+          "endOffset": 7452,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "send_switchingProtocols",
+      "ranges": [
+        {
+          "startOffset": 7481,
+          "endOffset": 7608,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "send_temporaryRedirect",
+      "ranges": [
+        {
+          "startOffset": 7636,
+          "endOffset": 7762,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "send_tooManyRequests",
+      "ranges": [
+        {
+          "startOffset": 7788,
+          "endOffset": 7922,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "send_unauthorized",
+      "ranges": [
+        {
+          "startOffset": 7945,
+          "endOffset": 8074,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "send_unprocessableEntity",
+      "ranges": [
+        {
+          "startOffset": 8104,
+          "endOffset": 8241,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "send_unsupportedMediaType",
+      "ranges": [
+        {
+          "startOffset": 8272,
+          "endOffset": 8411,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "send_useProxy",
+      "ranges": [
+        {
+          "startOffset": 8430,
+          "endOffset": 8556,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "cookie",
+      "ranges": [
+        {
+          "startOffset": 8583,
+          "endOffset": 8659,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "startSession",
+      "ranges": [
+        {
+          "startOffset": 8709,
+          "endOffset": 8889,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "MockNextFunction",
+      "ranges": [
+        {
+          "startOffset": 9014,
+          "endOffset": 9083,
+          "count": 5
+        }
+      ],
+      "isBlockCoverage": true
+    }
+  ]
+}

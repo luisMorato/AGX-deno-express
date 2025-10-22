@@ -1,0 +1,65 @@
+{
+  "scriptId": "342",
+  "url": "file:///C:/Users/AGX/Desktop/AGX/AGX-deno-express/services/BankAccountResumeService.ts",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 2013,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "<instance_members_initializer>",
+      "ranges": [
+        {
+          "startOffset": 242,
+          "endOffset": 278,
+          "count": 9
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "BankAccountResumeService",
+      "ranges": [
+        {
+          "startOffset": 282,
+          "endOffset": 476,
+          "count": 9
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "execute",
+      "ranges": [
+        {
+          "startOffset": 479,
+          "endOffset": 2010,
+          "count": 1
+        },
+        {
+          "startOffset": 816,
+          "endOffset": 878,
+          "count": 0
+        },
+        {
+          "startOffset": 1012,
+          "endOffset": 1017,
+          "count": 0
+        },
+        {
+          "startOffset": 1019,
+          "endOffset": 1175,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": true
+    }
+  ]
+}

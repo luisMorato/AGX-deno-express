@@ -1,0 +1,127 @@
+{
+  "scriptId": "335",
+  "url": "file:///C:/Users/AGX/Desktop/AGX/AGX-deno-express/features/auth/controllers/AuthController.test.ts",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 1677,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "compare",
+      "ranges": [
+        {
+          "startOffset": 387,
+          "endOffset": 447,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "encrypt",
+      "ranges": [
+        {
+          "startOffset": 450,
+          "endOffset": 516,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "<instance_members_initializer>",
+      "ranges": [
+        {
+          "startOffset": 537,
+          "endOffset": 547,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "JWTMock",
+      "ranges": [
+        {
+          "startOffset": 551,
+          "endOffset": 636,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "validate",
+      "ranges": [
+        {
+          "startOffset": 639,
+          "endOffset": 705,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "verify",
+      "ranges": [
+        {
+          "startOffset": 708,
+          "endOffset": 725,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "sign",
+      "ranges": [
+        {
+          "startOffset": 728,
+          "endOffset": 770,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "decode",
+      "ranges": [
+        {
+          "startOffset": 773,
+          "endOffset": 808,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 929,
+          "endOffset": 1245,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 1369,
+          "endOffset": 1674,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    }
+  ]
+}

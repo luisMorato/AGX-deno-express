@@ -1,0 +1,149 @@
+{
+  "scriptId": "652",
+  "url": "file:///C:/Users/AGX/AppData/Local/deno/npm/registry.npmjs.org/mongodb/6.20.0/lib/admin.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 5069,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 1,
+          "endOffset": 5068,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 214,
+          "endOffset": 5062,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "Admin",
+      "ranges": [
+        {
+          "startOffset": 1301,
+          "endOffset": 1349,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "command",
+      "ranges": [
+        {
+          "startOffset": 2285,
+          "endOffset": 2719,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "buildInfo",
+      "ranges": [
+        {
+          "startOffset": 2850,
+          "endOffset": 2944,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "serverInfo",
+      "ranges": [
+        {
+          "startOffset": 3075,
+          "endOffset": 3170,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "serverStatus",
+      "ranges": [
+        {
+          "startOffset": 3297,
+          "endOffset": 3397,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "ping",
+      "ranges": [
+        {
+          "startOffset": 3535,
+          "endOffset": 3619,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "removeUser",
+      "ranges": [
+        {
+          "startOffset": 3790,
+          "endOffset": 4008,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "validateCollection",
+      "ranges": [
+        {
+          "startOffset": 4204,
+          "endOffset": 4434,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "listDatabases",
+      "ranges": [
+        {
+          "startOffset": 4556,
+          "endOffset": 4778,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "replSetGetStatus",
+      "ranges": [
+        {
+          "startOffset": 4893,
+          "endOffset": 5001,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    }
+  ]
+}

@@ -1,0 +1,614 @@
+{
+  "scriptId": "662",
+  "url": "file:///C:/Users/AGX/AppData/Local/deno/npm/registry.npmjs.org/mongodb/6.20.0/lib/sdam/monitor.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 21871,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 1,
+          "endOffset": 21870,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 214,
+          "endOffset": 21864,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "isInCloseState",
+      "ranges": [
+        {
+          "startOffset": 1499,
+          "endOffset": 1635,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "Monitor",
+      "ranges": [
+        {
+          "startOffset": 1836,
+          "endOffset": 3765,
+          "count": 3
+        },
+        {
+          "startOffset": 2466,
+          "endOffset": 2474,
+          "count": 0
+        },
+        {
+          "startOffset": 2539,
+          "endOffset": 2547,
+          "count": 0
+        },
+        {
+          "startOffset": 2618,
+          "endOffset": 2624,
+          "count": 0
+        },
+        {
+          "startOffset": 3638,
+          "endOffset": 3698,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "connect",
+      "ranges": [
+        {
+          "startOffset": 3770,
+          "endOffset": 4264,
+          "count": 3
+        },
+        {
+          "startOffset": 3834,
+          "endOffset": 3865,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "requestCheck",
+      "ranges": [
+        {
+          "startOffset": 4269,
+          "endOffset": 4415,
+          "count": 3
+        },
+        {
+          "startOffset": 4377,
+          "endOffset": 4406,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "reset",
+      "ranges": [
+        {
+          "startOffset": 4420,
+          "endOffset": 5136,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "close",
+      "ranges": [
+        {
+          "startOffset": 5141,
+          "endOffset": 5417,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "get roundTripTime",
+      "ranges": [
+        {
+          "startOffset": 5422,
+          "endOffset": 5491,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "get minRoundTripTime",
+      "ranges": [
+        {
+          "startOffset": 5496,
+          "endOffset": 5564,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "get latestRtt",
+      "ranges": [
+        {
+          "startOffset": 5569,
+          "endOffset": 5629,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "addRttSample",
+      "ranges": [
+        {
+          "startOffset": 5634,
+          "endOffset": 5699,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "clearRttSamples",
+      "ranges": [
+        {
+          "startOffset": 5704,
+          "endOffset": 5762,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "resetMonitorState",
+      "ranges": [
+        {
+          "startOffset": 5792,
+          "endOffset": 6107,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "useStreamingProtocol",
+      "ranges": [
+        {
+          "startOffset": 6108,
+          "endOffset": 6839,
+          "count": 3
+        },
+        {
+          "startOffset": 6379,
+          "endOffset": 6838,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "checkServer",
+      "ranges": [
+        {
+          "startOffset": 6840,
+          "endOffset": 12636,
+          "count": 3
+        },
+        {
+          "startOffset": 9825,
+          "endOffset": 9846,
+          "count": 0
+        },
+        {
+          "startOffset": 9848,
+          "endOffset": 11301,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "onHeartbeatFailed",
+      "ranges": [
+        {
+          "startOffset": 7250,
+          "endOffset": 8061,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "onHeartbeatSucceeded",
+      "ranges": [
+        {
+          "startOffset": 8066,
+          "endOffset": 9769,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 10932,
+          "endOffset": 11097,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 11350,
+          "endOffset": 11893,
+          "count": 3
+        },
+        {
+          "startOffset": 11443,
+          "endOffset": 11887,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "then.monitor.connection",
+      "ranges": [
+        {
+          "startOffset": 11902,
+          "endOffset": 12520,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 12522,
+          "endOffset": 12632,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "monitorServer",
+      "ranges": [
+        {
+          "startOffset": 12637,
+          "endOffset": 13767,
+          "count": 3
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 12682,
+          "endOffset": 13764,
+          "count": 3
+        },
+        {
+          "startOffset": 12748,
+          "endOffset": 12819,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "done",
+      "ranges": [
+        {
+          "startOffset": 12880,
+          "endOffset": 13043,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 13073,
+          "endOffset": 13756,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "makeTopologyVersion",
+      "ranges": [
+        {
+          "startOffset": 13768,
+          "endOffset": 14118,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "RTTPinger",
+      "ranges": [
+        {
+          "startOffset": 14158,
+          "endOffset": 14584,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "get roundTripTime",
+      "ranges": [
+        {
+          "startOffset": 14589,
+          "endOffset": 14659,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "get minRoundTripTime",
+      "ranges": [
+        {
+          "startOffset": 14664,
+          "endOffset": 14740,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "close",
+      "ranges": [
+        {
+          "startOffset": 14745,
+          "endOffset": 14913,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "measureAndReschedule",
+      "ranges": [
+        {
+          "startOffset": 14918,
+          "endOffset": 15327,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "measureRoundTripTime",
+      "ranges": [
+        {
+          "startOffset": 15332,
+          "endOffset": 16183,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "MonitorInterval",
+      "ranges": [
+        {
+          "startOffset": 16266,
+          "endOffset": 17372,
+          "count": 3
+        },
+        {
+          "startOffset": 17128,
+          "endOffset": 17135,
+          "count": 0
+        },
+        {
+          "startOffset": 17208,
+          "endOffset": 17214,
+          "count": 0
+        },
+        {
+          "startOffset": 17300,
+          "endOffset": 17366,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "MonitorInterval._executeAndReschedule",
+      "ranges": [
+        {
+          "startOffset": 16498,
+          "endOffset": 16994,
+          "count": 3
+        },
+        {
+          "startOffset": 16552,
+          "endOffset": 16559,
+          "count": 0
+        },
+        {
+          "startOffset": 16590,
+          "endOffset": 16663,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 16786,
+          "endOffset": 16982,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "wake",
+      "ranges": [
+        {
+          "startOffset": 17377,
+          "endOffset": 18290,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "stop",
+      "ranges": [
+        {
+          "startOffset": 18295,
+          "endOffset": 18564,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "toString",
+      "ranges": [
+        {
+          "startOffset": 18569,
+          "endOffset": 18624,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "toJSON",
+      "ranges": [
+        {
+          "startOffset": 18629,
+          "endOffset": 19200,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "_reschedule",
+      "ranges": [
+        {
+          "startOffset": 19205,
+          "endOffset": 19476,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "RTTSampler",
+      "ranges": [
+        {
+          "startOffset": 19991,
+          "endOffset": 20137,
+          "count": 3
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "addSample",
+      "ranges": [
+        {
+          "startOffset": 20334,
+          "endOffset": 20552,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "min",
+      "ranges": [
+        {
+          "startOffset": 20705,
+          "endOffset": 20969,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "average",
+      "ranges": [
+        {
+          "startOffset": 21045,
+          "endOffset": 21267,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "get last",
+      "ranges": [
+        {
+          "startOffset": 21393,
+          "endOffset": 21562,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "clear",
+      "ranges": [
+        {
+          "startOffset": 21722,
+          "endOffset": 21791,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    }
+  ]
+}

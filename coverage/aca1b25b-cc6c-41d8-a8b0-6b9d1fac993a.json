@@ -1,0 +1,80 @@
+{
+  "scriptId": "342",
+  "url": "file:///C:/Users/AGX/Desktop/AGX/AGX-deno-express/services/UpdateUserByIdService.ts",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 1442,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "<instance_members_initializer>",
+      "ranges": [
+        {
+          "startOffset": 208,
+          "endOffset": 235,
+          "count": 10
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "UpdateUserByIdService",
+      "ranges": [
+        {
+          "startOffset": 239,
+          "endOffset": 397,
+          "count": 10
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "execute",
+      "ranges": [
+        {
+          "startOffset": 400,
+          "endOffset": 1439,
+          "count": 2
+        },
+        {
+          "startOffset": 512,
+          "endOffset": 583,
+          "count": 0
+        },
+        {
+          "startOffset": 672,
+          "endOffset": 727,
+          "count": 0
+        },
+        {
+          "startOffset": 847,
+          "endOffset": 899,
+          "count": 0
+        },
+        {
+          "startOffset": 1081,
+          "endOffset": 1234,
+          "count": 1
+        },
+        {
+          "startOffset": 1234,
+          "endOffset": 1307,
+          "count": 0
+        },
+        {
+          "startOffset": 1307,
+          "endOffset": 1438,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    }
+  ]
+}

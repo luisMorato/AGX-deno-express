@@ -1,0 +1,33 @@
+{
+  "scriptId": "496",
+  "url": "file:///C:/Users/AGX/AppData/Local/deno/npm/registry.npmjs.org/date-fns/4.1.0/isDate.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 907,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "isDate",
+      "ranges": [
+        {
+          "startOffset": 675,
+          "endOffset": 845,
+          "count": 1
+        },
+        {
+          "startOffset": 737,
+          "endOffset": 838,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": true
+    }
+  ]
+}

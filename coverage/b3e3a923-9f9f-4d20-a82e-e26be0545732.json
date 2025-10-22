@@ -1,0 +1,33 @@
+{
+  "scriptId": "531",
+  "url": "file:///C:/Users/AGX/AppData/Local/deno/npm/registry.npmjs.org/date-fns/4.1.0/isValid.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 1020,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "isValid",
+      "ranges": [
+        {
+          "startOffset": 850,
+          "endOffset": 957,
+          "count": 1
+        },
+        {
+          "startOffset": 901,
+          "endOffset": 928,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": true
+    }
+  ]
+}

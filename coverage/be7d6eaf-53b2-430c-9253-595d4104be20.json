@@ -1,0 +1,133 @@
+{
+  "scriptId": "338",
+  "url": "file:///C:/Users/AGX/Desktop/AGX/AGX-deno-express/features/transfers/controllers/TransferController.ts",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 3824,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "<instance_members_initializer>",
+      "ranges": [
+        {
+          "startOffset": 626,
+          "endOffset": 3820,
+          "count": 9
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "TransferController",
+      "ranges": [
+        {
+          "startOffset": 732,
+          "endOffset": 1217,
+          "count": 9
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "create",
+      "ranges": [
+        {
+          "startOffset": 1229,
+          "endOffset": 1961,
+          "count": 5
+        },
+        {
+          "startOffset": 1662,
+          "endOffset": 1666,
+          "count": 4
+        },
+        {
+          "startOffset": 1667,
+          "endOffset": 1672,
+          "count": 0
+        },
+        {
+          "startOffset": 1840,
+          "endOffset": 1917,
+          "count": 1
+        },
+        {
+          "startOffset": 1917,
+          "endOffset": 1957,
+          "count": 4
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "list",
+      "ranges": [
+        {
+          "startOffset": 1972,
+          "endOffset": 2187,
+          "count": 1
+        },
+        {
+          "startOffset": 2143,
+          "endOffset": 2183,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "findByAccountId",
+      "ranges": [
+        {
+          "startOffset": 2209,
+          "endOffset": 2578,
+          "count": 2
+        },
+        {
+          "startOffset": 2468,
+          "endOffset": 2574,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "spent",
+      "ranges": [
+        {
+          "startOffset": 2590,
+          "endOffset": 3820,
+          "count": 1
+        },
+        {
+          "startOffset": 2937,
+          "endOffset": 3034,
+          "count": 0
+        },
+        {
+          "startOffset": 3127,
+          "endOffset": 3155,
+          "count": 0
+        },
+        {
+          "startOffset": 3157,
+          "endOffset": 3495,
+          "count": 0
+        },
+        {
+          "startOffset": 3776,
+          "endOffset": 3816,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": true
+    }
+  ]
+}

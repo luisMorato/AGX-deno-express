@@ -1,0 +1,97 @@
+{
+  "scriptId": "431",
+  "url": "file:///C:/Users/AGX/Desktop/AGX/AGX-deno-express/database/Database.ts",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 1243,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "<instance_members_initializer>",
+      "ranges": [
+        {
+          "startOffset": 112,
+          "endOffset": 898,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "Database",
+      "ranges": [
+        {
+          "startOffset": 160,
+          "endOffset": 407,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "validate",
+      "ranges": [
+        {
+          "startOffset": 421,
+          "endOffset": 898,
+          "count": 1
+        },
+        {
+          "startOffset": 451,
+          "endOffset": 544,
+          "count": 0
+        },
+        {
+          "startOffset": 569,
+          "endOffset": 662,
+          "count": 0
+        },
+        {
+          "startOffset": 687,
+          "endOffset": 776,
+          "count": 0
+        },
+        {
+          "startOffset": 801,
+          "endOffset": 894,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "get connectionString",
+      "ranges": [
+        {
+          "startOffset": 902,
+          "endOffset": 1065,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "connect",
+      "ranges": [
+        {
+          "startOffset": 1068,
+          "endOffset": 1240,
+          "count": 1
+        },
+        {
+          "startOffset": 1196,
+          "endOffset": 1236,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": true
+    }
+  ]
+}

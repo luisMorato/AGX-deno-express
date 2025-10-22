@@ -1,0 +1,55 @@
+{
+  "scriptId": "341",
+  "url": "file:///C:/Users/AGX/Desktop/AGX/AGX-deno-express/services/FindUserByIdService.ts",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 446,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "<instance_members_initializer>",
+      "ranges": [
+        {
+          "startOffset": 157,
+          "endOffset": 171,
+          "count": 10
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "FindUserByIdService",
+      "ranges": [
+        {
+          "startOffset": 175,
+          "endOffset": 272,
+          "count": 10
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "execute",
+      "ranges": [
+        {
+          "startOffset": 275,
+          "endOffset": 443,
+          "count": 2
+        },
+        {
+          "startOffset": 367,
+          "endOffset": 442,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    }
+  ]
+}

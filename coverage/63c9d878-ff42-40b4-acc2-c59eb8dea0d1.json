@@ -1,0 +1,208 @@
+{
+  "scriptId": "926",
+  "url": "file:///C:/Users/AGX/AppData/Local/deno/npm/registry.npmjs.org/debug/4.4.3/src/common.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 7145,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 1,
+          "endOffset": 7144,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 214,
+          "endOffset": 7138,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "setup",
+      "ranges": [
+        {
+          "startOffset": 329,
+          "endOffset": 7110,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 643,
+          "endOffset": 685,
+          "count": 9
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "selectColor",
+      "ranges": [
+        {
+          "startOffset": 1233,
+          "endOffset": 1511,
+          "count": 1
+        },
+        {
+          "startOffset": 1329,
+          "endOffset": 1434,
+          "count": 6
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "createDebug",
+      "ranges": [
+        {
+          "startOffset": 1681,
+          "endOffset": 3847,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "debug",
+      "ranges": [
+        {
+          "startOffset": 1806,
+          "endOffset": 3017,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "get",
+      "ranges": [
+        {
+          "startOffset": 3370,
+          "endOffset": 3636,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "set",
+      "ranges": [
+        {
+          "startOffset": 3646,
+          "endOffset": 3681,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "extend",
+      "ranges": [
+        {
+          "startOffset": 3850,
+          "endOffset": 4053,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "enable",
+      "ranges": [
+        {
+          "startOffset": 4214,
+          "endOffset": 4657,
+          "count": 1
+        },
+        {
+          "startOffset": 4417,
+          "endOffset": 4429,
+          "count": 0
+        },
+        {
+          "startOffset": 4535,
+          "endOffset": 4654,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "matchesTemplate",
+      "ranges": [
+        {
+          "startOffset": 4850,
+          "endOffset": 5877,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "disable",
+      "ranges": [
+        {
+          "startOffset": 5963,
+          "endOffset": 6154,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "enabled",
+      "ranges": [
+        {
+          "startOffset": 6297,
+          "endOffset": 6551,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "coerce",
+      "ranges": [
+        {
+          "startOffset": 6640,
+          "endOffset": 6749,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "destroy",
+      "ranges": [
+        {
+          "startOffset": 6868,
+          "endOffset": 7044,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "scriptId": "663",
+  "url": "file:///C:/Users/AGX/AppData/Local/deno/npm/registry.npmjs.org/date-fns/4.1.0/_lib/format/longFormatters.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 1669,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "dateLongFormatter",
+      "ranges": [
+        {
+          "startOffset": 26,
+          "endOffset": 353,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "timeLongFormatter",
+      "ranges": [
+        {
+          "startOffset": 382,
+          "endOffset": 709,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "dateTimeLongFormatter",
+      "ranges": [
+        {
+          "startOffset": 742,
+          "endOffset": 1579,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    }
+  ]
+}

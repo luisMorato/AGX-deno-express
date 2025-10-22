@@ -1,0 +1,22 @@
+{
+  "scriptId": "452",
+  "url": "file:///C:/Users/AGX/AppData/Local/deno/npm/registry.npmjs.org/form-data/4.0.4/lib/form_data.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 567,
+          "count": 1
+        },
+        {
+          "startOffset": 189,
+          "endOffset": 337,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": true
+    }
+  ]
+}

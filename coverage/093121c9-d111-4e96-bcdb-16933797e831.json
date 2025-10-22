@@ -1,0 +1,39 @@
+{
+  "scriptId": "372",
+  "url": "file:///C:/Users/AGX/Desktop/AGX/AGX-deno-express/lib/Encrypter.ts",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 217,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "encrypt",
+      "ranges": [
+        {
+          "startOffset": 69,
+          "endOffset": 134,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "compare",
+      "ranges": [
+        {
+          "startOffset": 137,
+          "endOffset": 214,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    }
+  ]
+}

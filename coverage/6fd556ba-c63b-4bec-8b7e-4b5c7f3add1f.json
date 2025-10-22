@@ -1,0 +1,39 @@
+{
+  "scriptId": "626",
+  "url": "file:///C:/Users/AGX/AppData/Local/deno/npm/registry.npmjs.org/date-fns/4.1.0/transpose.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 1612,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "transpose",
+      "ranges": [
+        {
+          "startOffset": 1040,
+          "endOffset": 1394,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "isConstructor",
+      "ranges": [
+        {
+          "startOffset": 1396,
+          "endOffset": 1547,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    }
+  ]
+}

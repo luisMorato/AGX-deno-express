@@ -1,0 +1,226 @@
+{
+  "scriptId": "477",
+  "url": "file:///C:/Users/AGX/AppData/Local/deno/npm/registry.npmjs.org/axios-mock-adapter/2.1.0/src/utils.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 5577,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 1,
+          "endOffset": 5576,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 214,
+          "endOffset": 5570,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "find",
+      "ranges": [
+        {
+          "startOffset": 432,
+          "endOffset": 607,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "isFunction",
+      "ranges": [
+        {
+          "startOffset": 609,
+          "endOffset": 690,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "isObjectOrArray",
+      "ranges": [
+        {
+          "startOffset": 692,
+          "endOffset": 775,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "isStream",
+      "ranges": [
+        {
+          "startOffset": 777,
+          "endOffset": 858,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "isArrayBuffer",
+      "ranges": [
+        {
+          "startOffset": 860,
+          "endOffset": 947,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "combineUrls",
+      "ranges": [
+        {
+          "startOffset": 949,
+          "endOffset": 1095,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "findHandler",
+      "ranges": [
+        {
+          "startOffset": 1097,
+          "endOffset": 1748,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "isUrlMatching",
+      "ranges": [
+        {
+          "startOffset": 1750,
+          "endOffset": 1970,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "isBodyOrParametersMatching",
+      "ranges": [
+        {
+          "startOffset": 1972,
+          "endOffset": 2138,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "isObjectMatching",
+      "ranges": [
+        {
+          "startOffset": 2140,
+          "endOffset": 2371,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "isBodyMatching",
+      "ranges": [
+        {
+          "startOffset": 2373,
+          "endOffset": 2630,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "purgeIfReplyOnce",
+      "ranges": [
+        {
+          "startOffset": 2632,
+          "endOffset": 2784,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "transformRequest",
+      "ranges": [
+        {
+          "startOffset": 2786,
+          "endOffset": 3140,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "makeResponse",
+      "ranges": [
+        {
+          "startOffset": 3142,
+          "endOffset": 3558,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "settle",
+      "ranges": [
+        {
+          "startOffset": 3560,
+          "endOffset": 4001,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "createAxiosError",
+      "ranges": [
+        {
+          "startOffset": 4003,
+          "endOffset": 4954,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "createCouldNotFindMockError",
+      "ranges": [
+        {
+          "startOffset": 4956,
+          "endOffset": 5358,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    }
+  ]
+}

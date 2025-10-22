@@ -1,0 +1,50 @@
+{
+  "scriptId": "547",
+  "url": "file:///C:/Users/AGX/AppData/Local/deno/npm/registry.npmjs.org/jsonwebtoken/9.0.2/lib/JsonWebTokenError.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 658,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 1,
+          "endOffset": 657,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 214,
+          "endOffset": 651,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "JsonWebTokenError",
+      "ranges": [
+        {
+          "startOffset": 245,
+          "endOffset": 486,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    }
+  ]
+}

@@ -1,0 +1,468 @@
+{
+  "scriptId": "777",
+  "url": "file:///C:/Users/AGX/AppData/Local/deno/npm/registry.npmjs.org/mongodb/6.20.0/lib/sdam/topology.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 33082,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 1,
+          "endOffset": 33081,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 214,
+          "endOffset": 33075,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "Topology",
+      "ranges": [
+        {
+          "startOffset": 1913,
+          "endOffset": 5389,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "detectShardedTopology",
+      "ranges": [
+        {
+          "startOffset": 5394,
+          "endOffset": 6079,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "detectSrvRecords",
+      "ranges": [
+        {
+          "startOffset": 6084,
+          "endOffset": 6620,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "get description",
+      "ranges": [
+        {
+          "startOffset": 6699,
+          "endOffset": 6759,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "get loadBalanced",
+      "ranges": [
+        {
+          "startOffset": 6764,
+          "endOffset": 6834,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "get serverApi",
+      "ranges": [
+        {
+          "startOffset": 6839,
+          "endOffset": 6903,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "get capabilities",
+      "ranges": [
+        {
+          "startOffset": 6908,
+          "endOffset": 6991,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "connect",
+      "ranges": [
+        {
+          "startOffset": 7031,
+          "endOffset": 7278,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "_connect",
+      "ranges": [
+        {
+          "startOffset": 7283,
+          "endOffset": 10395,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "closeCheckedOutConnections",
+      "ranges": [
+        {
+          "startOffset": 10400,
+          "endOffset": 10558,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "close",
+      "ranges": [
+        {
+          "startOffset": 10594,
+          "endOffset": 11486,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "selectServer",
+      "ranges": [
+        {
+          "startOffset": 11940,
+          "endOffset": 16836,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "serverUpdateHandler",
+      "ranges": [
+        {
+          "startOffset": 17035,
+          "endOffset": 19905,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "auth",
+      "ranges": [
+        {
+          "startOffset": 19910,
+          "endOffset": 20142,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "get clientMetadata",
+      "ranges": [
+        {
+          "startOffset": 20147,
+          "endOffset": 20215,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "isConnected",
+      "ranges": [
+        {
+          "startOffset": 20220,
+          "endOffset": 20299,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "isDestroyed",
+      "ranges": [
+        {
+          "startOffset": 20304,
+          "endOffset": 20380,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "lastHello",
+      "ranges": [
+        {
+          "startOffset": 20639,
+          "endOffset": 21014,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "get commonWireVersion",
+      "ranges": [
+        {
+          "startOffset": 21019,
+          "endOffset": 21101,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "get logicalSessionTimeoutMinutes",
+      "ranges": [
+        {
+          "startOffset": 21106,
+          "endOffset": 21210,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "get clusterTime",
+      "ranges": [
+        {
+          "startOffset": 21215,
+          "endOffset": 21275,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "set clusterTime",
+      "ranges": [
+        {
+          "startOffset": 21280,
+          "endOffset": 21358,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "closeServer",
+      "ranges": [
+        {
+          "startOffset": 22186,
+          "endOffset": 22586,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "topologyTypeFromOptions",
+      "ranges": [
+        {
+          "startOffset": 22633,
+          "endOffset": 22993,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "createAndConnectServer",
+      "ranges": [
+        {
+          "startOffset": 23218,
+          "endOffset": 23771,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "updateServers",
+      "ranges": [
+        {
+          "startOffset": 23883,
+          "endOffset": 26174,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "drainWaitQueue",
+      "ranges": [
+        {
+          "startOffset": 26175,
+          "endOffset": 26905,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "processWaitQueue",
+      "ranges": [
+        {
+          "startOffset": 26906,
+          "endOffset": 31752,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "isStaleServerDescription",
+      "ranges": [
+        {
+          "startOffset": 31753,
+          "endOffset": 32155,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "ServerCapabilities",
+      "ranges": [
+        {
+          "startOffset": 32288,
+          "endOffset": 32428,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "get hasAggregationCursor",
+      "ranges": [
+        {
+          "startOffset": 32433,
+          "endOffset": 32488,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "get hasWriteCommands",
+      "ranges": [
+        {
+          "startOffset": 32493,
+          "endOffset": 32544,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "get hasTextSearch",
+      "ranges": [
+        {
+          "startOffset": 32549,
+          "endOffset": 32597,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "get hasAuthCommands",
+      "ranges": [
+        {
+          "startOffset": 32602,
+          "endOffset": 32652,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "get hasListCollectionsCommand",
+      "ranges": [
+        {
+          "startOffset": 32657,
+          "endOffset": 32717,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "get hasListIndexesCommand",
+      "ranges": [
+        {
+          "startOffset": 32722,
+          "endOffset": 32778,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "get supportsSnapshotReads",
+      "ranges": [
+        {
+          "startOffset": 32783,
+          "endOffset": 32860,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "get commandsTakeWriteConcern",
+      "ranges": [
+        {
+          "startOffset": 32865,
+          "endOffset": 32924,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "get commandsTakeCollation",
+      "ranges": [
+        {
+          "startOffset": 32929,
+          "endOffset": 32985,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    }
+  ]
+}

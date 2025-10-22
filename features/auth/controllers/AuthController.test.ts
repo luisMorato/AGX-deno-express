@@ -1,5 +1,5 @@
 import { Request } from 'express'
-import { assertEquals } from 'https://deno.land/std@0.201.0/assert/mod.ts'
+// import { assertEquals } from 'https://deno.land/std@0.201.0/assert/mod.ts'
 import { MockNextFunction, MockResponser } from '../../../globals/Stubs.ts'
 
 import { JWT } from '../../../lib/Jwt.ts'
@@ -10,6 +10,7 @@ import { UserRepositoryMock } from '../../__mocks__/UserRepositoryMock.ts'
 import { AuthenticateService } from '../../../services/AuthenticateService.ts'
 import { EncrypterRepository } from '../../../lib/EncrypterRepository.ts'
 import { Encrypter } from '../../../lib/Encrypter.ts'
+import { defaultAssert, IResponsePayload, ResponseType } from '../../__mocks__/defaultAssert.ts'
 
 class EncrypterMock implements EncrypterRepository {
   async compare(_password: string, _hash: string) {
@@ -76,8 +77,11 @@ Deno.test('- [AuthController]: it should be able to authenticate', { sanitizeOps
     mockRequest,
     MockResponser,
     MockNextFunction,
-  ) as any
+  ) as unknown as IResponsePayload
 
-  assertEquals(result.code, 200)
-  assertEquals(result.message, 'Autenticado com sucesso')
+  defaultAssert(result, ResponseType.success, {
+    code: 200,
+    status: 'OK',
+    message: 'Autenticado com sucesso',
+  })
 })

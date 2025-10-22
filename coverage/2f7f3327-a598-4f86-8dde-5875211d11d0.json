@@ -1,0 +1,237 @@
+{
+  "scriptId": "477",
+  "url": "file:///C:/Users/AGX/AppData/Local/deno/npm/registry.npmjs.org/combined-stream/1.0.8/lib/combined_stream.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 4917,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 1,
+          "endOffset": 4916,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 214,
+          "endOffset": 4910,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "CombinedStream",
+      "ranges": [
+        {
+          "startOffset": 369,
+          "endOffset": 670,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "CombinedStream.create",
+      "ranges": [
+        {
+          "startOffset": 735,
+          "endOffset": 927,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "CombinedStream.isStreamLike",
+      "ranges": [
+        {
+          "startOffset": 960,
+          "endOffset": 1164,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "CombinedStream.append",
+      "ranges": [
+        {
+          "startOffset": 1201,
+          "endOffset": 1712,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "CombinedStream.pipe",
+      "ranges": [
+        {
+          "startOffset": 1747,
+          "endOffset": 1857,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "CombinedStream._getNext",
+      "ranges": [
+        {
+          "startOffset": 1896,
+          "endOffset": 2213,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "CombinedStream._realGetNext",
+      "ranges": [
+        {
+          "startOffset": 2256,
+          "endOffset": 2748,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "CombinedStream._pipeNext",
+      "ranges": [
+        {
+          "startOffset": 2788,
+          "endOffset": 3085,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "CombinedStream._handleErrors",
+      "ranges": [
+        {
+          "startOffset": 3129,
+          "endOffset": 3237,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "CombinedStream.write",
+      "ranges": [
+        {
+          "startOffset": 3273,
+          "endOffset": 3318,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "CombinedStream.pause",
+      "ranges": [
+        {
+          "startOffset": 3354,
+          "endOffset": 3562,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "CombinedStream.resume",
+      "ranges": [
+        {
+          "startOffset": 3599,
+          "endOffset": 3869,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "CombinedStream.end",
+      "ranges": [
+        {
+          "startOffset": 3903,
+          "endOffset": 3954,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "CombinedStream.destroy",
+      "ranges": [
+        {
+          "startOffset": 3992,
+          "endOffset": 4045,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "CombinedStream._reset",
+      "ranges": [
+        {
+          "startOffset": 4082,
+          "endOffset": 4173,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "CombinedStream._checkDataSize",
+      "ranges": [
+        {
+          "startOffset": 4218,
+          "endOffset": 4450,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "CombinedStream._updateDataSize",
+      "ranges": [
+        {
+          "startOffset": 4496,
+          "endOffset": 4804,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "CombinedStream._emitError",
+      "ranges": [
+        {
+          "startOffset": 4845,
+          "endOffset": 4906,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    }
+  ]
+}

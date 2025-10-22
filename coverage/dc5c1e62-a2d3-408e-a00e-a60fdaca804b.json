@@ -1,0 +1,17 @@
+{
+  "scriptId": "375",
+  "url": "file:///C:/Users/AGX/Desktop/AGX/AGX-deno-express/globals/Throwlhos.ts",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 87,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    }
+  ]
+}

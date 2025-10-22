@@ -1,0 +1,149 @@
+{
+  "scriptId": "866",
+  "url": "file:///C:/Users/AGX/AppData/Local/deno/npm/registry.npmjs.org/mongoose/8.19.1/lib/helpers/model/castBulkWrite.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 10535,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 1,
+          "endOffset": 10534,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 214,
+          "endOffset": 10528,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "castBulkWrite",
+      "ranges": [
+        {
+          "startOffset": 1098,
+          "endOffset": 2663,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "castInsertOne",
+      "ranges": [
+        {
+          "startOffset": 2697,
+          "endOffset": 3392,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "castUpdateOne",
+      "ranges": [
+        {
+          "startOffset": 3426,
+          "endOffset": 5287,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "castUpdateMany",
+      "ranges": [
+        {
+          "startOffset": 5322,
+          "endOffset": 7207,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "castReplaceOne",
+      "ranges": [
+        {
+          "startOffset": 7242,
+          "endOffset": 8439,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "castDeleteOne",
+      "ranges": [
+        {
+          "startOffset": 8473,
+          "endOffset": 8754,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "castDeleteMany",
+      "ranges": [
+        {
+          "startOffset": 8789,
+          "endOffset": 9076,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "_addDiscriminatorToObject",
+      "ranges": [
+        {
+          "startOffset": 9370,
+          "endOffset": 9619,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "decideModelByObject",
+      "ranges": [
+        {
+          "startOffset": 9716,
+          "endOffset": 10010,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "getTimestampsOpt",
+      "ranges": [
+        {
+          "startOffset": 10258,
+          "endOffset": 10525,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    }
+  ]
+}

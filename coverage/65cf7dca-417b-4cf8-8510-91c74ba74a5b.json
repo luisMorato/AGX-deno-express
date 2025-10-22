@@ -1,0 +1,55 @@
+{
+  "scriptId": "509",
+  "url": "file:///C:/Users/AGX/AppData/Local/deno/npm/registry.npmjs.org/math-intrinsics/1.1.0/isNaN.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 351,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 1,
+          "endOffset": 350,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 214,
+          "endOffset": 344,
+          "count": 1
+        },
+        {
+          "startOffset": 299,
+          "endOffset": 340,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "isNaN",
+      "ranges": [
+        {
+          "startOffset": 302,
+          "endOffset": 340,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "scriptId": "339",
+  "url": "file:///C:/Users/AGX/Desktop/AGX/AGX-deno-express/services/CreateUserService.ts",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 833,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "<instance_members_initializer>",
+      "ranges": [
+        {
+          "startOffset": 204,
+          "endOffset": 231,
+          "count": 10
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "CreateUserService",
+      "ranges": [
+        {
+          "startOffset": 235,
+          "endOffset": 393,
+          "count": 10
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "execute",
+      "ranges": [
+        {
+          "startOffset": 396,
+          "endOffset": 830,
+          "count": 2
+        },
+        {
+          "startOffset": 567,
+          "endOffset": 829,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    }
+  ]
+}

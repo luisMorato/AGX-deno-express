@@ -1,0 +1,50 @@
+{
+  "scriptId": "461",
+  "url": "file:///C:/Users/AGX/AppData/Local/deno/npm/registry.npmjs.org/axios/1.12.2/lib/helpers/progressEventReducer.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 1235,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "progressEventReducer",
+      "ranges": [
+        {
+          "startOffset": 152,
+          "endOffset": 941,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "progressEventDecorator",
+      "ranges": [
+        {
+          "startOffset": 981,
+          "endOffset": 1151,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "asyncDecorator",
+      "ranges": [
+        {
+          "startOffset": 1183,
+          "endOffset": 1233,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    }
+  ]
+}

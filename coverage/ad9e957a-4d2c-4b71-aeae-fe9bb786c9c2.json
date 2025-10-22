@@ -1,0 +1,39 @@
+{
+  "scriptId": "768",
+  "url": "file:///C:/Users/AGX/AppData/Local/deno/npm/registry.npmjs.org/date-fns/4.1.0/locale/en-US/_lib/match.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 3146,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "valueCallback",
+      "ranges": [
+        {
+          "startOffset": 2209,
+          "endOffset": 2239,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "valueCallback",
+      "ranges": [
+        {
+          "startOffset": 2600,
+          "endOffset": 2620,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    }
+  ]
+}

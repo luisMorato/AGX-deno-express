@@ -1,0 +1,146 @@
+{
+  "scriptId": "879",
+  "url": "file:///C:/Users/AGX/AppData/Local/deno/npm/registry.npmjs.org/mongoose/8.19.1/lib/helpers/processConnectionOptions.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 2194,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 1,
+          "endOffset": 2193,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 214,
+          "endOffset": 2187,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "processConnectionOptions",
+      "ranges": [
+        {
+          "startOffset": 320,
+          "endOffset": 759,
+          "count": 1
+        },
+        {
+          "startOffset": 403,
+          "endOffset": 407,
+          "count": 0
+        },
+        {
+          "startOffset": 458,
+          "endOffset": 479,
+          "count": 0
+        },
+        {
+          "startOffset": 587,
+          "endOffset": 618,
+          "count": 0
+        },
+        {
+          "startOffset": 619,
+          "endOffset": 659,
+          "count": 0
+        },
+        {
+          "startOffset": 665,
+          "endOffset": 715,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "resolveOptsConflicts",
+      "ranges": [
+        {
+          "startOffset": 761,
+          "endOffset": 1127,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "setsIndexOptions",
+      "ranges": [
+        {
+          "startOffset": 1129,
+          "endOffset": 1315,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "setsSecondaryRead",
+      "ranges": [
+        {
+          "startOffset": 1317,
+          "endOffset": 1439,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "getUriReadPreference",
+      "ranges": [
+        {
+          "startOffset": 1441,
+          "endOffset": 1623,
+          "count": 1
+        },
+        {
+          "startOffset": 1603,
+          "endOffset": 1613,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "defaultIndexOptsToFalse",
+      "ranges": [
+        {
+          "startOffset": 1625,
+          "endOffset": 1773,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "throwReadPreferenceError",
+      "ranges": [
+        {
+          "startOffset": 1775,
+          "endOffset": 2140,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    }
+  ]
+}

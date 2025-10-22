@@ -1,0 +1,22 @@
+{
+  "scriptId": "374",
+  "url": "file:///C:/Users/AGX/AppData/Local/deno/npm/registry.npmjs.org/fn-code/0.1.5/index.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 590,
+          "count": 1
+        },
+        {
+          "startOffset": 189,
+          "endOffset": 326,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": true
+    }
+  ]
+}

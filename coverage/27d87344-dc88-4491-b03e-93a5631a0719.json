@@ -1,0 +1,446 @@
+{
+  "scriptId": "943",
+  "url": "file:///C:/Users/AGX/AppData/Local/deno/npm/registry.npmjs.org/mongoose/8.19.1/lib/aggregate.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 37111,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 1,
+          "endOffset": 37110,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 214,
+          "endOffset": 37104,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "Aggregate",
+      "ranges": [
+        {
+          "startOffset": 2396,
+          "endOffset": 2727,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "Aggregate._optionsForExec",
+      "ranges": [
+        {
+          "startOffset": 3948,
+          "endOffset": 4248,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "Aggregate.model",
+      "ranges": [
+        {
+          "startOffset": 4813,
+          "endOffset": 5285,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "Aggregate.append",
+      "ranges": [
+        {
+          "startOffset": 5771,
+          "endOffset": 6071,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "Aggregate.addFields",
+      "ranges": [
+        {
+          "startOffset": 6733,
+          "endOffset": 6959,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "Aggregate.project",
+      "ranges": [
+        {
+          "startOffset": 7923,
+          "endOffset": 8559,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "Aggregate.near",
+      "ranges": [
+        {
+          "startOffset": 11905,
+          "endOffset": 12560,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 12651,
+          "endOffset": 12808,
+          "count": 7
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "Aggregate.<computed>",
+      "ranges": [
+        {
+          "startOffset": 12708,
+          "endOffset": 12805,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "Aggregate.unwind",
+      "ranges": [
+        {
+          "startOffset": 13720,
+          "endOffset": 14175,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "Aggregate.replaceRoot",
+      "ranges": [
+        {
+          "startOffset": 14934,
+          "endOffset": 15174,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "Aggregate.count",
+      "ranges": [
+        {
+          "startOffset": 15647,
+          "endOffset": 15715,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "Aggregate.sortByCount",
+      "ranges": [
+        {
+          "startOffset": 16371,
+          "endOffset": 16726,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "Aggregate.lookup",
+      "ranges": [
+        {
+          "startOffset": 17173,
+          "endOffset": 17238,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "Aggregate.graphLookup",
+      "ranges": [
+        {
+          "startOffset": 18269,
+          "endOffset": 18812,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "Aggregate.sample",
+      "ranges": [
+        {
+          "startOffset": 19225,
+          "endOffset": 19294,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "Aggregate.sort",
+      "ranges": [
+        {
+          "startOffset": 19994,
+          "endOffset": 20919,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "Aggregate.unionWith",
+      "ranges": [
+        {
+          "startOffset": 21349,
+          "endOffset": 21417,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "Aggregate.read",
+      "ranges": [
+        {
+          "startOffset": 21894,
+          "endOffset": 21964,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "Aggregate.readConcern",
+      "ranges": [
+        {
+          "startOffset": 22355,
+          "endOffset": 22422,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "Aggregate.redact",
+      "ranges": [
+        {
+          "startOffset": 23503,
+          "endOffset": 24117,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "explain",
+      "ranges": [
+        {
+          "startOffset": 24314,
+          "endOffset": 25798,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "Aggregate.allowDiskUse",
+      "ranges": [
+        {
+          "startOffset": 26218,
+          "endOffset": 26289,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "Aggregate.hint",
+      "ranges": [
+        {
+          "startOffset": 26642,
+          "endOffset": 26705,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "Aggregate.session",
+      "ranges": [
+        {
+          "startOffset": 27134,
+          "endOffset": 27279,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "Aggregate.option",
+      "ranges": [
+        {
+          "startOffset": 28422,
+          "endOffset": 28525,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "Aggregate.cursor",
+      "ranges": [
+        {
+          "startOffset": 29414,
+          "endOffset": 29554,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "Aggregate.collation",
+      "ranges": [
+        {
+          "startOffset": 29919,
+          "endOffset": 29995,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "Aggregate.facet",
+      "ranges": [
+        {
+          "startOffset": 30504,
+          "endOffset": 30568,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "Aggregate.search",
+      "ranges": [
+        {
+          "startOffset": 31114,
+          "endOffset": 31179,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "Aggregate.pipeline",
+      "ranges": [
+        {
+          "startOffset": 31469,
+          "endOffset": 31508,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "exec",
+      "ranges": [
+        {
+          "startOffset": 31717,
+          "endOffset": 33885,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "Aggregate.then",
+      "ranges": [
+        {
+          "startOffset": 34242,
+          "endOffset": 34315,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "Aggregate.catch",
+      "ranges": [
+        {
+          "startOffset": 34701,
+          "endOffset": 34762,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "Aggregate.finally",
+      "ranges": [
+        {
+          "startOffset": 35099,
+          "endOffset": 35163,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "Aggregate.<computed>",
+      "ranges": [
+        {
+          "startOffset": 36207,
+          "endOffset": 36324,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "isOperator",
+      "ranges": [
+        {
+          "startOffset": 36495,
+          "endOffset": 36670,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    }
+  ]
+}

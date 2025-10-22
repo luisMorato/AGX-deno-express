@@ -1,0 +1,50 @@
+{
+  "scriptId": "374",
+  "url": "file:///C:/Users/AGX/Desktop/AGX/AGX-deno-express/features/users/UsersRules.ts",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 1237,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "UsersRules",
+      "ranges": [
+        {
+          "startOffset": 131,
+          "endOffset": 1234,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "validator",
+      "ranges": [
+        {
+          "startOffset": 500,
+          "endOffset": 523,
+          "count": 5
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "validator",
+      "ranges": [
+        {
+          "startOffset": 888,
+          "endOffset": 911,
+          "count": 4
+        }
+      ],
+      "isBlockCoverage": true
+    }
+  ]
+}

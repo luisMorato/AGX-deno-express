@@ -1,0 +1,325 @@
+{
+  "scriptId": "882",
+  "url": "file:///C:/Users/AGX/AppData/Local/deno/npm/registry.npmjs.org/mongoose/8.19.1/lib/collection.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 6917,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 1,
+          "endOffset": 6916,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 214,
+          "endOffset": 6910,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "Collection",
+      "ranges": [
+        {
+          "startOffset": 709,
+          "endOffset": 1051,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "Collection.onOpen",
+      "ranges": [
+        {
+          "startOffset": 1460,
+          "endOffset": 1532,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "Collection.onClose",
+      "ranges": [
+        {
+          "startOffset": 1634,
+          "endOffset": 1647,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "Collection.addQueue",
+      "ranges": [
+        {
+          "startOffset": 1909,
+          "endOffset": 1981,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "Collection.removeQueue",
+      "ranges": [
+        {
+          "startOffset": 2195,
+          "endOffset": 2384,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "Collection.doQueue",
+      "ranges": [
+        {
+          "startOffset": 2499,
+          "endOffset": 2822,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "Collection.ensureIndex",
+      "ranges": [
+        {
+          "startOffset": 2917,
+          "endOffset": 3000,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "Collection.createIndex",
+      "ranges": [
+        {
+          "startOffset": 3095,
+          "endOffset": 3178,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "Collection.findAndModify",
+      "ranges": [
+        {
+          "startOffset": 3275,
+          "endOffset": 3360,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "Collection.findOneAndUpdate",
+      "ranges": [
+        {
+          "startOffset": 3460,
+          "endOffset": 3548,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "Collection.findOneAndDelete",
+      "ranges": [
+        {
+          "startOffset": 3648,
+          "endOffset": 3736,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "Collection.findOneAndReplace",
+      "ranges": [
+        {
+          "startOffset": 3837,
+          "endOffset": 3926,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "Collection.findOne",
+      "ranges": [
+        {
+          "startOffset": 4017,
+          "endOffset": 4096,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "Collection.find",
+      "ranges": [
+        {
+          "startOffset": 4184,
+          "endOffset": 4260,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "Collection.insert",
+      "ranges": [
+        {
+          "startOffset": 4350,
+          "endOffset": 4428,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "Collection.insertOne",
+      "ranges": [
+        {
+          "startOffset": 4521,
+          "endOffset": 4602,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "Collection.insertMany",
+      "ranges": [
+        {
+          "startOffset": 4696,
+          "endOffset": 4778,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "Collection.save",
+      "ranges": [
+        {
+          "startOffset": 4866,
+          "endOffset": 4942,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "Collection.updateOne",
+      "ranges": [
+        {
+          "startOffset": 5035,
+          "endOffset": 5116,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "Collection.updateMany",
+      "ranges": [
+        {
+          "startOffset": 5210,
+          "endOffset": 5292,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "Collection.deleteOne",
+      "ranges": [
+        {
+          "startOffset": 5385,
+          "endOffset": 5466,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "Collection.deleteMany",
+      "ranges": [
+        {
+          "startOffset": 5560,
+          "endOffset": 5642,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "Collection.getIndexes",
+      "ranges": [
+        {
+          "startOffset": 5736,
+          "endOffset": 5818,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "Collection.watch",
+      "ranges": [
+        {
+          "startOffset": 5907,
+          "endOffset": 5984,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "_shouldBufferCommands",
+      "ranges": [
+        {
+          "startOffset": 6051,
+          "endOffset": 6407,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "_getBufferTimeoutMS",
+      "ranges": [
+        {
+          "startOffset": 6472,
+          "endOffset": 6848,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    }
+  ]
+}

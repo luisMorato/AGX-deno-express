@@ -1,0 +1,138 @@
+{
+  "scriptId": "613",
+  "url": "file:///C:/Users/AGX/AppData/Local/deno/npm/registry.npmjs.org/mongodb/6.20.0/lib/cursor/change_stream_cursor.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 4315,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 1,
+          "endOffset": 4314,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 214,
+          "endOffset": 4308,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "ChangeStreamCursor",
+      "ranges": [
+        {
+          "startOffset": 743,
+          "endOffset": 1282,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "set resumeToken",
+      "ranges": [
+        {
+          "startOffset": 1287,
+          "endOffset": 1429,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "get resumeToken",
+      "ranges": [
+        {
+          "startOffset": 1434,
+          "endOffset": 1493,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "get resumeOptions",
+      "ranges": [
+        {
+          "startOffset": 1498,
+          "endOffset": 2182,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "cacheResumeToken",
+      "ranges": [
+        {
+          "startOffset": 2187,
+          "endOffset": 2465,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "_processBatch",
+      "ranges": [
+        {
+          "startOffset": 2470,
+          "endOffset": 2775,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "clone",
+      "ranges": [
+        {
+          "startOffset": 2780,
+          "endOffset": 2925,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "_initialize",
+      "ranges": [
+        {
+          "startOffset": 2930,
+          "endOffset": 3855,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "getMore",
+      "ranges": [
+        {
+          "startOffset": 3860,
+          "endOffset": 4206,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    }
+  ]
+}

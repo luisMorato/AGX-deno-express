@@ -1,0 +1,340 @@
+{
+  "scriptId": "634",
+  "url": "file:///C:/Users/AGX/AppData/Local/deno/npm/registry.npmjs.org/whatwg-url/14.2.0/lib/URL-impl.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 5313,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 1,
+          "endOffset": 5312,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 214,
+          "endOffset": 5306,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "URLImpl",
+      "ranges": [
+        {
+          "startOffset": 632,
+          "endOffset": 1458,
+          "count": 1
+        },
+        {
+          "startOffset": 728,
+          "endOffset": 878,
+          "count": 0
+        },
+        {
+          "startOffset": 979,
+          "endOffset": 1036,
+          "count": 0
+        },
+        {
+          "startOffset": 1081,
+          "endOffset": 1098,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "parse",
+      "ranges": [
+        {
+          "startOffset": 1469,
+          "endOffset": 1611,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "canParse",
+      "ranges": [
+        {
+          "startOffset": 1622,
+          "endOffset": 1963,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "get href",
+      "ranges": [
+        {
+          "startOffset": 1967,
+          "endOffset": 2023,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "set href",
+      "ranges": [
+        {
+          "startOffset": 2027,
+          "endOffset": 2366,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "get origin",
+      "ranges": [
+        {
+          "startOffset": 2370,
+          "endOffset": 2434,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "get protocol",
+      "ranges": [
+        {
+          "startOffset": 2438,
+          "endOffset": 2493,
+          "count": 3
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "set protocol",
+      "ranges": [
+        {
+          "startOffset": 2497,
+          "endOffset": 2601,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "get username",
+      "ranges": [
+        {
+          "startOffset": 2605,
+          "endOffset": 2656,
+          "count": 2
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "set username",
+      "ranges": [
+        {
+          "startOffset": 2660,
+          "endOffset": 2798,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "get password",
+      "ranges": [
+        {
+          "startOffset": 2802,
+          "endOffset": 2853,
+          "count": 2
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "set password",
+      "ranges": [
+        {
+          "startOffset": 2857,
+          "endOffset": 2995,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "get host",
+      "ranges": [
+        {
+          "startOffset": 2999,
+          "endOffset": 3253,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "set host",
+      "ranges": [
+        {
+          "startOffset": 3257,
+          "endOffset": 3406,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "get hostname",
+      "ranges": [
+        {
+          "startOffset": 3410,
+          "endOffset": 3535,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "set hostname",
+      "ranges": [
+        {
+          "startOffset": 3539,
+          "endOffset": 3696,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "get port",
+      "ranges": [
+        {
+          "startOffset": 3700,
+          "endOffset": 3824,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "set port",
+      "ranges": [
+        {
+          "startOffset": 3828,
+          "endOffset": 4063,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "get pathname",
+      "ranges": [
+        {
+          "startOffset": 4067,
+          "endOffset": 4128,
+          "count": 5
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "set pathname",
+      "ranges": [
+        {
+          "startOffset": 4132,
+          "endOffset": 4316,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "get search",
+      "ranges": [
+        {
+          "startOffset": 4320,
+          "endOffset": 4458,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "set search",
+      "ranges": [
+        {
+          "startOffset": 4462,
+          "endOffset": 4805,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "get searchParams",
+      "ranges": [
+        {
+          "startOffset": 4809,
+          "endOffset": 4857,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "get hash",
+      "ranges": [
+        {
+          "startOffset": 4861,
+          "endOffset": 5006,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "set hash",
+      "ranges": [
+        {
+          "startOffset": 5010,
+          "endOffset": 5260,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "toJSON",
+      "ranges": [
+        {
+          "startOffset": 5264,
+          "endOffset": 5300,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    }
+  ]
+}

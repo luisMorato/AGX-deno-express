@@ -1,0 +1,61 @@
+{
+  "scriptId": "466",
+  "url": "file:///C:/Users/AGX/AppData/Local/deno/npm/registry.npmjs.org/axios/1.12.2/lib/helpers/trackStream.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 1686,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "streamChunk",
+      "ranges": [
+        {
+          "startOffset": 28,
+          "endOffset": 292,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "readBytes",
+      "ranges": [
+        {
+          "startOffset": 319,
+          "endOffset": 458,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "readStream",
+      "ranges": [
+        {
+          "startOffset": 479,
+          "endOffset": 801,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "trackStream",
+      "ranges": [
+        {
+          "startOffset": 830,
+          "endOffset": 1685,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    }
+  ]
+}

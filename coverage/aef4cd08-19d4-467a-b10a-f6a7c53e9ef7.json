@@ -1,0 +1,201 @@
+{
+  "scriptId": "610",
+  "url": "file:///C:/Users/AGX/AppData/Local/deno/npm/registry.npmjs.org/http-status-codes/2.3.0/build/cjs/index.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 2448,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 1,
+          "endOffset": 2447,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 214,
+          "endOffset": 2441,
+          "count": 1
+        },
+        {
+          "startOffset": 843,
+          "endOffset": 924,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "__assign",
+      "ranges": [
+        {
+          "startOffset": 277,
+          "endOffset": 616,
+          "count": 2
+        },
+        {
+          "startOffset": 320,
+          "endOffset": 569,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "__assign",
+      "ranges": [
+        {
+          "startOffset": 323,
+          "endOffset": 569,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 692,
+          "endOffset": 841,
+          "count": 54
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "get",
+      "ranges": [
+        {
+          "startOffset": 808,
+          "endOffset": 835,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 846,
+          "endOffset": 923,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "__exportStar",
+      "ranges": [
+        {
+          "startOffset": 977,
+          "endOffset": 1105,
+          "count": 1
+        },
+        {
+          "startOffset": 1021,
+          "endOffset": 1103,
+          "count": 55
+        },
+        {
+          "startOffset": 1041,
+          "endOffset": 1070,
+          "count": 54
+        },
+        {
+          "startOffset": 1072,
+          "endOffset": 1103,
+          "count": 54
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "__importDefault",
+      "ranges": [
+        {
+          "startOffset": 1163,
+          "endOffset": 1244,
+          "count": 1
+        },
+        {
+          "startOffset": 1221,
+          "endOffset": 1241,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "get",
+      "ranges": [
+        {
+          "startOffset": 1543,
+          "endOffset": 1598,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "get",
+      "ranges": [
+        {
+          "startOffset": 1678,
+          "endOffset": 1735,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "get",
+      "ranges": [
+        {
+          "startOffset": 1813,
+          "endOffset": 1868,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "get",
+      "ranges": [
+        {
+          "startOffset": 1992,
+          "endOffset": 2042,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "get",
+      "ranges": [
+        {
+          "startOffset": 2172,
+          "endOffset": 2226,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    }
+  ]
+}

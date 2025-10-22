@@ -1,0 +1,94 @@
+{
+  "scriptId": "1177",
+  "url": "file:///C:/Users/AGX/AppData/Local/deno/npm/registry.npmjs.org/mongoose/8.19.1/lib/helpers/query/castUpdate.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 19276,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 1,
+          "endOffset": 19275,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 214,
+          "endOffset": 19269,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "castUpdate",
+      "ranges": [
+        {
+          "startOffset": 1743,
+          "endOffset": 5413,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "castPipelineOperator",
+      "ranges": [
+        {
+          "startOffset": 5435,
+          "endOffset": 6432,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "walkUpdatePath",
+      "ranges": [
+        {
+          "startOffset": 6893,
+          "endOffset": 15699,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "_appendError",
+      "ranges": [
+        {
+          "startOffset": 15720,
+          "endOffset": 16001,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "castUpdateVal",
+      "ranges": [
+        {
+          "startOffset": 16827,
+          "endOffset": 19266,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    }
+  ]
+}

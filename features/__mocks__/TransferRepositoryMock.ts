@@ -122,8 +122,6 @@ export class TransferRepositoryMock {
     })
 
     const transferResumes = keys.map((key) => transfersResume[key])
-
-    console.log('transferResumes: ', transferResumes)
     
     return Promise.resolve(transferResumes)
   }

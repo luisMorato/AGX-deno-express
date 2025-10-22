@@ -1,0 +1,61 @@
+{
+  "scriptId": "538",
+  "url": "file:///C:/Users/AGX/AppData/Local/deno/npm/registry.npmjs.org/http-status-codes/2.3.0/build/cjs/utils-functions.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 1879,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 1,
+          "endOffset": 1878,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 214,
+          "endOffset": 1872,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "getReasonPhrase",
+      "ranges": [
+        {
+          "startOffset": 682,
+          "endOffset": 910,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "getStatusCode",
+      "ranges": [
+        {
+          "startOffset": 1222,
+          "endOffset": 1445,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    }
+  ]
+}

@@ -1,0 +1,291 @@
+{
+  "scriptId": "383",
+  "url": "file:///C:/Users/AGX/AppData/Local/deno/npm/registry.npmjs.org/bcryptjs/3.0.2/index.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 41508,
+          "count": 1
+        },
+        {
+          "startOffset": 11962,
+          "endOffset": 11980,
+          "count": 0
+        },
+        {
+          "startOffset": 11985,
+          "endOffset": 11997,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "randomBytes",
+      "ranges": [
+        {
+          "startOffset": 2167,
+          "endOffset": 2722,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "setRandomFallback",
+      "ranges": [
+        {
+          "startOffset": 3291,
+          "endOffset": 3356,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "genSaltSync",
+      "ranges": [
+        {
+          "startOffset": 3633,
+          "endOffset": 4161,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "genSalt",
+      "ranges": [
+        {
+          "startOffset": 4618,
+          "endOffset": 5609,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "hashSync",
+      "ranges": [
+        {
+          "startOffset": 5853,
+          "endOffset": 6194,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "hash",
+      "ranges": [
+        {
+          "startOffset": 6793,
+          "endOffset": 7703,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "safeStringCompare",
+      "ranges": [
+        {
+          "startOffset": 7923,
+          "endOffset": 8138,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "compareSync",
+      "ranges": [
+        {
+          "startOffset": 8399,
+          "endOffset": 8726,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "compare",
+      "ranges": [
+        {
+          "startOffset": 9298,
+          "endOffset": 10355,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "getRounds",
+      "ranges": [
+        {
+          "startOffset": 10596,
+          "endOffset": 10753,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "getSalt",
+      "ranges": [
+        {
+          "startOffset": 10997,
+          "endOffset": 11234,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "truncates",
+      "ranges": [
+        {
+          "startOffset": 11487,
+          "endOffset": 11649,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "utf8Length",
+      "ranges": [
+        {
+          "startOffset": 12063,
+          "endOffset": 12428,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "utf8Array",
+      "ranges": [
+        {
+          "startOffset": 12482,
+          "endOffset": 13382,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "base64_encode",
+      "ranges": [
+        {
+          "startOffset": 14456,
+          "endOffset": 15155,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "base64_decode",
+      "ranges": [
+        {
+          "startOffset": 15353,
+          "endOffset": 16509,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "_encipher",
+      "ranges": [
+        {
+          "startOffset": 30126,
+          "endOffset": 33324,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "_streamtoword",
+      "ranges": [
+        {
+          "startOffset": 33442,
+          "endOffset": 33645,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "_key",
+      "ranges": [
+        {
+          "startOffset": 33754,
+          "endOffset": 34201,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "_ekskey",
+      "ranges": [
+        {
+          "startOffset": 34378,
+          "endOffset": 35208,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "_crypt",
+      "ranges": [
+        {
+          "startOffset": 35774,
+          "endOffset": 37821,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "_hash",
+      "ranges": [
+        {
+          "startOffset": 38326,
+          "endOffset": 40672,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "encodeBase64",
+      "ranges": [
+        {
+          "startOffset": 40914,
+          "endOffset": 40993,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "decodeBase64",
+      "ranges": [
+        {
+          "startOffset": 41243,
+          "endOffset": 41324,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    }
+  ]
+}

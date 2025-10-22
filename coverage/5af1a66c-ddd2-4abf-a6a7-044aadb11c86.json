@@ -1,0 +1,150 @@
+{
+  "scriptId": "584",
+  "url": "file:///C:/Users/AGX/AppData/Local/deno/npm/registry.npmjs.org/semver/7.7.3/classes/comparator.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 3861,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 1,
+          "endOffset": 3860,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 214,
+          "endOffset": 3854,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "get ANY",
+      "ranges": [
+        {
+          "startOffset": 335,
+          "endOffset": 366,
+          "count": 2
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "Comparator",
+      "ranges": [
+        {
+          "startOffset": 370,
+          "endOffset": 917,
+          "count": 7
+        },
+        {
+          "startOffset": 473,
+          "endOffset": 593,
+          "count": 0
+        },
+        {
+          "startOffset": 791,
+          "endOffset": 820,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "parse",
+      "ranges": [
+        {
+          "startOffset": 921,
+          "endOffset": 1417,
+          "count": 7
+        },
+        {
+          "startOffset": 969,
+          "endOffset": 992,
+          "count": 0
+        },
+        {
+          "startOffset": 1053,
+          "endOffset": 1117,
+          "count": 0
+        },
+        {
+          "startOffset": 1165,
+          "endOffset": 1169,
+          "count": 0
+        },
+        {
+          "startOffset": 1201,
+          "endOffset": 1233,
+          "count": 0
+        },
+        {
+          "startOffset": 1312,
+          "endOffset": 1343,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "toString",
+      "ranges": [
+        {
+          "startOffset": 1421,
+          "endOffset": 1460,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "test",
+      "ranges": [
+        {
+          "startOffset": 1464,
+          "endOffset": 1844,
+          "count": 5
+        },
+        {
+          "startOffset": 1588,
+          "endOffset": 1613,
+          "count": 0
+        },
+        {
+          "startOffset": 1652,
+          "endOffset": 1773,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "intersects",
+      "ranges": [
+        {
+          "startOffset": 1848,
+          "endOffset": 3558,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    }
+  ]
+}

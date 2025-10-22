@@ -1,0 +1,1279 @@
+{
+  "scriptId": "715",
+  "url": "file:///C:/Users/AGX/AppData/Local/deno/npm/registry.npmjs.org/mongoose/8.19.1/lib/schema.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 105318,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 1,
+          "endOffset": 105317,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 214,
+          "endOffset": 105311,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 1729,
+          "endOffset": 1753,
+          "count": 20
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "Schema",
+      "ranges": [
+        {
+          "startOffset": 7646,
+          "endOffset": 9526,
+          "count": 1
+        },
+        {
+          "startOffset": 7711,
+          "endOffset": 7753,
+          "count": 0
+        },
+        {
+          "startOffset": 8531,
+          "endOffset": 8606,
+          "count": 0
+        },
+        {
+          "startOffset": 8707,
+          "endOffset": 9176,
+          "count": 0
+        },
+        {
+          "startOffset": 9266,
+          "endOffset": 9292,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "aliasFields",
+      "ranges": [
+        {
+          "startOffset": 9598,
+          "endOffset": 11195,
+          "count": 2
+        },
+        {
+          "startOffset": 9677,
+          "endOffset": 11193,
+          "count": 7
+        },
+        {
+          "startOffset": 9730,
+          "endOffset": 9764,
+          "count": 0
+        },
+        {
+          "startOffset": 9857,
+          "endOffset": 9884,
+          "count": 0
+        },
+        {
+          "startOffset": 9961,
+          "endOffset": 11193,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 10291,
+          "endOffset": 10497,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 10522,
+          "endOffset": 10633,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 10886,
+          "endOffset": 11064,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 11085,
+          "endOffset": 11180,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "Schema.clone",
+      "ranges": [
+        {
+          "startOffset": 14277,
+          "endOffset": 14418,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "_clone",
+      "ranges": [
+        {
+          "startOffset": 14466,
+          "endOffset": 16855,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "Schema.pick",
+      "ranges": [
+        {
+          "startOffset": 17673,
+          "endOffset": 18627,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "Schema.omit",
+      "ranges": [
+        {
+          "startOffset": 19418,
+          "endOffset": 19888,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "Schema.defaultOptions",
+      "ranges": [
+        {
+          "startOffset": 20166,
+          "endOffset": 21667,
+          "count": 1
+        },
+        {
+          "startOffset": 20232,
+          "endOffset": 20236,
+          "count": 0
+        },
+        {
+          "startOffset": 20308,
+          "endOffset": 20313,
+          "count": 0
+        },
+        {
+          "startOffset": 20356,
+          "endOffset": 20376,
+          "count": 0
+        },
+        {
+          "startOffset": 20436,
+          "endOffset": 20461,
+          "count": 0
+        },
+        {
+          "startOffset": 20504,
+          "endOffset": 20520,
+          "count": 0
+        },
+        {
+          "startOffset": 21026,
+          "endOffset": 21067,
+          "count": 0
+        },
+        {
+          "startOffset": 21069,
+          "endOffset": 21186,
+          "count": 0
+        },
+        {
+          "startOffset": 21228,
+          "endOffset": 21295,
+          "count": 0
+        },
+        {
+          "startOffset": 21333,
+          "endOffset": 21371,
+          "count": 0
+        },
+        {
+          "startOffset": 21373,
+          "endOffset": 21492,
+          "count": 0
+        },
+        {
+          "startOffset": 21530,
+          "endOffset": 21552,
+          "count": 0
+        },
+        {
+          "startOffset": 21554,
+          "endOffset": 21646,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "Schema.discriminator",
+      "ranges": [
+        {
+          "startOffset": 23561,
+          "endOffset": 23742,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "Schema._defaultToObjectOptions",
+      "ranges": [
+        {
+          "startOffset": 23889,
+          "endOffset": 24636,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "encryptionType",
+      "ranges": [
+        {
+          "startOffset": 24921,
+          "endOffset": 25234,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "add",
+      "ranges": [
+        {
+          "startOffset": 25915,
+          "endOffset": 32523,
+          "count": 2
+        },
+        {
+          "startOffset": 26013,
+          "endOffset": 26057,
+          "count": 0
+        },
+        {
+          "startOffset": 26286,
+          "endOffset": 26303,
+          "count": 0
+        },
+        {
+          "startOffset": 26305,
+          "endOffset": 26340,
+          "count": 0
+        },
+        {
+          "startOffset": 26485,
+          "endOffset": 26507,
+          "count": 0
+        },
+        {
+          "startOffset": 26608,
+          "endOffset": 32367,
+          "count": 7
+        },
+        {
+          "startOffset": 26652,
+          "endOffset": 26675,
+          "count": 0
+        },
+        {
+          "startOffset": 26760,
+          "endOffset": 26879,
+          "count": 0
+        },
+        {
+          "startOffset": 26970,
+          "endOffset": 26986,
+          "count": 1
+        },
+        {
+          "startOffset": 26988,
+          "endOffset": 27011,
+          "count": 0
+        },
+        {
+          "startOffset": 27150,
+          "endOffset": 27470,
+          "count": 0
+        },
+        {
+          "startOffset": 27500,
+          "endOffset": 27611,
+          "count": 6
+        },
+        {
+          "startOffset": 27535,
+          "endOffset": 27563,
+          "count": 0
+        },
+        {
+          "startOffset": 27564,
+          "endOffset": 27588,
+          "count": 0
+        },
+        {
+          "startOffset": 27618,
+          "endOffset": 27836,
+          "count": 0
+        },
+        {
+          "startOffset": 27916,
+          "endOffset": 27923,
+          "count": 0
+        },
+        {
+          "startOffset": 27944,
+          "endOffset": 27992,
+          "count": 0
+        },
+        {
+          "startOffset": 28021,
+          "endOffset": 28040,
+          "count": 0
+        },
+        {
+          "startOffset": 28041,
+          "endOffset": 28058,
+          "count": 0
+        },
+        {
+          "startOffset": 28060,
+          "endOffset": 28188,
+          "count": 0
+        },
+        {
+          "startOffset": 28212,
+          "endOffset": 28247,
+          "count": 0
+        },
+        {
+          "startOffset": 28250,
+          "endOffset": 28808,
+          "count": 0
+        },
+        {
+          "startOffset": 28847,
+          "endOffset": 29076,
+          "count": 0
+        },
+        {
+          "startOffset": 29143,
+          "endOffset": 29159,
+          "count": 0
+        },
+        {
+          "startOffset": 29162,
+          "endOffset": 29487,
+          "count": 0
+        },
+        {
+          "startOffset": 29622,
+          "endOffset": 29657,
+          "count": 0
+        },
+        {
+          "startOffset": 29659,
+          "endOffset": 30785,
+          "count": 0
+        },
+        {
+          "startOffset": 30887,
+          "endOffset": 30968,
+          "count": 0
+        },
+        {
+          "startOffset": 31095,
+          "endOffset": 31290,
+          "count": 0
+        },
+        {
+          "startOffset": 31335,
+          "endOffset": 31366,
+          "count": 0
+        },
+        {
+          "startOffset": 31368,
+          "endOffset": 31842,
+          "count": 0
+        },
+        {
+          "startOffset": 31897,
+          "endOffset": 32170,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 32436,
+          "endOffset": 32469,
+          "count": 7
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "_addEncryptedField",
+      "ranges": [
+        {
+          "startOffset": 32646,
+          "endOffset": 32894,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "_removeEncryptedField",
+      "ranges": [
+        {
+          "startOffset": 32989,
+          "endOffset": 33066,
+          "count": 7
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "_hasEncryptedFields",
+      "ranges": [
+        {
+          "startOffset": 33157,
+          "endOffset": 33246,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "_hasEncryptedField",
+      "ranges": [
+        {
+          "startOffset": 33360,
+          "endOffset": 33436,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "Schema._buildEncryptedFields",
+      "ranges": [
+        {
+          "startOffset": 33556,
+          "endOffset": 33835,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "Schema._buildSchemaMap",
+      "ranges": [
+        {
+          "startOffset": 34006,
+          "endOffset": 35719,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "alias",
+      "ranges": [
+        {
+          "startOffset": 36580,
+          "endOffset": 36666,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "removeIndex",
+      "ranges": [
+        {
+          "startOffset": 37595,
+          "endOffset": 38305,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "clearIndexes",
+      "ranges": [
+        {
+          "startOffset": 38859,
+          "endOffset": 38930,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "searchIndex",
+      "ranges": [
+        {
+          "startOffset": 39606,
+          "endOffset": 39700,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "Schema.path",
+      "ranges": [
+        {
+          "startOffset": 41587,
+          "endOffset": 47986,
+          "count": 7
+        },
+        {
+          "startOffset": 41634,
+          "endOffset": 42342,
+          "count": 0
+        },
+        {
+          "startOffset": 42476,
+          "endOffset": 42520,
+          "count": 0
+        },
+        {
+          "startOffset": 42522,
+          "endOffset": 42828,
+          "count": 0
+        },
+        {
+          "startOffset": 42905,
+          "endOffset": 42942,
+          "count": 0
+        },
+        {
+          "startOffset": 43111,
+          "endOffset": 43688,
+          "count": 0
+        },
+        {
+          "startOffset": 44024,
+          "endOffset": 44613,
+          "count": 0
+        },
+        {
+          "startOffset": 44649,
+          "endOffset": 45590,
+          "count": 0
+        },
+        {
+          "startOffset": 45637,
+          "endOffset": 45984,
+          "count": 0
+        },
+        {
+          "startOffset": 46020,
+          "endOffset": 46062,
+          "count": 0
+        },
+        {
+          "startOffset": 46064,
+          "endOffset": 46826,
+          "count": 0
+        },
+        {
+          "startOffset": 46871,
+          "endOffset": 47968,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 43949,
+          "endOffset": 43989,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "_gatherChildSchemas",
+      "ranges": [
+        {
+          "startOffset": 48047,
+          "endOffset": 48765,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "_getPath",
+      "ranges": [
+        {
+          "startOffset": 48787,
+          "endOffset": 49401,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "_pathToPositionalSyntax",
+      "ranges": [
+        {
+          "startOffset": 49422,
+          "endOffset": 49580,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "getMapPath",
+      "ranges": [
+        {
+          "startOffset": 49601,
+          "endOffset": 50851,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "Schema.interpretAsType",
+      "ranges": [
+        {
+          "startOffset": 51297,
+          "endOffset": 59519,
+          "count": 7
+        },
+        {
+          "startOffset": 51361,
+          "endOffset": 51491,
+          "count": 0
+        },
+        {
+          "startOffset": 51686,
+          "endOffset": 51700,
+          "count": 0
+        },
+        {
+          "startOffset": 51754,
+          "endOffset": 51774,
+          "count": 0
+        },
+        {
+          "startOffset": 51802,
+          "endOffset": 51840,
+          "count": 0
+        },
+        {
+          "startOffset": 51842,
+          "endOffset": 52040,
+          "count": 0
+        },
+        {
+          "startOffset": 52275,
+          "endOffset": 52304,
+          "count": 1
+        },
+        {
+          "startOffset": 52305,
+          "endOffset": 52322,
+          "count": 1
+        },
+        {
+          "startOffset": 52355,
+          "endOffset": 52359,
+          "count": 0
+        },
+        {
+          "startOffset": 52396,
+          "endOffset": 52529,
+          "count": 0
+        },
+        {
+          "startOffset": 52590,
+          "endOffset": 52642,
+          "count": 0
+        },
+        {
+          "startOffset": 52741,
+          "endOffset": 57937,
+          "count": 0
+        },
+        {
+          "startOffset": 57976,
+          "endOffset": 58040,
+          "count": 0
+        },
+        {
+          "startOffset": 58071,
+          "endOffset": 58097,
+          "count": 0
+        },
+        {
+          "startOffset": 58134,
+          "endOffset": 58161,
+          "count": 1
+        },
+        {
+          "startOffset": 58163,
+          "endOffset": 58227,
+          "count": 6
+        },
+        {
+          "startOffset": 58227,
+          "endOffset": 58423,
+          "count": 1
+        },
+        {
+          "startOffset": 58262,
+          "endOffset": 58290,
+          "count": 0
+        },
+        {
+          "startOffset": 58327,
+          "endOffset": 58357,
+          "count": 0
+        },
+        {
+          "startOffset": 58389,
+          "endOffset": 58400,
+          "count": 0
+        },
+        {
+          "startOffset": 58649,
+          "endOffset": 58677,
+          "count": 0
+        },
+        {
+          "startOffset": 58736,
+          "endOffset": 58760,
+          "count": 0
+        },
+        {
+          "startOffset": 58785,
+          "endOffset": 59014,
+          "count": 0
+        },
+        {
+          "startOffset": 59050,
+          "endOffset": 59262,
+          "count": 0
+        },
+        {
+          "startOffset": 59288,
+          "endOffset": 59322,
+          "count": 0
+        },
+        {
+          "startOffset": 59421,
+          "endOffset": 59495,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "createMapNestedSchemaType",
+      "ranges": [
+        {
+          "startOffset": 59541,
+          "endOffset": 60797,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "Schema.eachPath",
+      "ranges": [
+        {
+          "startOffset": 61365,
+          "endOffset": 61541,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "requiredPaths",
+      "ranges": [
+        {
+          "startOffset": 61973,
+          "endOffset": 62349,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "indexedPaths",
+      "ranges": [
+        {
+          "startOffset": 62497,
+          "endOffset": 62655,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "Schema.pathType",
+      "ranges": [
+        {
+          "startOffset": 63201,
+          "endOffset": 64089,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "Schema.hasMixedParent",
+      "ranges": [
+        {
+          "startOffset": 64259,
+          "endOffset": 64592,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "Schema.setupTimestamp",
+      "ranges": [
+        {
+          "startOffset": 64781,
+          "endOffset": 64849,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "getPositionalPathType",
+      "ranges": [
+        {
+          "startOffset": 64954,
+          "endOffset": 66372,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "getPositionalPath",
+      "ranges": [
+        {
+          "startOffset": 66394,
+          "endOffset": 66530,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "Schema.queue",
+      "ranges": [
+        {
+          "startOffset": 67040,
+          "endOffset": 67116,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "Schema.pre",
+      "ranges": [
+        {
+          "startOffset": 68763,
+          "endOffset": 69310,
+          "count": 1
+        },
+        {
+          "startOffset": 68810,
+          "endOffset": 69033,
+          "count": 0
+        },
+        {
+          "startOffset": 69061,
+          "endOffset": 69242,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "Schema.post",
+      "ranges": [
+        {
+          "startOffset": 70641,
+          "endOffset": 71191,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "Schema.plugin",
+      "ranges": [
+        {
+          "startOffset": 72006,
+          "endOffset": 72405,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "Schema.method",
+      "ranges": [
+        {
+          "startOffset": 73580,
+          "endOffset": 73864,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "Schema.static",
+      "ranges": [
+        {
+          "startOffset": 75040,
+          "endOffset": 75222,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "Schema.index",
+      "ranges": [
+        {
+          "startOffset": 76089,
+          "endOffset": 77059,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "Schema.set",
+      "ranges": [
+        {
+          "startOffset": 77638,
+          "endOffset": 79592,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "_propagateOptionsToImplicitlyCreatedSchemas",
+      "ranges": [
+        {
+          "startOffset": 79661,
+          "endOffset": 79966,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "Schema.get",
+      "ranges": [
+        {
+          "startOffset": 80288,
+          "endOffset": 80333,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "get",
+      "ranges": [
+        {
+          "startOffset": 80567,
+          "endOffset": 80606,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "set",
+      "ranges": [
+        {
+          "startOffset": 80615,
+          "endOffset": 80690,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "Schema.indexes",
+      "ranges": [
+        {
+          "startOffset": 81732,
+          "endOffset": 81773,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "Schema.virtual",
+      "ranges": [
+        {
+          "startOffset": 83546,
+          "endOffset": 87750,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "Schema.virtualpath",
+      "ranges": [
+        {
+          "startOffset": 87932,
+          "endOffset": 88024,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "Schema.remove",
+      "ranges": [
+        {
+          "startOffset": 88569,
+          "endOffset": 89360,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "_deletePath",
+      "ranges": [
+        {
+          "startOffset": 89382,
+          "endOffset": 89601,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "Schema.removeVirtual",
+      "ranges": [
+        {
+          "startOffset": 89875,
+          "endOffset": 90441,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "Schema.loadClass",
+      "ranges": [
+        {
+          "startOffset": 92055,
+          "endOffset": 93561,
+          "count": 2
+        },
+        {
+          "startOffset": 92206,
+          "endOffset": 92274,
+          "count": 1
+        },
+        {
+          "startOffset": 92275,
+          "endOffset": 92346,
+          "count": 1
+        },
+        {
+          "startOffset": 92348,
+          "endOffset": 93560,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 92528,
+          "endOffset": 92803,
+          "count": 3
+        },
+        {
+          "startOffset": 92643,
+          "endOffset": 92797,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 92901,
+          "endOffset": 93535,
+          "count": 1
+        },
+        {
+          "startOffset": 92978,
+          "endOffset": 93531,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "Schema._getSchema",
+      "ranges": [
+        {
+          "startOffset": 93613,
+          "endOffset": 97000,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "Schema._getPathType",
+      "ranges": [
+        {
+          "startOffset": 97054,
+          "endOffset": 98934,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "_transformDuplicateKeyError",
+      "ranges": [
+        {
+          "startOffset": 99270,
+          "endOffset": 99885,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "isArrayFilter",
+      "ranges": [
+        {
+          "startOffset": 99907,
+          "endOffset": 99996,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "_preCompile",
+      "ranges": [
+        {
+          "startOffset": 100260,
+          "endOffset": 100334,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "toJSONSchema",
+      "ranges": [
+        {
+          "startOffset": 101505,
+          "endOffset": 103847,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    }
+  ]
+}

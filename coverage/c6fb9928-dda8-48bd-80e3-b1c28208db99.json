@@ -1,0 +1,182 @@
+{
+  "scriptId": "877",
+  "url": "file:///C:/Users/AGX/AppData/Local/deno/npm/registry.npmjs.org/mongoose/8.19.1/lib/schema/number.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 12428,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 1,
+          "endOffset": 12427,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 214,
+          "endOffset": 12421,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "SchemaNumber",
+      "ranges": [
+        {
+          "startOffset": 847,
+          "endOffset": 935,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "cast",
+      "ranges": [
+        {
+          "startOffset": 2576,
+          "endOffset": 2769,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "SchemaNumber._defaultCaster",
+      "ranges": [
+        {
+          "startOffset": 2821,
+          "endOffset": 2899,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "SchemaNumber._checkRequired",
+      "ranges": [
+        {
+          "startOffset": 3352,
+          "endOffset": 3401,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "checkRequired",
+      "ranges": [
+        {
+          "startOffset": 3876,
+          "endOffset": 4349,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "SchemaNumber.min",
+      "ranges": [
+        {
+          "startOffset": 5483,
+          "endOffset": 6021,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "SchemaNumber.max",
+      "ranges": [
+        {
+          "startOffset": 7144,
+          "endOffset": 7682,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "SchemaNumber.enum",
+      "ranges": [
+        {
+          "startOffset": 8255,
+          "endOffset": 9193,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "SchemaNumber.cast",
+      "ranges": [
+        {
+          "startOffset": 9397,
+          "endOffset": 10128,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "handleSingle",
+      "ranges": [
+        {
+          "startOffset": 10150,
+          "endOffset": 10205,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "handleArray",
+      "ranges": [
+        {
+          "startOffset": 10207,
+          "endOffset": 10383,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "SchemaNumber.castForQuery",
+      "ranges": [
+        {
+          "startOffset": 11296,
+          "endOffset": 11807,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "toJSONSchema",
+      "ranges": [
+        {
+          "startOffset": 12112,
+          "endOffset": 12357,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    }
+  ]
+}

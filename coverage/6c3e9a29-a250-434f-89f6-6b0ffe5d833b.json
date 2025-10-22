@@ -1,0 +1,170 @@
+{
+  "scriptId": "813",
+  "url": "file:///C:/Users/AGX/AppData/Local/deno/npm/registry.npmjs.org/mongoose/8.19.1/lib/types/buffer.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 6687,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 1,
+          "endOffset": 6686,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 214,
+          "endOffset": 6680,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "MongooseBuffer",
+      "ranges": [
+        {
+          "startOffset": 673,
+          "endOffset": 1425,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "_markModified",
+      "ranges": [
+        {
+          "startOffset": 2002,
+          "endOffset": 2159,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "write",
+      "ranges": [
+        {
+          "startOffset": 2298,
+          "endOffset": 2460,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "copy",
+      "ranges": [
+        {
+          "startOffset": 2873,
+          "endOffset": 3056,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 3582,
+          "endOffset": 3829,
+          "count": 25
+        },
+        {
+          "startOffset": 3636,
+          "endOffset": 3657,
+          "count": 7
+        },
+        {
+          "startOffset": 3657,
+          "endOffset": 3828,
+          "count": 18
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "MongooseBuffer.mixin.<computed>",
+      "ranges": [
+        {
+          "startOffset": 3693,
+          "endOffset": 3824,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "MongooseBuffer.mixin.toObject",
+      "ranges": [
+        {
+          "startOffset": 4468,
+          "endOffset": 4626,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "MongooseBuffer.mixin.toBSON",
+      "ranges": [
+        {
+          "startOffset": 4883,
+          "endOffset": 4944,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "MongooseBuffer.mixin.toUUID",
+      "ranges": [
+        {
+          "startOffset": 5140,
+          "endOffset": 5305,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "MongooseBuffer.mixin.equals",
+      "ranges": [
+        {
+          "startOffset": 5499,
+          "endOffset": 5755,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "MongooseBuffer.mixin.subtype",
+      "ranges": [
+        {
+          "startOffset": 6362,
+          "endOffset": 6581,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    }
+  ]
+}

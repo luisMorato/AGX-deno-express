@@ -1,0 +1,65 @@
+{
+  "scriptId": "343",
+  "url": "file:///C:/Users/AGX/Desktop/AGX/AGX-deno-express/services/FetchUsersService.ts",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 622,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "<instance_members_initializer>",
+      "ranges": [
+        {
+          "startOffset": 269,
+          "endOffset": 283,
+          "count": 10
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "FetchUsersService",
+      "ranges": [
+        {
+          "startOffset": 287,
+          "endOffset": 384,
+          "count": 10
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "execute",
+      "ranges": [
+        {
+          "startOffset": 387,
+          "endOffset": 619,
+          "count": 1
+        },
+        {
+          "startOffset": 461,
+          "endOffset": 484,
+          "count": 0
+        },
+        {
+          "startOffset": 500,
+          "endOffset": 525,
+          "count": 0
+        },
+        {
+          "startOffset": 609,
+          "endOffset": 614,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": true
+    }
+  ]
+}

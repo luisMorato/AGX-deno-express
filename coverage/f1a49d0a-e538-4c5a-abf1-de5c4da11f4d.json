@@ -1,0 +1,39 @@
+{
+  "scriptId": "660",
+  "url": "file:///C:/Users/AGX/AppData/Local/deno/npm/registry.npmjs.org/date-fns/4.1.0/_lib/defaultOptions.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 173,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "getDefaultOptions",
+      "ranges": [
+        {
+          "startOffset": 33,
+          "endOffset": 90,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "setDefaultOptions",
+      "ranges": [
+        {
+          "startOffset": 99,
+          "endOffset": 172,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "scriptId": "430",
+  "url": "file:///C:/Users/AGX/Desktop/AGX/AGX-deno-express/base/BaseSchema.ts",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 409,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "<instance_members_initializer>",
+      "ranges": [
+        {
+          "startOffset": 63,
+          "endOffset": 86,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "BaseSchema",
+      "ranges": [
+        {
+          "startOffset": 90,
+          "endOffset": 406,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    }
+  ]
+}

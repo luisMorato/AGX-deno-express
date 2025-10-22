@@ -1,0 +1,218 @@
+{
+  "scriptId": "881",
+  "url": "file:///C:/Users/AGX/AppData/Local/deno/npm/registry.npmjs.org/mongoose/8.19.1/lib/drivers/node-mongodb-native/collection.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 14810,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 1,
+          "endOffset": 14809,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 214,
+          "endOffset": 14803,
+          "count": 1
+        },
+        {
+          "startOffset": 9455,
+          "endOffset": 9862,
+          "count": 49
+        },
+        {
+          "startOffset": 9752,
+          "endOffset": 9771,
+          "count": 10
+        },
+        {
+          "startOffset": 9771,
+          "endOffset": 9827,
+          "count": 39
+        },
+        {
+          "startOffset": 9827,
+          "endOffset": 9846,
+          "count": 0
+        },
+        {
+          "startOffset": 9846,
+          "endOffset": 9862,
+          "count": 39
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "NativeCollection",
+      "ranges": [
+        {
+          "startOffset": 1192,
+          "endOffset": 1448,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "NativeCollection.onOpen",
+      "ranges": [
+        {
+          "startOffset": 1679,
+          "endOffset": 1825,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "NativeCollection.onClose",
+      "ranges": [
+        {
+          "startOffset": 1930,
+          "endOffset": 2007,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "_getCollection",
+      "ranges": [
+        {
+          "startOffset": 2256,
+          "endOffset": 2477,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "iter",
+      "ranges": [
+        {
+          "startOffset": 2692,
+          "endOffset": 9385,
+          "count": 39
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "NativeCollection.<computed>",
+      "ranges": [
+        {
+          "startOffset": 2745,
+          "endOffset": 9382,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "NativeCollection.$print",
+      "ranges": [
+        {
+          "startOffset": 9967,
+          "endOffset": 10411,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "NativeCollection.$printToStream",
+      "ranges": [
+        {
+          "startOffset": 10525,
+          "endOffset": 10869,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "NativeCollection.$format",
+      "ranges": [
+        {
+          "startOffset": 10989,
+          "endOffset": 11152,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "inspectable",
+      "ranges": [
+        {
+          "startOffset": 11233,
+          "endOffset": 11436,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "map",
+      "ranges": [
+        {
+          "startOffset": 11437,
+          "endOffset": 11482,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "formatObjectId",
+      "ranges": [
+        {
+          "startOffset": 11483,
+          "endOffset": 11586,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "formatDate",
+      "ranges": [
+        {
+          "startOffset": 11587,
+          "endOffset": 11794,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "format",
+      "ranges": [
+        {
+          "startOffset": 11795,
+          "endOffset": 14544,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    }
+  ]
+}

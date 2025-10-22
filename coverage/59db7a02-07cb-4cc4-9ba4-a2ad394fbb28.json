@@ -1,0 +1,28 @@
+{
+  "scriptId": "371",
+  "url": "file:///C:/Users/AGX/Desktop/AGX/AGX-deno-express/features/auth/AuthRules.ts",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 488,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "AuthRules",
+      "ranges": [
+        {
+          "startOffset": 130,
+          "endOffset": 485,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "scriptId": "409",
+  "url": "file:///C:/Users/AGX/AppData/Local/deno/npm/registry.npmjs.org/date-fns/4.1.0/differenceInCalendarISOWeekYears.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 1341,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "differenceInCalendarISOWeekYears",
+      "ranges": [
+        {
+          "startOffset": 963,
+          "endOffset": 1253,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    }
+  ]
+}

@@ -1,0 +1,170 @@
+{
+  "scriptId": "563",
+  "url": "file:///C:/Users/AGX/AppData/Local/deno/npm/registry.npmjs.org/mongodb/6.20.0/lib/operations/operation.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 3919,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 1,
+          "endOffset": 3918,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 214,
+          "endOffset": 3912,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "AbstractOperation",
+      "ranges": [
+        {
+          "startOffset": 1245,
+          "endOffset": 1845,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "hasAspect",
+      "ranges": [
+        {
+          "startOffset": 1850,
+          "endOffset": 2027,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "get session",
+      "ranges": [
+        {
+          "startOffset": 2102,
+          "endOffset": 2153,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "set session",
+      "ranges": [
+        {
+          "startOffset": 2158,
+          "endOffset": 2219,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "clearSession",
+      "ranges": [
+        {
+          "startOffset": 2224,
+          "endOffset": 2281,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "resetBatch",
+      "ranges": [
+        {
+          "startOffset": 2286,
+          "endOffset": 2327,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "get canRetryRead",
+      "ranges": [
+        {
+          "startOffset": 2332,
+          "endOffset": 2464,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "get canRetryWrite",
+      "ranges": [
+        {
+          "startOffset": 2469,
+          "endOffset": 2603,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "handleOk",
+      "ranges": [
+        {
+          "startOffset": 3204,
+          "endOffset": 3282,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "handleError",
+      "ranges": [
+        {
+          "startOffset": 3472,
+          "endOffset": 3519,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "defineAspects",
+      "ranges": [
+        {
+          "startOffset": 3569,
+          "endOffset": 3872,
+          "count": 29
+        },
+        {
+          "startOffset": 3646,
+          "endOffset": 3674,
+          "count": 0
+        },
+        {
+          "startOffset": 3676,
+          "endOffset": 3712,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": true
+    }
+  ]
+}

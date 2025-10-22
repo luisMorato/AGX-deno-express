@@ -3,6 +3,7 @@ import { NextFunction, Request, Response } from 'npm:express'
 import HttpStatus from 'npm:http-status-codes'
 import fnCode from 'npm:fn-code'
 
+
 const camelCase = (str: string) => str.toLowerCase().replace(/(\_\w)/g, (c) => c[1].toUpperCase())
 
 type IOptions = {
@@ -76,7 +77,7 @@ export class ResponseError {
     try {
       return HttpStatus.getStatusText(code)
     } catch (e: unknown) {
-      console.warn(e)
+      console.warn('Responserror warn: ', e)
       return undefined
     }
   }

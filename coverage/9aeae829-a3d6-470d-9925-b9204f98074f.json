@@ -1,0 +1,248 @@
+{
+  "scriptId": "626",
+  "url": "file:///C:/Users/AGX/AppData/Local/deno/npm/registry.npmjs.org/mongodb/6.20.0/lib/cmap/handshake/client_metadata.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 9983,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 1,
+          "endOffset": 9982,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 214,
+          "endOffset": 9976,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "isDriverInfoEqual",
+      "ranges": [
+        {
+          "startOffset": 851,
+          "endOffset": 1236,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "LimitedSizeDocument",
+      "ranges": [
+        {
+          "startOffset": 1286,
+          "endOffset": 1460,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "ifItFitsItSits",
+      "ranges": [
+        {
+          "startOffset": 1540,
+          "endOffset": 2048,
+          "count": 3
+        },
+        {
+          "startOffset": 1900,
+          "endOffset": 1937,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "toObject",
+      "ranges": [
+        {
+          "startOffset": 2053,
+          "endOffset": 2295,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "makeClientMetadata",
+      "ranges": [
+        {
+          "startOffset": 2695,
+          "endOffset": 5287,
+          "count": 1
+        },
+        {
+          "startOffset": 2889,
+          "endOffset": 3125,
+          "count": 0
+        },
+        {
+          "startOffset": 3642,
+          "endOffset": 3785,
+          "count": 0
+        },
+        {
+          "startOffset": 4000,
+          "endOffset": 4067,
+          "count": 0
+        },
+        {
+          "startOffset": 4141,
+          "endOffset": 4276,
+          "count": 0
+        },
+        {
+          "startOffset": 4606,
+          "endOffset": 4842,
+          "count": 0
+        },
+        {
+          "startOffset": 4902,
+          "endOffset": 5245,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "getContainerMetadata",
+      "ranges": [
+        {
+          "startOffset": 5324,
+          "endOffset": 5814,
+          "count": 1
+        },
+        {
+          "startOffset": 5626,
+          "endOffset": 5632,
+          "count": 0
+        },
+        {
+          "startOffset": 5668,
+          "endOffset": 5705,
+          "count": 0
+        },
+        {
+          "startOffset": 5736,
+          "endOffset": 5782,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "addContainerMetadata",
+      "ranges": [
+        {
+          "startOffset": 5951,
+          "endOffset": 6882,
+          "count": 1
+        },
+        {
+          "startOffset": 6152,
+          "endOffset": 6270,
+          "count": 0
+        },
+        {
+          "startOffset": 6367,
+          "endOffset": 6881,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "getFAASEnv",
+      "ranges": [
+        {
+          "startOffset": 6972,
+          "endOffset": 9193,
+          "count": 4
+        },
+        {
+          "startOffset": 7778,
+          "endOffset": 7808,
+          "count": 0
+        },
+        {
+          "startOffset": 7810,
+          "endOffset": 7980,
+          "count": 0
+        },
+        {
+          "startOffset": 7999,
+          "endOffset": 8045,
+          "count": 0
+        },
+        {
+          "startOffset": 8047,
+          "endOffset": 8438,
+          "count": 0
+        },
+        {
+          "startOffset": 8459,
+          "endOffset": 8503,
+          "count": 0
+        },
+        {
+          "startOffset": 8505,
+          "endOffset": 8579,
+          "count": 0
+        },
+        {
+          "startOffset": 8598,
+          "endOffset": 8644,
+          "count": 0
+        },
+        {
+          "startOffset": 8646,
+          "endOffset": 9174,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "getRuntimeInfo",
+      "ranges": [
+        {
+          "startOffset": 9460,
+          "endOffset": 9930,
+          "count": 1
+        },
+        {
+          "startOffset": 9606,
+          "endOffset": 9623,
+          "count": 0
+        },
+        {
+          "startOffset": 9685,
+          "endOffset": 9929,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": true
+    }
+  ]
+}

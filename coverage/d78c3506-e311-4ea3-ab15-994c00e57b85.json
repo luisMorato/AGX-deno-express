@@ -1,0 +1,65 @@
+{
+  "scriptId": "344",
+  "url": "file:///C:/Users/AGX/Desktop/AGX/AGX-deno-express/services/DeleteUserByIdService.ts",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 618,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "<instance_members_initializer>",
+      "ranges": [
+        {
+          "startOffset": 159,
+          "endOffset": 173,
+          "count": 10
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "DeleteUserByIdService",
+      "ranges": [
+        {
+          "startOffset": 177,
+          "endOffset": 274,
+          "count": 10
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "execute",
+      "ranges": [
+        {
+          "startOffset": 277,
+          "endOffset": 615,
+          "count": 2
+        },
+        {
+          "startOffset": 342,
+          "endOffset": 511,
+          "count": 1
+        },
+        {
+          "startOffset": 511,
+          "endOffset": 566,
+          "count": 0
+        },
+        {
+          "startOffset": 566,
+          "endOffset": 614,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    }
+  ]
+}

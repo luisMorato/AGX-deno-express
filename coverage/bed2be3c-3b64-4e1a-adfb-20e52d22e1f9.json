@@ -1,0 +1,39 @@
+{
+  "scriptId": "492",
+  "url": "file:///C:/Users/AGX/AppData/Local/deno/npm/registry.npmjs.org/date-fns/4.1.0/intlFormat.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 3350,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "intlFormat",
+      "ranges": [
+        {
+          "startOffset": 2883,
+          "endOffset": 3196,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "isFormatOptions",
+      "ranges": [
+        {
+          "startOffset": 3198,
+          "endOffset": 3284,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    }
+  ]
+}

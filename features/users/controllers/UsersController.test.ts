@@ -1,5 +1,5 @@
 import { Request } from 'express'
-import { assertEquals } from 'https://deno.land/std@0.201.0/assert/mod.ts'
+// import { assertEquals } from 'https://deno.land/std@0.201.0/assert/mod.ts'
 import { MockNextFunction, MockResponser } from '../../../globals/Stubs.ts'
 
 import { Encrypter } from '../../../lib/Encrypter.ts'
@@ -12,6 +12,7 @@ import { FindUserByIdService } from '../../../services/FindUserByIdService.ts'
 import { UpdateUserByIdService } from '../../../services/UpdateUserByIdService.ts'
 import { FetchUsersService } from '../../../services/FetchUsersService.ts'
 import { DeleteUserByIdService } from '../../../services/DeleteUserByIdService.ts'
+import { defaultAssert, IResponsePayload, ResponseType } from '../../__mocks__/defaultAssert.ts'
 
 class EncrypterMock implements EncrypterRepository {
   async compare(_password: string, _hash: string) {
@@ -67,11 +68,13 @@ Deno.test('- [UsersController]: it should be able to create an user', { sanitize
     mockRequest,
     MockResponser,
     MockNextFunction,
-  ) as any
+  ) as unknown as IResponsePayload
 
-  assertEquals(result.code, 201)
-  assertEquals(result.status, 'CREATED')
-  assertEquals(result.message, 'Usuário inserido com sucesso')
+  defaultAssert(result, ResponseType.success, {
+    code: 201,
+    status: 'CREATED',
+    message: 'Usuário inserido com sucesso',
+  })
 })
 
 // Error
@@ -97,9 +100,11 @@ Deno.test(`- [UsersController]: it shouldn't be able to create an user with an e
     result = error
   }
 
-  assertEquals((result as any).code, 409)
-  assertEquals((result as any).status, 'CONFLICT')
-  assertEquals((result as any).message, 'Usuário com esse email já cadastrado')
+  defaultAssert((result as IResponsePayload), ResponseType.error, {
+    code: 409,
+    status: 'CONFLICT',
+    message: 'Usuário com esse email já cadastrado',
+  })
 })
 
 
@@ -113,29 +118,46 @@ Deno.test('- [UsersController]: it should be able to retrieve all users', { sani
     mockRequest,
     MockResponser,
     MockNextFunction,
-  ) as any
+  ) as unknown as IResponsePayload
 
-  assertEquals(result.code, 200)
-  assertEquals(result.data.users.slice(0, 2), [
-    {
-      _id: '680946cfbfa13bba4231296b',
-      name: 'test',
-      email: 'test@test.com',
-      password: '$2b$08$7arCba/I3Ac7TfScnNnGDeQG26ux.DLhx/IjJV9S1Fl2FoqZYM9GS', // Hash for: 12345
-      birthdate: new Date('2025-10-17T00:53:22.615Z'),
-    },
-    {
-      _id: '680946cfbfa13bba4231299j',
-      name: 'test2',
-      password: '$2b$08$PNgKc3SFbnf4yky6gu84QuJJS.rgNcLG2rBz7rHeBYBoWe6r4YQWi', // Hash for: 12345
-      email: 'test2@test.com',
-      birthdate: new Date('2025-10-17T00:53:22.615Z'),
-      bankAccount: {
-        accountId: 'VV96241',
-        balance: 2000,
-      }
-    },
-  ])
+  defaultAssert(result, ResponseType.success, {
+    code: 200,
+    status: 'OK',
+    message: '',
+    data: {
+      users: [
+        {
+          _id: '680946cfbfa13bba4231296b',
+          name: 'test',
+          email: 'test@test.com',
+          password: '$2b$08$7arCba/I3Ac7TfScnNnGDeQG26ux.DLhx/IjJV9S1Fl2FoqZYM9GS',
+          birthdate: new Date('2025-10-17T00:53:22.615Z'),
+        },
+        {
+          _id: '680946cfbfa13bba4231299j',
+          name: 'test2',
+          password: '$2b$08$PNgKc3SFbnf4yky6gu84QuJJS.rgNcLG2rBz7rHeBYBoWe6r4YQWi',
+          email: 'test2@test.com',
+          birthdate: new Date('2025-10-17T00:53:22.615Z'),
+          bankAccount: {
+            accountId: 'VV96241',
+            balance: 2000,
+          }
+        },
+        {
+          _id: "68f18c4a60bda96b0450f3ff",
+          bankAccount: {
+            accountId: "RQ48460",
+            balance: 5000,
+          },
+          birthdate: new Date('2025-10-17T00:53:22.615Z'),
+          email: "test3@test.com",
+          name: "test3",
+          password: "$2b$08$mlELUBfAe2VPlYK3yOQ8yODfVwTk2O6AR3Oy1n0Abt7aYS9aancr2",
+       },
+      ]
+    }
+  })
 })
 
 // Error
@@ -158,9 +180,16 @@ Deno.test(`- [UsersController]: it shouldn't be able to retrieve users with inva
     result = error
   }
 
-  assertEquals((result as any).code, 422)
-  assertEquals((result as any).message, 'Erro durante a validação')
-  assertEquals((result as any).errors[0].message, 'Email inválido')
+  defaultAssert((result as IResponsePayload), ResponseType.error, {
+    code: 422,
+    status: 'BAD_REQUEST',
+    message: 'Erro durante a validação',
+    errors: [
+      {
+        message: 'Email inválido'
+      },
+    ]
+  })
 })
 
 
@@ -176,10 +205,13 @@ Deno.test('- [UsersController]: it should be able to find user by id', { sanitiz
     mockRequest,
     MockResponser,
     MockNextFunction,
-  ) as any
+  ) as unknown as IResponsePayload
 
-  assertEquals(result.code, 200)
-  assertEquals(result.data, {
+  defaultAssert(result, ResponseType.success, {
+    code: 200,
+    status: 'OK',
+    message: '',
+    data: {
       user: {
         _id: '680946cfbfa13bba4231296b',
         name: 'test',
@@ -187,6 +219,7 @@ Deno.test('- [UsersController]: it should be able to find user by id', { sanitiz
         password: '$2b$08$7arCba/I3Ac7TfScnNnGDeQG26ux.DLhx/IjJV9S1Fl2FoqZYM9GS',
         birthdate: new Date('2025-10-17T00:53:22.615Z'),
       }
+    }
   })
 })
 
@@ -210,8 +243,11 @@ Deno.test(`- [UsersController]: it shouldn't be able to find user with inexistin
     result = error
   }
 
-  assertEquals((result as any).code, 404)
-  assertEquals((result as any).message, 'Usuário não encontrado')
+  defaultAssert((result as IResponsePayload), ResponseType.error, {
+    code: 404,
+    status: 'NOT_FOUND',
+    message: 'Usuário não encontrado',
+  })
 })
 
 
@@ -236,10 +272,13 @@ Deno.test('- [UsersController]: it should be able to update user by id', { sanit
     mockRequest,
     MockResponser,
     MockNextFunction,
-  ) as any
+  ) as unknown as IResponsePayload
 
-  assertEquals(result.code, 200)
-  assertEquals(result.message, 'Usuário atualizado com sucesso')
+  defaultAssert(result, ResponseType.success, {
+    code: 200,
+    status: 'OK',
+    message: 'Usuário atualizado com sucesso',
+  })
 })
 
 // Error
@@ -271,9 +310,11 @@ Deno.test(`- [UsersController]: it shouldn't be able to update a user with exist
     result = error
   }
 
-  assertEquals((result as any).code, 409)
-  assertEquals((result as any).status, 'CONFLICT')
-  assertEquals((result as any).message, 'Usuário com esse email já cadastrado')
+  defaultAssert((result as IResponsePayload), ResponseType.error, {
+    code: 409,
+    status: 'CONFLICT',
+    message: 'Usuário com esse email já cadastrado',
+  })
 })
 
 
@@ -292,12 +333,16 @@ Deno.test('- [UsersController]: it should be able to delete user by id', { sanit
     mockRequest,
     MockResponser,
     MockNextFunction,
-  ) as any
+  ) as unknown as IResponsePayload
 
-  assertEquals(result.code, 200)
-  assertEquals(result.message, 'Usuário excluído com sucesso')
+  defaultAssert(result, ResponseType.success, {
+    code: 200,
+    status: 'OK',
+    message: 'Usuário excluído com sucesso',
+  })
 })
 
+// Error
 Deno.test(`- [UsersController]: it shouldn't be able to delete another user`, { sanitizeOps: false, sanitizeResources: false }, async () => {
   const mockRequest = {
     params: {
@@ -320,9 +365,9 @@ Deno.test(`- [UsersController]: it shouldn't be able to delete another user`, { 
     result = error
   }
 
-  console.log(result)
-
-  assertEquals((result as any).code, 403)
-  assertEquals((result as any).status, 'FORBIDDEN')
-  assertEquals((result as any).message, 'Usuário não pode deletar outro usuário')
+  defaultAssert((result as IResponsePayload), ResponseType.error, {
+    code: 403,
+    status: 'FORBIDDEN',
+    message: 'Usuário não pode deletar outro usuário',
+  })
 })

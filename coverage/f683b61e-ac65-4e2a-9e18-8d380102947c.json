@@ -1,0 +1,132 @@
+{
+  "scriptId": "339",
+  "url": "file:///C:/Users/AGX/Desktop/AGX/AGX-deno-express/features/__mocks__/UserRepositoryMock.ts",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 3636,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "<instance_members_initializer>",
+      "ranges": [
+        {
+          "startOffset": 36,
+          "endOffset": 932,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "findMany",
+      "ranges": [
+        {
+          "startOffset": 936,
+          "endOffset": 1232,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "findOne",
+      "ranges": [
+        {
+          "startOffset": 1235,
+          "endOffset": 1376,
+          "count": 1
+        },
+        {
+          "startOffset": 1330,
+          "endOffset": 1337,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 1293,
+          "endOffset": 1328,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "findById",
+      "ranges": [
+        {
+          "startOffset": 1379,
+          "endOffset": 1504,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "insertOne",
+      "ranges": [
+        {
+          "startOffset": 1507,
+          "endOffset": 1587,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "updateById",
+      "ranges": [
+        {
+          "startOffset": 1590,
+          "endOffset": 1870,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "updateOne",
+      "ranges": [
+        {
+          "startOffset": 1873,
+          "endOffset": 2631,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "deleteOne",
+      "ranges": [
+        {
+          "startOffset": 2634,
+          "endOffset": 2731,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "aggregate",
+      "ranges": [
+        {
+          "startOffset": 2734,
+          "endOffset": 3633,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    }
+  ]
+}

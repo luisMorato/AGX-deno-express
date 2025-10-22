@@ -1,0 +1,72 @@
+{
+  "scriptId": "642",
+  "url": "file:///C:/Users/AGX/AppData/Local/deno/npm/registry.npmjs.org/axios/1.12.2/lib/defaults/index.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 4498,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "stringifySafely",
+      "ranges": [
+        {
+          "startOffset": 779,
+          "endOffset": 1093,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "transformRequest",
+      "ranges": [
+        {
+          "startOffset": 1213,
+          "endOffset": 2854,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "transformResponse",
+      "ranges": [
+        {
+          "startOffset": 2880,
+          "endOffset": 3794,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "validateStatus",
+      "ranges": [
+        {
+          "startOffset": 4148,
+          "endOffset": 4227,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 4421,
+          "endOffset": 4469,
+          "count": 6
+        }
+      ],
+      "isBlockCoverage": true
+    }
+  ]
+}

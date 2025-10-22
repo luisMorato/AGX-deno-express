@@ -1,0 +1,1073 @@
+{
+  "scriptId": "553",
+  "url": "file:///C:/Users/AGX/AppData/Local/deno/npm/registry.npmjs.org/mongodb/6.20.0/lib/error.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 44640,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 1,
+          "endOffset": 44639,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 214,
+          "endOffset": 44633,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "isAggregateError",
+      "ranges": [
+        {
+          "startOffset": 6093,
+          "endOffset": 6216,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "get errorLabels",
+      "ranges": [
+        {
+          "startOffset": 6422,
+          "endOffset": 6494,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "MongoError",
+      "ranges": [
+        {
+          "startOffset": 6828,
+          "endOffset": 6963,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "buildErrorMessage",
+      "ranges": [
+        {
+          "startOffset": 6996,
+          "endOffset": 7554,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "get name",
+      "ranges": [
+        {
+          "startOffset": 7559,
+          "endOffset": 7606,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "get errmsg",
+      "ranges": [
+        {
+          "startOffset": 7661,
+          "endOffset": 7710,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "hasErrorLabel",
+      "ranges": [
+        {
+          "startOffset": 7916,
+          "endOffset": 7990,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "addErrorLabel",
+      "ranges": [
+        {
+          "startOffset": 7995,
+          "endOffset": 8062,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "MongoServerError",
+      "ranges": [
+        {
+          "startOffset": 8557,
+          "endOffset": 9106,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "get name",
+      "ranges": [
+        {
+          "startOffset": 9111,
+          "endOffset": 9164,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "MongoDriverError",
+      "ranges": [
+        {
+          "startOffset": 9666,
+          "endOffset": 9736,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "get name",
+      "ranges": [
+        {
+          "startOffset": 9741,
+          "endOffset": 9794,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "MongoAPIError",
+      "ranges": [
+        {
+          "startOffset": 10392,
+          "endOffset": 10462,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "get name",
+      "ranges": [
+        {
+          "startOffset": 10467,
+          "endOffset": 10517,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "MongoRuntimeError",
+      "ranges": [
+        {
+          "startOffset": 11170,
+          "endOffset": 11240,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "get name",
+      "ranges": [
+        {
+          "startOffset": 11245,
+          "endOffset": 11299,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "MongoStalePrimaryError",
+      "ranges": [
+        {
+          "startOffset": 11863,
+          "endOffset": 11933,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "get name",
+      "ranges": [
+        {
+          "startOffset": 11938,
+          "endOffset": 11997,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "MongoBatchReExecutionError",
+      "ranges": [
+        {
+          "startOffset": 12599,
+          "endOffset": 12721,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "get name",
+      "ranges": [
+        {
+          "startOffset": 12726,
+          "endOffset": 12789,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "MongoDecompressionError",
+      "ranges": [
+        {
+          "startOffset": 13381,
+          "endOffset": 13433,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "get name",
+      "ranges": [
+        {
+          "startOffset": 13438,
+          "endOffset": 13498,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "MongoNotConnectedError",
+      "ranges": [
+        {
+          "startOffset": 14151,
+          "endOffset": 14203,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "get name",
+      "ranges": [
+        {
+          "startOffset": 14208,
+          "endOffset": 14267,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "MongoTransactionError",
+      "ranges": [
+        {
+          "startOffset": 14921,
+          "endOffset": 14973,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "get name",
+      "ranges": [
+        {
+          "startOffset": 14978,
+          "endOffset": 15036,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "MongoExpiredSessionError",
+      "ranges": [
+        {
+          "startOffset": 15632,
+          "endOffset": 15724,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "get name",
+      "ranges": [
+        {
+          "startOffset": 15729,
+          "endOffset": 15790,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "MongoKerberosError",
+      "ranges": [
+        {
+          "startOffset": 16403,
+          "endOffset": 16455,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "get name",
+      "ranges": [
+        {
+          "startOffset": 16460,
+          "endOffset": 16515,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "MongoAWSError",
+      "ranges": [
+        {
+          "startOffset": 17071,
+          "endOffset": 17141,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "get name",
+      "ranges": [
+        {
+          "startOffset": 17146,
+          "endOffset": 17196,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "MongoOIDCError",
+      "ranges": [
+        {
+          "startOffset": 17755,
+          "endOffset": 17807,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "get name",
+      "ranges": [
+        {
+          "startOffset": 17812,
+          "endOffset": 17863,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "MongoAzureError",
+      "ranges": [
+        {
+          "startOffset": 18413,
+          "endOffset": 18465,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "get name",
+      "ranges": [
+        {
+          "startOffset": 18470,
+          "endOffset": 18522,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "MongoGCPError",
+      "ranges": [
+        {
+          "startOffset": 19070,
+          "endOffset": 19122,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "get name",
+      "ranges": [
+        {
+          "startOffset": 19127,
+          "endOffset": 19177,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "MongoClientBulkWriteError",
+      "ranges": [
+        {
+          "startOffset": 19506,
+          "endOffset": 19634,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "get name",
+      "ranges": [
+        {
+          "startOffset": 19639,
+          "endOffset": 19701,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "MongoClientBulkWriteCursorError",
+      "ranges": [
+        {
+          "startOffset": 20289,
+          "endOffset": 20341,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "get name",
+      "ranges": [
+        {
+          "startOffset": 20346,
+          "endOffset": 20414,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "MongoClientBulkWriteExecutionError",
+      "ranges": [
+        {
+          "startOffset": 21031,
+          "endOffset": 21083,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "get name",
+      "ranges": [
+        {
+          "startOffset": 21088,
+          "endOffset": 21159,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "MongoChangeStreamError",
+      "ranges": [
+        {
+          "startOffset": 21744,
+          "endOffset": 21796,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "get name",
+      "ranges": [
+        {
+          "startOffset": 21801,
+          "endOffset": 21860,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "MongoTailableCursorError",
+      "ranges": [
+        {
+          "startOffset": 22444,
+          "endOffset": 22548,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "get name",
+      "ranges": [
+        {
+          "startOffset": 22553,
+          "endOffset": 22614,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "MongoGridFSStreamError",
+      "ranges": [
+        {
+          "startOffset": 23176,
+          "endOffset": 23228,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "get name",
+      "ranges": [
+        {
+          "startOffset": 23233,
+          "endOffset": 23292,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "MongoGridFSChunkError",
+      "ranges": [
+        {
+          "startOffset": 23890,
+          "endOffset": 23942,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "get name",
+      "ranges": [
+        {
+          "startOffset": 23947,
+          "endOffset": 24005,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "MongoUnexpectedServerResponseError",
+      "ranges": [
+        {
+          "startOffset": 25343,
+          "endOffset": 25413,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "get name",
+      "ranges": [
+        {
+          "startOffset": 25418,
+          "endOffset": 25489,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "get name",
+      "ranges": [
+        {
+          "startOffset": 26334,
+          "endOffset": 26397,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "MongoCursorInUseError",
+      "ranges": [
+        {
+          "startOffset": 26997,
+          "endOffset": 27083,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "get name",
+      "ranges": [
+        {
+          "startOffset": 27088,
+          "endOffset": 27146,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "MongoServerClosedError",
+      "ranges": [
+        {
+          "startOffset": 27719,
+          "endOffset": 27792,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "get name",
+      "ranges": [
+        {
+          "startOffset": 27797,
+          "endOffset": 27856,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "MongoCursorExhaustedError",
+      "ranges": [
+        {
+          "startOffset": 28435,
+          "endOffset": 28512,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "get name",
+      "ranges": [
+        {
+          "startOffset": 28517,
+          "endOffset": 28579,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "MongoTopologyClosedError",
+      "ranges": [
+        {
+          "startOffset": 29184,
+          "endOffset": 29259,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "get name",
+      "ranges": [
+        {
+          "startOffset": 29264,
+          "endOffset": 29325,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "MongoClientClosedError",
+      "ranges": [
+        {
+          "startOffset": 29910,
+          "endOffset": 29997,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "get name",
+      "ranges": [
+        {
+          "startOffset": 30002,
+          "endOffset": 30061,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "MongoNetworkError",
+      "ranges": [
+        {
+          "startOffset": 30622,
+          "endOffset": 30769,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "get name",
+      "ranges": [
+        {
+          "startOffset": 30774,
+          "endOffset": 30828,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "MongoNetworkTimeoutError",
+      "ranges": [
+        {
+          "startOffset": 31465,
+          "endOffset": 31535,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "get name",
+      "ranges": [
+        {
+          "startOffset": 31540,
+          "endOffset": 31601,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "MongoParseError",
+      "ranges": [
+        {
+          "startOffset": 32162,
+          "endOffset": 32214,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "get name",
+      "ranges": [
+        {
+          "startOffset": 32219,
+          "endOffset": 32271,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "MongoInvalidArgumentError",
+      "ranges": [
+        {
+          "startOffset": 32886,
+          "endOffset": 32956,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "get name",
+      "ranges": [
+        {
+          "startOffset": 32961,
+          "endOffset": 33023,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "MongoCompatibilityError",
+      "ranges": [
+        {
+          "startOffset": 33636,
+          "endOffset": 33688,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "get name",
+      "ranges": [
+        {
+          "startOffset": 33693,
+          "endOffset": 33753,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "MongoMissingCredentialsError",
+      "ranges": [
+        {
+          "startOffset": 34391,
+          "endOffset": 34443,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "get name",
+      "ranges": [
+        {
+          "startOffset": 34448,
+          "endOffset": 34513,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "MongoMissingDependencyError",
+      "ranges": [
+        {
+          "startOffset": 35116,
+          "endOffset": 35240,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "get name",
+      "ranges": [
+        {
+          "startOffset": 35245,
+          "endOffset": 35309,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "MongoSystemError",
+      "ranges": [
+        {
+          "startOffset": 35840,
+          "endOffset": 36223,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "get name",
+      "ranges": [
+        {
+          "startOffset": 36228,
+          "endOffset": 36281,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "MongoServerSelectionError",
+      "ranges": [
+        {
+          "startOffset": 36819,
+          "endOffset": 36887,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "get name",
+      "ranges": [
+        {
+          "startOffset": 36892,
+          "endOffset": 36954,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "MongoWriteConcernError",
+      "ranges": [
+        {
+          "startOffset": 37510,
+          "endOffset": 37683,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "get name",
+      "ranges": [
+        {
+          "startOffset": 37688,
+          "endOffset": 37747,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "needsRetryableWriteLabel",
+      "ranges": [
+        {
+          "startOffset": 38845,
+          "endOffset": 40505,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "isRetryableWriteError",
+      "ranges": [
+        {
+          "startOffset": 40506,
+          "endOffset": 40700,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "isRetryableReadError",
+      "ranges": [
+        {
+          "startOffset": 40784,
+          "endOffset": 41427,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "isRecoveringError",
+      "ranges": [
+        {
+          "startOffset": 42117,
+          "endOffset": 42471,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "isNotWritablePrimaryError",
+      "ranges": [
+        {
+          "startOffset": 42472,
+          "endOffset": 42821,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "isNodeShuttingDownError",
+      "ranges": [
+        {
+          "startOffset": 42822,
+          "endOffset": 42961,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "isSDAMUnrecoverableError",
+      "ranges": [
+        {
+          "startOffset": 43310,
+          "endOffset": 43645,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "isNetworkTimeoutError",
+      "ranges": [
+        {
+          "startOffset": 43646,
+          "endOffset": 43768,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "isResumableError",
+      "ranges": [
+        {
+          "startOffset": 43769,
+          "endOffset": 44597,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    }
+  ]
+}

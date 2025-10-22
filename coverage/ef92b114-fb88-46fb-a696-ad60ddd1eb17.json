@@ -1,0 +1,72 @@
+{
+  "scriptId": "436",
+  "url": "file:///C:/Users/AGX/AppData/Local/deno/npm/registry.npmjs.org/axios/1.12.2/lib/helpers/validator.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 2785,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 239,
+          "endOffset": 380,
+          "count": 6
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "validator",
+      "ranges": [
+        {
+          "startOffset": 275,
+          "endOffset": 377,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "transitional",
+      "ranges": [
+        {
+          "startOffset": 748,
+          "endOffset": 1602,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "spelling",
+      "ranges": [
+        {
+          "startOffset": 1627,
+          "endOffset": 1830,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "assertOptions",
+      "ranges": [
+        {
+          "startOffset": 1991,
+          "endOffset": 2733,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    }
+  ]
+}

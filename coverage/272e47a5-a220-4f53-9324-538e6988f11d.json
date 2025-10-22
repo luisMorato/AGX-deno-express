@@ -1,0 +1,28 @@
+{
+  "scriptId": "431",
+  "url": "file:///C:/Users/AGX/Desktop/AGX/AGX-deno-express/utils/GenerateAccountId.ts",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 423,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "generateAccountId",
+      "ranges": [
+        {
+          "startOffset": 33,
+          "endOffset": 421,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    }
+  ]
+}

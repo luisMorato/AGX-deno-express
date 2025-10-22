@@ -1,0 +1,83 @@
+{
+  "scriptId": "521",
+  "url": "file:///C:/Users/AGX/AppData/Local/deno/npm/registry.npmjs.org/function-bind/1.1.2/implementation.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 2273,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 1,
+          "endOffset": 2272,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 214,
+          "endOffset": 2266,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "concatty",
+      "ranges": [
+        {
+          "startOffset": 451,
+          "endOffset": 671,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "slicy",
+      "ranges": [
+        {
+          "startOffset": 686,
+          "endOffset": 865,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "joiny",
+      "ranges": [
+        {
+          "startOffset": 880,
+          "endOffset": 1086,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "bind",
+      "ranges": [
+        {
+          "startOffset": 1106,
+          "endOffset": 2262,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    }
+  ]
+}

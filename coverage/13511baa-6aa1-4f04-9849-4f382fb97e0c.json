@@ -1,0 +1,28 @@
+{
+  "scriptId": "431",
+  "url": "file:///C:/Users/AGX/AppData/Local/deno/npm/registry.npmjs.org/date-fns/4.1.0/eachWeekendOfInterval.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 1648,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "eachWeekendOfInterval",
+      "ranges": [
+        {
+          "startOffset": 1173,
+          "endOffset": 1571,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    }
+  ]
+}

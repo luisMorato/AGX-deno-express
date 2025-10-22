@@ -1,0 +1,93 @@
+{
+  "scriptId": "898",
+  "url": "file:///C:/Users/AGX/AppData/Local/deno/npm/registry.npmjs.org/mongodb/6.20.0/lib/mongo_types.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 2184,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 1,
+          "endOffset": 2183,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 214,
+          "endOffset": 2177,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "emitAndLog",
+      "ranges": [
+        {
+          "startOffset": 699,
+          "endOffset": 858,
+          "count": 8
+        },
+        {
+          "startOffset": 819,
+          "endOffset": 826,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "emitAndLogHeartbeat",
+      "ranges": [
+        {
+          "startOffset": 884,
+          "endOffset": 1302,
+          "count": 3
+        },
+        {
+          "startOffset": 1238,
+          "endOffset": 1245,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "emitAndLogCommand",
+      "ranges": [
+        {
+          "startOffset": 1328,
+          "endOffset": 1785,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "CancellationToken",
+      "ranges": [
+        {
+          "startOffset": 1994,
+          "endOffset": 2086,
+          "count": 6
+        }
+      ],
+      "isBlockCoverage": true
+    }
+  ]
+}

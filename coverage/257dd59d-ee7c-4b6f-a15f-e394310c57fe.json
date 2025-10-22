@@ -1,0 +1,44 @@
+{
+  "scriptId": "825",
+  "url": "file:///C:/Users/AGX/AppData/Local/deno/npm/registry.npmjs.org/get-proto/1.0.1/Object.getPrototypeOf.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 386,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 1,
+          "endOffset": 385,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 214,
+          "endOffset": 379,
+          "count": 1
+        },
+        {
+          "startOffset": 368,
+          "endOffset": 375,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": true
+    }
+  ]
+}

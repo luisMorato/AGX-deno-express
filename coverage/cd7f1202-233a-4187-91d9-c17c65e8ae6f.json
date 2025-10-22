@@ -1,0 +1,127 @@
+{
+  "scriptId": "768",
+  "url": "file:///C:/Users/AGX/AppData/Local/deno/npm/registry.npmjs.org/mongoose/8.19.1/lib/virtualType.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 6756,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 1,
+          "endOffset": 6755,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 214,
+          "endOffset": 6749,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "VirtualType",
+      "ranges": [
+        {
+          "startOffset": 2571,
+          "endOffset": 2717,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "VirtualType._applyDefaultGetters",
+      "ranges": [
+        {
+          "startOffset": 2832,
+          "endOffset": 3150,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "VirtualType.clone",
+      "ranges": [
+        {
+          "startOffset": 3202,
+          "endOffset": 3376,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "VirtualType.get",
+      "ranges": [
+        {
+          "startOffset": 4044,
+          "endOffset": 4100,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "VirtualType.set",
+      "ranges": [
+        {
+          "startOffset": 5010,
+          "endOffset": 5066,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "VirtualType.applyGetters",
+      "ranges": [
+        {
+          "startOffset": 5309,
+          "endOffset": 5662,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "VirtualType.applySetters",
+      "ranges": [
+        {
+          "startOffset": 5864,
+          "endOffset": 6000,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "_getModelNamesForPopulate",
+      "ranges": [
+        {
+          "startOffset": 6207,
+          "endOffset": 6694,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "scriptId": "449",
+  "url": "file:///C:/Users/AGX/AppData/Local/deno/npm/registry.npmjs.org/date-fns/4.1.0/format.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 25015,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "format",
+      "ranges": [
+        {
+          "startOffset": 22054,
+          "endOffset": 24766,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "cleanEscapedString",
+      "ranges": [
+        {
+          "startOffset": 24768,
+          "endOffset": 24953,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    }
+  ]
+}

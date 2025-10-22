@@ -1,0 +1,149 @@
+{
+  "scriptId": "1037",
+  "url": "file:///C:/Users/AGX/AppData/Local/deno/npm/registry.npmjs.org/mongoose/8.19.1/lib/helpers/populate/getModelsMapForPopulate.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 26372,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 1,
+          "endOffset": 26371,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 214,
+          "endOffset": 26365,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "getModelsMapForPopulate",
+      "ranges": [
+        {
+          "startOffset": 1132,
+          "endOffset": 13311,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "_virtualPopulate",
+      "ranges": [
+        {
+          "startOffset": 13333,
+          "endOffset": 17015,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "addModelNamesToMap",
+      "ranges": [
+        {
+          "startOffset": 17036,
+          "endOffset": 20279,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "_getModelFromConn",
+      "ranges": [
+        {
+          "startOffset": 20281,
+          "endOffset": 20569,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "matchIdsToRefPaths",
+      "ranges": [
+        {
+          "startOffset": 20571,
+          "endOffset": 20965,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "handleRefFunction",
+      "ranges": [
+        {
+          "startOffset": 20986,
+          "endOffset": 21131,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "_getLocalFieldValues",
+      "ranges": [
+        {
+          "startOffset": 21152,
+          "endOffset": 22542,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "convertTo_id",
+      "ranges": [
+        {
+          "startOffset": 22731,
+          "endOffset": 24002,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "_findRefPathForDiscriminators",
+      "ranges": [
+        {
+          "startOffset": 24023,
+          "endOffset": 25917,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "throwOn$where",
+      "ranges": [
+        {
+          "startOffset": 25975,
+          "endOffset": 26362,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    }
+  ]
+}

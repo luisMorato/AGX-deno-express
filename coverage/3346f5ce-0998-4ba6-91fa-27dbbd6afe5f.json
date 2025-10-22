@@ -1,0 +1,259 @@
+{
+  "scriptId": "659",
+  "url": "file:///C:/Users/AGX/AppData/Local/deno/npm/registry.npmjs.org/mongodb/6.20.0/lib/change_stream.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 18446,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 1,
+          "endOffset": 18445,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 214,
+          "endOffset": 18439,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "asyncDispose",
+      "ranges": [
+        {
+          "startOffset": 1656,
+          "endOffset": 1712,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "ChangeStream",
+      "ranges": [
+        {
+          "startOffset": 2026,
+          "endOffset": 4234,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "get resumeToken",
+      "ranges": [
+        {
+          "startOffset": 4338,
+          "endOffset": 4404,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "hasNext",
+      "ranges": [
+        {
+          "startOffset": 4488,
+          "endOffset": 5751,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "next",
+      "ranges": [
+        {
+          "startOffset": 5823,
+          "endOffset": 7168,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "tryNext",
+      "ranges": [
+        {
+          "startOffset": 7307,
+          "endOffset": 8716,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 8721,
+          "endOffset": 9262,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "get closed",
+      "ranges": [
+        {
+          "startOffset": 9299,
+          "endOffset": 9371,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "close",
+      "ranges": [
+        {
+          "startOffset": 9455,
+          "endOffset": 9738,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "stream",
+      "ranges": [
+        {
+          "startOffset": 10107,
+          "endOffset": 10330,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "_setIsEmitter",
+      "ranges": [
+        {
+          "startOffset": 10356,
+          "endOffset": 10659,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "_setIsIterator",
+      "ranges": [
+        {
+          "startOffset": 10685,
+          "endOffset": 10989,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "_createChangeStreamCursor",
+      "ranges": [
+        {
+          "startOffset": 11098,
+          "endOffset": 12674,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "_closeEmitterModeWithError",
+      "ranges": [
+        {
+          "startOffset": 12700,
+          "endOffset": 12846,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "_streamEvents",
+      "ranges": [
+        {
+          "startOffset": 12872,
+          "endOffset": 13482,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "_endStream",
+      "ranges": [
+        {
+          "startOffset": 13508,
+          "endOffset": 13770,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "_processChange",
+      "ranges": [
+        {
+          "startOffset": 13796,
+          "endOffset": 14768,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "_processErrorStreamMode",
+      "ranges": [
+        {
+          "startOffset": 14794,
+          "endOffset": 15824,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "_processErrorIteratorMode",
+      "ranges": [
+        {
+          "startOffset": 15850,
+          "endOffset": 16892,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "_resume",
+      "ranges": [
+        {
+          "startOffset": 16897,
+          "endOffset": 17518,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "scriptId": "415",
+  "url": "file:///C:/Users/AGX/AppData/Local/deno/npm/registry.npmjs.org/date-fns/4.1.0/differenceInDays.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 3510,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "differenceInDays",
+      "ranges": [
+        {
+          "startOffset": 1844,
+          "endOffset": 2604,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "compareLocalAsc",
+      "ranges": [
+        {
+          "startOffset": 2852,
+          "endOffset": 3438,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    }
+  ]
+}

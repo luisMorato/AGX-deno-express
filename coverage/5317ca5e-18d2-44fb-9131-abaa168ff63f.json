@@ -1,0 +1,28 @@
+{
+  "scriptId": "380",
+  "url": "file:///C:/Users/AGX/Desktop/AGX/AGX-deno-express/models/user/UserRepository.ts",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 314,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "UserRepository",
+      "ranges": [
+        {
+          "startOffset": 207,
+          "endOffset": 284,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    }
+  ]
+}

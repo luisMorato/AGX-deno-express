@@ -1,0 +1,22 @@
+{
+  "scriptId": "636",
+  "url": "file:///C:/Users/AGX/AppData/Local/deno/npm/registry.npmjs.org/throwlhos/1.0.1/index.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 594,
+          "count": 1
+        },
+        {
+          "startOffset": 189,
+          "endOffset": 328,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": true
+    }
+  ]
+}

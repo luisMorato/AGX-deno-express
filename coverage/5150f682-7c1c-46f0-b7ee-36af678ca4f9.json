@@ -1,0 +1,160 @@
+{
+  "scriptId": "825",
+  "url": "file:///C:/Users/AGX/AppData/Local/deno/npm/registry.npmjs.org/mongoose/8.19.1/lib/schema/subdocument.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 12574,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 1,
+          "endOffset": 12573,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 214,
+          "endOffset": 12567,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "SchemaSubdocument",
+      "ranges": [
+        {
+          "startOffset": 1587,
+          "endOffset": 2261,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "_createConstructor",
+      "ranges": [
+        {
+          "startOffset": 2505,
+          "endOffset": 3789,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "handle$geoWithin",
+      "ranges": [
+        {
+          "startOffset": 4160,
+          "endOffset": 4276,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "SchemaSubdocument.cast",
+      "ranges": [
+        {
+          "startOffset": 5224,
+          "endOffset": 6723,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "SchemaSubdocument.castForQuery",
+      "ranges": [
+        {
+          "startOffset": 6927,
+          "endOffset": 7818,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "SchemaSubdocument.doValidate",
+      "ranges": [
+        {
+          "startOffset": 7937,
+          "endOffset": 8598,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "SchemaSubdocument.doValidateSync",
+      "ranges": [
+        {
+          "startOffset": 8723,
+          "endOffset": 9029,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "SchemaSubdocument.discriminator",
+      "ranges": [
+        {
+          "startOffset": 10095,
+          "endOffset": 10604,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "toJSON",
+      "ranges": [
+        {
+          "startOffset": 11364,
+          "endOffset": 11438,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "SchemaSubdocument.clone",
+      "ranges": [
+        {
+          "startOffset": 11496,
+          "endOffset": 11978,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "toJSONSchema",
+      "ranges": [
+        {
+          "startOffset": 12288,
+          "endOffset": 12563,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    }
+  ]
+}

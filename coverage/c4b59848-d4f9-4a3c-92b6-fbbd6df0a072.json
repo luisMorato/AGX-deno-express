@@ -1,0 +1,39 @@
+{
+  "scriptId": "767",
+  "url": "file:///C:/Users/AGX/AppData/Local/deno/npm/registry.npmjs.org/date-fns/4.1.0/locale/en-US/_lib/localize.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 3933,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "ordinalNumber",
+      "ranges": [
+        {
+          "startOffset": 2728,
+          "endOffset": 3322,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "argumentCallback",
+      "ranges": [
+        {
+          "startOffset": 3554,
+          "endOffset": 3578,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    }
+  ]
+}

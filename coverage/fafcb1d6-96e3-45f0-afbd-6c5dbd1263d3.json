@@ -1,0 +1,90 @@
+{
+  "scriptId": "344",
+  "url": "file:///C:/Users/AGX/Desktop/AGX/AGX-deno-express/features/__mocks__/CreateTransferServiceMock.ts",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 2372,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "<instance_members_initializer>",
+      "ranges": [
+        {
+          "startOffset": 99,
+          "endOffset": 135,
+          "count": 9
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "CreateTransferServiceMock",
+      "ranges": [
+        {
+          "startOffset": 139,
+          "endOffset": 283,
+          "count": 9
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "execute",
+      "ranges": [
+        {
+          "startOffset": 286,
+          "endOffset": 2369,
+          "count": 4
+        },
+        {
+          "startOffset": 1065,
+          "endOffset": 1135,
+          "count": 1
+        },
+        {
+          "startOffset": 1135,
+          "endOffset": 1168,
+          "count": 3
+        },
+        {
+          "startOffset": 1168,
+          "endOffset": 1245,
+          "count": 1
+        },
+        {
+          "startOffset": 1245,
+          "endOffset": 1370,
+          "count": 2
+        },
+        {
+          "startOffset": 1370,
+          "endOffset": 1511,
+          "count": 1
+        },
+        {
+          "startOffset": 1511,
+          "endOffset": 1603,
+          "count": 0
+        },
+        {
+          "startOffset": 1603,
+          "endOffset": 2254,
+          "count": 1
+        },
+        {
+          "startOffset": 2254,
+          "endOffset": 2365,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": true
+    }
+  ]
+}

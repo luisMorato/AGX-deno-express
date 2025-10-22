@@ -1,0 +1,28 @@
+{
+  "scriptId": "538",
+  "url": "file:///C:/Users/AGX/AppData/Local/deno/npm/registry.npmjs.org/date-fns/4.1.0/lastDayOfISOWeekYear.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 1730,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "lastDayOfISOWeekYear",
+      "ranges": [
+        {
+          "startOffset": 1295,
+          "endOffset": 1654,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    }
+  ]
+}

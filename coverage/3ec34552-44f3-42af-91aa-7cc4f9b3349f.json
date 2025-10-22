@@ -1,0 +1,185 @@
+{
+  "scriptId": "335",
+  "url": "file:///C:/Users/AGX/Desktop/AGX/AGX-deno-express/features/users/controllers/UsersController.test.ts",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 7924,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "compare",
+      "ranges": [
+        {
+          "startOffset": 709,
+          "endOffset": 769,
+          "count": 2
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "encrypt",
+      "ranges": [
+        {
+          "startOffset": 772,
+          "endOffset": 839,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 927,
+          "endOffset": 1449,
+          "count": 10
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 1587,
+          "endOffset": 2004,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 2166,
+          "endOffset": 2661,
+          "count": 1
+        },
+        {
+          "startOffset": 2466,
+          "endOffset": 2471,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 2802,
+          "endOffset": 3592,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 3750,
+          "endOffset": 4153,
+          "count": 1
+        },
+        {
+          "startOffset": 3953,
+          "endOffset": 3958,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 4292,
+          "endOffset": 4797,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 4950,
+          "endOffset": 5305,
+          "count": 1
+        },
+        {
+          "startOffset": 5167,
+          "endOffset": 5172,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 5446,
+          "endOffset": 5941,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 6099,
+          "endOffset": 6756,
+          "count": 1
+        },
+        {
+          "startOffset": 6561,
+          "endOffset": 6566,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 6897,
+          "endOffset": 7247,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 7382,
+          "endOffset": 7921,
+          "count": 1
+        },
+        {
+          "startOffset": 7700,
+          "endOffset": 7705,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": true
+    }
+  ]
+}

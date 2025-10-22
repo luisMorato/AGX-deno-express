@@ -1,0 +1,116 @@
+{
+  "scriptId": "666",
+  "url": "file:///C:/Users/AGX/AppData/Local/deno/npm/registry.npmjs.org/date-fns/4.1.0/_lib/format/lightFormatters.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 3008,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "y",
+      "ranges": [
+        {
+          "startOffset": 855,
+          "endOffset": 1608,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "M",
+      "ranges": [
+        {
+          "startOffset": 1624,
+          "endOffset": 1757,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "d",
+      "ranges": [
+        {
+          "startOffset": 1784,
+          "endOffset": 1862,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "a",
+      "ranges": [
+        {
+          "startOffset": 1881,
+          "endOffset": 2290,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "h",
+      "ranges": [
+        {
+          "startOffset": 2312,
+          "endOffset": 2402,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "H",
+      "ranges": [
+        {
+          "startOffset": 2424,
+          "endOffset": 2503,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "m",
+      "ranges": [
+        {
+          "startOffset": 2520,
+          "endOffset": 2601,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "s",
+      "ranges": [
+        {
+          "startOffset": 2618,
+          "endOffset": 2699,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "S",
+      "ranges": [
+        {
+          "startOffset": 2728,
+          "endOffset": 3003,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    }
+  ]
+}

@@ -1,5 +1,5 @@
 import { Request } from 'express'
-import { assertEquals } from 'https://deno.land/std@0.201.0/assert/mod.ts'
+// import { assertEquals } from 'https://deno.land/std@0.201.0/assert/mod.ts'
 import { MockNextFunction, MockResponser } from '../../../globals/Stubs.ts'
 
 import { UserRepository } from '../../../models/user/UserRepository.ts'
@@ -9,6 +9,7 @@ import { FindUserBankAccountService } from '../../../services/FindUserBankAccoun
 import { CreateUserBankAccountService } from '../../../services/CreateUserBankAccountService.ts'
 import { DeleteBankAccountByAccountId } from '../../../services/DeleteBankAccountByAccountId.ts'
 import { IncrementUserBankAccountBalanceService } from '../../../services/IncrementUserBankAccountBalanceService.ts'
+import { defaultAssert, IResponsePayload, ResponseType } from '../../__mocks__/defaultAssert.ts'
 
 let userRepository: UserRepositoryMock
 let accountsController: AccountsController
@@ -56,10 +57,13 @@ Deno.test('- [AccountsController]: it should be able to create a bank account', 
     mockRequest,
     MockResponser,
     MockNextFunction,
-  ) as any
+  ) as unknown as IResponsePayload
 
-  assertEquals(result.code, 201)
-  assertEquals(result.message, 'Conta criada com sucesso')
+  defaultAssert(result, ResponseType.success, {
+    code: 201,
+    status: 'CREATED',
+    message: 'Conta criada com sucesso'
+  })
 })
 
 // Error
@@ -82,8 +86,11 @@ Deno.test(`- [AccountsController]: it shouldn't be able to create a bank account
     result = error
   }
 
-  assertEquals((result as any).code, 404)
-  assertEquals((result as any).message, 'Usuário não encontrado')
+  defaultAssert((result as IResponsePayload), ResponseType.error, {
+    code: 404,
+    status: 'NOT_FOUND',
+    message: 'Usuário não encontrado'
+  })
 })
 
 
@@ -102,9 +109,19 @@ Deno.test('- [AccountsController]: it should be able to retrive a bank account',
     mockRequest,
     MockResponser,
     MockNextFunction,
-  ) as any
+  ) as unknown as IResponsePayload
 
-  assertEquals(result.code, 200)
+  defaultAssert(result, ResponseType.success, {
+    code: 200,
+    status: 'OK',
+    message: '',
+    data: {
+      userBankAccount: {
+        accountId: "VV96241",
+        balance: 2000,
+      }
+    }
+  })
 })
 
 // Error
@@ -130,8 +147,11 @@ Deno.test(`- [AccountsController]: it shouldn't be able to retrive a inexistent 
     result = error
   }
 
-  assertEquals((result as any).code, 404)
-  assertEquals((result as any).message, 'Conta bancária não encontrada')
+  defaultAssert((result as IResponsePayload), ResponseType.error, {
+    code: 404,
+    status: 'NOT_FOUND',
+    message: 'Conta bancária não encontrada'
+  })
 })
 
 
@@ -153,10 +173,13 @@ Deno.test('- [AccountsController]: it should be able to increment a bank account
     mockRequest,
     MockResponser,
     MockNextFunction,
-  ) as any
+  ) as unknown as IResponsePayload
 
-  assertEquals(result.code, 200)
-  assertEquals(result.message, `R$${mockRequest.body.increment} adicionado a conta: ${mockRequest.params.id}`)
+  defaultAssert(result, ResponseType.success, {
+    code: 200,
+    status: 'OK',
+    message: `R$${mockRequest.body.increment} adicionado a conta: ${mockRequest.params.id}`
+  })
 })
 
 // Error
@@ -185,9 +208,16 @@ Deno.test(`- [AccountsController]: it shouldn't be able to increment a bank acco
     result = error
   }
 
-  assertEquals((result as any).code, 422)
-  assertEquals((result as any).message, 'Erro durante a validação')
-  assertEquals((result as any).errors[0].message, 'O increment deve ser maior que 0')
+  defaultAssert((result as IResponsePayload), ResponseType.error, {
+    code: 422,
+    status: 'BAD_REQUEST',
+    message: 'Erro durante a validação',
+    errors: [
+      {
+        message: 'O increment deve ser maior que 0'
+      },
+    ]
+  })
 })
 
 
@@ -206,10 +236,13 @@ Deno.test('- [AccountsController]: it should be able to delete a bank account', 
     mockRequest,
     MockResponser,
     MockNextFunction,
-  ) as any
+  ) as unknown as IResponsePayload
 
-  assertEquals(result.code, 200)
-  assertEquals(result.message, 'Conta excluída com sucesso')
+  defaultAssert(result, ResponseType.success, {
+    code: 200,
+    status: 'OK',
+    message: 'Conta excluída com sucesso',
+  })
 })
 
 // Error
@@ -235,6 +268,9 @@ Deno.test(`- [AccountsController]: it shouldn't be able to delete a bank account
     result = error
   }
 
-  assertEquals((result as any).code, 403)
-  assertEquals((result as any).message, 'Usuário não pode deletar uma conta que não é sua')
+  defaultAssert((result as IResponsePayload), ResponseType.error, {
+    code: 403,
+    status: 'FORBIDDEN',
+    message: 'Usuário não pode deletar uma conta que não é sua',
+  })
 })

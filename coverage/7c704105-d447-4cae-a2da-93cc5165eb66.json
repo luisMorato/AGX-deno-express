@@ -1,0 +1,237 @@
+{
+  "scriptId": "863",
+  "url": "file:///C:/Users/AGX/AppData/Local/deno/npm/registry.npmjs.org/mongoose/8.19.1/lib/schema/array.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 20881,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 1,
+          "endOffset": 20880,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 214,
+          "endOffset": 20874,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "SchemaArray",
+      "ranges": [
+        {
+          "startOffset": 1672,
+          "endOffset": 3858,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "checkRequired",
+      "ranges": [
+        {
+          "startOffset": 6309,
+          "endOffset": 6775,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "SchemaArray.enum",
+      "ranges": [
+        {
+          "startOffset": 7057,
+          "endOffset": 7656,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "SchemaArray.applyGetters",
+      "ranges": [
+        {
+          "startOffset": 7843,
+          "endOffset": 8096,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "SchemaArray._applySetters",
+      "ranges": [
+        {
+          "startOffset": 8137,
+          "endOffset": 8989,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "SchemaArray.cast",
+      "ranges": [
+        {
+          "startOffset": 9225,
+          "endOffset": 12244,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "_castForPopulate",
+      "ranges": [
+        {
+          "startOffset": 12307,
+          "endOffset": 13359,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "SchemaArray.discriminator",
+      "ranges": [
+        {
+          "startOffset": 13486,
+          "endOffset": 13869,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "SchemaArray.clone",
+      "ranges": [
+        {
+          "startOffset": 13921,
+          "endOffset": 14263,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "SchemaArray._castForQuery",
+      "ranges": [
+        {
+          "startOffset": 14304,
+          "endOffset": 16307,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "SchemaArray.castForQuery",
+      "ranges": [
+        {
+          "startOffset": 16460,
+          "endOffset": 16804,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "virtual",
+      "ranges": [
+        {
+          "startOffset": 17009,
+          "endOffset": 17542,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "cast$all",
+      "ranges": [
+        {
+          "startOffset": 17545,
+          "endOffset": 18050,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "cast$elemMatch",
+      "ranges": [
+        {
+          "startOffset": 18052,
+          "endOffset": 18374,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "createLogicalQueryOperatorHandler",
+      "ranges": [
+        {
+          "startOffset": 19036,
+          "endOffset": 19440,
+          "count": 3
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "logicalQueryOperatorHandler",
+      "ranges": [
+        {
+          "startOffset": 19094,
+          "endOffset": 19437,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "toJSONSchema",
+      "ranges": [
+        {
+          "startOffset": 20371,
+          "endOffset": 20714,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "autoEncryptionType",
+      "ranges": [
+        {
+          "startOffset": 20760,
+          "endOffset": 20811,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    }
+  ]
+}

@@ -1,0 +1,180 @@
+{
+  "scriptId": "704",
+  "url": "file:///C:/Users/AGX/AppData/Local/deno/npm/registry.npmjs.org/mongodb/6.20.0/lib/sdam/srv_polling.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 3565,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 1,
+          "endOffset": 3564,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 214,
+          "endOffset": 3558,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "SrvPollingEvent",
+      "ranges": [
+        {
+          "startOffset": 607,
+          "endOffset": 676,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "hostnames",
+      "ranges": [
+        {
+          "startOffset": 681,
+          "endOffset": 799,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "SrvPoller",
+      "ranges": [
+        {
+          "startOffset": 924,
+          "endOffset": 1538,
+          "count": 1
+        },
+        {
+          "startOffset": 1046,
+          "endOffset": 1162,
+          "count": 0
+        },
+        {
+          "startOffset": 1250,
+          "endOffset": 1254,
+          "count": 0
+        },
+        {
+          "startOffset": 1309,
+          "endOffset": 1321,
+          "count": 0
+        },
+        {
+          "startOffset": 1430,
+          "endOffset": 1438,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "get srvAddress",
+      "ranges": [
+        {
+          "startOffset": 1543,
+          "endOffset": 1630,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "get intervalMS",
+      "ranges": [
+        {
+          "startOffset": 1635,
+          "endOffset": 1742,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "start",
+      "ranges": [
+        {
+          "startOffset": 1747,
+          "endOffset": 1831,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "stop",
+      "ranges": [
+        {
+          "startOffset": 1836,
+          "endOffset": 2017,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "schedule",
+      "ranges": [
+        {
+          "startOffset": 2097,
+          "endOffset": 2358,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "success",
+      "ranges": [
+        {
+          "startOffset": 2363,
+          "endOffset": 2528,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "failure",
+      "ranges": [
+        {
+          "startOffset": 2533,
+          "endOffset": 2603,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "_poll",
+      "ranges": [
+        {
+          "startOffset": 2608,
+          "endOffset": 3414,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    }
+  ]
+}

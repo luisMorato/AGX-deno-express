@@ -1,0 +1,127 @@
+{
+  "scriptId": "868",
+  "url": "file:///C:/Users/AGX/AppData/Local/deno/npm/registry.npmjs.org/mongoose/8.19.1/lib/helpers/query/cast$expr.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 7966,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 1,
+          "endOffset": 7965,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 214,
+          "endOffset": 7959,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "cast$expr",
+      "ranges": [
+        {
+          "startOffset": 1624,
+          "endOffset": 1901,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "_castExpression",
+      "ranges": [
+        {
+          "startOffset": 1904,
+          "endOffset": 4015,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "castNumberOperator",
+      "ranges": [
+        {
+          "startOffset": 4038,
+          "endOffset": 4218,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "castIn",
+      "ranges": [
+        {
+          "startOffset": 4220,
+          "endOffset": 4841,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "castArithmetic",
+      "ranges": [
+        {
+          "startOffset": 4876,
+          "endOffset": 5282,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "castComparison",
+      "ranges": [
+        {
+          "startOffset": 5321,
+          "endOffset": 7450,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "isPath",
+      "ranges": [
+        {
+          "startOffset": 7452,
+          "endOffset": 7528,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "isLiteral",
+      "ranges": [
+        {
+          "startOffset": 7530,
+          "endOffset": 7956,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    }
+  ]
+}

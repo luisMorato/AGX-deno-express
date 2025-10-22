@@ -1,0 +1,28 @@
+{
+  "scriptId": "477",
+  "url": "file:///C:/Users/AGX/AppData/Local/deno/npm/registry.npmjs.org/date-fns/4.1.0/getOverlappingDaysInIntervals.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 2421,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "getOverlappingDaysInIntervals",
+      "ranges": [
+        {
+          "startOffset": 1381,
+          "endOffset": 2336,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "scriptId": "378",
+  "url": "file:///C:/Users/AGX/Desktop/AGX/AGX-deno-express/models/transfers/TransferRepository.ts",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 338,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "TransferRepository",
+      "ranges": [
+        {
+          "startOffset": 219,
+          "endOffset": 304,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    }
+  ]
+}

@@ -1,0 +1,196 @@
+{
+  "scriptId": "928",
+  "url": "file:///C:/Users/AGX/AppData/Local/deno/npm/registry.npmjs.org/debug/4.4.3/src/node.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 4958,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 1,
+          "endOffset": 4957,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 214,
+          "endOffset": 4951,
+          "count": 1
+        },
+        {
+          "startOffset": 1012,
+          "endOffset": 1065,
+          "count": 0
+        },
+        {
+          "startOffset": 1067,
+          "endOffset": 1672,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 555,
+          "endOffset": 563,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 2000,
+          "endOffset": 2040,
+          "count": 61
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 2049,
+          "endOffset": 2507,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "useColors",
+      "ranges": [
+        {
+          "startOffset": 2583,
+          "endOffset": 2722,
+          "count": 1
+        },
+        {
+          "startOffset": 2646,
+          "endOffset": 2685,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "formatArgs",
+      "ranges": [
+        {
+          "startOffset": 2795,
+          "endOffset": 3229,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "getDate",
+      "ranges": [
+        {
+          "startOffset": 3231,
+          "endOffset": 3346,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "log",
+      "ranges": [
+        {
+          "startOffset": 3446,
+          "endOffset": 3562,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "save",
+      "ranges": [
+        {
+          "startOffset": 3643,
+          "endOffset": 3900,
+          "count": 1
+        },
+        {
+          "startOffset": 3688,
+          "endOffset": 3726,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "load",
+      "ranges": [
+        {
+          "startOffset": 4017,
+          "endOffset": 4063,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "init",
+      "ranges": [
+        {
+          "startOffset": 4228,
+          "endOffset": 4431,
+          "count": 1
+        },
+        {
+          "startOffset": 4364,
+          "endOffset": 4429,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "formatters.o",
+      "ranges": [
+        {
+          "startOffset": 4596,
+          "endOffset": 4752,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "formatters.O",
+      "ranges": [
+        {
+          "startOffset": 4845,
+          "endOffset": 4947,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    }
+  ]
+}

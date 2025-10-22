@@ -1,0 +1,237 @@
+{
+  "scriptId": "670",
+  "url": "file:///C:/Users/AGX/AppData/Local/deno/npm/registry.npmjs.org/mongodb/6.20.0/lib/sdam/topology_description.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 19643,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 1,
+          "endOffset": 19642,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 214,
+          "endOffset": 19636,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "TopologyDescription",
+      "ranges": [
+        {
+          "startOffset": 1468,
+          "endOffset": 4807,
+          "count": 2
+        },
+        {
+          "startOffset": 1651,
+          "endOffset": 1656,
+          "count": 1
+        },
+        {
+          "startOffset": 1691,
+          "endOffset": 1723,
+          "count": 0
+        },
+        {
+          "startOffset": 1767,
+          "endOffset": 1779,
+          "count": 1
+        },
+        {
+          "startOffset": 1906,
+          "endOffset": 1910,
+          "count": 1
+        },
+        {
+          "startOffset": 1969,
+          "endOffset": 1974,
+          "count": 1
+        },
+        {
+          "startOffset": 2007,
+          "endOffset": 2014,
+          "count": 1
+        },
+        {
+          "startOffset": 2282,
+          "endOffset": 3367,
+          "count": 3
+        },
+        {
+          "startOffset": 2411,
+          "endOffset": 2489,
+          "count": 0
+        },
+        {
+          "startOffset": 2532,
+          "endOffset": 3357,
+          "count": 0
+        },
+        {
+          "startOffset": 3888,
+          "endOffset": 4801,
+          "count": 3
+        },
+        {
+          "startOffset": 3925,
+          "endOffset": 4791,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "updateFromSrvPollingEvent",
+      "ranges": [
+        {
+          "startOffset": 4915,
+          "endOffset": 7089,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "update",
+      "ranges": [
+        {
+          "startOffset": 7208,
+          "endOffset": 11463,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "get error",
+      "ranges": [
+        {
+          "startOffset": 11468,
+          "endOffset": 11715,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "get hasKnownServers",
+      "ranges": [
+        {
+          "startOffset": 11804,
+          "endOffset": 11937,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "get hasDataBearingServers",
+      "ranges": [
+        {
+          "startOffset": 12042,
+          "endOffset": 12158,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "hasServer",
+      "ranges": [
+        {
+          "startOffset": 12272,
+          "endOffset": 12340,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "toJSON",
+      "ranges": [
+        {
+          "startOffset": 12547,
+          "endOffset": 12608,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "topologyTypeForServerType",
+      "ranges": [
+        {
+          "startOffset": 12662,
+          "endOffset": 13254,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "updateRsFromPrimary",
+      "ranges": [
+        {
+          "startOffset": 13255,
+          "endOffset": 17922,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "updateRsWithPrimaryFromMember",
+      "ranges": [
+        {
+          "startOffset": 17923,
+          "endOffset": 18482,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "updateRsNoPrimaryFromMember",
+      "ranges": [
+        {
+          "startOffset": 18483,
+          "endOffset": 19263,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "checkHasPrimary",
+      "ranges": [
+        {
+          "startOffset": 19264,
+          "endOffset": 19585,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    }
+  ]
+}

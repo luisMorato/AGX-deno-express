@@ -1,0 +1,50 @@
+{
+  "scriptId": "377",
+  "url": "file:///C:/Users/AGX/Desktop/AGX/AGX-deno-express/services/CreateTransferService.ts",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 2738,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "<instance_members_initializer>",
+      "ranges": [
+        {
+          "startOffset": 292,
+          "endOffset": 328,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "CreateTransferService",
+      "ranges": [
+        {
+          "startOffset": 332,
+          "endOffset": 526,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "execute",
+      "ranges": [
+        {
+          "startOffset": 529,
+          "endOffset": 2735,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    }
+  ]
+}

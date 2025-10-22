@@ -1,0 +1,155 @@
+{
+  "scriptId": "479",
+  "url": "file:///C:/Users/AGX/AppData/Local/deno/npm/registry.npmjs.org/mime-types/2.1.35/index.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 3893,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 1,
+          "endOffset": 3892,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 214,
+          "endOffset": 3886,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "charset",
+      "ranges": [
+        {
+          "startOffset": 1062,
+          "endOffset": 1453,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "contentType",
+      "ranges": [
+        {
+          "startOffset": 1587,
+          "endOffset": 2043,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "extension",
+      "ranges": [
+        {
+          "startOffset": 2155,
+          "endOffset": 2478,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "lookup",
+      "ranges": [
+        {
+          "startOffset": 2595,
+          "endOffset": 2899,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "populateMaps",
+      "ranges": [
+        {
+          "startOffset": 2965,
+          "endOffset": 3883,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "forEachMimeType",
+      "ranges": [
+        {
+          "startOffset": 3133,
+          "endOffset": 3880,
+          "count": 2279
+        },
+        {
+          "startOffset": 3237,
+          "endOffset": 3252,
+          "count": 965
+        },
+        {
+          "startOffset": 3254,
+          "endOffset": 3274,
+          "count": 1314
+        },
+        {
+          "startOffset": 3274,
+          "endOffset": 3398,
+          "count": 965
+        },
+        {
+          "startOffset": 3398,
+          "endOffset": 3876,
+          "count": 1220
+        },
+        {
+          "startOffset": 3459,
+          "endOffset": 3804,
+          "count": 40
+        },
+        {
+          "startOffset": 3638,
+          "endOffset": 3732,
+          "count": 34
+        },
+        {
+          "startOffset": 3662,
+          "endOffset": 3731,
+          "count": 19
+        },
+        {
+          "startOffset": 3678,
+          "endOffset": 3730,
+          "count": 11
+        },
+        {
+          "startOffset": 3734,
+          "endOffset": 3796,
+          "count": 23
+        },
+        {
+          "startOffset": 3804,
+          "endOffset": 3876,
+          "count": 1197
+        }
+      ],
+      "isBlockCoverage": true
+    }
+  ]
+}

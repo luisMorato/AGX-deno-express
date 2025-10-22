@@ -1,0 +1,237 @@
+{
+  "scriptId": "944",
+  "url": "file:///C:/Users/AGX/AppData/Local/deno/npm/registry.npmjs.org/mongoose/8.19.1/lib/cursor/aggregationCursor.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 13255,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 1,
+          "endOffset": 13254,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 214,
+          "endOffset": 13248,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "AggregationCursor",
+      "ranges": [
+        {
+          "startOffset": 1542,
+          "endOffset": 2195,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "_init",
+      "ranges": [
+        {
+          "startOffset": 2261,
+          "endOffset": 3226,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "_handlePreHookError",
+      "ranges": [
+        {
+          "startOffset": 3630,
+          "endOffset": 4403,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "AggregationCursor._read",
+      "ranges": [
+        {
+          "startOffset": 4569,
+          "endOffset": 4922,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "AggregationCursor.<computed>",
+      "ranges": [
+        {
+          "startOffset": 5181,
+          "endOffset": 5231,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "value",
+      "ranges": [
+        {
+          "startOffset": 6150,
+          "endOffset": 6216,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "AggregationCursor._markError",
+      "ranges": [
+        {
+          "startOffset": 6446,
+          "endOffset": 6503,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "close",
+      "ranges": [
+        {
+          "startOffset": 6844,
+          "endOffset": 7186,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "_destroy",
+      "ranges": [
+        {
+          "startOffset": 7397,
+          "endOffset": 7821,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "next",
+      "ranges": [
+        {
+          "startOffset": 8022,
+          "endOffset": 8362,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "AggregationCursor.eachAsync",
+      "ranges": [
+        {
+          "startOffset": 9209,
+          "endOffset": 9552,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "AggregationCursor.<computed>",
+      "ranges": [
+        {
+          "startOffset": 10998,
+          "endOffset": 11076,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "AggregationCursor._transformForAsyncIterator",
+      "ranges": [
+        {
+          "startOffset": 11157,
+          "endOffset": 11301,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "AggregationCursor.transformNull",
+      "ranges": [
+        {
+          "startOffset": 11367,
+          "endOffset": 11496,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "_transformForAsyncIterator",
+      "ranges": [
+        {
+          "startOffset": 11518,
+          "endOffset": 11631,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "AggregationCursor.addCursorFlag",
+      "ranges": [
+        {
+          "startOffset": 12002,
+          "endOffset": 12151,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "_waitForCursor",
+      "ranges": [
+        {
+          "startOffset": 12173,
+          "endOffset": 12300,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "_next",
+      "ranges": [
+        {
+          "startOffset": 12457,
+          "endOffset": 13208,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    }
+  ]
+}

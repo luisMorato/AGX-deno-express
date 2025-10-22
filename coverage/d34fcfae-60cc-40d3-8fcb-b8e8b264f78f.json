@@ -1,0 +1,55 @@
+{
+  "scriptId": "340",
+  "url": "file:///C:/Users/AGX/Desktop/AGX/AGX-deno-express/services/FetchTransfersService.ts",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 394,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "<instance_members_initializer>",
+      "ranges": [
+        {
+          "startOffset": 119,
+          "endOffset": 138,
+          "count": 9
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "FetchTransfersService",
+      "ranges": [
+        {
+          "startOffset": 142,
+          "endOffset": 258,
+          "count": 9
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "execute",
+      "ranges": [
+        {
+          "startOffset": 261,
+          "endOffset": 391,
+          "count": 1
+        },
+        {
+          "startOffset": 345,
+          "endOffset": 350,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": true
+    }
+  ]
+}

@@ -1,0 +1,207 @@
+{
+  "scriptId": "340",
+  "url": "file:///C:/Users/AGX/Desktop/AGX/AGX-deno-express/features/__mocks__/UserRepositoryMock.ts",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 3636,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "<instance_members_initializer>",
+      "ranges": [
+        {
+          "startOffset": 36,
+          "endOffset": 932,
+          "count": 10
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "findMany",
+      "ranges": [
+        {
+          "startOffset": 936,
+          "endOffset": 1232,
+          "count": 1
+        },
+        {
+          "startOffset": 1009,
+          "endOffset": 1089,
+          "count": 0
+        },
+        {
+          "startOffset": 1111,
+          "endOffset": 1194,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 1036,
+          "endOffset": 1081,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 1138,
+          "endOffset": 1186,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "findOne",
+      "ranges": [
+        {
+          "startOffset": 1235,
+          "endOffset": 1376,
+          "count": 4
+        },
+        {
+          "startOffset": 1330,
+          "endOffset": 1337,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 1293,
+          "endOffset": 1328,
+          "count": 7
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "findById",
+      "ranges": [
+        {
+          "startOffset": 1379,
+          "endOffset": 1504,
+          "count": 5
+        },
+        {
+          "startOffset": 1458,
+          "endOffset": 1465,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 1435,
+          "endOffset": 1456,
+          "count": 7
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "insertOne",
+      "ranges": [
+        {
+          "startOffset": 1507,
+          "endOffset": 1587,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "updateById",
+      "ranges": [
+        {
+          "startOffset": 1590,
+          "endOffset": 1870,
+          "count": 1
+        },
+        {
+          "startOffset": 1708,
+          "endOffset": 1720,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 1660,
+          "endOffset": 1683,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "updateOne",
+      "ranges": [
+        {
+          "startOffset": 1873,
+          "endOffset": 2631,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "deleteOne",
+      "ranges": [
+        {
+          "startOffset": 2634,
+          "endOffset": 2731,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 2703,
+          "endOffset": 2724,
+          "count": 3
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "aggregate",
+      "ranges": [
+        {
+          "startOffset": 2734,
+          "endOffset": 3633,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    }
+  ]
+}

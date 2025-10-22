@@ -1,0 +1,237 @@
+{
+  "scriptId": "911",
+  "url": "file:///C:/Users/AGX/AppData/Local/deno/npm/registry.npmjs.org/mongoose/8.19.1/lib/cursor/queryCursor.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 17366,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 1,
+          "endOffset": 17365,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 214,
+          "endOffset": 17359,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "QueryCursor",
+      "ranges": [
+        {
+          "startOffset": 1649,
+          "endOffset": 3839,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "_getRawCursor",
+      "ranges": [
+        {
+          "startOffset": 3899,
+          "endOffset": 4265,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "QueryCursor._read",
+      "ranges": [
+        {
+          "startOffset": 4418,
+          "endOffset": 4739,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "getDriverCursor",
+      "ranges": [
+        {
+          "startOffset": 5016,
+          "endOffset": 5154,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "value",
+      "ranges": [
+        {
+          "startOffset": 6053,
+          "endOffset": 6119,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "QueryCursor._markError",
+      "ranges": [
+        {
+          "startOffset": 6337,
+          "endOffset": 6394,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "close",
+      "ranges": [
+        {
+          "startOffset": 6727,
+          "endOffset": 7090,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "_destroy",
+      "ranges": [
+        {
+          "startOffset": 7295,
+          "endOffset": 7734,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "QueryCursor.rewind",
+      "ranges": [
+        {
+          "startOffset": 8112,
+          "endOffset": 8204,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "next",
+      "ranges": [
+        {
+          "startOffset": 8399,
+          "endOffset": 8834,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "QueryCursor.eachAsync",
+      "ranges": [
+        {
+          "startOffset": 9902,
+          "endOffset": 10199,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "QueryCursor.addCursorFlag",
+      "ranges": [
+        {
+          "startOffset": 10699,
+          "endOffset": 10820,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "queryCursorAsyncIterator",
+      "ranges": [
+        {
+          "startOffset": 12024,
+          "endOffset": 12241,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "_next",
+      "ranges": [
+        {
+          "startOffset": 12401,
+          "endOffset": 15427,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "_onNext",
+      "ranges": [
+        {
+          "startOffset": 15448,
+          "endOffset": 16086,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "_populateBatch",
+      "ranges": [
+        {
+          "startOffset": 16107,
+          "endOffset": 16443,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "_nextDoc",
+      "ranges": [
+        {
+          "startOffset": 16464,
+          "endOffset": 17125,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "_waitForCursor",
+      "ranges": [
+        {
+          "startOffset": 17146,
+          "endOffset": 17325,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    }
+  ]
+}

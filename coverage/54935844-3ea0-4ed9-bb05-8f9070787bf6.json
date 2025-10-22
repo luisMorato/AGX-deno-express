@@ -1,0 +1,116 @@
+{
+  "scriptId": "770",
+  "url": "file:///C:/Users/AGX/AppData/Local/deno/npm/registry.npmjs.org/date-fns/4.1.0/parse/_lib/utils.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 3596,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "mapValue",
+      "ranges": [
+        {
+          "startOffset": 167,
+          "endOffset": 350,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "parseNumericPattern",
+      "ranges": [
+        {
+          "startOffset": 359,
+          "endOffset": 614,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "parseTimezonePattern",
+      "ranges": [
+        {
+          "startOffset": 623,
+          "endOffset": 1358,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "parseAnyDigitsSigned",
+      "ranges": [
+        {
+          "startOffset": 1367,
+          "endOffset": 1487,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "parseNDigits",
+      "ranges": [
+        {
+          "startOffset": 1496,
+          "endOffset": 1992,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "parseNDigitsSigned",
+      "ranges": [
+        {
+          "startOffset": 2001,
+          "endOffset": 2529,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "dayPeriodEnumToHours",
+      "ranges": [
+        {
+          "startOffset": 2538,
+          "endOffset": 2836,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "normalizeTwoDigitYear",
+      "ranges": [
+        {
+          "startOffset": 2845,
+          "endOffset": 3485,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "isLeapYearIndex",
+      "ranges": [
+        {
+          "startOffset": 3494,
+          "endOffset": 3595,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    }
+  ]
+}

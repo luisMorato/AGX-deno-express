@@ -1,0 +1,226 @@
+{
+  "scriptId": "589",
+  "url": "file:///C:/Users/AGX/AppData/Local/deno/npm/registry.npmjs.org/mongodb/6.20.0/lib/cursor/aggregation_cursor.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 7070,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 1,
+          "endOffset": 7069,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 214,
+          "endOffset": 7063,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "AggregationCursor",
+      "ranges": [
+        {
+          "startOffset": 1116,
+          "endOffset": 1691,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "clone",
+      "ranges": [
+        {
+          "startOffset": 1696,
+          "endOffset": 1957,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "map",
+      "ranges": [
+        {
+          "startOffset": 1962,
+          "endOffset": 2021,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "_initialize",
+      "ranges": [
+        {
+          "startOffset": 2047,
+          "endOffset": 2910,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "explain",
+      "ranges": [
+        {
+          "startOffset": 2915,
+          "endOffset": 3432,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "addStage",
+      "ranges": [
+        {
+          "startOffset": 3437,
+          "endOffset": 3876,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "group",
+      "ranges": [
+        {
+          "startOffset": 3881,
+          "endOffset": 3944,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "limit",
+      "ranges": [
+        {
+          "startOffset": 4006,
+          "endOffset": 4069,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "match",
+      "ranges": [
+        {
+          "startOffset": 4131,
+          "endOffset": 4194,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "out",
+      "ranges": [
+        {
+          "startOffset": 4255,
+          "endOffset": 4312,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "project",
+      "ranges": [
+        {
+          "startOffset": 6134,
+          "endOffset": 6203,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "lookup",
+      "ranges": [
+        {
+          "startOffset": 6266,
+          "endOffset": 6332,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "redact",
+      "ranges": [
+        {
+          "startOffset": 6395,
+          "endOffset": 6461,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "skip",
+      "ranges": [
+        {
+          "startOffset": 6522,
+          "endOffset": 6582,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "sort",
+      "ranges": [
+        {
+          "startOffset": 6643,
+          "endOffset": 6703,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "unwind",
+      "ranges": [
+        {
+          "startOffset": 6766,
+          "endOffset": 6832,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "geoNear",
+      "ranges": [
+        {
+          "startOffset": 6896,
+          "endOffset": 6965,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    }
+  ]
+}

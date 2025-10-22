@@ -1,0 +1,43 @@
+{
+  "scriptId": "404",
+  "url": "file:///C:/Users/AGX/AppData/Local/deno/npm/registry.npmjs.org/date-fns/4.1.0/constructFrom.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 1885,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "constructFrom",
+      "ranges": [
+        {
+          "startOffset": 1514,
+          "endOffset": 1816,
+          "count": 1
+        },
+        {
+          "startOffset": 1586,
+          "endOffset": 1605,
+          "count": 0
+        },
+        {
+          "startOffset": 1682,
+          "endOffset": 1722,
+          "count": 0
+        },
+        {
+          "startOffset": 1787,
+          "endOffset": 1815,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": true
+    }
+  ]
+}

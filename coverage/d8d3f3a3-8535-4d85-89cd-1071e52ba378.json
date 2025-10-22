@@ -1,0 +1,289 @@
+{
+  "scriptId": "537",
+  "url": "file:///C:/Users/AGX/AppData/Local/deno/npm/registry.npmjs.org/request-check/1.5.4/index.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 4093,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 1,
+          "endOffset": 4092,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 214,
+          "endOffset": 4086,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "isEmptyObject",
+      "ranges": [
+        {
+          "startOffset": 322,
+          "endOffset": 399,
+          "count": 28
+        },
+        {
+          "startOffset": 367,
+          "endOffset": 399,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "isObject",
+      "ranges": [
+        {
+          "startOffset": 419,
+          "endOffset": 476,
+          "count": 28
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "RequestCheck",
+      "ranges": [
+        {
+          "startOffset": 505,
+          "endOffset": 3998,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "RequestCheck.clearRules",
+      "ranges": [
+        {
+          "startOffset": 548,
+          "endOffset": 596,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "RequestCheck.setRequiredMessage",
+      "ranges": [
+        {
+          "startOffset": 633,
+          "endOffset": 703,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "RequestCheck.addRule",
+      "ranges": [
+        {
+          "startOffset": 729,
+          "endOffset": 804,
+          "count": 4
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "RequestCheck.addRules",
+      "ranges": [
+        {
+          "startOffset": 831,
+          "endOffset": 1162,
+          "count": 6
+        },
+        {
+          "startOffset": 928,
+          "endOffset": 1151,
+          "count": 9
+        },
+        {
+          "startOffset": 1019,
+          "endOffset": 1067,
+          "count": 3
+        },
+        {
+          "startOffset": 1068,
+          "endOffset": 1135,
+          "count": 6
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "RequestCheck.overwriteRule",
+      "ranges": [
+        {
+          "startOffset": 1194,
+          "endOffset": 1346,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "RequestCheck.overwriteRules",
+      "ranges": [
+        {
+          "startOffset": 1379,
+          "endOffset": 1526,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "RequestCheck.addFieldsAndRules",
+      "ranges": [
+        {
+          "startOffset": 1562,
+          "endOffset": 1785,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "RequestCheck.buildInvalidField",
+      "ranges": [
+        {
+          "startOffset": 1821,
+          "endOffset": 2212,
+          "count": 1
+        },
+        {
+          "startOffset": 1895,
+          "endOffset": 2031,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "RequestCheck.check",
+      "ranges": [
+        {
+          "startOffset": 2236,
+          "endOffset": 3864,
+          "count": 10
+        },
+        {
+          "startOffset": 2315,
+          "endOffset": 3795,
+          "count": 28
+        },
+        {
+          "startOffset": 2458,
+          "endOffset": 2467,
+          "count": 0
+        },
+        {
+          "startOffset": 2931,
+          "endOffset": 2943,
+          "count": 6
+        },
+        {
+          "startOffset": 2945,
+          "endOffset": 2996,
+          "count": 5
+        },
+        {
+          "startOffset": 2996,
+          "endOffset": 3029,
+          "count": 23
+        },
+        {
+          "startOffset": 3029,
+          "endOffset": 3252,
+          "count": 0
+        },
+        {
+          "startOffset": 3252,
+          "endOffset": 3302,
+          "count": 23
+        },
+        {
+          "startOffset": 3304,
+          "endOffset": 3780,
+          "count": 23
+        },
+        {
+          "startOffset": 3407,
+          "endOffset": 3761,
+          "count": 37
+        },
+        {
+          "startOffset": 3525,
+          "endOffset": 3738,
+          "count": 1
+        },
+        {
+          "startOffset": 3831,
+          "endOffset": 3840,
+          "count": 1
+        },
+        {
+          "startOffset": 3841,
+          "endOffset": 3852,
+          "count": 9
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 2597,
+          "endOffset": 2637,
+          "count": 56
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 2691,
+          "endOffset": 2731,
+          "count": 28
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "requestCheck",
+      "ranges": [
+        {
+          "startOffset": 4024,
+          "endOffset": 4048,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    }
+  ]
+}
